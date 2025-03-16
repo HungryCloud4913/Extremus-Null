@@ -1,0 +1,7 @@
+type: SteamVent 
+attributes: { heat: 0 } 
+name: Crimsonic Dent
+effect: none
+effectColor: 000000
+blendGroup: crimsonic-stone
+parent: crimsonic-stone
