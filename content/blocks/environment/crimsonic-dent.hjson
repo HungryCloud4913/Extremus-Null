@@ -1,5 +1,5 @@
-type: SteamVent 
-attributes: { 
+type: SteamVent
+attributes: {
 heat: 0
 }
 name: Crimsonic Dent
