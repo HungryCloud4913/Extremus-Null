@@ -1,9 +1,36 @@
-type: flying
+type: legs
 health: 180
 research: core-pointless
 alwaysUnlocked: true
 controller: builderAI
+outlineColor: 2A2727
 isEnemy: false
+///
+hovering: true
+legStraightness: 0.2
+legSpeed: 0.5
+legCount: 4
+legLength: 64
+lockLegBase: true
+legContinuousMove: true
+legExtension: -3
+legBaseOffset: 24
+legMaxLength: 1.05
+legLengthScl: 0.96
+legMinLength: 0.8
+legForwardScl: 1
+fogRadius: 85
+legSplashDamage: 0
+legSplashRange: 0
+drownTimeMultiplier: 5
+legGroupSize: 3
+baseLegStraightness: 0.5
+rippleScale: 0.1
+legGroupSize: 4
+rippleScale: 0
+targetair: true
+faceTarget: false
+///
 mineWalls: true
 mineFloor: true
 buildSpeed: 1
@@ -12,9 +39,6 @@ drag: 0.1
 speed: 7
 rotateSpeed: 6
 armor: 2
-flying: true
-engineOffset: 4
-engineSize: 3
 envDisabled: 0
 immunities: [
   burning
@@ -24,9 +48,14 @@ weapons: [
   {
   reload: 50
   x: 0
-  y: 5
-  inaccuracy: 8
+  y: 0
+  inaccuracy: 0
   shoot: {
+type: ShootBarrel
+  barrels: [
+      -2, +4.5, 0,
+      -2, +4.5, 0,
+      ]
     shots: 2
     shotDelay: 0
       }
@@ -35,21 +64,21 @@ weapons: [
   soundPitchMax: 7
   bullet: {
     type: BasicBulletType
-    frontColor: ffffff
-    backColor: feb380
-    trailColor: feb380
-    hitColor: feb380
+			backColor: A87AC6
+			frontColor: A87AC6
+      trailColor: A87AC6
+    hitColor: A87AC6
     hitEffect: hitSquaresColor
     despawnEffect: hitSquaresColor
     damage: 25
     knockBack: 0.1
     height: 4
-    width: 7
-    hitSize: 6
-    trailWidth: 4
+    width: 5
+    hitSize: 5
+    trailWidth: 3
     trailLength: 20
     speed: 5
-    lifetime: 18
+    lifetime: 23
     buildingDamageMultiplier: 0.1
       }
 }
