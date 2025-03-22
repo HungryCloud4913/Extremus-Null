@@ -12,7 +12,7 @@ research: {
   root: false
   name: "Extremus"
   requiresUnlock: false
-  planet: Extrull
+  planet: extrull
 }
 alwaysUnlocked: true
 category: effect
