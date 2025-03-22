@@ -1,0 +1,19 @@
+type: CoreBlock
+health: 4250
+crushDamageMultiplier: 3
+size: 3
+itemCapacity: 2500
+unitType: empty
+unitCapModifier: 6
+thrusterLength: 15
+requirements: [
+  ]
+research: {
+  root: false
+  name: "Null"
+  requiresUnlock: false
+  planet: null
+}
+alwaysUnlocked: true
+category: effect
+squareSprite: false
