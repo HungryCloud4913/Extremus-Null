@@ -10,9 +10,9 @@ requirements: [
   ]
 research: {
   root: false
-  name: "Null"
+  name: "Extremus"
   requiresUnlock: false
-  planet: null
+  planet: Extrull
 }
 alwaysUnlocked: true
 category: effect
