@@ -10,7 +10,7 @@ hovering: true
 legStraightness: 0.2
 legSpeed: 0.5
 legCount: 4
-legLength: 10
+legLength: 20
 lockLegBase: true
 legContinuousMove: true
 legExtension: -3
@@ -34,9 +34,9 @@ faceTarget: false
 mineWalls: true
 mineFloor: true
 buildSpeed: 1
-accel: 0.04
-drag: 0.1
-speed: 7
+accel: 0.3
+drag: 0.3
+speed: 3
 rotateSpeed: 6
 armor: 2
 envDisabled: 0
@@ -54,7 +54,7 @@ weapons: [
 type: ShootBarrel
   barrels: [
       -2, +4.5, 0,
-      -2, +4.5, 0,
+      +2, +4.5, 0,
       ]
     shots: 2
     shotDelay: 0
