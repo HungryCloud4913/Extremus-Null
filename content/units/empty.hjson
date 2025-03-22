@@ -73,8 +73,8 @@ type: ShootBarrel
     damage: 25
     knockBack: 0.1
     height: 4
-    width: 5
-    hitSize: 5
+    width: 7
+    hitSize: 7
     trailWidth: 3
     trailLength: 20
     speed: 5
