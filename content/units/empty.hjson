@@ -10,7 +10,7 @@ hovering: true
 legStraightness: 0.2
 legSpeed: 0.5
 legCount: 4
-legLength: 20
+legLength: 12
 lockLegBase: true
 legContinuousMove: true
 legExtension: -3
@@ -29,15 +29,15 @@ rippleScale: 0.1
 legGroupSize: 4
 rippleScale: 0
 targetair: true
-faceTarget: false
+faceTarget: true
 ///
 mineWalls: true
 mineFloor: true
 buildSpeed: 1
 accel: 0.3
 drag: 0.3
-speed: 3
-rotateSpeed: 6
+speed: 2
+rotateSpeed: 10
 armor: 2
 envDisabled: 0
 immunities: [
