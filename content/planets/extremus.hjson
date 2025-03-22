@@ -42,7 +42,7 @@ defaultEnv: 17
 clearSectorOnLose: true
 allowLaunchSchematics: true
 allowWaves: true
-defaultCore: 00-c1-core-capsule
+defaultCore: core-pointless
 parent: sun
 alwaysUnlocked: true
 hiddenItems: [
