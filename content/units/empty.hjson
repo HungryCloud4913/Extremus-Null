@@ -10,7 +10,7 @@ hovering: true
 legStraightness: 0.2
 legSpeed: 0.5
 legCount: 4
-legLength: 12
+legLength: 13
 lockLegBase: true
 legContinuousMove: true
 legExtension: -3
@@ -36,8 +36,8 @@ mineFloor: true
 buildSpeed: 1
 accel: 0.3
 drag: 0.3
-speed: 2
-rotateSpeed: 10
+speed: 1.3
+rotateSpeed: 9
 armor: 2
 envDisabled: 0
 immunities: [
