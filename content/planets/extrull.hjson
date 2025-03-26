@@ -1,10 +1,10 @@
 mesh: {
   type: NoiseMesh
-  planet: molten-zone
+  planet: extrull
   seed: 143
   divisions: 5
-  color1: 757575
-  color2: 533636
+  color1: 212121
+  color2: 391D1D
   colorScale: 3
   radius: 0.8
   octaves: 2
@@ -18,14 +18,14 @@ allowLaunchLoadout: false
 generator: {
 
 }
-orbitSpacing: 12
-orbitRadius: 25
+orbitSpacing: 16
+orbitRadius: 50
 raradius: 0.8
 minZoom: 1
 maxZoom: 4
 drawOrbit: true
 atmosphereRadIn: 0
-atmosphereRadOut: 0.3
+atmosphereRadOut: 0.5
 accessible: true
 updateLighting: true
 sectorSeed: 0
