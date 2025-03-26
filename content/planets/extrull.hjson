@@ -19,7 +19,7 @@ generator: {
 
 }
 orbitSpacing: 16
-orbitRadius: 80
+orbitRadius: 100
 raradius: 0.8
 minZoom: 1
 maxZoom: 4
@@ -32,8 +32,8 @@ sectorSeed: 0
 startSector: 3
 bloom: false
 visible: true
-atmosphereColor: 525252
-iconColor: 533636
+atmosphereColor: 1B1B1B
+iconColor: 6C2929
 hasAtmosphere: true
 allowSectorInvasion: false
 allowLaunchToNumbered: false
