@@ -1,8 +1,8 @@
 type: CoreBlock
-health: 4250
+health: 5000
 crushDamageMultiplier: 3
-size: 3
-itemCapacity: 2500
+size: 4
+itemCapacity: 3000
 unitType: empty
 unitCapModifier: 6
 thrusterLength: 15
