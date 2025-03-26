@@ -4,7 +4,7 @@ mesh: {
   seed: 143
   divisions: 5
   color1: 212121
-  color2: 391D1D
+  color2: 6C2929
   colorScale: 3
   radius: 0.8
   octaves: 2
@@ -19,13 +19,13 @@ generator: {
 
 }
 orbitSpacing: 16
-orbitRadius: 50
+orbitRadius: 80
 raradius: 0.8
 minZoom: 1
 maxZoom: 4
 drawOrbit: true
 atmosphereRadIn: 0
-atmosphereRadOut: 0.5
+atmosphereRadOut: 0.35
 accessible: true
 updateLighting: true
 sectorSeed: 0
