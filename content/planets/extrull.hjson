@@ -12,7 +12,7 @@ mesh: {
   scale: 1
   mag: 1.5
 }
-sectorSize: 1
+sectorSize: 0.75
 allowLaunchSchematics: false
 allowLaunchLoadout: false
 generator: {
