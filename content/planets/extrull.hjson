@@ -20,7 +20,7 @@ mesh: [
   planet: extrull
     divisions: 5
     seed: 35
-    color1: 262626
+    color1: 212121
     color2: 2C1818
   colorScale: 3
   radius: 0.7
