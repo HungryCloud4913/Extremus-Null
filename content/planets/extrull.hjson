@@ -97,6 +97,7 @@ cloudMesh: [
    scl: 1
    thresh: 0.6
   }
+]
 sectorSize: 2
 allowLaunchSchematics: false
 allowLaunchLoadout: false
