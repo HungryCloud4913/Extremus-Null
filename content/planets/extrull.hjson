@@ -84,6 +84,19 @@ mesh: [
   persistence: 1.1
   }
 ]
+cloudMesh: [
+ {
+   type: HexSkyMesh
+   planet: extrull
+   speed: 1.21
+   radius: 0.1
+   divisions: 6
+   color: 1B1B1B
+   octaves: 3
+   persistence: 0.3
+   scl: 1
+   thresh: 0.6
+  }
 sectorSize: 2
 allowLaunchSchematics: false
 allowLaunchLoadout: false
