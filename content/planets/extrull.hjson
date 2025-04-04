@@ -35,8 +35,8 @@ mesh: [
   planet: extrull
     divisions: 5
     seed: 76
-    color1: C4E9E9
-    color2: 3A9193
+    color1: 295F6C
+    color2: 7EBAC8
   colorScale: 3
   radius: 0.7
   octaves: 2
@@ -50,8 +50,8 @@ mesh: [
   planet: extrull
     seed: 69
     divisions: 5
-    color1: DBC4E9
-    color2: 935AC8
+    color1: 613A7F
+    color2: 987EC8
   colorScale: 3
   radius: 0.7
   octaves: 2
@@ -80,8 +80,8 @@ mesh: [
   planet: extrull
     seed: 92
     divisions: 5
-    color1: C4A94C
-    color2: A46131
+    color1: 5B4F2F
+    color2: 68462E
   colorScale: 3
   radius: 0.7
   octaves: 2
@@ -95,8 +95,8 @@ mesh: [
   planet: extrull
     seed: 56
     divisions: 5
-    color1: C4A94C
-    color2: A46131
+    color1: 5B4F2F
+    color2: 68462E
   colorScale: 3
   radius: 0.7
   octaves: 2
