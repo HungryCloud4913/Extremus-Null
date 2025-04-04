@@ -5,6 +5,9 @@ mesh: {
   divisions: 5
   color1: 212121
   color2: 6C2929
+  color3: DBC4E9
+  color4: C4E9E9
+  color5: B1B1B1
   colorScale: 3
   radius: 0.8
   octaves: 2
