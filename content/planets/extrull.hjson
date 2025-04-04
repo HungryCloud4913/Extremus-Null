@@ -3,7 +3,7 @@ mesh: [
     //redblack
     type: NoiseMesh
   planet: extrull
-    divisions: 5
+    divisions: 6
     seed: 30
     color1: 6C2929
     color2: 212121
@@ -15,7 +15,7 @@ mesh: [
     //blackred
     type: NoiseMesh
   planet: extrull
-    divisions: 5
+    divisions: 6
     seed: 35
     color1: 212121
     color2: 6C2929
@@ -52,7 +52,7 @@ mesh: [
     type: NoiseMesh
   planet: extrull
     seed: 17
-    divisions: 5
+    divisions: 6
     color1: 8A8A8A
     color2: B1B1B1
   radius: 1.12
@@ -76,7 +76,7 @@ mesh: [
     type: NoiseMesh
   planet: extrull
     seed: 56
-    divisions: 5
+    divisions: 6
     color1: 5B4F2F
     color2: 68462E
   radius: 1.1
