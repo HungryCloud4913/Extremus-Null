@@ -80,14 +80,14 @@ mesh: [
   planet: extrull
     seed: 69
     divisions: 5
-    color1: 937B3A
-    color2: 73652F
+    color1: C4A94C
+    color2: A48C31
   colorScale: 3
   radius: 0.7
   octaves: 2
   persistence: 1
-  scale: 0.65
-  mag: 1.3
+  scale: 0.7
+  mag: 1.4
   }
 ]
 sectorSize: 2
