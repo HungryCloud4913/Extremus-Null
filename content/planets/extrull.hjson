@@ -8,11 +8,11 @@ mesh: [
     color1: 6C2929
     color2: 933A3A
   colorScale: 3
-  radius: 1.5
+  radius: 1
   octaves: 2
   persistence: 1
   scale: 1
-  mag: 2
+  mag: 1.7
   }
   {
     //black
@@ -23,11 +23,11 @@ mesh: [
     color1: 262626
     color2: 212121
   colorScale: 3
-  radius: 1.5
+  radius: 1
   octaves: 2
   persistence: 1
   scale: 1
-  mag: 2
+  mag: 1.7
   }
   {
     //blue
@@ -38,11 +38,11 @@ mesh: [
     color1: C4E9E9
     color2: 3A9193
   colorScale: 3
-  radius: 1.5
+  radius: 1
   octaves: 2
   persistence: 1
   scale: 1
-  mag: 1
+  mag: 1.4
   }
   {
     //purple
@@ -53,11 +53,11 @@ mesh: [
     color1: DBC4E9
     color2: 935AC8
   colorScale: 3
-  radius: 1.5
+  radius: 1
   octaves: 2
   persistence: 1
   scale: 1
-  mag: 1
+  mag: 1.4
   }
 ]
 sectorSize: 2
