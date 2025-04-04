@@ -11,7 +11,7 @@ mesh: [
   radius: 0.7
   octaves: 2
   persistence: 0.5
-  scale: 0.8
+  scale: 0.65
   mag: 1.75
   }
   {
@@ -26,7 +26,7 @@ mesh: [
   radius: 0.7
   octaves: 2
   persistence: 0.5
-  scale: 0.7
+  scale: 0.65
   mag: 1.7
   }
   {
