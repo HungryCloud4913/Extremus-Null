@@ -91,7 +91,7 @@ cloudMesh: [
    speed: 1.21
    radius: 0.3
    divisions: 7
-   color: 4C2525
+   color: B1B1B1
    octaves: 3
    persistence: 0.3
    scl: 1.1
@@ -106,12 +106,12 @@ generator: {
 }
 orbitSpacing: 16
 orbitRadius: 100
-raradius: 1.1
+raradius: 0.9
 minZoom: 0.5
 maxZoom: 5
 drawOrbit: true
-atmosphereRadIn: 0.9
-atmosphereRadOut: 1.1
+atmosphereRadIn: 0.7
+atmosphereRadOut: 0.9
 accessible: true
 updateLighting: true
 sectorSeed: 0
