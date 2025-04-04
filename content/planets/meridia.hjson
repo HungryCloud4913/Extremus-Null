@@ -2,7 +2,7 @@ mesh: [
  {
     //outside
     type: NoiseMesh
-  planet: extrull
+  planet: meridia
     divisions: 5
     seed: 30
     color1: 613A7F
@@ -14,7 +14,7 @@ mesh: [
   {
     //outside
     type: NoiseMesh
-  planet: extrull
+  planet: meridia
     divisions: 5
     seed: 35
     color1: 613A7F
@@ -26,7 +26,7 @@ mesh: [
   {
     //outside
     type: NoiseMesh
-  planet: extrull
+  planet: meridia
     divisions: 7
     seed: 76
     color1: 613A7F
@@ -38,7 +38,7 @@ mesh: [
   {
     //outside
     type: NoiseMesh
-  planet: extrull
+  planet: meridia
     divisions: 7
     seed: 69
     color1: 613A7F
@@ -50,7 +50,7 @@ mesh: [
  {
     //outside
     type: NoiseMesh
-  planet: extrull
+  planet: meridia
     seed: 17
     divisions: 5
     color1: 613A7F
@@ -62,7 +62,7 @@ mesh: [
  {
      //outside
     type: NoiseMesh
-  planet: extrull
+  planet: meridia
     seed: 92
     divisions: 7
     color1: 613A7F
@@ -74,7 +74,7 @@ mesh: [
  {
     //outside
     type: NoiseMesh
-  planet: extrull
+  planet: meridia
     seed: 56
     divisions: 5
     color1: 613A7F
