@@ -81,7 +81,7 @@ mesh: [
     seed: 69
     divisions: 5
     color1: C4A94C
-    color2: 6C2929
+    color2: A46131
   colorScale: 3
   radius: 0.7
   octaves: 2
