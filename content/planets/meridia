@@ -1,0 +1,122 @@
+mesh: [
+ {
+    //outside
+    type: NoiseMesh
+  planet: extrull
+    divisions: 5
+    seed: 30
+    color1: 613A7F
+    color2: 613A7F
+  radius: 1.15
+  octaves: 3.7
+  persistence: 1.1
+  }
+  {
+    //outside
+    type: NoiseMesh
+  planet: extrull
+    divisions: 5
+    seed: 35
+    color1: 613A7F
+    color2: 613A7F
+  radius: 1.12
+  octaves: 3.7
+  persistence: 1.1
+  }
+  {
+    //outside
+    type: NoiseMesh
+  planet: extrull
+    divisions: 7
+    seed: 76
+    color1: 613A7F
+    color2: 613A7F
+  radius: 1.13
+  octaves: 3.7
+  persistence: 1.1
+  }
+  {
+    //outside
+    type: NoiseMesh
+  planet: extrull
+    divisions: 7
+    seed: 69
+    color1: 613A7F
+    color2: 613A7F
+  radius: 1.13
+  octaves: 3.7
+  persistence: 1.1
+  }
+ {
+    //outside
+    type: NoiseMesh
+  planet: extrull
+    seed: 17
+    divisions: 5
+    color1: 613A7F
+    color2: 613A7F
+  radius: 1.12
+  octaves: 3.7
+  persistence: 1.1
+  }
+ {
+     //outside
+    type: NoiseMesh
+  planet: extrull
+    seed: 92
+    divisions: 7
+    color1: 613A7F
+    color2: 613A7F
+  radius: 1.14
+  octaves: 3.7
+  persistence: 1.1
+  }
+ {
+    //outside
+    type: NoiseMesh
+  planet: extrull
+    seed: 56
+    divisions: 5
+    color1: 613A7F
+    color2: 613A7F
+  radius: 1.1
+  octaves: 3.7
+  persistence: 1.1
+  }
+]
+sectorSize: 2
+allowLaunchSchematics: false
+allowLaunchLoadout: false
+generator: {
+
+}
+orbitSpacing: 16
+orbitRadius: 100
+raradius: 0.8
+minZoom: 0.5
+maxZoom: 5
+drawOrbit: true
+atmosphereRadIn: 0
+atmosphereRadOut: 0.4
+accessible: true
+updateLighting: true
+sectorSeed: 0
+startSector: 3
+bloom: false
+visible: true
+atmosphereColor: 121212
+iconColor: 613A7F
+hasAtmosphere: true
+allowSectorInvasion: false
+allowLaunchToNumbered: false
+allowWaveSimulation: true
+defaultEnv: 17
+clearSectorOnLose: true
+allowLaunchSchematics: true
+allowWaves: true
+defaultCore: core-pointless
+parent: sun
+alwaysUnlocked: true
+hiddenItems: [
+    scrap
+]
