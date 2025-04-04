@@ -3,83 +3,11 @@ mesh: [
     //outside
     type: NoiseMesh
   planet: meridia
-    divisions: 5
+    divisions: 10
     seed: 30
     color1: 613A7F
     color2: 613A7F
   radius: 1.15
-  octaves: 3.7
-  persistence: 1.1
-  }
-  {
-    //outside
-    type: NoiseMesh
-  planet: meridia
-    divisions: 5
-    seed: 35
-    color1: 613A7F
-    color2: 613A7F
-  radius: 1.12
-  octaves: 3.7
-  persistence: 1.1
-  }
-  {
-    //outside
-    type: NoiseMesh
-  planet: meridia
-    divisions: 7
-    seed: 76
-    color1: 613A7F
-    color2: 613A7F
-  radius: 1.13
-  octaves: 3.7
-  persistence: 1.1
-  }
-  {
-    //outside
-    type: NoiseMesh
-  planet: meridia
-    divisions: 7
-    seed: 69
-    color1: 613A7F
-    color2: 613A7F
-  radius: 1.13
-  octaves: 3.7
-  persistence: 1.1
-  }
- {
-    //outside
-    type: NoiseMesh
-  planet: meridia
-    seed: 17
-    divisions: 5
-    color1: 613A7F
-    color2: 613A7F
-  radius: 1.12
-  octaves: 3.7
-  persistence: 1.1
-  }
- {
-     //outside
-    type: NoiseMesh
-  planet: meridia
-    seed: 92
-    divisions: 7
-    color1: 613A7F
-    color2: 613A7F
-  radius: 1.14
-  octaves: 3.7
-  persistence: 1.1
-  }
- {
-    //outside
-    type: NoiseMesh
-  planet: meridia
-    seed: 56
-    divisions: 5
-    color1: 613A7F
-    color2: 613A7F
-  radius: 1.1
   octaves: 3.7
   persistence: 1.1
   }
