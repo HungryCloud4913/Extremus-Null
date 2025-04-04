@@ -116,7 +116,7 @@ allowLaunchSchematics: false
 allowWaves: false
 defaultCore: core-pointless
 parent: sun
-alwaysUnlocked: false
+alwaysUnlocked: true
 hiddenItems: [
     scrap
 ]
