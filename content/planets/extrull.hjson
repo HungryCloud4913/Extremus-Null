@@ -10,7 +10,7 @@ mesh: [
   colorScale: 3
   radius: 0.7
   octaves: 2
-  persistence: 1
+  persistence: 0.5
   scale: 0.8
   mag: 1.7
   }
@@ -58,6 +58,21 @@ mesh: [
   persistence: 1
   scale: 0.6
   mag: 1.4
+  }
+ {
+    //white
+    type: NoiseMesh
+  planet: extrull
+    seed: 69
+    divisions: 5
+    color1: DBC4E9
+    color2: 935AC8
+  colorScale: 3
+  radius: 0.7
+  octaves: 2
+  persistence: 1
+  scale: 0.65
+  mag: 1.3
   }
 ]
 sectorSize: 2
