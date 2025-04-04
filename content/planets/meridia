@@ -90,8 +90,8 @@ allowLaunchLoadout: false
 generator: {
 
 }
-orbitSpacing: 16
-orbitRadius: 100
+orbitSpacing: 35
+orbitRadius: 60
 raradius: 0.8
 minZoom: 0.5
 maxZoom: 5
@@ -109,14 +109,14 @@ iconColor: 613A7F
 hasAtmosphere: true
 allowSectorInvasion: false
 allowLaunchToNumbered: false
-allowWaveSimulation: true
+allowWaveSimulation: false
 defaultEnv: 17
-clearSectorOnLose: true
-allowLaunchSchematics: true
-allowWaves: true
+clearSectorOnLose: false
+allowLaunchSchematics: false
+allowWaves: false
 defaultCore: core-pointless
 parent: sun
-alwaysUnlocked: true
+alwaysUnlocked: false
 hiddenItems: [
     scrap
 ]
