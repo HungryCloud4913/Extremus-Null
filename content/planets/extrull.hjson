@@ -104,7 +104,7 @@ sectorSeed: 0
 startSector: 3
 bloom: false
 visible: true
-atmosphereColor: 212121
+atmosphereColor: 121212
 iconColor: 6C2929
 hasAtmosphere: true
 allowSectorInvasion: false
