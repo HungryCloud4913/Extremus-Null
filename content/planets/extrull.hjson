@@ -1,6 +1,6 @@
 mesh: [
  {
-    //red
+    //redblack
     type: NoiseMesh
   planet: extrull
     divisions: 5
@@ -15,13 +15,13 @@ mesh: [
   mag: 1.75
   }
   {
-    //black
+    //blackred
     type: NoiseMesh
   planet: extrull
     divisions: 5
     seed: 35
     color1: 212121
-    color2: 391D1D
+    color2: 6C2929
   colorScale: 3
   radius: 0.7
   octaves: 2
@@ -35,7 +35,7 @@ mesh: [
   planet: extrull
     divisions: 5
     seed: 76
-    color1: 295F6C
+    color1: 212121
     color2: 7EBAC8
   colorScale: 3
   radius: 0.7
@@ -51,7 +51,7 @@ mesh: [
     seed: 69
     divisions: 5
     color1: 613A7F
-    color2: 987EC8
+    color2: 6C2929
   colorScale: 3
   radius: 0.7
   octaves: 2
