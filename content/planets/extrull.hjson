@@ -63,7 +63,7 @@ mesh: [
     //white
     type: NoiseMesh
   planet: extrull
-    seed: 69
+    seed: 17
     divisions: 5
     color1: 8A8A8A
     color2: B1B1B1
@@ -78,7 +78,7 @@ mesh: [
     //yellow
     type: NoiseMesh
   planet: extrull
-    seed: 69
+    seed: 92
     divisions: 5
     color1: C4A94C
     color2: A46131
