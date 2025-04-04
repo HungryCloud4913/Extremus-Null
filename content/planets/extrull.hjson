@@ -8,7 +8,7 @@ mesh: [
     color1: 6C2929
     color2: 933A3A
   colorScale: 3
-  radius: 0.5
+  radius: 1.5
   octaves: 2
   persistence: 1
   scale: 1
@@ -23,7 +23,7 @@ mesh: [
     color1: 262626
     color2: 212121
   colorScale: 3
-  radius: 0.5
+  radius: 1.5
   octaves: 2
   persistence: 1
   scale: 1
@@ -38,7 +38,7 @@ mesh: [
     color1: C4E9E9
     color2: 3A9193
   colorScale: 3
-  radius: 0.5
+  radius: 1.5
   octaves: 2
   persistence: 1
   scale: 1
@@ -53,7 +53,7 @@ mesh: [
     color1: DBC4E9
     color2: 935AC8
   colorScale: 3
-  radius: 0.5
+  radius: 1.5
   octaves: 2
   persistence: 1
   scale: 1
