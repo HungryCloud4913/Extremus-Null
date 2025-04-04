@@ -1,20 +1,65 @@
-mesh: {
-  type: NoiseMesh
+mesh: [
+ {
+    //red
+    type: NoiseMesh
   planet: extrull
-  seed: 143
-  divisions: 5
-  color1: 212121
-  color2: 6C2929
-  color3: DBC4E9
-  color4: C4E9E9
-  color5: B1B1B1
+    divisions: 5
+    seed: 30
+    color1: 6C2929
+    color2: 933A3A
   colorScale: 3
   radius: 0.8
   octaves: 2
   persistence: 1
   scale: 1
   mag: 1.5
-}
+  }
+  {
+    //black
+    type: NoiseMesh
+  planet: extrull
+    divisions: 5
+    seed: 35
+    color1: 262626
+    color2: 212121
+  colorScale: 3
+  radius: 0.8
+  octaves: 2
+  persistence: 1
+  scale: 1
+  mag: 1.5
+  }
+  {
+    //blue
+    type: NoiseMesh
+  planet: extrull
+    divisions: 5
+    seed: 76
+    color1: C4E9E9
+    color2: 3A9193
+  colorScale: 3
+  radius: 0.8
+  octaves: 2
+  persistence: 1
+  scale: 1
+  mag: 1.5
+  }
+  {
+    //purple
+    type: NoiseMesh
+  planet: extrull
+    seed: 69
+    divisions: 5
+    color1: DBC4E9
+    color2: 935AC8
+  colorScale: 3
+  radius: 0.8
+  octaves: 2
+  persistence: 1
+  scale: 1
+  mag: 1.5
+  }
+]
 sectorSize: 2
 allowLaunchSchematics: false
 allowLaunchLoadout: false
