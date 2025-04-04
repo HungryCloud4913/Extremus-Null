@@ -10,7 +10,7 @@ mesh: [
   colorScale: 3
   radius: 0.7
   octaves: 2
-  persistence: 2
+  persistence: 5
   scale: 0.65
   mag: 1.75
   }
