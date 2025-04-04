@@ -11,6 +11,30 @@ mesh: [
   octaves: 3.7
   persistence: 1.1
   }
+ {
+    //outside
+    type: NoiseMesh
+  planet: meridia
+    divisions: 10
+    seed: 30
+    color1: 933A3A
+    color2: 933A3A
+  radius: 1.05
+  octaves: 3.7
+  persistence: 1.1
+  }
+ {
+    //outside
+    type: NoiseMesh
+  planet: meridia
+    divisions: 10
+    seed: 30
+    color1: 58C5C8
+    color2: 58C5C8
+  radius: 0.95
+  octaves: 3.7
+  persistence: 1.1
+  }
 ]
 sectorSize: 2
 allowLaunchSchematics: false
