@@ -92,12 +92,12 @@ generator: {
 }
 orbitSpacing: 16
 orbitRadius: 100
-raradius: 0.8
+raradius: 1.3
 minZoom: 0.5
 maxZoom: 5
 drawOrbit: true
 atmosphereRadIn: 0
-atmosphereRadOut: 0.4
+atmosphereRadOut: 1.3
 accessible: true
 updateLighting: true
 sectorSeed: 0
