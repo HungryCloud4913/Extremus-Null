@@ -6,7 +6,7 @@ mesh: [
     divisions: 5
     seed: 30
     color1: 6C2929
-    color2: 933A3A
+    color2: 212121
   colorScale: 3
   radius: 0.7
   octaves: 2
@@ -21,7 +21,7 @@ mesh: [
     divisions: 5
     seed: 35
     color1: 212121
-    color2: 2C1818
+    color2: 391D1D
   colorScale: 3
   radius: 0.7
   octaves: 2
