@@ -130,12 +130,12 @@ generator: {
 }
 orbitSpacing: 16
 orbitRadius: 100
-raradius: 0.9
+raradius: 1.1
 minZoom: 0.5
 maxZoom: 5
 drawOrbit: true
 atmosphereRadIn: 0
-atmosphereRadOut: 0.9
+atmosphereRadOut: 1.1
 accessible: true
 updateLighting: true
 sectorSeed: 0
