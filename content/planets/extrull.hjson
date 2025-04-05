@@ -102,8 +102,8 @@ cloudMesh: [
    planet: extrull
    speed: 1.01
    radius: 0.32
-   divisions: 7
-   color: eafffd7e
+   divisions: 6
+   color: FF000000
    octaves: 3
    persistence: 0.4
    scl: 0.9
@@ -114,7 +114,7 @@ cloudMesh: [
    planet: extrull
    speed: 0.9
    radius: 0.2
-   divisions: 7
+   divisions: 6
    color: eafffd7e
    octaves: 3
    persistence: 0.6
@@ -142,7 +142,7 @@ sectorSeed: 0
 startSector: 3
 bloom: false
 visible: true
-atmosphereColor: 262626
+atmosphereColor: 391D1D
 iconColor: 6C2929
 hasAtmosphere: true
 allowSectorInvasion: false
