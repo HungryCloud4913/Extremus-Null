@@ -103,7 +103,7 @@ cloudMesh: [
    speed: 1.01
    radius: 0.32
    divisions: 6
-   color: FF000000
+   color:  eafffd7e
    octaves: 3
    persistence: 0.4
    scl: 0.9
@@ -113,7 +113,7 @@ cloudMesh: [
    type: HexSkyMesh
    planet: extrull
    speed: 0.9
-   radius: 0.2
+   radius: 0.29
    divisions: 6
    color: eafffd7e
    octaves: 3
@@ -134,7 +134,7 @@ raradius: 0.9
 minZoom: 0.5
 maxZoom: 5
 drawOrbit: true
-atmosphereRadIn: 0.7
+atmosphereRadIn: 0
 atmosphereRadOut: 0.9
 accessible: true
 updateLighting: true
