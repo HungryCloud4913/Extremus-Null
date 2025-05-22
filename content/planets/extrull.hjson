@@ -138,7 +138,7 @@ atmosphereRadIn: 0
 atmosphereRadOut: 0.9
 accessible: true
 updateLighting: true
-sectorSeed: 0
+sectorSeed: 14513
 startSector: 3
 bloom: false
 visible: true
