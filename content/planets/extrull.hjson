@@ -27,7 +27,7 @@ mesh: [
     //blue
     type: NoiseMesh
   planet: extrull
-    divisions: 7
+    divisions: 6
     seed: 76
     color1: 212121
     color2: 7EBAC8
@@ -39,7 +39,7 @@ mesh: [
     //purple
     type: NoiseMesh
   planet: extrull
-    divisions: 7
+    divisions: 6
     seed: 69
     color1: 613A7F
     color2: 6C2929
@@ -64,7 +64,7 @@ mesh: [
     type: NoiseMesh
   planet: extrull
     seed: 92
-    divisions: 7
+    divisions: 6
     color1: 5B4F2F
     color2: 68462E
   radius: 1.14
@@ -90,7 +90,7 @@ cloudMesh: [
    planet: extrull
    speed: 1.21
    radius: 0.3
-   divisions: 7
+   divisions: 6
    color: eafffd7e
    octaves: 3
    persistence: 0.3
@@ -130,7 +130,7 @@ generator: {
 }
 orbitSpacing: 16
 orbitRadius: 100
-raradius: 2
+raradius: 3
 minZoom: 0.5
 maxZoom: 5
 drawOrbit: true
