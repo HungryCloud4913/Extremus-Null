@@ -148,7 +148,7 @@ hasAtmosphere: true
 allowSectorInvasion: false
 allowLaunchToNumbered: false
 allowWaveSimulation: true
-defaultEnv: 1
+defaultCore: core-pointless
 clearSectorOnLose: true
 allowLaunchSchematics: true
 allowWaves: true
