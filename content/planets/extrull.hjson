@@ -140,8 +140,8 @@ accessible: true
 updateLighting: False
 sectorSeed: 14513
 startSector: 3
-defaultEnv: 185
-defaultAttributes: oxygen
+defaultEnv: 193
+defaultAttributes: 193
 bloom: false
 visible: true
 atmosphereColor: 391D1D
