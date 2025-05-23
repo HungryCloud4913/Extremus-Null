@@ -140,7 +140,7 @@ accessible: true
 updateLighting: False
 sectorSeed: 14513
 startSector: 3
-defaultEnv: 193
+defaultEnv: 185
 defaultAttributes: oxygen
 bloom: false
 visible: true
