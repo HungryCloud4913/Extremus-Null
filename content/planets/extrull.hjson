@@ -141,6 +141,7 @@ updateLighting: False
 sectorSeed: 14513
 startSector: 3
 defaultEnv: 193
+defaultAttributes: oxygen
 bloom: false
 visible: true
 atmosphereColor: 391D1D
@@ -149,12 +150,12 @@ hasAtmosphere: true
 allowSectorInvasion: false
 allowLaunchToNumbered: false
 allowWaveSimulation: true
-defaultCore: core-pointless
 clearSectorOnLose: true
 allowLaunchSchematics: true
 allowWaves: true
 defaultCore: core-pointless
 parent: sun
+solarSystem: sun
 alwaysUnlocked: true
 hiddenItems: [
     scrap
