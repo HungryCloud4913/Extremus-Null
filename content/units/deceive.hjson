@@ -48,33 +48,33 @@ weapons: [{
             soundPitchMax: 1.5
             shootEffect: none
             bullet: {
-		lightColor: FF78B0
+		lightColor: FF92C0
                 type: BasicBulletType
                 speed: 5.5
                 lifetime: 30
-                backColor: FF78B0
-                frontColor: FF78B0
-                mixColorFrom: FF78B0
-                mixColorTo: FF78B0
+                backColor: FF92C0
+                frontColor: FF92C0
+                mixColorFrom: FF92C0
+                mixColorTo: FF92C0
                 width: 10
                 height: 10
 		splashDamageRadius: 22
 		splashDamage: 35
 		hitEffect: blastExplosion
         trailLength: 5
-        trailColor: FF78B0
+        trailColor: FF92C0
          fragVelocityMin: 0.2
          fragVelocityMax: 0.4
 fragBullets: 6
          fragBullet: {
-		lightColor: FF78B0
+		lightColor: FF92C0
                 type: BasicBulletType
                 lifetime: 75
                 drag: 0.1
-                backColor: FF78B0
-                frontColor: FF78B0
-                mixColorFrom: FF78B0
-                mixColorTo: FF78B0
+                backColor: FF92C0
+                frontColor: FF92C0
+                mixColorFrom: FF92C0
+                mixColorTo: FF92C0
                 sprite: large-bomb
                 width: 9
                 height: 9
@@ -85,7 +85,7 @@ fragBullets: 6
  parts: [
     {
       type: RegionPart
-      suffix: -barrel-right
+      suffix: -barrel-left
       moveY: -2
       moveX: 0
       progress: recoil
@@ -95,7 +95,7 @@ fragBullets: 6
 }
     {
       type: RegionPart
-      suffix: -barrel-left
+      suffix: -barrel-right
       moveY: -2
       moveX: 0
       progress: recoil
