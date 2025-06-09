@@ -82,7 +82,6 @@ fragBullets: 6
 		splashDamage: 18
 }     
                }
-        }
  parts: [
     {
       type: RegionPart
@@ -103,5 +102,7 @@ fragBullets: 6
       recoilIndex: 1
       mirror: false
       under: true
+}
+]
 }
 ]
