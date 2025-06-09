@@ -1,4 +1,3 @@
-template: TankUnitType
 type: mech
 health: 400
 hitSize: 10
