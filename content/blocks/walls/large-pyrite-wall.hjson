@@ -1,0 +1,13 @@
+size: 2
+health: 1420
+  requirements: [
+    pyrite/24
+  ]
+type: Wall
+category: defense
+research: {
+  parent: pyrite-wall
+}
+  researchCost: [
+  pyrite/40
+]

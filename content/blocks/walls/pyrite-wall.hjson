@@ -1,0 +1,13 @@
+size: 1
+health: 355
+  requirements: [
+    pyrite/6
+  ]
+type: Wall
+category: defense
+research: {
+  parent: rapidal
+}
+  researchCost: [
+  pyrite/10
+]
