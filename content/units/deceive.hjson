@@ -1,0 +1,107 @@
+template: TankUnitType
+type: tank
+health: 880
+hitSize: 9
+flying: false
+speed: 0.54
+accel: 0.5
+drag: 0.5
+armor: 8
+rotateSpeed: 1.6
+outlineColor: 2D2F39
+targetAir: true
+faceTarget: false
+treadRects: [
+  {
+    x: 9
+    y: 5
+    width: 9
+    height: 10
+  }
+  {
+    x: 9
+    y: -23
+    width: 9
+    height: 10
+  }
+]
+weapons: [{
+                name: deceive-weapon
+                recoils: 2
+                mirror: false
+                top: true
+                rotate: true
+                layerOffset: 1
+		rotateSpeed: 3
+                x: 0
+                y: -1
+                reload: 100
+                shoot: {
+                    shots: 1
+                    shotDelay: 0
+            }
+            inaccuracy: 2
+            velocityRnd: 0.1
+            recoil: 1.5
+            shootSound: artillery
+            soundPitchMin: 1.2
+            soundPitchMax: 1.5
+            shootEffect: none
+            bullet: {
+		lightColor: baff94
+                type: BasicBulletType
+                speed: 5.5
+                lifetime: 30
+                backColor: FF5A9F
+                frontColor: FF5A9F
+                mixColorFrom: FF5A9F
+                mixColorTo: FF5A9F
+                width: 10
+                height: 10
+		splashDamageRadius: 22
+		splashDamage: 35
+		hitEffect: blastExplosion
+        trailLength: 5
+        trailColor: FF5A9F
+         fragVelocityMin: 0.2
+         fragVelocityMax: 0.4
+fragBullets: 6
+         fragBullet: {
+		lightColor: FF5A9F
+                type: BasicBulletType
+                lifetime: 75
+                drag: 0.1
+                backColor: FF5A9F
+                frontColor: FF5A9F
+                mixColorFrom: FF5A9F
+                mixColorTo: FF5A9F
+                sprite: large-bomb
+                width: 9
+                height: 9
+		splashDamageRadius: 10
+		splashDamage: 18
+}     
+               }
+        }
+ parts: [
+    {
+      type: RegionPart
+      suffix: -barrel-right
+      moveY: -2
+      moveX: 0
+      progress: recoil
+      recoilIndex: 0
+      mirror: false
+      under: true
+}
+    {
+      type: RegionPart
+      suffix: -barrel-left
+      moveY: -2
+      moveX: 0
+      progress: recoil
+      recoilIndex: 1
+      mirror: false
+      under: true
+}
+]
