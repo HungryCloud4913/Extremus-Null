@@ -37,7 +37,7 @@ weapons: [{
                 y: -1
                 reload: 100
                 shoot: {
-                    shots: 1
+                    type: ShootAlternate
                     shotDelay: 0
             }
             inaccuracy: 2
@@ -48,33 +48,33 @@ weapons: [{
             soundPitchMax: 1.5
             shootEffect: none
             bullet: {
-		lightColor: baff94
+		lightColor: FF78B0
                 type: BasicBulletType
                 speed: 5.5
                 lifetime: 30
-                backColor: FF5A9F
-                frontColor: FF5A9F
-                mixColorFrom: FF5A9F
-                mixColorTo: FF5A9F
+                backColor: FF78B0
+                frontColor: FF78B0
+                mixColorFrom: FF78B0
+                mixColorTo: FF78B0
                 width: 10
                 height: 10
 		splashDamageRadius: 22
 		splashDamage: 35
 		hitEffect: blastExplosion
         trailLength: 5
-        trailColor: FF5A9F
+        trailColor: FF78B0
          fragVelocityMin: 0.2
          fragVelocityMax: 0.4
 fragBullets: 6
          fragBullet: {
-		lightColor: FF5A9F
+		lightColor: FF78B0
                 type: BasicBulletType
                 lifetime: 75
                 drag: 0.1
-                backColor: FF5A9F
-                frontColor: FF5A9F
-                mixColorFrom: FF5A9F
-                mixColorTo: FF5A9F
+                backColor: FF78B0
+                frontColor: FF78B0
+                mixColorFrom: FF78B0
+                mixColorTo: FF78B0
                 sprite: large-bomb
                 width: 9
                 height: 9
