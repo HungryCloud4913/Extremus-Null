@@ -1,13 +1,13 @@
 template: TankUnitType
 type: tank
-health: 880
+health: 895
 hitSize: 9
 flying: false
 speed: 0.54
 accel: 0.5
-drag: 0.5
-armor: 8
-rotateSpeed: 1.6
+drag: 0.4
+armor: 16
+rotateSpeed: 2.1
 outlineColor: 2D2F39
 targetAir: true
 faceTarget: false
@@ -70,6 +70,7 @@ fragBullets: 6
 		lightColor: FF92C0
                 type: BasicBulletType
                 lifetime: 75
+                speed: 6
                 drag: 0.1
                 backColor: FF92C0
                 frontColor: FF92C0
