@@ -1,0 +1,15 @@
+type: DuctRouter
+category: distribution
+alwaysUnlocked: false
+size: 1
+speed: 7
+health: 50
+
+requirements: [
+ pyrite/2
+]
+researchCost: [
+  pyrite/16
+]
+
+research: pyrite-duct-bridge
