@@ -4,7 +4,7 @@ hitSize: 10
 alwaysUnlocked: true
 outlineColor: 2A2727
 shadowElevation: 0.1
-groundLayer: 59
+groundLayer: 60
 canDrown: true
 targetAir: true
 faceTarget: true
