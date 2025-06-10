@@ -9,7 +9,7 @@ thrusterLength: 15
 requirements: [
   ]
 research: {
-  root: false
+  root: true
   name: "Extremus"
   requiresUnlock: false
   planet: extrull
