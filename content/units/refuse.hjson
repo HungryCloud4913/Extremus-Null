@@ -19,7 +19,7 @@ weapons:[
   name: refuse-mount
   reload: 45
   x: 0
-  y: -5
+  y: -4
   mirror: false
   alternate: false
   inaccuracy: 2
@@ -82,7 +82,7 @@ weapons:[
                 pierce: true
 		colors: [305882, 49B8E6, F6F0FF]
                 width: 10
-                length: 50
+                length: 65
                 sideAngle: 21
    despawnEffect: none
         despawnHit: false
@@ -100,7 +100,7 @@ weapons:[
           interp: pow10Out
           sizeInterp: pow10In
           particles: 4
-          cone: 60
+          cone: 30
           }
           {
           type: ParticleEffect
