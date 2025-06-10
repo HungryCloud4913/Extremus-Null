@@ -97,10 +97,21 @@ weapons:[
           lenFrom: 3
           lenTo: 10
           colorTo: 49B8E6
-          interp: pow9Out
-          sizeInterp: pow9In
+          interp: pow10Out
+          sizeInterp: pow10In
           particles: 4
           cone: 60
+          }
+          {
+          type: ParticleEffect
+          length: 5
+          sizeFrom: 1
+          cone: 10
+          interp: pow10Out
+          sizeInterp: pow10In
+          colorTo: 49B8E6
+          lifetime: 0
+          particles: 1
           }
           ]
           }
