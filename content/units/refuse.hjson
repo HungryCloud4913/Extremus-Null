@@ -1,41 +1,25 @@
 type: mech
-health: 400
+health: 530
 hitSize: 10
 alwaysUnlocked: true
 outlineColor: 2A2727
-hovering: true
-hoverable: true
-lowAltitude: true
 shadowElevation: 0.1
 groundLayer: 59
-canDrown: false
+canDrown: true
 targetAir: true
-faceTarget: false
+faceTarget: true
 isEnemy: true
-speed: 0.9
+speed: 0.8
 accel: 0.5
 drag: 0.4
 rotateSpeed: 4.5
-armor: 0
-abilities: [
-    {
-radius: 1
-type: EnergyFieldAbility
-maxTargets: 5
-damage: 10
-range: 20
-color: 49B8E6
-reload: 45
-healPercent: 0
-sectors: 2
-}
-]
+armor: 3
 weapons:[
  {
   name: refuse-mount
   reload: 70
   x: 0
-  y: -1
+  y: -2
   mirror: false
   alternate: false
   inaccuracy: 2
@@ -57,7 +41,7 @@ weapons:[
     despawnEffect: none
     damage: 15
     knockback: 0.1
-    height: 10
+    height: 12
     width: 7
     hitSize: 7
     trailWidth: 3
