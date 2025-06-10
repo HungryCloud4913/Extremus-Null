@@ -17,7 +17,7 @@ armor: 3
 weapons:[
  {
   name: refuse-mount
-  reload: 70
+  reload: 45
   x: 0
   y: -2
   mirror: false
@@ -58,11 +58,11 @@ weapons:[
                 alternate: true
                 layerOffset: -0.0001
                 rotate: true
-		rotateSpeed: 0.4
-                x: +6
+		rotateSpeed: 1.2
+                x: +6.5
                 y: 0
                 rotationLimit: 60
-		rotateSpeed: 0.7
+		rotateSpeed: 1.1
                 reload: 70
                  shoot: {
                  shots: 1
@@ -81,8 +81,9 @@ weapons:[
                 knockback: 0
                 pierce: true
 		colors: [305882, 49B8E6, F6F0FF]
-                width: 9
-                length: 35
+                width: 10
+                length: 42
+                sideAngle: 70
    despawnEffect: none
         despawnHit: false
         smokeEffect: {
@@ -90,23 +91,23 @@ weapons:[
           effects: [
           {
           type: ParticleEffect
-          length: 20
-          sizeFrom: 3
+          length: 10
+          sizeFrom: 1
           cone: 40
           interp: pow10Out
           sizeInterp: pow10In
-          colorTo: D7BDFF
-          lifetime: 65
+          colorTo: 49B8E6
+          lifetime: 20
           particles: 4
           }
           {
           type: ParticleEffect
           line: true
-          strokeFrom: 4
+          strokeFrom: 1
           strokeTo: 0
-          lenFrom: 10
-          lenTo: 20
-          colorTo: D7BDFF
+          lenFrom: 3
+          lenTo: 10
+          colorTo: 49B8E6
           interp: pow10Out
           sizeInterp: pow10In
           particles: 4
