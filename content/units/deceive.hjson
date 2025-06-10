@@ -8,7 +8,7 @@ accel: 0.5
 drag: 0.4
 armor: 16
 rotateSpeed: 2.5
-outlineColor: 2D2F39
+outlineColor: 2A2727
 targetAir: true
 faceTarget: false
 treadRects: [
