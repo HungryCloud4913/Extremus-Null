@@ -37,8 +37,8 @@ weapons:[
 			frontColor: 49B8E6
       trailColor: 49B8E6
     hitColor: 305882
-    hitEffect: none
-    despawnEffect: none
+    hitEffect: hitSquaresColor
+    despawnEffect: hitSquaresColor
     damage: 15
     knockback: 0.1
     height: 4
