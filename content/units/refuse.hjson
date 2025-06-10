@@ -7,21 +7,19 @@ hovering: true
 hoverable: true
 lowAltitude: true
 shadowElevation: 0.1
-mechFrontSway: 0
-mechSideSway: 0
-mechStride: 0
-groundLayer: 60
+groundLayer: 59
 canDrown: false
 targetAir: true
 faceTarget: false
 isEnemy: true
+speed: 0.9
 accel: 0.5
-drag: 0.09
-speed: 2.1
+drag: 0.4
 rotateSpeed: 4.5
 armor: 0
 abilities: [
     {
+radius: 1
 type: EnergyFieldAbility
 maxTargets: 5
 damage: 10
@@ -59,13 +57,13 @@ weapons:[
     despawnEffect: none
     damage: 15
     knockback: 0.1
-    height: 5
-    width: 6
+    height: 10
+    width: 7
     hitSize: 7
     trailWidth: 3
-    trailLength: 1.5
+    trailLength: 2
     speed: 6
-    lifetime: 16
+    lifetime: 17
     buildingDamageMultiplier: 1
       }
 }
