@@ -46,7 +46,6 @@ weapons: [{
             shootSound: artillery
             soundPitchMin: 1.2
             soundPitchMax: 1.5
-            shootEffect: blastExplosion
             bullet: {
 		lightColor: FF92C0
                 type: BasicBulletType
@@ -79,6 +78,7 @@ fragBullets: 6
                 sprite: large-bomb
                 width: 9
                 height: 9
+		hitEffect: blastExplosion
 		splashDamageRadius: 10
 		splashDamage: 20
 }     
