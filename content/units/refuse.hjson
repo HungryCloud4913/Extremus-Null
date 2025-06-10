@@ -82,24 +82,13 @@ weapons:[
                 pierce: true
 		colors: [305882, 49B8E6, F6F0FF]
                 width: 10
-                length: 42
-                sideAngle: 70
+                length: 50
+                sideAngle: 21
    despawnEffect: none
         despawnHit: false
         smokeEffect: {
           type: MultiEffect
           effects: [
-          {
-          type: ParticleEffect
-          length: 10
-          sizeFrom: 1
-          cone: 40
-          interp: pow10Out
-          sizeInterp: pow10In
-          colorTo: 49B8E6
-          lifetime: 20
-          particles: 4
-          }
           {
           type: ParticleEffect
           line: true
@@ -108,10 +97,10 @@ weapons:[
           lenFrom: 3
           lenTo: 10
           colorTo: 49B8E6
-          interp: pow10Out
-          sizeInterp: pow10In
+          interp: pow9Out
+          sizeInterp: pow9In
           particles: 4
-          cone: 40
+          cone: 60
           }
           ]
           }
