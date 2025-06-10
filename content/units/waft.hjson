@@ -2,7 +2,6 @@ type: mech
 health: 400
 hitSize: 10
 alwaysUnlocked: true
-controller: builderAI
 outlineColor: 2A2727
 hovering: true
 hoverable: true
