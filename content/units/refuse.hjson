@@ -41,11 +41,11 @@ weapons:[
     despawnEffect: none
     damage: 15
     knockback: 0.1
-    height: 12
+    height: 4
     width: 7
     hitSize: 7
     trailWidth: 3
-    trailLength: 2
+    trailLength: 3
     speed: 6
     lifetime: 17
     buildingDamageMultiplier: 1
