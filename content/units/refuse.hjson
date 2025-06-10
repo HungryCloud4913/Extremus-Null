@@ -23,7 +23,7 @@ radius: 1
 type: EnergyFieldAbility
 maxTargets: 5
 damage: 10
-range: 32
+range: 20
 color: 49B8E6
 reload: 45
 healPercent: 0
