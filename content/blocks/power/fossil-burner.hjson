@@ -1,0 +1,35 @@
+type: ConsumeGenerator
+size: 2
+category: power
+squareSprite: false
+requirements: [
+ pyrite/10
+  lead/10
+]
+consumes: {
+  carbon
+}
+powerProduction: 2
+itemDuration: 90
+generateEffect: generatespark
+ambientSound: smelter
+ambientSoundVolume: 0.02
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawFlame
+    }
+    {
+      type: DrawRegion
+      suffix: -top
+    }
+ ]
+}
+  research: {
+  parent: core-pointless
+  researchCost: [
+  pyrite/13
+  carbon/5
+]
+}
