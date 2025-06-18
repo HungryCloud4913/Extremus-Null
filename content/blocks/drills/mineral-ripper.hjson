@@ -27,3 +27,22 @@ requirements: [
   lead/10
 ]
 squareSprite: false
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {  
+	  type: DrawRegion
+	  suffix: -fan
+	  rotateSpeed: 5
+	  spinSprite: true
+    }
+    {
+      type: DrawRegion
+      suffix: -top
+    }
+  ]
+}
