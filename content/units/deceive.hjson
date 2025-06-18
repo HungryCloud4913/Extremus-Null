@@ -48,7 +48,7 @@ weapons: [{
             soundPitchMax: 1.5
             bullet: {
 		lightColor: FF92C0
-                type: BasicBulletType
+                type: ArtilleryBulletType
                 speed: 5.5
                 lifetime: 30
                 backColor: FF92C0
