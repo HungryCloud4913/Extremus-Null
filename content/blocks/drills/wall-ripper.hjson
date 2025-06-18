@@ -5,7 +5,7 @@ research: mineral-ripper
 requirements: [
   pyrite/30
 ]
-drillTime: 500
+drillTime: 350
 output: sand
 attribute: sand
 ambientSound: drill
