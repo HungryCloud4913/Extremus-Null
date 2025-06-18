@@ -9,7 +9,7 @@ research: {
     lead/15
   ]
 }
-drillTime: 100
+drillTime: 275
 hasPower: false
 tier: 1
 itemCapacity: 20
