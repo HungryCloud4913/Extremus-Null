@@ -9,8 +9,8 @@ silicon/2
 ]
 
 consumes: {
-items: [
 power: 1
+items: [
 sand/3
 carbon/2
 ]
