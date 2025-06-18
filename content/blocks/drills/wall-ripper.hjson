@@ -7,7 +7,7 @@ requirements: [
 ]
 drillTime: 500
 output: sand
-attribute: razstone
+attribute: sand
 ambientSound: drill
 ambientSoundVolume: 0.08
 squareSprite: false
