@@ -7,7 +7,7 @@ requirements: [
 ]
 drillTime: 500
 output: sand
-attribute: sand
+attribute: crimsonic
 ambientSound: drill
 ambientSoundVolume: 0.08
 squareSprite: false
