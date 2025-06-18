@@ -1,0 +1,24 @@
+{
+type: GenericCrafter
+health: 320
+size: 2
+category: crafting
+craftTime: 90
+craftEffect: reactorsmoke
+outputItems: [
+silicon/2
+]
+
+consumes: {
+items: [
+sand/3
+carbon/2
+]
+}
+
+requirements: [
+pyrite/40
+lead/20
+carbon/5
+]
+}
