@@ -46,7 +46,6 @@ envDisabled: 0
 immunities: [
   burning
   ]
-itemCapacity: 50
 weapons: [
   {
   reload: 50
