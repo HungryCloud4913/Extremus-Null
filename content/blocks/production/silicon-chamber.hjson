@@ -22,3 +22,12 @@ lead/20
 carbon/5
 ]
 }
+
+research: {
+  parent: core-pointless
+}
+  researchCost: [
+  pyrite/45
+  lead/20
+  carbon/20
+]
