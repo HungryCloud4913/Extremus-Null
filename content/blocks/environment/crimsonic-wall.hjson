@@ -2,3 +2,4 @@ type: StaticWall
 variants: 3
 name: Crimsonic Wall
 itemDrop: sand
+attribute: sand
