@@ -107,3 +107,9 @@ fragBullets: 6
 ]
 }
 ]
+research: {
+  parent: tank-producer
+  objectives: [
+    tank-producer
+  ]
+}
