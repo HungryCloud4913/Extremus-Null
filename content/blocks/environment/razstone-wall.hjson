@@ -1,5 +1,6 @@
 type: StaticWall
 variants: 4
 name: Razstone Wall
-itemDrop: sand
-attribute: sand
+attributes: {
+  sand: 1
+}
