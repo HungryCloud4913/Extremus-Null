@@ -22,9 +22,7 @@ lead/20
 carbon/5
 ]
 
-research: {
-core-pointless
-}
+research: core-pointless
   researchCost: [
   pyrite/45
   lead/20
