@@ -1,0 +1,29 @@
+type: BurstDrill 
+size: 2
+category: production
+hasLiquids: false
+research: {
+  parent: core-pointless
+}
+hardnessDrillMultiplier: 50
+drillTime: 100
+hasPower: false
+tier: 1
+shake: 0
+itemCapacity: 20
+researchCostMultiplier: 1
+drillEffect: {
+  type: WaveEffect
+  sizeFrom: 0.1
+  sizeTo: 5.6
+  strokeFrom: 0.8
+  strokeTo: 0.1
+  colorFrom: 8f8d87
+  colorTo: 6b6a66
+  lifetime: 20
+}
+requirements: [
+  pyrite/20
+  lead/10
+]
+squareSprite: false
