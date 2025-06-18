@@ -7,7 +7,7 @@ requirements: [
   lead/10
 ]
 consumes: {
-  carbon
+  carbon/1
 }
 powerProduction: 2
 itemDuration: 90
