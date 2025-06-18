@@ -1,15 +1,17 @@
-type: BurstDrill 
+type: Drill
 size: 2
 category: production
 hasLiquids: false
 research: {
   parent: core-pointless
+  requirements: [
+    pyrite/30
+    lead/15
+  ]
 }
-hardnessDrillMultiplier: 50
 drillTime: 100
 hasPower: false
 tier: 1
-shake: 0
 itemCapacity: 20
 researchCostMultiplier: 1
 drillEffect: {
