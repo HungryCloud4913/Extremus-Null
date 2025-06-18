@@ -9,7 +9,7 @@ requirements: [
 consumes: {
   carbon/1
 }
-powerProduction: 2
+powerProduction: 1
 itemDuration: 90
 generateEffect: generatespark
 ambientSound: smelter
