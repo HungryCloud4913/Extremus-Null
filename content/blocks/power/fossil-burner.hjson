@@ -12,7 +12,9 @@ requirements: [
   lead/10
 ]
 consumes: {
+items: [
   carbon/1
+]
 }
 drawer: {
   type: DrawMulti
