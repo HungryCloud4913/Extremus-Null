@@ -30,3 +30,20 @@ research: core-pointless
   carbon/20
 ]
 }
+squareSprite: false
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawFlame
+    }
+    {
+      type: DrawRegion
+      suffix: -top
+    }
+  ]
+}
