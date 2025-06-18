@@ -1,0 +1,13 @@
+type: WallCrafter
+size: 2
+category: production
+research: mineral-ripper
+requirements: [
+  pyrite/30
+]
+drillTime: 500
+output: sand
+attribute: sand
+ambientSound: drill
+ambientSoundVolume: 0.08
+squareSprite: false
