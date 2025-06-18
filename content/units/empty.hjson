@@ -33,7 +33,7 @@ faceTarget: true
 ///
 mineWalls: true
 mineFloor: true
-mineSpeed: 3.5
+mineSpeed: 5.5
 mineTier: 1
 itemCapacity: 30
 buildSpeed: 1
