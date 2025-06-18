@@ -1,3 +1,4 @@
 type: StaticWall
 variants: 4
 name: Razstone Wall
+itemDrop: sand
