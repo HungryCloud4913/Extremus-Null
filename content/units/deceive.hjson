@@ -67,7 +67,7 @@ weapons: [{
 fragBullets: 6
          fragBullet: {
 		lightColor: FF92C0
-                type: BasicBulletType
+                type: ArtilleryBulletType
                 lifetime: 75
                 speed: 5.5
                 drag: 0.1
