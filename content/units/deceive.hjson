@@ -57,7 +57,7 @@ weapons: [{
                 mixColorTo: FF92C0
                 width: 10
                 height: 10
-		splashDamageRadius: 22
+		splashDamageRadius: 25
 		splashDamage: 40
 		hitEffect: blastExplosion
         trailLength: 5
@@ -79,8 +79,8 @@ fragBullets: 6
                 width: 9
                 height: 9
 		hitEffect: blastExplosion
-		splashDamageRadius: 10
-		splashDamage: 20
+		splashDamageRadius: 20
+		splashDamage: 15
 }     
                }
  parts: [
