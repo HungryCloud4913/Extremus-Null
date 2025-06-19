@@ -15,7 +15,10 @@ lead/10
 carbon/5
 ]
 
-researchCostMultiplier: 0.5
+  researchCost: [
+  lead/15
+  carbon/5
+]
 research: {
-parent: core-pointless
+  parent: insulation-node
 }
