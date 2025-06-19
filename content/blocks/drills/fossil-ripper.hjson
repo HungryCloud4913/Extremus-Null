@@ -21,4 +21,4 @@ requirements: [
 researchCostMultiplier: 0.5
 fogRadius: 3
 research: mineral-ripper
-category: drills
+category: production
