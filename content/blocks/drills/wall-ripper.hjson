@@ -14,3 +14,9 @@ squareSprite: false
 consumes: {
 power: 0.25
 }
+  researchCost: [
+  pyrite/20
+]
+research: {
+  parent: mineral-ripper
+}
