@@ -11,7 +11,7 @@ drownTimeMultiplier: 1.2
 segments: 3
 drawBody: false
 drawCell: false
-crushDamage: 30
+crushDamage: 0.5
 controller: HugAI
 segmentScl:3
 segmentPhase: 3
