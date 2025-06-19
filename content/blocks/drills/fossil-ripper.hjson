@@ -19,7 +19,12 @@ requirements: [
   pyrite/2
   lead/30
   ]
-researchCostMultiplier: 0.5
 fogRadius: 3
-research: mineral-ripper
 category: production
+  researchCost: [
+  pyrite/2
+  lead/20
+]
+research: {
+  parent: mineral-ripper
+}
