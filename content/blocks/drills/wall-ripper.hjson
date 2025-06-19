@@ -11,3 +11,6 @@ attribute: sand
 ambientSound: drill
 ambientSoundVolume: 0.08
 squareSprite: false
+consumes: {
+power: 0.25
+}
