@@ -216,8 +216,11 @@ requirements: [
   lead/25
   silicon/20
   ]
-  researchCostMultiplier: 0.5
+  researchCost: [
+  pyrite/80
+  lead/25
+  silicon/20
+]
 research: {
-  requiresUnlock: true
   parent: rapidal
 }
