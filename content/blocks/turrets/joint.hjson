@@ -24,7 +24,9 @@ shoot: {
        silicon: {
         type: MissileBulletType
         homingPower: 0.1
-		    homingRange: 20
+	homingRange: 20
+	weaveMag: 15
+	weaveScl: 10
         reloadMultiplier: 1
         speed: 7
         lifetime: 17
@@ -51,7 +53,9 @@ shoot: {
     cartenic-alloy: {
         type: MissileBulletType
         homingPower: 0.05
-		    homingRange: 50
+	homingRange: 50
+	weaveMag: 15
+	weaveScl: 10
         reloadMultiplier: 0.75
         speed: 5
         lifetime: 24
