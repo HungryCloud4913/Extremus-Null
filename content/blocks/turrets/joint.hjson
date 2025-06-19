@@ -7,7 +7,7 @@ health: 520
 targetGround: true
 targetAir: false
 rotateSpeed: 2
-reload: 50
+reload: 100
 recoil: 2
 recoils: 2
 shootSound: missileSmall
