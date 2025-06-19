@@ -9,5 +9,10 @@ requirements: [
   lead/2
 ]
 category: power
-research: fossil-burner
-researchCostMultiplier: 0.5
+  researchCost: [
+  carbon/2
+  lead/4
+]
+research: {
+  parent: fossil-burner
+}
