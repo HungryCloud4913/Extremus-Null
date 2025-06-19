@@ -1,6 +1,6 @@
 type: LightBlock
 health: 80
-size: 1
+size: 2
 category: power
 squareSprite: false
 brightness: 1
