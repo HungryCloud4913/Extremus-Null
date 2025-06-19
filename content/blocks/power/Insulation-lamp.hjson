@@ -1,14 +1,10 @@
-type: GenericCrafter
+type: LightBlock
 health: 80
 size: 1
 category: power
 squareSprite: false
 brightness: 1
 radius: 110
-craftTime: 1000
-craftEffect: reactorsmoke
-outputItems: [
-]
 
 consumes: {
 power: 0.025
