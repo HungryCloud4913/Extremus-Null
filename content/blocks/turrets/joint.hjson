@@ -167,6 +167,17 @@ moveY: -3
   under: false
   recoilIndex: 1
 }
+{
+type: RegionPart
+suffix: -back
+progress: recoil
+x: 0
+y: 0
+moveX: 0
+moveY: 0
+  mirror: false
+  under: false
+}
     {
 type: RegionPart
 suffix: -armleft
@@ -175,7 +186,7 @@ x: 0
 y: 0
 moveX: 0
 moveY: -3
-moveRot: -15
+moveRot: 15
   mirror: false
   under: false
   recoilIndex: 0
@@ -188,21 +199,10 @@ x: 0
 y: 0
 moveX: 0
 moveY: -3
-moveRot: 15
+moveRot: -15
   mirror: false
   under: false
   recoilIndex: 1
-}
-{
-type: RegionPart
-suffix: -back
-progress: recoil
-x: 0
-y: 0
-moveX: 0
-moveY: 0
-  mirror: false
-  under: false
 }
 ]
 }
