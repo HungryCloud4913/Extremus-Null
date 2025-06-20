@@ -27,4 +27,9 @@ category: production
 ]
 research: {
   parent: mineral-ripper
-}
+  objectives: [
+{
+type: SectorLand
+preset: Resisted Expansion
+  }
+]
