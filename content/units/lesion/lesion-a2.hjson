@@ -2,6 +2,7 @@ type: legs
 health: 120
 alwaysUnlocked: true
 outlineColor: 0C0606
+drawCell: false
 hovering: true
 legStraightness: 0.3
 legSpeed: 0.5
