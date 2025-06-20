@@ -31,8 +31,8 @@ research: {
   parent: hover-producer
   objectives: [
 {
-type: SectorComplete
-preset: Tumorous Outset
+type: SectorLand
+preset: Resisted Expansion
   }
 ]
 }
