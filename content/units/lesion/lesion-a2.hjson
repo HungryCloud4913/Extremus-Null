@@ -4,7 +4,7 @@ alwaysUnlocked: true
 outlineColor: 0C0606
 drawCell: false
 hovering: true
-legStraightness: 0.3
+legStraightness: 0.5
 legSpeed: 0.5
 legCount: 4
 legLength: 15
@@ -20,13 +20,13 @@ fogRadius: 2
 legSplashDamage: 0
 legSplashRange: 0
 drownTimeMultiplier: 5
-legGroupSize: 3
+legGroupSize: 4
 baseLegStraightness: 0.5
 rippleScale: 0.1
 legGroupSize: 4
 rippleScale: 0
 targetair: true
-faceTarget: true
+faceTarget: false
 ///
 accel: 0.3
 drag: 0.3
@@ -51,7 +51,7 @@ weapons: [
       shots: 4
       shotDelay: 2.5
     }
-    shootSound: steam
+    shootSound: sap
     bullet: {
       type: LiquidBulletType
       liquid: slag
