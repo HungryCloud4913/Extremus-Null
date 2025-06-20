@@ -3,3 +3,10 @@ planet: extrull
 sector: 7
 research: First Contect
 alwaysUnlocked: true
+research:{
+  parent: First Contact
+  objectives: [
+type: SectorComplete
+preset: First COntact
+    ]
+    }
