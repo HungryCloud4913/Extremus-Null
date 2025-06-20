@@ -222,9 +222,11 @@ requirements: [
   silicon/20
 ]
 research: {
-  parent: rapida
+  parent: rapidal
   objectives: [
 {
 type: SectorLand
 preset: Resisted Expansion
   }
+]
+}
