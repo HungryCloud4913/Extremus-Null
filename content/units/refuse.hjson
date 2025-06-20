@@ -124,3 +124,6 @@ research: {
     walker-producer
   ]
 }
+researchCost: {
+pyrite/1
+}
