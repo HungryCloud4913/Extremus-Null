@@ -23,7 +23,7 @@ drownTimeMultiplier: 5
 legGroupSize: 4
 baseLegStraightness: 0.5
 rippleScale: 0.1
-legGroupSize: 4
+legGroupSize: 12
 rippleScale: 0
 targetair: true
 faceTarget: false
@@ -54,7 +54,7 @@ weapons: [
     shootSound: sap
     bullet: {
       type: LiquidBulletType
-      liquid: slag
+      liquid: lesion-oil
       orbSize: 3
       damage: 3
       pierce: false
