@@ -4,15 +4,20 @@ crushDamageMultiplier: 3
 size: 4
 itemCapacity: 3000
 unitType: empty
-unitCapModifier: 6
+unitCapModifier: 5
 thrusterLength: 15
+isFirstTier: true
 requirements: [
+pyrite/500
+lead/250
+carbon/25
+silicon/50
   ]
 research: {
-  root: true
-  name: "Extremus"
-  requiresUnlock: false
   planet: extrull
+  root: true
+  name: Extrull
+  requiresUnlock: false
 }
 alwaysUnlocked: true
 category: effect
