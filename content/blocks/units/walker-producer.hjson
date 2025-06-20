@@ -33,7 +33,7 @@ research: {
   objectives: [
 {
 type: SectorComplete
-preset: Resisted Expansion
+preset: First Contact
   }
 ]
 }
