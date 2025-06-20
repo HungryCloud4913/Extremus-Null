@@ -1,0 +1,71 @@
+type: legs
+health: 120
+alwaysUnlocked: true
+outlineColor: 0C0606
+hovering: true
+legStraightness: 0.3
+legSpeed: 0.5
+legCount: 4
+legLength: 15
+lockLegBase: true
+legContinuousMove: true
+legExtension: -2.5
+legBaseOffset: 3
+legMaxLength: 1.05
+legLengthScl: 0.96
+legMinLength: 0.8
+legForwardScl: 1
+fogRadius: 2
+legSplashDamage: 0
+legSplashRange: 0
+drownTimeMultiplier: 5
+legGroupSize: 3
+baseLegStraightness: 0.5
+rippleScale: 0.1
+legGroupSize: 4
+rippleScale: 0
+targetair: true
+faceTarget: true
+///
+accel: 0.3
+drag: 0.3
+speed: 0.75
+rotateSpeed: 4.5
+armor: 0
+envDisabled: 0
+immunities: [
+  burning
+  ]
+weapons: [
+    {
+    name: lesion-a2-weapon
+    x: 0
+    y: -2
+    mirror: false
+    alternate: false
+    rotate: true
+    reload: 80
+    inaccuracy: 13
+    shoot: {
+      shots: 4
+      shotDelay: 2.5
+    }
+    shootSound: steam
+    bullet: {
+      type: LiquidBulletType
+      liquid: slag
+      orbSize: 3
+      damage: 3
+      pierce: false
+      pierceCap: 1
+      knockback: 0
+      speed: 3
+      lifetime: 30
+      puddleSize: 16
+      despawnHit: true
+      despawnSound: plantBreak
+      status: tarred
+      statusDuration: 30
+      layer: 99
+    }
+  }
