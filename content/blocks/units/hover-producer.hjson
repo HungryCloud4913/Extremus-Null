@@ -24,6 +24,10 @@ requirements: [
   pyrite/125
   silicon/75
 ]
-  research: {
+research: {
   parent: core-pointless
-}
+  objectives: [
+{
+type: SectorLand
+preset: Tumorous Outset
+  }
