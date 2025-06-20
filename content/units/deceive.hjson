@@ -112,3 +112,6 @@ research: {
     tank-producer
   ]
 }
+researchCost: {
+pyrite/1
+}
