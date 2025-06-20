@@ -27,6 +27,12 @@ requirements: [
   silicon/50
   lead/25
 ]
-  research: {
+research: {
   parent: hover-producer
+  objectives: [
+{
+type: SectorComplete
+preset: Tumorous Outset
+  }
+]
 }
