@@ -27,6 +27,7 @@ rippleScale: 0.1
 rippleScale: 0
 targetair: true
 faceTarget: false
+groundLayer: 98
 ///
 accel: 0.3
 drag: 0.3
