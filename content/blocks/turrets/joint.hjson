@@ -225,7 +225,7 @@ research: {
   parent: rapidal
   objectives: [
 {
-type: SectorComplete
+type: SectorLand
 preset: Resisted Expansion
   }
 ]
