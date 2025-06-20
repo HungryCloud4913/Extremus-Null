@@ -30,7 +30,7 @@ shoot: {
         reloadMultiplier: 1
         speed: 7
         lifetime: 17
-        damage: 50
+        damage: 150
         trailInterp: slope
         trailWidth: 2.3
         trailSinMag: 1
@@ -59,7 +59,7 @@ shoot: {
         reloadMultiplier: 0.75
         speed: 5
         lifetime: 24
-        damage: 120
+        damage: 320
         trailInterp: slope
         trailWidth: 2.3
         trailSinMag: 1
