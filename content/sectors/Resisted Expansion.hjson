@@ -6,7 +6,9 @@ alwaysUnlocked: true
 research:{
   parent: First Contact
   objectives: [
-type: sectorComplete
-preset: First COntact
+{
+type: SectorComplete
+preset: First Contact
+  }
     ]
     }
