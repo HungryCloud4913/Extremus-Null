@@ -121,8 +121,12 @@ weapons:[
 research: {
   parent: walker-producer
   objectives: [
-    walker-producer
-  ]
+walker-producer
+{
+type: SectorComplete
+preset: Resisted Expansion
+  }
+]
 }
 researchCost: [
 pyrite/1
