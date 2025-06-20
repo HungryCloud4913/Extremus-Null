@@ -29,7 +29,7 @@ research: {
   parent: mineral-ripper
   objectives: [
 {
-type: SectorLand
+type: OnSector
 preset: Resisted Expansion
   }
 ]
