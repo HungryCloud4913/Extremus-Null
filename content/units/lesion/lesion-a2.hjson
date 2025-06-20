@@ -7,7 +7,7 @@ hovering: true
 legStraightness: 0.5
 legSpeed: 0.5
 legCount: 4
-legLength: 27
+legLength: 17
 lockLegBase: true
 legContinuousMove: true
 legExtension: -2.5
@@ -20,7 +20,7 @@ fogRadius: 2
 legSplashDamage: 0
 legSplashRange: 0
 drownTimeMultiplier: 5
-legGroupSize: 12
+legGroupSize: 2
 baseLegStraightness: 0.5
 rippleScale: 0.1
 rippleScale: 0
