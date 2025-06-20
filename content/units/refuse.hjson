@@ -124,6 +124,6 @@ research: {
     walker-producer
   ]
 }
-researchCost: {
+researchCost: [
 pyrite/1
-}
+]
