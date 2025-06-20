@@ -1,3 +1,4 @@
+template: TankUnitType
 type: tank
 health: 895
 hitSize: 9
