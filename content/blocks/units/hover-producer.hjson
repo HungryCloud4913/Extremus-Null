@@ -29,7 +29,7 @@ research: {
   objectives: [
 {
 type: SectorLand
-preset: First Contact
+preset: Resisted Expansion
   }
 ]
 }
