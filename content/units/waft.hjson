@@ -97,6 +97,6 @@ research: {
     hover-producer
   ]
 }
-researchCost: {
+researchCost: [
 pyrite/1
-}
+]
