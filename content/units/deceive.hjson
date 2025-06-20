@@ -110,8 +110,12 @@ fragBullets: 6
 research: {
   parent: tank-producer
   objectives: [
-    tank-producer
-  ]
+{
+tank-producer
+type: SectorComplete
+preset: Resisted Expansion
+  }
+]
 }
 researchCost: [
 pyrite/1
