@@ -28,6 +28,12 @@ requirements: [
   lead/15
   carbon/15
 ]
-  research: {
+research: {
   parent: hover-producer
+  objectives: [
+{
+type: SectorComplete
+preset: Tumorous Outset
+  }
+]
 }
