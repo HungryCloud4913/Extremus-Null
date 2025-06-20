@@ -18,6 +18,7 @@ segmentPhase: 3
 segmentMag: 0.5
 lightOpacity: 0
 lightRadius: 0
+groundLayer: 97
 immunities: [
   burning
   ]
