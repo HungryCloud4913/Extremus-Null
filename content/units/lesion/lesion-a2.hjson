@@ -30,7 +30,7 @@ faceTarget: false
 ///
 accel: 0.3
 drag: 0.3
-speed: 0.75
+speed: 0.55
 rotateSpeed: 4.5
 armor: 0
 envDisabled: 0
