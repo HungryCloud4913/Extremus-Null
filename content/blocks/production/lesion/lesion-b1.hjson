@@ -38,7 +38,7 @@ drawer: {
       {  
 	  type: DrawRegion
 	  suffix: -tendril2
-	  rotateSpeed: 2.5
+	  rotateSpeed: 1.2
 	  spinSprite: true
     }
     {
