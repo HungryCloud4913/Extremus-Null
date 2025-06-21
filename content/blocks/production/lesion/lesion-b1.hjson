@@ -32,13 +32,13 @@ drawer: {
     {  
 	  type: DrawRegion
 	  suffix: -tendril1
-	  rotateSpeed: 6
+	  rotateSpeed: 2
 	  spinSprite: true
     }
       {  
 	  type: DrawRegion
 	  suffix: -tendril2
-	  rotateSpeed: 9
+	  rotateSpeed: 5
 	  spinSprite: true
     }
     {
