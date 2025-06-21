@@ -6,3 +6,4 @@ health: 10
 leaks: false
 underBullets: true
 liquidCapacity: 20
+squareSprite: false
