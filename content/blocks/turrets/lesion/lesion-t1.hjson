@@ -1,41 +1,33 @@
 type: LiquidTurret
-category: turret
-squareSprite: false
-outlineColor: 0C0606
 size: 3
-health: 830
-rotateSpeed: 3
-reload: 75
-shootSound: plantBreak
-loopSound: false
+reload: 4
 inaccuracy: 15
-range: 50
-recoil: 1
 hasLiquids: true
 liquidCapacity: 60
-shoot: {
-  shots: 3
-  shotDelay: 1
-    }
-  ammoTypes:{
-    lesion-oil: {
-      type: LiquidBulletType
-      liquid: lesion-oil
-      orbSize: 3
-      damage: 5
-      pierce: false
-      pierceCap: 1
-      knockback: 0
-      speed: 4
-      lifetime: 40
-      puddleSize: 16
-      despawnHit: true
-      despawnSound: plantBreak
-      status: tarred
-      statusDuration: 30
-      layer: 99
+outlineColor: 0C0606
+recoil: 1
+category: turret
+research: {
 }
+range: 100
+requirements: [
+]
+ammoTypes: {
+  lesion-oil: {
+    despawnEffect: none
+    hitEffect: none
+    type: LiquidBulletType
+    liquid: lesion-oil
+    speed: 1.5
+    lifetime: 80
+    knockback: 0
+    status: tarred
+    statusDuration: 30
+    damage: 5
+    layer: 98
+  }
 }
+squareSprite: false
 drawer: {
   type: DrawTurret
   basePrefix: lesion-
