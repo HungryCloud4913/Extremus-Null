@@ -1,12 +1,16 @@
 type: LiquidTurret
 size: 3
-reload: 4
+reload: 100
 inaccuracy: 15
 hasLiquids: true
 liquidCapacity: 60
 outlineColor: 0C0606
 recoil: 1
 category: turret
+shoot: {
+shots: 3
+shotDelay: 1
+}
 research: {
 }
 range: 100
@@ -40,7 +44,7 @@ x: 0
 y: 0
 moveX: 0
 moveY: -3
-moveRot: 17
+moveRot: -17
   mirror: false
   under: false
 }
@@ -52,7 +56,7 @@ x: 0
 y: 0
 moveX: 0
 moveY: -3
-moveRot: -17
+moveRot: 17
   mirror: false
   under: false
 }
