@@ -11,6 +11,7 @@ shoot: {
 shots: 5
 shotDelay: 1
 }
+    shootSounds: plantBreak
 research: {
 }
 range: 100
@@ -18,13 +19,13 @@ requirements: [
 ]
 ammoTypes: {
   lesion-oil: {
-    despawnEffect: none
+    despawnHit: true
+    despawnSound: plantBreak
     hitEffect: none
     type: LiquidBulletType
     liquid: lesion-oil
-    shootSounds: planetBreak
-    speed: 4.5
-    lifetime: 25
+    speed: 3
+    lifetime: 40
     knockback: 0
     status: tarred
     statusDuration: 30
