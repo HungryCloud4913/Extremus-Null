@@ -44,7 +44,7 @@ x: 0
 y: 0
 moveX: 0
 moveY: -3
-moveRot: -17
+moveRot: 21
   mirror: false
   under: false
 }
@@ -56,7 +56,7 @@ x: 0
 y: 0
 moveX: 0
 moveY: -3
-moveRot: 17
+moveRot: -21
   mirror: false
   under: false
 }
