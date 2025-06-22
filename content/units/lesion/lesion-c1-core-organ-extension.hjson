@@ -31,9 +31,9 @@ weapons: [
     knockback: 1
     recoil: 1
     shoot: {
-      shots: 4
-      shotDelay: 2.5
-    }
+          type: ShootAlternate
+          shotDelay: 1
+            }
     shootSound: sap
     bullet: {
       type: LiquidBulletType
