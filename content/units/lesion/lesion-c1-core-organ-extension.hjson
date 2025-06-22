@@ -8,7 +8,6 @@ hovering: true
 targetair: true
 faceTarget: true
 groundLayer: 97
-///
 accel: 0
 drag: 0
 speed: 0
@@ -50,7 +49,6 @@ weapons: [
       statusDuration: 30
       layer: 99
     }
-  }
    parts: [
     {
       type: RegionPart
@@ -120,4 +118,5 @@ weapons: [
       under: true
 }
 ]
+}
 ]
