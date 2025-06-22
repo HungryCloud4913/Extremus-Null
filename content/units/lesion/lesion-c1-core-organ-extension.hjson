@@ -30,7 +30,7 @@ weapons: [
     inaccuracy: 10
     recoil: 1
     shoot: {
-          type: ShootAlternate
+          type: ShootBarrel
           shotDelay: 1
  barrels: [
       -4, +3, -20,
