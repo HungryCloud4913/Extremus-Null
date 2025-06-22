@@ -30,12 +30,12 @@ weapons: [
     recoil: 1
     shoot: {
           type: ShootBarrel
-          shots: 12
-          shotDelay: 1
+          shots: 24
+          shotDelay: 0.5
  barrels: [
-      -12, 0, 10,
-      0, +4, 0,
-      12, 0, -10,
+      -13, -1, 10,
+      0, +2, 0,
+      13, -1, -10,
       ]
             }
     shootSound: sap
@@ -43,12 +43,12 @@ weapons: [
       type: LiquidBulletType
       liquid: lesion-oil
       knockback: 1
-      orbSize: 5
+      orbSize: 3
       damage: 5
       pierce: false
       pierceCap: 1
       speed: 4.5
-      lifetime: 50
+      lifetime: 30
       puddleSize: 16
       despawnHit: true
       despawnSound: plantBreak
