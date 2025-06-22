@@ -28,16 +28,21 @@ weapons: [
     rotate: false
     reload: 10
     inaccuracy: 10
-    knockback: 1
     recoil: 1
     shoot: {
           type: ShootAlternate
           shotDelay: 1
+ barrels: [
+      -4, +3, -20,
+      0, +4, 0,
+      4, +3, 20,
+      ]
             }
     shootSound: sap
     bullet: {
       type: LiquidBulletType
       liquid: lesion-oil
+      knockback: 1
       orbSize: 3
       damage: 3
       pierce: false
