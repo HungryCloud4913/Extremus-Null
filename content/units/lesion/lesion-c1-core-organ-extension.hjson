@@ -20,6 +20,7 @@ immunities: [
 weapons: [
     {
     name: lesion-c1-core-organ-extension
+    recoils: 3
     x: 0
     y: 0
     mirror: false
@@ -27,6 +28,8 @@ weapons: [
     rotate: false
     reload: 80
     inaccuracy: 10
+    knockback: 1
+    recoil: 1
     shoot: {
       shots: 4
       shotDelay: 2.5
@@ -57,6 +60,7 @@ weapons: [
       moveX: 0
       moveRot: 21
       progress: recoil
+      recoilIndex: 1
       mirror: false
       under: true
 }
@@ -67,6 +71,7 @@ weapons: [
       moveX: 0
       moveRot: 17
       progress: recoil
+      recoilIndex: 1
       mirror: false
       under: true
 }
@@ -77,6 +82,7 @@ weapons: [
       moveX: 0
       moveRot: -21
       progress: recoil
+      recoilIndex: 2
       mirror: false
       under: true
 }
@@ -87,6 +93,7 @@ weapons: [
       moveX: 0
       moveRot: -17
       progress: recoil
+      recoilIndex: 0
       mirror: false
       under: true
 }
