@@ -21,12 +21,12 @@ weapons: [
     {
     name: lesion-c1-core-organ-extension
     x: 0
-    y: -2
+    y: 0
     mirror: false
     alternate: false
-    rotate: true
+    rotate: false
     reload: 80
-    inaccuracy: 13
+    inaccuracy: 10
     shoot: {
       shots: 4
       shotDelay: 2.5
