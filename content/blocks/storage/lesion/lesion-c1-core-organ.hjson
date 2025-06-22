@@ -2,7 +2,7 @@ type: CoreBlock
 health: 750
 crushDamageMultiplier: 3
 size: 4
-itemCapacity: 3000
+itemCapacity: 0
 unitType: lesion-c1-core-organ-extension
 unitCapModifier: 5
 thrusterLength: 0
