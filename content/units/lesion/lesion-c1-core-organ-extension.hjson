@@ -26,7 +26,7 @@ weapons: [
     mirror: false
     alternate: false
     rotate: false
-    reload: 80
+    reload: 10
     inaccuracy: 10
     knockback: 1
     recoil: 1
@@ -55,10 +55,10 @@ weapons: [
    parts: [
       {
       type: RegionPart
-      suffix: -jawright2
+      suffix: -jawleft2
       moveY: -3
       moveX: 0
-      moveRot: -17
+      moveRot: 17
       progress: recoil
       recoilIndex: 0
       mirror: false
@@ -75,23 +75,23 @@ weapons: [
       mirror: false
       under: true
 }
-      {
-      type: RegionPart
-      suffix: -jawleft2
-      moveY: -3
-      moveX: 0
-      moveRot: 17
-      progress: recoil
-      recoilIndex: 1
-      mirror: false
-      under: true
-}
     {
       type: RegionPart
       suffix: -jawright1
       moveY: -3
       moveX: 0
       moveRot: -21
+      progress: recoil
+      recoilIndex: 1
+      mirror: false
+      under: true
+}
+      {
+      type: RegionPart
+      suffix: -jawright2
+      moveY: -3
+      moveX: 0
+      moveRot: -17
       progress: recoil
       recoilIndex: 2
       mirror: false
