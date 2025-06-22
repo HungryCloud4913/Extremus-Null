@@ -1,5 +1,5 @@
 type: legs
-health: 120
+health: 150
 hitSize: 12
 alwaysUnlocked: true
 outlineColor: 0C0606
@@ -46,22 +46,22 @@ weapons: [
     mirror: false
     alternate: false
     rotate: true
-    reload: 80
+    reload: 60
     inaccuracy: 13
     shoot: {
-      shots: 4
-      shotDelay: 2.5
+      shots: 5
+      shotDelay: 2
     }
     shootSound: sap
     bullet: {
       type: LiquidBulletType
       liquid: lesion-oil
       orbSize: 3
-      damage: 3
+      damage: 10
       pierce: false
       pierceCap: 1
       knockback: 0
-      speed: 3
+      speed: 3.2
       lifetime: 30
       puddleSize: 16
       despawnHit: true
