@@ -31,8 +31,8 @@ weapons: [
     recoil: 1
     shoot: {
           type: ShootBarrel
-          shots 12
-          shotDelay: 0.5
+          shots: 12
+          shotDelay: 0.1
  barrels: [
       -4, +3, 20,
       -4, +3, 17,
