@@ -1,5 +1,5 @@
 type: flying
-health: 1000
+health: 10000
 hitSize: 2
 alwaysUnlocked: true
 outlineColor: 0C0606
@@ -12,7 +12,7 @@ accel: 0
 drag: 100
 speed: 0
 rotateSpeed: 4.5
-armor: 5
+armor: 10000
 envDisabled: 0
 immunities: [
   burning
