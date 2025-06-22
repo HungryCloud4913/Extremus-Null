@@ -122,7 +122,8 @@ weapons: [
       moveX: 0
       progress: recoil
       mirror: false
-      under: false
+      under: true
+
 }
 ]
 }
