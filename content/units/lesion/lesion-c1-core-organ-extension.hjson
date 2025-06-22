@@ -1,0 +1,114 @@
+type: flying
+health: 1000
+hitSize: 2
+alwaysUnlocked: true
+outlineColor: 0C0606
+drawCell: false
+hovering: true
+targetair: true
+faceTarget: true
+groundLayer: 97
+///
+accel: 0
+drag: 0
+speed: 0
+rotateSpeed: 4.5
+armor: 5
+envDisabled: 0
+immunities: [
+  burning
+  ]
+weapons: [
+    {
+    name: lesion-c1-core-organ-extension
+    x: 0
+    y: -2
+    mirror: false
+    alternate: false
+    rotate: true
+    reload: 80
+    inaccuracy: 13
+    shoot: {
+      shots: 4
+      shotDelay: 2.5
+    }
+    shootSound: sap
+    bullet: {
+      type: LiquidBulletType
+      liquid: lesion-oil
+      orbSize: 3
+      damage: 3
+      pierce: false
+      pierceCap: 1
+      knockback: 0
+      speed: 3
+      lifetime: 30
+      puddleSize: 16
+      despawnHit: true
+      despawnSound: plantBreak
+      status: tarred
+      statusDuration: 30
+      layer: 99
+    }
+  }
+   parts: [
+    {
+      type: RegionPart
+      suffix: -jawleft1
+      moveY: -3
+      moveX: 0
+      moveRot: -21
+      progress: recoil
+      mirror: false
+      under: true
+}
+      {
+      type: RegionPart
+      suffix: -jawleft2
+      moveY: -3
+      moveX: 0
+      moveRot: -17
+      progress: recoil
+      mirror: false
+      under: true
+}
+    {
+      type: RegionPart
+      suffix: -jawright1
+      moveY: -3
+      moveX: 0
+      moveRot: 21
+      progress: recoil
+      mirror: false
+      under: true
+}
+      {
+      type: RegionPart
+      suffix: -jawright2
+      moveY: -3
+      moveX: 0
+      moveRot: 17
+      progress: recoil
+      mirror: false
+      under: true
+}
+      {
+      type: RegionPart
+      suffix: -tube1
+      moveY: -6
+      moveX: 2
+      progress: warmup
+      mirror: false
+      under: true
+}
+      {
+      type: RegionPart
+      suffix: -tube2
+      moveY: -6
+      moveX: -2
+      progress: warmup
+      mirror: false
+      under: true
+}
+]
+]
