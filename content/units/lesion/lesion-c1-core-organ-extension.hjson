@@ -26,12 +26,12 @@ weapons: [
     alternate: false
     rotate: false
     reload: 50
-    inaccuracy: 10
+    inaccuracy: 12
     recoil: 1
     shoot: {
           type: ShootBarrel
-          shots: 24
-          shotDelay: 0.5
+          shots: 36
+          shotDelay: 0.25
  barrels: [
       -13, -1, 10,
       0, +2, 0,
