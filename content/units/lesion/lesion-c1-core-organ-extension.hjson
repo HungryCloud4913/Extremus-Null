@@ -42,7 +42,7 @@ weapons: [
     bullet: {
       type: LiquidBulletType
       liquid: lesion-oil
-      knockback: 1
+      knockback: 2.5
       orbSize: 3
       damage: 5
       pierce: false
