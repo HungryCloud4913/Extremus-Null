@@ -33,8 +33,8 @@ drawer: {
  flameColor: CDD9D1
 	midColor: ffffff
 	alpha: 0.7
-	flameRad: 0.5
-	circleStroke: 0.5
+	flameRad: 0.1
+	circleStroke: 0.1
 	particles: 30
 	particleRad: 11
 	particleSize: 5
