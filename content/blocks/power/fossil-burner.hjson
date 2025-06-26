@@ -68,8 +68,7 @@ drawer: {
       type: DrawFlame
     }
     {
-      type: DrawRegion
-      suffix: -top
+      type: DrawDefault
     }
  ]
 }
