@@ -1,0 +1,97 @@
+type: GenericCrafter
+health: 720
+size: 3
+squareSprite: false
+category: crafting
+craftTime: 110
+outputItems: [
+siniat/1
+]
+
+consumes: {
+  power: 3.5
+items: [
+lead/2
+tungsten/2
+]
+}
+
+requirements: [
+pyrite/120
+lead/40
+silicon/65
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawCrucibleFlame
+ flameColor: CDD9D1
+	midColor: ffffff
+	alpha: 0.4
+	flameRad: 0
+	circleStroke: 0
+	particles: 20
+	particleRad: 15
+	particleSize: 5
+    }
+      {
+      type: DrawDefault
+    }
+  ]
+}
+craftEffect: {
+    type: MultiEffect
+    effects: [
+    {
+    type: radialEffect
+	amount: 4
+    rotationSpacing: 90
+    lengthOffset: 10
+    rotationOffset: 45
+    effect: {
+      type: ParticleEffect
+      particles: 6
+      length: 20
+      lifetime: 50
+      sizeFrom: 3
+      sizeTo: 0
+      cone: 20
+      spin: -0.5
+      startDelay: 0
+      interp: pow3Out
+      colorFrom: F9FFF9
+      colorTo: 8FA091
+      lightOpacity: 0
+      layer: 100.3
+      }
+    }
+    {
+    type: radialEffect
+	amount: 4
+    rotationSpacing: 90
+    lengthOffset: 10
+    rotationOffset: 45
+    effect: {
+      type: ParticleEffect
+      particles: 6
+      length: 60
+      lifetime: 70
+      sizeFrom: 2
+      sizeTo: 0
+      cone: 10
+      spin: 0
+      startDelay: 0
+      interp: pow3Out
+      colorFrom: F9FFF9
+      colorTo: 8FA091
+      lightOpacity: 0
+      layer: 100.3
+      }
+    }
+  ]
+}
