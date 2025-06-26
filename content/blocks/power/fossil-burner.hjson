@@ -60,15 +60,15 @@ items: [
 drawer: {
   type: DrawMulti
   drawers: [
-   {
-      type: DrawRegion
-      suffix: -bottom
+      {
+      type: DrawDefault
     }
     {
       type: DrawFlame
     }
-      {
-      type: DrawDefault
+   {
+      type: DrawRegion
+      suffix: -top
     }
  ]
 }
