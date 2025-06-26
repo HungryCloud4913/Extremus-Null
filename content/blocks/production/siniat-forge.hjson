@@ -32,11 +32,11 @@ drawer: {
       type: DrawCrucibleFlame
  flameColor: CDD9D1
 	midColor: ffffff
-	alpha: 0.4
-	flameRad: 0
-	circleStroke: 0
+	alpha: 0.7
+	flameRad: 5
+	circleStroke: 5
 	particles: 20
-	particleRad: 15
+	particleRad: 10
 	particleSize: 5
     }
       {
@@ -79,7 +79,7 @@ craftEffect: {
     effect: {
       type: ParticleEffect
       particles: 6
-      length: 60
+      length: 30
       lifetime: 70
       sizeFrom: 2
       sizeTo: 0
