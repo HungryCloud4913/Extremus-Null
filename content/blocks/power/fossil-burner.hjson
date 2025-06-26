@@ -60,14 +60,14 @@ items: [
 drawer: {
   type: DrawMulti
   drawers: [
-    {
+   {
       type: DrawRegion
       suffix: -bottom
     }
     {
       type: DrawFlame
     }
-    {
+      {
       type: DrawDefault
     }
  ]
