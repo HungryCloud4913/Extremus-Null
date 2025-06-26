@@ -5,13 +5,13 @@ squareSprite: false
 category: crafting
 craftTime: 110
 outputItems: [
-siniat/1
+siniat/2
 ]
 
 consumes: {
   power: 3.5
 items: [
-lead/2
+lead/4
 tungsten/2
 ]
 }
