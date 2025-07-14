@@ -1,4 +1,5 @@
 {
+canBeBuilt: false
 type: GenericCrafter
 health: 170
 size: 3
