@@ -1,5 +1,6 @@
 type: Drill
 squareSprite: false
+health: 160
 size: 2
 category: production
 hasLiquids: false
