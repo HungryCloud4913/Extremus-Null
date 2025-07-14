@@ -1,4 +1,5 @@
 type: Drill
+squareSprite: false
 size: 2
 category: production
 hasLiquids: false
