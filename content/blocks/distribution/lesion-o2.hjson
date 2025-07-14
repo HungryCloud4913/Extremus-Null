@@ -1,3 +1,4 @@
+buildVisibility: editorOnly
 type: LiquidRouter
 size: 1
 solid: false
