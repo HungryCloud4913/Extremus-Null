@@ -28,6 +28,8 @@ rippleScale: 0
 targetair: true
 faceTarget: false
 groundLayer: 98
+lightOpacity: 0
+lightRadius: 0
 ///
 accel: 0.3
 drag: 0.3
