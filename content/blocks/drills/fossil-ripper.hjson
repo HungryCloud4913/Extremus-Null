@@ -1,4 +1,5 @@
 type: BeamDrill
+squareSprite: false
 health: 160
 drillTime: 150
 range: 5
