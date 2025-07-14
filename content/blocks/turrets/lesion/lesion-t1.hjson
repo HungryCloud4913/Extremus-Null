@@ -1,3 +1,4 @@
+placeablePlayer: false
 canBeBuilt: false
 type: LiquidTurret
 size: 3
