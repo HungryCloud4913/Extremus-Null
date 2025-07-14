@@ -31,7 +31,7 @@ rippleScale: 0
 targetair: true
 faceTarget: true
 ///
-mineWalls: true
+mineWalls: false
 mineFloor: true
 mineSpeed: 4.5
 mineTier: 1
