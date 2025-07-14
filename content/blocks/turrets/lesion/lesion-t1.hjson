@@ -1,5 +1,4 @@
-placeablePlayer: false
-canBeBuilt: false
+buildVisibility: editorOnly
 type: LiquidTurret
 size: 3
 reload: 100
