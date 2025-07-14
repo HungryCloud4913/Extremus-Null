@@ -1,3 +1,4 @@
+buildVisibility: editorOnly
 type: Conduit
 category: liquid
 requirements: [
