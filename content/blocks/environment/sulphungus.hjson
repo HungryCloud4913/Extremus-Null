@@ -1,4 +1,4 @@
-type: StaticWall
+type: TreeBlock
 variants: 3
 name: Sulphungus
 attributes: {
