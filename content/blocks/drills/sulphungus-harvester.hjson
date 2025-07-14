@@ -2,7 +2,8 @@ type: BeamDrill
 health: 1250
 drillTime: 200
 range: 2
-tier: 2
+mineTier: 2
+drillTier: 2
 optionalBoostIntensity: 2
 consumes: {
   liquids: {
