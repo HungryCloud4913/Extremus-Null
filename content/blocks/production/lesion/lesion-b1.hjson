@@ -1,6 +1,5 @@
 {
-placeablePlayer: false
-canBeBuilt: false
+buildVisibility: editorOnly
 type: GenericCrafter
 health: 170
 size: 3
