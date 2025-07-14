@@ -1,4 +1,5 @@
 {
+placeablePlayer: false
 canBeBuilt: false
 type: GenericCrafter
 health: 170
