@@ -1,4 +1,5 @@
 type: WallCrafter
+squareSprite: false
 size: 2
 category: production
 research: mineral-ripper
