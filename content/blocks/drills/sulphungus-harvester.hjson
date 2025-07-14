@@ -12,7 +12,7 @@ consumes: {
     booster: true
     optional: true
       }
-  power: 0.25
+  power: 0.75
 }
 size: 3
 requirements: [
