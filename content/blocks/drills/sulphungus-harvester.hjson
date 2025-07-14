@@ -1,6 +1,6 @@
 type: WallCrafter
 health: 1250
-drillTime: 200
+drillTime: 100  
 output: sulphur
 attribute: sulphur
 mineTier: 2
