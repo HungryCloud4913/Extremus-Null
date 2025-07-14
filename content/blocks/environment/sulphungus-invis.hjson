@@ -1,4 +1,4 @@
-type: StaticWall
+type: TreeBlock
 variants: 1
 name: Sulphungus Invis
 attributes: {
