@@ -1,0 +1,38 @@
+type: BeamDrill
+health: 1250
+drillTime: 200
+range: 1
+tier: 2
+optionalBoostIntensity: 2
+consumes: {
+  liquids: {
+    liquids: [
+        hydrogen/0.2
+      ]
+    booster: true
+    optional: true
+      }
+  power: 0.25
+}
+size: 3
+requirements: [
+  pyrite/70
+  lead/20
+  tungsten/50
+  ]
+fogRadius: 3
+category: production
+  researchCost: [
+  pyrite/100
+  lead/75
+  tungsten/ 200
+]
+research: {
+  parent: fossil-ripper
+  objectives: [
+{
+type: OnSector
+preset: Resisted Expansion
+  }
+]
+}
