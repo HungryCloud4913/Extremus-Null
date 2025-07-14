@@ -1,5 +1,4 @@
-placeablePlayer: false
-canBeBuilt: false
+buildVisibility: editorOnly
 type: CoreBlock
 health: 3000
 crushDamageMultiplier: 3
