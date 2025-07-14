@@ -1,0 +1,7 @@
+buildVisibility: editorOnly
+size: 2
+health: 840
+  requirements: [
+  ]
+type: Wall
+category: defense
