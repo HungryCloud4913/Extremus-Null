@@ -1,7 +1,7 @@
 type: BeamDrill
 health: 1250
 drillTime: 200
-range: 1
+range: 2
 tier: 2
 optionalBoostIntensity: 2
 consumes: {
