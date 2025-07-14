@@ -1,0 +1,8 @@
+name: Sulphungus
+type: SteamVent
+parent: mold-floor
+effect: none
+effectColor: FFB705
+attributes: {
+   steam: 1
+}
