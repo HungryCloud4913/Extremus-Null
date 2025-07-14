@@ -1,5 +1,0 @@
-type: OreBlock
-wallOre: true
-itemDrop: sulphur
-tier: 2
-variants: 1
