@@ -1,3 +1,4 @@
+canBeBuilt: false
 type: LiquidTurret
 size: 3
 reload: 100
