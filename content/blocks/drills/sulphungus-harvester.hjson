@@ -1,14 +1,15 @@
-type: BeamDrill
+type: WallCrafter
 health: 1250
 drillTime: 200
-range: 2
+output: sulphur
+attribute: sulphur
 mineTier: 2
 drillTier: 2
 optionalBoostIntensity: 2
 consumes: {
   liquids: {
     liquids: [
-        hydrogen/0.2
+        zisofluid/0.4
       ]
     booster: true
     optional: true
