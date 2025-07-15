@@ -135,7 +135,7 @@ minZoom: 0.5
 maxZoom: 5
 drawOrbit: true
 atmosphereRadIn: 0
-atmosphereRadOut: 1
+atmosphereRadOut: 0.5
 accessible: true
 updateLighting: False
 sectorSeed: 14513
