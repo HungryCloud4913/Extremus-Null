@@ -88,8 +88,8 @@ cloudMesh: [
  {
    type: HexSkyMesh
    planet: extrull
-   speed: 1.21
-   radius: 0.3
+   speed: 0.21
+   radius: 0.2
    divisions: 6
    color: eafffd7e
    octaves: 3
@@ -100,25 +100,13 @@ cloudMesh: [
  {
    type: HexSkyMesh
    planet: extrull
-   speed: 1.01
-   radius: 0.32
+   speed: 0.9
+   radius: 0.22
    divisions: 6
    color:  eafffd7e
    octaves: 3
    persistence: 0.4
    scl: 0.9
-   thresh: 0.6
-  }
- {
-   type: HexSkyMesh
-   planet: extrull
-   speed: 0.9
-   radius: 0.29
-   divisions: 6
-   color: eafffd7e
-   octaves: 3
-   persistence: 0.6
-   scl: 1
    thresh: 0.6
   }
 ]
@@ -130,12 +118,12 @@ generator: {
 }
 orbitSpacing: 16
 orbitRadius: 100
-radius: 1.1
+radius: 1.15
 minZoom: 0.5
 maxZoom: 5
 drawOrbit: true
-atmosphereRadIn: 0
-atmosphereRadOut: 0.5
+atmosphereRadIn: 0.2
+atmosphereRadOut: 0.35
 accessible: true
 updateLighting: False
 sectorSeed: 14513
