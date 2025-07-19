@@ -3,7 +3,7 @@ health: 180
 research: core-pointless
 alwaysUnlocked: true
 controller: builderAI
-outlineColor: 2A2727
+outlineColor: 252222
 isEnemy: false
 ///
 hovering: true
