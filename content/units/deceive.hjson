@@ -18,13 +18,13 @@ treadRects: [
         width: 8
         height: 54
     }
-]
     {
         x: -17
         y: -27
         width: 8
         height: 54
     }
+]
 weapons: [{
                 name: deceive-weapon
                 recoils: 2
