@@ -12,19 +12,19 @@ outlineColor: 252222
 targetAir: true
 faceTarget: false
 treadRects: [
-  {
-    x: 9
-    y: 5
-    width: 9
-    height: 10
-  }
-  {
-    x: 9
-    y: -23
-    width: 9
-    height: 10
-  }
+    {
+        x: 9
+        y: -27
+        width: 8
+        height: 54
+    }
 ]
+    {
+        x: -17
+        y: -27
+        width: 8
+        height: 54
+    }
 weapons: [{
                 name: deceive-weapon
                 recoils: 2
