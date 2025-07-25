@@ -33,7 +33,6 @@ parts: [
     {
     type: HoverPart
     color: EBC930
-    rot: 45
     radius: 8.5
     sides: 3
     layerOffset: -0.0001
