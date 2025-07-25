@@ -25,7 +25,7 @@ legGroupSize: 2
 baseLegStraightness: 0.5
 rippleScale: 0.1
 rippleScale: 0
-targetair: true
+targetAir: true
 faceTarget: false
 groundLayer: 98
 lightOpacity: 0
