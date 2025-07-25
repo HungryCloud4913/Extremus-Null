@@ -12,9 +12,6 @@ outputLiquid: lesion-oil/20
 consumes: {
 }
 
-requirements: [
-]
-
 drawer: {
   type: DrawMulti
   drawers: [
