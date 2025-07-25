@@ -9,7 +9,7 @@ generateEffect: {
     effects: [
     {
     type: radialEffect
-    amonunt: 7
+    amount: 7
     rotationSpacing: 72
     lengthOffset: 3
     effect: {
