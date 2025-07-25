@@ -3,3 +3,6 @@ planet: extrull
 sector: 3
 research: core-pointless
 alwaysUnlocked: true
+objectives: (
+type: SectorLand
+}
