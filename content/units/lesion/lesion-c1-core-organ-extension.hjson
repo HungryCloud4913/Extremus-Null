@@ -5,7 +5,7 @@ alwaysUnlocked: true
 outlineColor: 0C0606
 drawCell: false
 hovering: true
-targetair: true
+targetAir: true
 faceTarget: true
 groundLayer: 97
 accel: 0
