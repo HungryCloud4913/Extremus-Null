@@ -13,8 +13,6 @@ shoot: {
 shots: 5
 shotDelay: 1
 }
-research: {
-}
 range: 100
 requirements: [
 ]
