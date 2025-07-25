@@ -28,7 +28,7 @@ baseLegStraightness: 0.5
 rippleScale: 0.1
 legGroupSize: 4
 rippleScale: 0
-targetair: true
+targetAir: true
 faceTarget: true
 ///
 mineWalls: false
@@ -73,7 +73,7 @@ type: ShootBarrel
     hitEffect: hitSquaresColor
     despawnEffect: hitSquaresColor
     damage: 25
-    knockBack: 0.1
+    knockback: 0.1
     height: 4
     width: 7
     hitSize: 7
