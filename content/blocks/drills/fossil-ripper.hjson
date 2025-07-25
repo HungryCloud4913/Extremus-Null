@@ -3,8 +3,6 @@ squareSprite: false
 health: 160
 drillTime: 150
 range: 5
-mineTier: 1
-drillTier: 1
 optionalBoostIntensity: 2
 consumes: {
   liquids: {
