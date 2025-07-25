@@ -110,7 +110,6 @@ cloudMesh: [
    thresh: 0.6
   }
 ]
-sectorSize: 2
 allowLaunchSchematics: false
 allowLaunchLoadout: false
 generator: {
@@ -120,7 +119,6 @@ orbitSpacing: 16
 orbitRadius: 100
 radius: 1.15
 minZoom: 0.5
-maxZoom: 5
 drawOrbit: true
 atmosphereRadIn: 0.2
 atmosphereRadOut: 0.35
