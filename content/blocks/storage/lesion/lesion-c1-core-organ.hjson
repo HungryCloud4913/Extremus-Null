@@ -10,8 +10,6 @@ thrusterLength: 0
 isFirstTier: true
 requirements: [
   ]
-research: {
-}
 alwaysUnlocked: true
 category: effect
 squareSprite: false
