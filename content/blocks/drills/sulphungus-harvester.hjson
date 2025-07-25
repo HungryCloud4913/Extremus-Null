@@ -4,9 +4,6 @@ health: 1250
 drillTime: 100  
 output: sulphur
 attribute: sulphur
-mineTier: 2
-drillTier: 2
-optionalBoostIntensity: 2
 consumes: {
   liquids: {
     liquids: [
@@ -14,6 +11,7 @@ consumes: {
       ]
     booster: true
     optional: true
+optionalBoostIntensity: 2
       }
   power: 0.75
 }
