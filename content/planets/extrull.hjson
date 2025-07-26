@@ -115,6 +115,7 @@ allowLaunchLoadout: false
 generator: {
 
 }
+sectorSize: 2
 orbitSpacing: 16
 orbitRadius: 100
 radius: 1.15
