@@ -1,0 +1,12 @@
+type: Floor
+name: Zisofluid
+speedMultiplier: 1
+isLiquid: true
+liquidDrop: zisofluid
+cacheLayer: water
+albedo: 0.9
+supportsOverlay: true
+liquidMultiplier: 0.1
+shallow: false
+variants: 1
+status: tarred
