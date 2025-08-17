@@ -1,6 +1,7 @@
 buildVisibility: editorOnly
 type: LiquidTurret
 size: 3
+health: 360
 reload: 100
 inaccuracy: 15
 hasLiquids: true
