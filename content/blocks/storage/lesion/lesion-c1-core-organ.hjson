@@ -5,7 +5,7 @@ crushDamageMultiplier: 3
 size: 4
 itemCapacity: 0
 unitType: lesion-c1-core-organ-extension
-unitCapModifier: 5
+unitCapModifier: 1
 thrusterLength: 0
 isFirstTier: true
 requirements: [
