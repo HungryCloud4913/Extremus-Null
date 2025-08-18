@@ -1,3 +1,4 @@
 type: TreeBlock
 name: Lesion Large Prop
 variants: 4
+shadowOffset: -5
