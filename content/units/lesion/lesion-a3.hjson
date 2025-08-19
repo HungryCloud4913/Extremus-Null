@@ -42,28 +42,29 @@ immunities: [
 weapons: [
     {
     name: lesion-a3-weapon
-    x: 2
-    y: -3
+    x: 3
+    y: -4
     mirror: false
     alternate: false
     rotate: true
+    rotateSpeed: 2
     reload: 70
     inaccuracy: 13
     shoot: {
-      shots: 5
-      shotDelay: 2
+      shots: 1
+      shotDelay: 0
     }
     shootSound: sap
      bullet: {
 		lightColor: FF92C0
-                type: ArtilleryBulletType
+                type: BasicBulletType
                 speed: 4
                 damage: 20
                 lifetime: 35
-                backColor: 8C7FA9
-                frontColor: 8C7FA9
-                mixColorFrom: B8A6E0
-                mixColorTo: B8A6E0
+                backColor: 70658A
+                frontColor: 70658A
+                mixColorFrom: D8C7FF
+                mixColorTo: D8C7FF
                 width: 10
                 height: 10
 		splashDamageRadius: 5
@@ -77,14 +78,14 @@ fragBullets: 5
          fragBullet: {
 		lightColor: FF92C0
                 type: BasicBulletType
-                lifetime: 60
+                lifetime: 50
                 damage: 7
-                speed: 6
+                speed: 3
                 drag: 0
-                backColor: 8C7FA9
-                frontColor: 8C7FA9
-                mixColorFrom: B8A6E0
-                mixColorTo: B8A6E0
+                backColor: 70658A
+                frontColor: 70658A
+                mixColorFrom: D8C7FF
+                mixColorTo: D8C7FF
                 width: 6
                 height: 6
 		hitEffect: none
