@@ -13,9 +13,7 @@ faceTarget: false
 immunities: [
   burning
   ]
-        engineOffset: 7
-        engineColor: D7BDFF
-        engineColorInner: FFFFFF
+drawEngines: false
 lowAltitude: true
   
   weapons: [
@@ -26,7 +24,7 @@ lowAltitude: true
     x: 0
     mirror: false
     recoil: 0
-    reload: 140
+    reload: 70
     shootWarmupSpeed: 0.04
     minWarmup: 0.25
     shootSound: none
@@ -45,13 +43,34 @@ lowAltitude: true
   type: RegionPart
   mirror: false
   moveX: 0
-  moveY: -5
+  moveY: -7
   moveRot: 75
   suffix: -leftwing1
   progress: recoil
   weaponIndex: 0
-  under: true
-  layerOffset: -0.0001
+  under: false
+    }
+{
+  type: RegionPart
+  mirror: false
+  moveX: 0
+  moveY: -7
+  moveRot: 75
+  suffix: -leftwing2
+  progress: recoil
+  weaponIndex: 0
+  under: false
+    }
+{
+  type: RegionPart
+  mirror: false
+  moveX: 0
+  moveY: -10
+  moveRot: -75
+  suffix: -rightwing1
+  progress: recoil
+  weaponIndex: 0
+  under: false
     }
      ]
   }
