@@ -88,9 +88,10 @@ name: lesion-a4
     reload: 65
     under: true
     inaccuracy: 13
+    rotationLimit: 80
     shoot: {
-      shots: 5
-      shotDelay: 2.25
+      shots: 4
+      shotDelay: 3
     }
     shootSound: sap
     bullet: {
@@ -101,14 +102,14 @@ name: lesion-a4
       pierce: false
       pierceCap: 1
       knockback: 0
-      speed: 3.2
+      speed: 1.4
       lifetime: 30
       puddleSize: 16
       despawnHit: true
       despawnSound: plantBreak
       status: tarred
       statusDuration: 30
-      layer: 99
+      layer: -1
     }
   }
 ]
