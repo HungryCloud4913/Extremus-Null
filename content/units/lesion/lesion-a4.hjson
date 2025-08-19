@@ -44,8 +44,8 @@ name: lesion-a4
    parts: [{
   type: RegionPart
   mirror: false
-  moveX: 0
-  moveY: 0
+  moveX: 2
+  moveY: 1
   moveRot: 60
   suffix: -leftwing1
   progress: recoil
@@ -55,8 +55,8 @@ name: lesion-a4
 {
   type: RegionPart
   mirror: false
-  moveX: 0
-  moveY: 0
+  moveX: -2
+  moveY: 0.5
   moveRot: 60
   suffix: -leftwing2
   progress: recoil
@@ -66,8 +66,8 @@ name: lesion-a4
 {
   type: RegionPart
   mirror: false
-  moveX: 0
-  moveY: 0
+  moveX: -1
+  moveY: 2
   moveRot: -60
   suffix: -rightwing1
   progress: recoil
