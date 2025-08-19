@@ -78,4 +78,37 @@ name: lesion-a4
     }
      ]
   }
-  ]
+    {
+    name: oil-drop
+    x: 0
+    y: -1
+    mirror: false
+    alternate: false
+    rotate: true
+    reload: 65
+    under: true
+    inaccuracy: 13
+    shoot: {
+      shots: 5
+      shotDelay: 2.25
+    }
+    shootSound: sap
+    bullet: {
+      type: LiquidBulletType
+      liquid: lesion-oil
+      orbSize: 2.5
+      damage: 11
+      pierce: false
+      pierceCap: 1
+      knockback: 0
+      speed: 3.2
+      lifetime: 30
+      puddleSize: 16
+      despawnHit: true
+      despawnSound: plantBreak
+      status: tarred
+      statusDuration: 30
+      layer: 99
+    }
+  }
+]
