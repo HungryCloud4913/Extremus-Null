@@ -48,7 +48,7 @@ name: lesion-a4
   moveY: 2 
   moveRot: 60
   suffix: -leftwing1
-  progress: reload
+  progress: smoothReload
   weaponIndex: 0
   under: false
     }
