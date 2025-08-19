@@ -74,7 +74,7 @@ bullet: {
   suffix: -spike1
   progress: reload
   weaponIndex: 0
-  under: false
+  under: true
     }
 {
   type: RegionPart
@@ -85,7 +85,7 @@ bullet: {
   suffix: -spike2
   progress: reload
   weaponIndex: 0
-  under: false
+  under: true
     }
 {
   type: RegionPart
@@ -96,7 +96,7 @@ bullet: {
   suffix: -spike3
   progress: reload
   weaponIndex: 0
-  under: false
+  under: true
     }
 {
   type: RegionPart
@@ -107,7 +107,7 @@ bullet: {
   suffix: -spike4
   progress: reload
   weaponIndex: 0
-  under: false
+  under: true
     }
 {
   type: RegionPart
@@ -118,7 +118,7 @@ bullet: {
   suffix: -spike5
   progress: reload
   weaponIndex: 0
-  under: false
+  under: true
     }
 {
   type: RegionPart
@@ -129,7 +129,7 @@ bullet: {
   suffix: -spike6
   progress: reload
   weaponIndex: 0
-  under: false
+  under: true
     }
 {
   type: RegionPart
@@ -140,9 +140,8 @@ bullet: {
   suffix: -spike7
   progress: reload
   weaponIndex: 0
-  under: false
+  under: true
     }
-
 ]
 }
 ]
