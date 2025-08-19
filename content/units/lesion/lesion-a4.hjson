@@ -44,8 +44,8 @@ name: lesion-a4
   type: RegionPart
   mirror: false
   moveX: 0
-  moveY: -7
-  moveRot: 75
+  moveY: 7
+  moveRot: 60
   suffix: -leftwing1
   progress: recoil
   weaponIndex: 0
@@ -55,8 +55,8 @@ name: lesion-a4
   type: RegionPart
   mirror: false
   moveX: 0
-  moveY: -7
-  moveRot: 75
+  moveY: 7
+  moveRot: 60
   suffix: -leftwing2
   progress: recoil
   weaponIndex: 0
@@ -66,8 +66,8 @@ name: lesion-a4
   type: RegionPart
   mirror: false
   moveX: 0
-  moveY: -10
-  moveRot: -75
+  moveY: 10
+  moveRot: -60
   suffix: -rightwing1
   progress: recoil
   weaponIndex: 0
