@@ -29,7 +29,7 @@ targetAir: true
 faceTarget: false
 lightOpacity: 0
 lightRadius: 0
-///
+
 accel: 0.3
 drag: 0.3
 speed: 0.65
