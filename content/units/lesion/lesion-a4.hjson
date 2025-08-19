@@ -26,7 +26,7 @@ name: lesion-a4
     x: 0
     mirror: false
     recoil: 0
-    reload: 70
+    reload: 50
     shootWarmupSpeed: 0.04
     minWarmup: 0.25
     shootSound: none
@@ -66,8 +66,8 @@ name: lesion-a4
 {
   type: RegionPart
   mirror: false
-  moveX: -1.5
-  moveY: 0.5
+  moveX: -0.5
+  moveY: 1
   moveRot: -60
   suffix: -rightwing1
   progress: recoil
