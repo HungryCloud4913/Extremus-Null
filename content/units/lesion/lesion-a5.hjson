@@ -1,6 +1,8 @@
 type: legs
 health: 220
 hitSize: 12
+lowAltitude: true
+groundLayer: 60
 alwaysUnlocked: true
 outlineColor: 0C0606
 drawCell: false
