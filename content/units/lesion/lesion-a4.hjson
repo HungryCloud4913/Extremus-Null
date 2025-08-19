@@ -26,7 +26,7 @@ name: lesion-a4
     x: 0
     mirror: false
     recoil: 0
-    reload: 50
+    reload: 40
     shootWarmupSpeed: 0.04
     minWarmup: 0.25
     shootSound: none
@@ -46,7 +46,7 @@ name: lesion-a4
   mirror: false
   moveX: 3
   moveY: 2 
-  moveRot: 60
+  moveRot: 75
   suffix: -leftwing1
   progress: smoothReload
   weaponIndex: 0
@@ -57,9 +57,9 @@ name: lesion-a4
   mirror: false
   moveX: -2
   moveY: 0
-  moveRot: 60
+  moveRot: 75
   suffix: -leftwing2
-  progress: recoil
+  progress: smoothReload
   weaponIndex: 0
   under: false
     }
@@ -68,9 +68,9 @@ name: lesion-a4
   mirror: false
   moveX: -0.5
   moveY: 1
-  moveRot: -60
+  moveRot: -75
   suffix: -rightwing1
-  progress: recoil
+  progress: smoothReload
   weaponIndex: 0
   under: false
     }
