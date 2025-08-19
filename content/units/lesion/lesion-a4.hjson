@@ -18,6 +18,7 @@ lowAltitude: true
   
   weapons: [
  {
+name: lesion-a4
     alwaysShooting: true
     controllable: false
     shootCone: 360
