@@ -44,7 +44,6 @@ name: lesion-a5
 top: false
 shootSound: none
 reload: 20
-baseRotation: 90
 y: 0
 x: 0
 shootY: 0
@@ -52,14 +51,14 @@ shootX: 0
 alternate: false
 alwaysShooting: false
 bullet: {
-	type: RailBulletType
-	shootEffect: none
-	smokeEffect: none
 	damage: 17
-	pointEffect: none
-	endEffect: none
-	hitEffect: hitBulletColor
-	despawnEffect: none
+	type: RailBulletType
+	shootEffect: instShoot
+    hitEffect: massiveExplosion
+    pierceEffect: railHit
+    smokeEffect: smokeCloud
+    pointEffect: instTrail
+    despawnEffect: instBomb
 	length: 7
 	hitColor: EDD9BB
 }
