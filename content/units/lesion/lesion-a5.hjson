@@ -76,81 +76,76 @@ weapons: [{
                 width: 10
                 height: 20
 			}
-parts: [
-    {
-      type: RegionPart
-      suffix: -barrelr
-      y: +6
-      moveY: -7
-      moveX: 0
-      progress: recoil
-      heatProgress: recoil
-      recoilIndex: 0
-      mirror: false
-      under: true
-}
-    {
-      type: RegionPart
-      suffix: -barrelr2
-      y: +6
-      moveY: -12
-      moveX: 0
-      progress: recoil
-      heatProgress: recoil
-      recoilIndex: 0
-      mirror: false
-      under: true
-    layerOffset: -0.0001
-}
-    {
-      type: RegionPart
-      suffix: -barrell
-      y: +6
-      moveY: -7
-      moveX: 0
-      progress: recoil
-      heatProgress: recoil
-      recoilIndex: 1
-      mirror: false
-      under: true
-}
-    {
-      type: RegionPart
-      suffix: -barrell2
-      y: +6
-      moveY: -12
-      moveX: 0
-      progress: recoil
-      heatProgress: recoil
-      recoilIndex: 1
-      mirror: false
-      under: true
-    layerOffset: -0.0001
-}
-    {
-      type: RegionPart
-      suffix: -pod1
-      y: 0
-      moveY: -3
-      moveX: -3
-      progress: recoil
-      heatProgress: recoil
-      heatColor: ABC9FF
-      mirror: true
-      under: true
-}
-    {
-      type: RegionPart
-      suffix: -pod2
-      y: 0
-      moveY: +2
-      moveX: -2
-      progress: recoil
-      heatProgress: recoil
-      heatColor: ABC9FF
-      mirror: true
-      under: true
-}
+parts: [{
+  type: RegionPart
+  mirror: false
+  moveX: 2
+  moveY: 3
+  moveRot: 0
+  suffix: -spike1
+  progress: reload
+  under: true
+    }
+{
+  type: RegionPart
+  mirror: false
+  moveX: -2
+  moveY: 3
+  moveRot: 0
+  suffix: -spike2
+  progress: reload
+  under: true
+    }
+{
+  type: RegionPart
+  mirror: false
+  moveX: -3
+  moveY: -1
+  moveRot: 0
+  suffix: -spike3
+  progress: reload
+  under: true
+    }
+{
+  type: RegionPart
+  mirror: false
+  moveX: -2
+  moveY: -3
+  moveRot: 0
+  suffix: -spike4
+  progress: reload
+  under: true
+    }
+{
+  type: RegionPart
+  mirror: false
+  moveX: 1
+  moveY: -3
+  moveRot: 0
+  suffix: -spike5
+  progress: reload
+  under: true
+    }
+{
+  type: RegionPart
+  mirror: false
+  moveX: 3
+  moveY: -1.5
+  moveRot: 0
+  suffix: -spike6
+  progress: reload
+  under: true
+    }
+{
+  type: RegionPart
+  mirror: false
+  moveX: 3
+  moveY: 2
+  moveRot: 0
+  suffix: -spike7
+  progress: reload
+  under: true
+    }
 ]
 }
 ]
