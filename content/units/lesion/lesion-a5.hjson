@@ -72,23 +72,16 @@ weapons: [{
             recoil: 0
             shootSound: none
             bullet: {
-                type: BasicBulletType
-                damage: 10
-                homing: false
-                speed: 0
-	            sprite: none
-                lifetime: 20
-                knockback: 0
-	            shootEffect: none
-	            smokeEffect: none
-	            pointEffect: none
-	            endEffect: none
-	            hitEffect: hitBulletColor
-            	despawnEffect: none
-                backColor: EDD9BB
-                frontColor: EDD9BB
-                width: 5
-                height: 7
+	damage: 10
+	type: RailBulletType
+	shootEffect: none
+	smokeEffect: none
+	pointEffect: none
+	endEffect: none
+	hitEffect: hitBulletColor
+	despawnEffect: none
+	length: 2
+	hitColor: EDD9BB
 			}
 parts: [{
   type: RegionPart
