@@ -39,10 +39,12 @@ envDisabled: 0
 immunities: [
   burning
   ]
+
 weapons: [{
 name: lesion-a5
 top: false
 shootSound: none
+recoil: 0
 reload: 20
 y: 0
 x: 0
@@ -54,11 +56,11 @@ bullet: {
 	damage: 17
 	type: RailBulletType
 	shootEffect: instShoot
-    hitEffect: massiveExplosion
+    hitEffect: none
     pierceEffect: railHit
-    smokeEffect: smokeCloud
+    smokeEffect: none
     pointEffect: instTrail
-    despawnEffect: instBomb
+    despawnEffect: none
 	length: 7
 	hitColor: EDD9BB
 }
