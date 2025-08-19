@@ -73,7 +73,7 @@ weapons: [{
             shootSound: none
             bullet: {
                 type: BasicBulletType
-                damage: 7
+                damage: 10
                 homing: false
                 speed: 0
 	            sprite: missile-large
