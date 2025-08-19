@@ -54,7 +54,7 @@ weapons: [
       shots: 1
       shotDelay: 0
     }
-    shootSound: sap
+    shootSound: rockBreak
      bullet: {
 		lightColor: FF92C0
                 type: BasicBulletType
@@ -65,8 +65,8 @@ weapons: [
                 frontColor: D8C7FF
                 mixColorFrom: D8C7FF
                 mixColorTo: D8C7FF
-                width: 10
-                height: 10
+                width: 12
+                height: 16
 		splashDamageRadius: 5
 		splashDamage: 40
 		hitEffect: blastExplosion
@@ -86,8 +86,8 @@ fragBullets: 5
                 frontColor: D8C7FF
                 mixColorFrom: D8C7FF
                 mixColorTo: D8C7FF
-                width: 6
-                height: 6
+                width: 7
+                height: 9
 		hitEffect: none
 }    
   }
