@@ -26,7 +26,7 @@ baseLegStraightness: 0.5
 rippleScale: 0.1
 rippleScale: 0
 targetAir: false
-faceTarget: false
+faceTarget: true
 lightOpacity: 0
 lightRadius: 0
 
@@ -72,7 +72,7 @@ bullet: {
   moveY: 3
   moveRot: 0
   suffix: -spike1
-  progress: smoothReload
+  progress: reload
   weaponIndex: 0
   under: false
     }
@@ -83,7 +83,7 @@ bullet: {
   moveY: 3
   moveRot: 0
   suffix: -spike2
-  progress: smoothReload
+  progress: reload
   weaponIndex: 0
   under: false
     }
@@ -91,10 +91,10 @@ bullet: {
   type: RegionPart
   mirror: false
   moveX:-3
-  moveY: -0.5
+  moveY: -1
   moveRot: 0
   suffix: -spike3
-  progress: smoothReload
+  progress: reload
   weaponIndex: 0
   under: false
     }
@@ -105,18 +105,18 @@ bullet: {
   moveY: -3
   moveRot: 0
   suffix: -spike4
-  progress: smoothReload
+  progress: reload
   weaponIndex: 0
   under: false
     }
 {
   type: RegionPart
   mirror: false
-  moveX: 0.5
+  moveX: 1
   moveY: -3
   moveRot: 0
   suffix: -spike5
-  progress: smoothReload
+  progress: reload
   weaponIndex: 0
   under: false
     }
@@ -127,7 +127,7 @@ bullet: {
   moveY: -1.5
   moveRot: 0
   suffix: -spike6
-  progress: smoothReload
+  progress: reload
   weaponIndex: 0
   under: false
     }
@@ -135,10 +135,10 @@ bullet: {
   type: RegionPart
   mirror: false
   moveX: 3
-  moveY: 1
+  moveY: 2
   moveRot: 0
   suffix: -spike7
-  progress: smoothReload
+  progress: reload
   weaponIndex: 0
   under: false
     }
