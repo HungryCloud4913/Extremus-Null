@@ -75,7 +75,7 @@ bullet: {
   suffix: -spike1
   progress: reload
   weaponIndex: 0
-  under: true
+  under: false
 layerOffset: -0.0001
     }
 {
