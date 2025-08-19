@@ -1,0 +1,58 @@
+type: flying
+health: 180
+hitSize: 19
+flying: true
+speed: 1.6
+accel: 0.05
+drag: 0.01
+armor: 0
+rotateSpeed: 3.25
+outlineColor: 0C0606
+targetair: false
+faceTarget: false
+immunities: [
+  burning
+  ]
+        engineOffset: 7
+        engineColor: D7BDFF
+        engineColorInner: FFFFFF
+lowAltitude: true
+  
+  weapons: [
+ {
+    alwaysShooting: true
+    controllable: false
+    shootCone: 360
+    x: 0
+    mirror: false
+    recoil: 0
+    reload: 140
+    shootWarmupSpeed: 0.04
+    minWarmup: 0.25
+    shootSound: none
+    bullet: {
+      type: BulletType
+      hittable: false
+      absorbable: false 
+      collides: false 
+      speed: 0
+      lifetime: 0
+      shootEffect: none
+      smokeEffect: none
+      despawnEffect: none
+    }
+   parts: [{
+  type: RegionPart
+  mirror: false
+  moveX: 0
+  moveY: -5
+  moveRot: 75
+  suffix: -leftwing1
+  progress: recoil
+  weaponIndex: 0
+  under: true
+  layerOffset: -0.0001
+    }
+     ]
+  }
+  ]
