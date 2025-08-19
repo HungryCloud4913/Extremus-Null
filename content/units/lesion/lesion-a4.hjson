@@ -109,7 +109,7 @@ name: lesion-a4
       despawnSound: plantBreak
       status: tarred
       statusDuration: 30
-      layer: 45
+      layer: 98
     }
   }
 ]
