@@ -14,6 +14,7 @@ immunities: [
   burning
   ]
 drawEngines: false
+engineSize: 1
 lowAltitude: true
   
   weapons: [
