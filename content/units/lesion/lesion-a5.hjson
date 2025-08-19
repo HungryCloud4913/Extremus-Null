@@ -36,7 +36,7 @@ lightRadius: 0
 accel: 0.3
 drag: 0.3
 speed: 0.7
-rotateSpeed: 3
+rotateSpeed: 2
 armor: 0
 envDisabled: 0
 immunities: [
@@ -76,7 +76,7 @@ weapons: [{
                 damage: 10
                 homing: false
                 speed: 0
-	            sprite: missile-large
+	            sprite: none
                 lifetime: 20
                 knockback: 0
 	            shootEffect: none
@@ -85,8 +85,8 @@ weapons: [{
 	            endEffect: none
 	            hitEffect: hitBulletColor
             	despawnEffect: none
-                backColor: D7BDFF
-                frontColor: D7BDFF
+                backColor: EDD9BB
+                frontColor: EDD9BB
                 width: 5
                 height: 7
 			}
