@@ -40,5 +40,117 @@ immunities: [
   burning
   ]
 
-weapons: [
+weapons: [{
+                name: lesion-a5
+                mirror: false
+                top: true
+                alternate: false
+                rotate: false
+                layerOffset: 1
+	            	rotateSpeed: 0
+                x: 0
+                y: 0
+                reload: 20
+                shoot: {
+        type: ShootBarrel
+        barrels: [
+          -4.5, +25, 0
+          +4.5, +25, 0
+            ]
+            firstShotDelay: 0
+            }
+            inaccuracy: 0
+            recoil: 0
+            shootSound: none
+            shootEffect: none
+            bullet: {
+                type: BasicBulletType
+                damage: 7
+                homing: false
+                speed: 0
+	            	sprite: missile-large
+                lifetime: 20
+                knockback: 0
+                backColor: D7BDFF
+                frontColor: D7BDFF
+                width: 10
+                height: 20
+			}
+parts: [
+    {
+      type: RegionPart
+      suffix: -barrelr
+      y: +6
+      moveY: -7
+      moveX: 0
+      progress: recoil
+      heatProgress: recoil
+      recoilIndex: 0
+      mirror: false
+      under: true
+}
+    {
+      type: RegionPart
+      suffix: -barrelr2
+      y: +6
+      moveY: -12
+      moveX: 0
+      progress: recoil
+      heatProgress: recoil
+      recoilIndex: 0
+      mirror: false
+      under: true
+    layerOffset: -0.0001
+}
+    {
+      type: RegionPart
+      suffix: -barrell
+      y: +6
+      moveY: -7
+      moveX: 0
+      progress: recoil
+      heatProgress: recoil
+      recoilIndex: 1
+      mirror: false
+      under: true
+}
+    {
+      type: RegionPart
+      suffix: -barrell2
+      y: +6
+      moveY: -12
+      moveX: 0
+      progress: recoil
+      heatProgress: recoil
+      recoilIndex: 1
+      mirror: false
+      under: true
+    layerOffset: -0.0001
+}
+    {
+      type: RegionPart
+      suffix: -pod1
+      y: 0
+      moveY: -3
+      moveX: -3
+      progress: recoil
+      heatProgress: recoil
+      heatColor: ABC9FF
+      mirror: true
+      under: true
+}
+    {
+      type: RegionPart
+      suffix: -pod2
+      y: 0
+      moveY: +2
+      moveX: -2
+      progress: recoil
+      heatProgress: recoil
+      heatColor: ABC9FF
+      mirror: true
+      under: true
+}
+]
+}
 ]
