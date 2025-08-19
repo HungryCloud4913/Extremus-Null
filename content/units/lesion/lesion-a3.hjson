@@ -88,6 +88,7 @@ fragBullets: 5
                 width: 6
                 height: 6
 		hitEffect: none
-}     
+}    
   }
+}
 ]
