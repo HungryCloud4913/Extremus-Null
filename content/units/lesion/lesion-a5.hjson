@@ -58,12 +58,6 @@ weapons: [{
         type: ShootBarrel
         barrels: [
           +1.5, +5.5, 0
-          -4, -4, 0
-          +0.5, -9, 0
-          +2, -5, 0
-          +4, -4, 0
-          +4.5, -0.5, 0
-          -8, +2.5, 0
             ]
             firstShotDelay: 0
             shots: 7
@@ -72,6 +66,8 @@ weapons: [{
             recoil: 0
             shootSound: none
             shootEffect: none
+            hitEffect: none
+            despawnEffect: none
             bullet: {
                 type: BasicBulletType
                 damage: 7
