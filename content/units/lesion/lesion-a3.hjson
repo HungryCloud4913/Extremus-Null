@@ -76,7 +76,7 @@ weapons: [
          fragVelocityMax: 0.4
 fragBullets: 5
          fragBullet: {
-		lightColor: FF92C0
+		lightColor: D8C7FF
                 type: BasicBulletType
                 lifetime: 25
                 damage: 7
