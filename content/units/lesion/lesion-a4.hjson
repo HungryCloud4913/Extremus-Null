@@ -46,7 +46,7 @@ name: lesion-a4
   mirror: false
   moveX: 3
   moveY: 2 
-  moveRot: 75
+  moveRot: 90
   suffix: -leftwing1
   progress: smoothReload
   weaponIndex: 0
@@ -57,7 +57,7 @@ name: lesion-a4
   mirror: false
   moveX: -2
   moveY: 0
-  moveRot: 60
+  moveRot: 75
   suffix: -leftwing2
   progress: smoothReload
   weaponIndex: 0
@@ -68,7 +68,7 @@ name: lesion-a4
   mirror: false
   moveX: -0.5
   moveY: 1
-  moveRot: -55
+  moveRot: -70
   suffix: -rightwing1
   progress: smoothReload
   weaponIndex: 0
