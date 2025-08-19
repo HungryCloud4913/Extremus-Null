@@ -44,7 +44,7 @@ immunities: [
 weapons: [{
 name: lesion-a5
 top: true
-layerOffset: -0.0001
+layerOffset: +1
 shootSound: none
 recoil: 0
 reload: 20
@@ -76,7 +76,7 @@ bullet: {
   suffix: -spike1
   progress: reload
   weaponIndex: 0
-  under: false
+  under: true
   layerOffset: +0.0001
     }
 {
