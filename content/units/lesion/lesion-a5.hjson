@@ -65,9 +65,6 @@ weapons: [{
             inaccuracy: 0
             recoil: 0
             shootSound: none
-            shootEffect: none
-            hitEffect: none
-            despawnEffect: none
             bullet: {
                 type: BasicBulletType
                 damage: 7
@@ -76,6 +73,12 @@ weapons: [{
 	            sprite: missile-large
                 lifetime: 20
                 knockback: 0
+	            shootEffect: none
+	            smokeEffect: none
+	            pointEffect: none
+	            endEffect: none
+	            hitEffect: hitBulletColor
+            	despawnEffect: none
                 backColor: D7BDFF
                 frontColor: D7BDFF
                 width: 5
