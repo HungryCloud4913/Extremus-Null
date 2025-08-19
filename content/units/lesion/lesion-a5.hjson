@@ -55,7 +55,7 @@ alwaysShooting: false
 bullet: {
 	damage: 17
 	type: RailBulletType
-	shootEffect: instShoot
+	shootEffect: none
     hitEffect: none
     pierceEffect: none
     smokeEffect: none
