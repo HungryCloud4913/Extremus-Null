@@ -57,7 +57,7 @@ bullet: {
 	type: RailBulletType
 	shootEffect: instShoot
     hitEffect: none
-    pierceEffect: railHit
+    pierceEffect: none
     smokeEffect: none
     pointEffect: instTrail
     despawnEffect: none
