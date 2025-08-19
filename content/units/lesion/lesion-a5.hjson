@@ -58,8 +58,8 @@ weapons: [{
         type: ShootBarrel
         barrels: [
           +1.5, +6, 0
-          -3, +5, 0
-          -5, -2, 0
+          -6, +5, 0
+          -8, -6, 0
             ]
             firstShotDelay: 0
             shots: 7
