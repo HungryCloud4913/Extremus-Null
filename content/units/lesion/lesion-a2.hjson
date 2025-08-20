@@ -58,7 +58,7 @@ weapons: [
       type: LiquidBulletType
       liquid: lesion-oil
       orbSize: 3
-      damage: 10
+      damage: 20
       pierce: false
       pierceCap: 1
       knockback: 0
