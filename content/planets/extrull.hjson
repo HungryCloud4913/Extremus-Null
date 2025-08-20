@@ -135,7 +135,7 @@ atmosphereColor: 391D1D
 iconColor: 6C2929
 hasAtmosphere: true
 allowSectorInvasion: false
-allowLaunchToNumbered: true
+allowLaunchToNumbered: false
 allowWaveSimulation: true
 clearSectorOnLose: true
 allowLaunchSchematics: true
