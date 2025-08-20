@@ -6,9 +6,9 @@ category: production
 research: {
   parent: mineral-ripper
   requirements: [
-    pyrite/70
-    lead/30
-    carbon/15
+    pyrite/100
+    lead/40
+    carbon/30
   ]
 }
 consumes: {
@@ -27,11 +27,10 @@ minerTier: 10
 tier: 10
 hardnessDrillMultiplier: 2
 itemCapacity: 45
-researchCostMultiplier: 1
 drillEffect: {
 }
 requirements: [
-  pyrite/100
-  lead/40
-  carbon/30
+  pyrite/70
+  lead/30
+  carbon/15
 ]
