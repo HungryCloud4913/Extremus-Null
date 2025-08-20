@@ -60,7 +60,7 @@ x: 0
 y: 0
 moveX: 0
 moveY: 0
-moveRot: 10
+moveRot: 13
   mirror: false
   under: false
 }
@@ -72,7 +72,7 @@ x: 0
 y: 0
 moveX: 0
 moveY: 0
-moveRot: -10
+moveRot: -13
   mirror: false
   under: false
 }
