@@ -49,6 +49,31 @@ shoot: {
         shootEffect: shootBigColor
         smokeEffect: shootSmokeSquareSparse
 }
+    suphur: {
+        type: BasicBulletType
+        collidesGround: false
+        collidesTiles: false
+        speed: 11
+        lifetime: 30
+        damage: 95
+        trailWidth: 2.3
+        width: 5
+        height: 10
+        trailParam: 1
+                backColor: EFE47D
+                frontColor: EFE47D
+                mixColorFrom: 8EF5C5
+                mixColorTo: 8EF5C5
+                trailLength: 4
+                trailColor: 97A5F7
+	    	splashDamageRadius: 5
+		    splashDamage: 10
+		    hitEffect: blastExplosion
+        despawnHit: true
+        hitColor: 97A5F7
+        shootEffect: shootBigColor
+        smokeEffect: shootSmokeSquareSparse
+}
   }
   drawer: {
   type: DrawTurret
