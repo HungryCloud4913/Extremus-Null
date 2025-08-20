@@ -3,7 +3,7 @@ health: 600
 type: unitFactory
 configurable: false
   consumes: {
-    power: 30
+    power: 2
   }
 plans: [
 {
@@ -33,4 +33,5 @@ preset: Cancerous Outset
   }
 ]
 }
+
 
