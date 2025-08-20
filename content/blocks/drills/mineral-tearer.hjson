@@ -1,7 +1,7 @@
 type: Drill
 squareSprite: false
 health: 520
-size: 3
+size: 4
 category: production
 research: {
   parent: mineral-ripper
