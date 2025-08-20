@@ -66,10 +66,10 @@ shoot: {
         height: 17
         trailParam: 2.2
         hitEffect: none
-                backColor: FF9674
+                backColor: BB6B33
                 frontColor: BB6B33
-                mixColorFrom: FF9674
-                mixColorTo: BB6B33
+                mixColorFrom: BB6B33
+                mixColorTo: FF9674
                 trailLength: 20
                 trailColor: FF9674
         despawnHit: true
