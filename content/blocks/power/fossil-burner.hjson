@@ -21,10 +21,10 @@ generateEffect: {
       sizeTo: 5
       cone: 4
       baseRotation: 73
-      useRotation:false
+      useRotation: false
       interp: pow3Out
       colorFrom: 2C2C2C
-      colorTo: 4141410
+      colorTo: 414141
       layer:100.3
       }
     }
@@ -37,10 +37,10 @@ generateEffect: {
       sizeTo: 5
       cone: 4
       baseRotation: 73
-      useRotation:false
+      useRotation: false
       interp: pow3Out
       colorFrom: 2C2C2C
-      colorTo: 4141410
+      colorTo: 414141
       layer:100.3
       startDelay: 20
     }
