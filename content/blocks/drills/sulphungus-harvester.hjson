@@ -26,7 +26,7 @@ category: production
   researchCost: [
   pyrite/100
   lead/75
-  tungsten/ 200
+  tungsten/200
 ]
 research: {
   parent: fossil-ripper
