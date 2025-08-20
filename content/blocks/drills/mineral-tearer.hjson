@@ -13,7 +13,7 @@ consumes: {
     optional: true
 optionalBoostIntensity: 2
       }
-  power: 0.5
+  power: 1.5
 }
 
 drillTime: 550
