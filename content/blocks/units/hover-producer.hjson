@@ -12,7 +12,7 @@ unit: waft
     silicon/30
     pyrite/15
   ]
-time: 1400
+time: 2800
 }
 ]
 category: units
@@ -33,5 +33,6 @@ preset: Cancerous Outset
   }
 ]
 }
+
 
 
