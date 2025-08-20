@@ -22,7 +22,7 @@ optionalBoostIntensity: 2
       }
   power: 0.5
 }
-drillTime: 750
+drillTime: 525
 minerTier: 3
 tier: 3
 itemCapacity: 45
