@@ -29,7 +29,7 @@ ammoTypes: {
     knockback: 0
     status: tarred
     statusDuration: 30
-    damage: 5
+    damage: 55
     layer: 98
   }
 }
