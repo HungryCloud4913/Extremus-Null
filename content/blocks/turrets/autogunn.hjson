@@ -94,7 +94,7 @@ suffix: -ammo1
 progress: warmup
 x: 0
 y: 0
-moveX: 1
+moveX: 0.75
 moveY: -1
 moveRot: -5
   mirror: false
@@ -106,7 +106,7 @@ suffix: -ammo2
 progress: warmup
 x: 0
 y: 0
-moveX: -1
+moveX: -0.75
 moveY: -1
 moveRot: 5
   mirror: false
