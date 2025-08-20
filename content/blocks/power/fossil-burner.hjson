@@ -22,9 +22,9 @@ generateEffect: {
       cone: 4
       baseRotation: 73
       useRotation: false
-      interp: pow3Out
+      interp: pow4Out
       colorFrom: 212121
-      colorTo: 35353500
+      colorTo: 505050
       layer: 100.3
       }
     }
@@ -38,9 +38,9 @@ generateEffect: {
       cone: 4
       baseRotation: 73
       useRotation: false
-      interp: pow3Out
+      interp: pow4Out
       colorFrom: 212121
-      colorTo: 35353500
+      colorTo: 505050
       layer: 100.3
       startDelay: 20
     }
