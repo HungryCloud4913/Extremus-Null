@@ -1,7 +1,7 @@
 {
 buildVisibility: editorOnly
 type: GenericCrafter
-health: 170
+health: 340
 size: 3
 category: crafting
 research: []
