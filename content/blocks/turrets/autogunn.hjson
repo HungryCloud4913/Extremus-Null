@@ -42,7 +42,7 @@ shoot: {
                 mixColorFrom: 70658A
                 mixColorTo: D8C7FF
                 trailLength: 2
-                trailColor: D8C7FF
+                trailColor: DAD6F7
         despawnHit: true
         hitColor: D8C7FF
         shootEffect: shootBigColor
