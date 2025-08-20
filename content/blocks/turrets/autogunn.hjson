@@ -11,8 +11,10 @@ reload: 7
 recoil: 0.75
 recoils: 0
 shootSound: shootAltLong
+soundPitchMin: 1.2
+soundPitchMax: 1.5
 loopSound: false
-inaccuracy: 1
+inaccuracy: 6
 range: 280
 consumeAmmoOnce: true
 ammoPerShot: 1
@@ -70,7 +72,7 @@ x: 0
 y: 0
 moveX: -1
 moveY: 0.5
-moveRot: -5
+moveRot: 5
   mirror: false
   under: false
 }
@@ -82,7 +84,7 @@ x: 0
 y: 0
 moveX: 1
 moveY: 0.5
-moveRot: 5
+moveRot: -5
   mirror: false
   under: false
 }
