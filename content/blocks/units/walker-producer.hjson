@@ -13,7 +13,7 @@ unit: refuse
     pyrite/30
     carbon/15
   ]
-time: 2900
+time: 2500
 }
 ]
 category: units
