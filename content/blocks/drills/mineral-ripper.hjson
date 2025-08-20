@@ -22,4 +22,3 @@ requirements: [
   pyrite/20
   lead/10
 ]
-squareSprite: false
