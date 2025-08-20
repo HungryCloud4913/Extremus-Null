@@ -3,14 +3,7 @@ squareSprite: false
 health: 520
 size: 3
 category: production
-research: {
-  parent: mineral-ripper
-  requirements: [
-    pyrite/100
-    lead/40
-    carbon/30
-  ]
-}
+
 consumes: {
   liquids: {
     liquids: [
@@ -22,6 +15,7 @@ optionalBoostIntensity: 2
       }
   power: 0.5
 }
+
 drillTime: 550
 minerTier: 10
 tier: 10
@@ -29,8 +23,15 @@ hardnessDrillMultiplier: 2
 itemCapacity: 45
 drillEffect: {
 }
+
 requirements: [
   pyrite/70
   lead/30
   carbon/15
+]
+
+  researchCost: [
+  pyrite/100
+  lead/40
+  carbon/30
 ]
