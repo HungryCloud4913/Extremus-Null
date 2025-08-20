@@ -93,12 +93,6 @@ research: {
   parent: hover-producer
   objectives: [
 hover-producer
-{
-type: SectorLand
-preset: Resisted Expansion
-  }
 ]
 }
-researchCost: [
-pyrite/1
-]
+
