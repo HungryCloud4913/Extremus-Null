@@ -33,14 +33,14 @@ shoot: {
         speed: 11
         lifetime: 30
         damage: 45
-        trailWidth: 1
-        width: 5
+        trailWidth: 2
+        width: 7
         height: 10
         hitEffect: none
-                backColor: D8C7FF
-                frontColor: 70658A
-                mixColorFrom: D8C7FF
-                mixColorTo: 70658A
+                backColor: 70658A
+                frontColor: D8C7FF
+                mixColorFrom: 70658A
+                mixColorTo: D8C7FF
                 trailLength: 2
                 trailColor: D8C7FF
         despawnHit: true
@@ -55,10 +55,10 @@ shoot: {
         speed: 11
         lifetime: 30
         damage: 95
-        trailWidth: 1
-        width: 5
+        trailWidth: 2
+        width: 7
         height: 10
-                backColor: 8DEEBB
+                backColor: B3A867
                 frontColor: EFE47D
                 mixColorFrom: EFE47D
                 mixColorTo: EFE47D
