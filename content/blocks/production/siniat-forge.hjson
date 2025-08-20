@@ -95,3 +95,17 @@ craftEffect: {
     }
   ]
 }
+ researchCost: [
+  pyrite/200
+  lead/100
+  silicon/75
+]
+research: {
+  parent: silicon-chamber
+  objectives: [
+{
+type: SectorComplete
+preset: Cancerous Outset
+  }
+]
+}
