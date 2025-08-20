@@ -23,8 +23,9 @@ optionalBoostIntensity: 2
   power: 0.5
 }
 drillTime: 550
-minerTier: 3
-tier: 3
+minerTier: 10
+tier: 10
+hardnessDrillMultiplier: 2
 itemCapacity: 45
 researchCostMultiplier: 1
 drillEffect: {
