@@ -34,7 +34,7 @@ shoot: {
         trailWidth: 2.3
         width: 5
         height: 10
-        trailParam: 2.2
+        trailParam: 1
         hitEffect: none
                 backColor: 70658A
                 frontColor: D8C7FF
