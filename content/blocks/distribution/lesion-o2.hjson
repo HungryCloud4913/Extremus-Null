@@ -3,7 +3,7 @@ type: LiquidRouter
 size: 1
 solid: false
 underBullets: true
-health: 30
+health: 70
 liquidCapacity: 30
 category: liquid
 squareSprite: false
