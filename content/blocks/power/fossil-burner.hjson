@@ -23,8 +23,8 @@ generateEffect: {
       baseRotation: 73
       useRotation: false
       interp: pow3Out
-      colorFrom: 212121
-      colorTo: 50505000
+      colorFrom: 464646
+      colorTo: 68686800
       layer: 100.3
       }
     }
@@ -39,8 +39,8 @@ generateEffect: {
       baseRotation: 73
       useRotation: false
       interp: pow3Out
-      colorFrom: 212121
-      colorTo: 50505000
+      colorFrom: 464646
+      colorTo: 68686800
       layer: 100.3
       startDelay: 20
     }
