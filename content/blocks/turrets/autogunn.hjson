@@ -42,7 +42,7 @@ shoot: {
                 frontColor: 70658A
                 mixColorFrom: 70658A
                 mixColorTo: 70658A
-                trailLength: 4
+                trailLength: 2
                 trailColor: D8C7FF
         despawnHit: true
         hitColor: D8C7FF
@@ -64,7 +64,7 @@ shoot: {
                 frontColor: EFE47D
                 mixColorFrom: 8EF5C5
                 mixColorTo: 8EF5C5
-                trailLength: 4
+                trailLength: 2.5
                 trailColor: 97A5F7
 	    	splashDamageRadius: 5
 		    splashDamage: 10
