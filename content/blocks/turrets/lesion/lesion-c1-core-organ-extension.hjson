@@ -3,43 +3,34 @@ type: LiquidTurret
 size: 3
 health: 1100
 reload: 50
-inaccuracy: 14
+inaccuracy: 15
 hasLiquids: true
 liquidCapacity: 60
 outlineColor: 0C0606
 recoil: 1
 category: turret
-rotateSpeed: 4.5
-shootSound: sap
-squareSprite: false
+shootSound: plantBreak
 shoot: {
-          type: ShootBarrel
-          shots: 36
-          shotDelay: 0.25
- barrels: [
-      -13, -1, 10,
-      0, +2, 0,
-      13, -1, -10,
-      ]
-            }
+shots: 5
+shotDelay: 1
+}
 range: 100
 requirements: [
 ]
 ammoTypes: {
   lesion-oil: {
-      knockback: 2.5
-      orbSize: 3
-      damage: 15
-      pierce: false
-      pierceCap: 1
-      speed: 4.5
-      lifetime: 30
-      puddleSize: 16
-      despawnHit: true
-      despawnSound: plantBreak
-      status: tarred
-      statusDuration: 30
-      layer: 98
+    despawnHit: true
+    despawnSound: plantBreak
+    hitEffect: none
+    type: LiquidBulletType
+    liquid: lesion-oil
+    speed: 4.5
+    lifetime: 40
+    knockback: 0
+    status: tarred
+    statusDuration: 45
+    damage: 20
+    layer: 98
   }
 }
 
