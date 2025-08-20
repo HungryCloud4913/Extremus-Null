@@ -1,5 +1,4 @@
 buildVisibility: editorOnly
-buildVisibility: debugOnly
 type: CoreBlock
 health: 3000
 crushDamageMultiplier: 3
