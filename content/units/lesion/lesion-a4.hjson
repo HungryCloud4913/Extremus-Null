@@ -8,7 +8,7 @@ drag: 0.01
 armor: 0
 rotateSpeed: 3.25
 outlineColor: 0C0606
-targetair: false
+targetair: true
 faceTarget: false
 immunities: [
   burning
@@ -88,7 +88,7 @@ name: lesion-a4
     reload: 65
     under: true
     inaccuracy: 13
-    rotationLimit: 80
+    rotationLimit: 90
     shoot: {
       shots: 4
       shotDelay: 3
