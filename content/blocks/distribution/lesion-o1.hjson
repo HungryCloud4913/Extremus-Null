@@ -3,7 +3,7 @@ type: Conduit
 category: liquid
 requirements: [
 ]
-health: 10
+health: 50
 leaks: false
 underBullets: true
 liquidCapacity: 20
