@@ -20,7 +20,7 @@ consumes: {
 power: 5
 }
 shoot: {
-  type: ShootAlternate
+  shots: 1
   shotDelay: 0
     }
   ammoTypes:{
@@ -52,36 +52,37 @@ shoot: {
 parts: [
 {
 type: RegionPart
-suffix: -barrel-l
-progress: recoil
+suffix: -ammo1
+progress: warmup
 x: 0
 y: 0
-moveX: 0
-moveY: -3
+moveX: -1
+moveY: 0.5
+moveRot: 5
   mirror: false
   under: false
-  recoilIndex: 0
 }
 {
 type: RegionPart
-suffix: -barrel-r
-progress: recoil
+suffix: -ammo2
+progress: warmup
 x: 0
 y: 0
-moveX: 0
-moveY: -3
+moveX: 1
+moveY: 0.5
+moveRot: -5
   mirror: false
   under: false
-  recoilIndex: 1
 }
 {
 type: RegionPart
-suffix: -mid
+suffix: -body
 progress: recoil
 x: 0
 y: 0
 moveX: 0
 moveY: 0
+moveRot: 0
   mirror: false
   under: false
 }
@@ -89,17 +90,21 @@ moveY: 0
 }
 
 requirements: [
-  pyrite/75
-  carbon/20
+  pyrite/210
+  silicon/60
+  tungsten/30
   ]
   researchCost: [
-  pyrite/100
-  carbon/50
+  pyrite/300
+  silicon/100
+  tungsten/10
 ]
 research: {
-  root: false
-  name: Extrull
-  requiresUnlock: true
-  planet: extrull
-  parent: core-pointless
+  parent: rapidal
+  objectives: [
+{
+type: OnSector
+preset: Resisted Expansion
+  }
+]
 }
