@@ -30,7 +30,7 @@ shoot: {
         type: BasicBulletType
         speed: 11
         lifetime: 30
-        damage: 20
+        damage: 45
         trailWidth: 2.3
         width: 5
         height: 10
