@@ -1,42 +1,18 @@
-
-
-
-
-
-
-
-
-type: flying
-health: 10000
-hitSize: 2
-alwaysUnlocked: true
+buildVisibility: editorOnly
+type: LiquidTurret
+size: 3
+health: 1100
+reload: 50
+inaccuracy: 14
+hasLiquids: true
+liquidCapacity: 60
 outlineColor: 0C0606
-drawCell: false
-hovering: true
-targetAir: true
-faceTarget: true
-groundLayer: 97
-accel: 0
-drag: 100
-speed: 0
+recoil: 1
+category: turret
 rotateSpeed: 4.5
-armor: 10000
-envDisabled: 0
-immunities: [
-  burning
-  ]
-weapons: [
-    {
-    name: lesion-c1-core-organ-extension
-    x: 0
-    y: 0
-    mirror: false
-    alternate: false
-    rotate: false
-    reload: 50
-    inaccuracy: 12
-    recoil: 1
-    shoot: {
+shootSound: sap
+squareSprite: false
+shoot: {
           type: ShootBarrel
           shots: 36
           shotDelay: 0.25
@@ -46,10 +22,11 @@ weapons: [
       13, -1, -10,
       ]
             }
-    shootSound: sap
-    bullet: {
-      type: LiquidBulletType
-      liquid: lesion-oil
+range: 100
+requirements: [
+]
+ammoTypes: {
+  lesion-oil: {
       knockback: 2.5
       orbSize: 3
       damage: 15
@@ -62,9 +39,14 @@ weapons: [
       despawnSound: plantBreak
       status: tarred
       statusDuration: 30
-      layer: 99
-    }
-   parts: [
+      layer: 98
+  }
+}
+
+drawer: {
+  type: DrawTurret
+  basePrefix: lesion-
+parts: [
       {
       type: RegionPart
       suffix: -jawleft2
@@ -132,7 +114,5 @@ weapons: [
       mirror: false
       under: true
 
-}
-]
 }
 ]
