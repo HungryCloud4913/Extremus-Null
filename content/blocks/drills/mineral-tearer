@@ -1,1 +1,26 @@
-
+type: Drill
+squareSprite: false
+health: 520
+size: 3
+category: production
+hasLiquids: false
+research: {
+  parent: mineral-ripper
+  requirements: [
+    pyrite/70
+    lead/30
+    carbon/15
+  ]
+}
+drillTime: 750
+hasPower: false
+tier: 3
+itemCapacity: 45
+researchCostMultiplier: 1
+drillEffect: {
+}
+requirements: [
+  pyrite/100
+  lead/40
+  carbon/30
+]
