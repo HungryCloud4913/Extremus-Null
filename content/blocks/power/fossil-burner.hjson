@@ -24,7 +24,7 @@ generateEffect: {
       useRotation:false
       interp: pow3Out
       colorFrom: 2C2C2C
-      colorTo: 41414100
+      colorTo: 4141410
       layer:100.3
       }
     }
@@ -40,7 +40,7 @@ generateEffect: {
       useRotation:false
       interp: pow3Out
       colorFrom: 2C2C2C
-      colorTo: 41414100
+      colorTo: 4141410
       layer:100.3
       startDelay: 20
     }
