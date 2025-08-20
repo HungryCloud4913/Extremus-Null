@@ -28,6 +28,8 @@ shoot: {
   ammoTypes:{
     lead: {
         type: BasicBulletType
+        collidesGround: false
+        collidesTiles: false
         speed: 11
         lifetime: 30
         damage: 45
