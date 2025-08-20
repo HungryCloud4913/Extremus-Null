@@ -7,15 +7,15 @@ health: 1575
 targetGround: false
 targetAir: true
 rotateSpeed: 3
-reload: 7
+reload: 6.5
 recoil: 0.75
 recoils: 0
 shootSound: shootAltLong
 soundPitchMin: 1.2
 soundPitchMax: 1.5
 loopSound: false
-inaccuracy: 6
-range: 280
+inaccuracy: 6.5
+range: 290
 consumeAmmoOnce: true
 ammoPerShot: 1
 consumes: {
@@ -52,6 +52,30 @@ shoot: {
   type: DrawTurret
   basePrefix: extrull-
 parts: [
+{
+type: RegionPart
+suffix: -plate1
+progress: warmup
+x: 0
+y: 0
+moveX: 0
+moveY: 0
+moveRot: -5
+  mirror: false
+  under: false
+}
+{
+type: RegionPart
+suffix: -plate2
+progress: warmup
+x: 0
+y: 0
+moveX: 0
+moveY: 0
+moveRot: 5
+  mirror: false
+  under: false
+}
 {
 type: RegionPart
 suffix: -body
