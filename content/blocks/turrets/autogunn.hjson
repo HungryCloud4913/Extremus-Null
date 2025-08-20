@@ -1,0 +1,105 @@
+type: ItemTurret
+category: turret
+squareSprite: false
+outlineColor: 2A2727
+size: 3
+health: 1575
+targetGround: false
+targetAir: true
+rotateSpeed: 3
+reload: 10
+recoil: 0.75
+recoils: 0
+shootSound: shootAltLong
+loopSound: false
+inaccuracy: 1
+range: 310
+consumeAmmoOnce: true
+ammoPerShot: 1
+consumes: {
+power: 5
+}
+shoot: {
+  type: ShootAlternate
+  shotDelay: 0
+    }
+  ammoTypes:{
+    lead: {
+        type: BasicBulletType
+        speed: 7
+        lifetime: 60
+        damage: 45
+        trailWidth: 2.3
+        width: 14
+        height: 17
+        trailParam: 2.2
+        hitEffect: none
+                backColor: 70658A
+                frontColor: D8C7FF
+                mixColorFrom: D8C7FF
+                mixColorTo: D8C7FF
+                trailLength: 10
+                trailColor: D8C7FF
+        despawnHit: true
+        hitColor: D8C7FF
+        shootEffect: shootBigColor
+        smokeEffect: shootSmokeSquareSparse
+}
+  }
+  drawer: {
+  type: DrawTurret
+  basePrefix: extrull-
+parts: [
+{
+type: RegionPart
+suffix: -barrel-l
+progress: recoil
+x: 0
+y: 0
+moveX: 0
+moveY: -3
+  mirror: false
+  under: false
+  recoilIndex: 0
+}
+{
+type: RegionPart
+suffix: -barrel-r
+progress: recoil
+x: 0
+y: 0
+moveX: 0
+moveY: -3
+  mirror: false
+  under: false
+  recoilIndex: 1
+}
+{
+type: RegionPart
+suffix: -mid
+progress: recoil
+x: 0
+y: 0
+moveX: 0
+moveY: 0
+  mirror: false
+  under: false
+}
+]
+}
+
+requirements: [
+  pyrite/75
+  carbon/20
+  ]
+  researchCost: [
+  pyrite/100
+  carbon/50
+]
+research: {
+  root: false
+  name: Extrull
+  requiresUnlock: true
+  planet: extrull
+  parent: core-pointless
+}
