@@ -13,7 +13,7 @@ unit: deceive
     pyrite/20
     tungsten/25
   ]
-time: 2100
+time: 3600
 }
 ]
 category: units
@@ -36,5 +36,6 @@ preset: Cancerous Outset
   }
 ]
 }
+
 
 
