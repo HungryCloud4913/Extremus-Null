@@ -1,8 +1,8 @@
 buildVisibility: editorOnly
 type: LiquidTurret
 size: 3
-health: 720
-reload: 100
+health: 820
+reload: 90
 inaccuracy: 15
 hasLiquids: true
 liquidCapacity: 60
@@ -29,7 +29,7 @@ ammoTypes: {
     knockback: 0
     status: tarred
     statusDuration: 30
-    damage: 55
+    damage: 75
     layer: 98
   }
 }
