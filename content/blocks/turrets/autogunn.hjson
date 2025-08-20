@@ -37,9 +37,9 @@ shoot: {
         width: 7
         height: 10
         hitEffect: none
-                backColor: 70658A
+                backColor: B8A6E0
                 frontColor: D8C7FF
-                mixColorFrom: 70658A
+                mixColorFrom: B8A6E0
                 mixColorTo: D8C7FF
                 trailLength: 2
                 trailColor: DAD6F7
