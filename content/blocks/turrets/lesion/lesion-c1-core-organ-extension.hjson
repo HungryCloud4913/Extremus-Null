@@ -11,8 +11,13 @@ recoil: 1
 category: turret
 shootSound: plantBreak
 shoot: {
-shots: 5
-shotDelay: 1
+shots: 36
+shotDelay: 0.25
+ barrels: [
+      -13, -1, 10,
+      0, +2, 0,
+      13, -1, -10,
+      ]
 }
 range: 100
 requirements: [
