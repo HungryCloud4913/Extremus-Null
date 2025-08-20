@@ -1,7 +1,7 @@
 type: Drill
 squareSprite: false
 health: 520
-size: 4
+size: 3
 category: production
 research: {
   parent: mineral-ripper
@@ -22,7 +22,7 @@ optionalBoostIntensity: 2
       }
   power: 0.5
 }
-drillTime: 525
+drillTime: 550
 minerTier: 3
 tier: 3
 itemCapacity: 45
