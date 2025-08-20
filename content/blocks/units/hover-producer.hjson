@@ -29,7 +29,8 @@ research: {
   objectives: [
 {
 type: OnSector
-preset: Resisted Expansion
+preset: Cancerous Outset
   }
 ]
 }
+
