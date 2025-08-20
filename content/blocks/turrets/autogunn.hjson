@@ -49,7 +49,7 @@ shoot: {
         shootEffect: shootBigColor
         smokeEffect: shootSmokeSquareSparse
 }
-    suphur: {
+    sulphur: {
         type: BasicBulletType
         collidesGround: false
         collidesTiles: false
