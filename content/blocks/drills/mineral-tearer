@@ -3,7 +3,6 @@ squareSprite: false
 health: 520
 size: 3
 category: production
-hasLiquids: false
 research: {
   parent: mineral-ripper
   requirements: [
@@ -12,8 +11,18 @@ research: {
     carbon/15
   ]
 }
+consumes: {
+  liquids: {
+    liquids: [
+        zisofluid/0.5
+      ]
+    booster: true
+    optional: true
+optionalBoostIntensity: 2
+      }
+  power: 0.5
+}
 drillTime: 750
-hasPower: false
 tier: 3
 itemCapacity: 45
 researchCostMultiplier: 1
