@@ -36,11 +36,10 @@ shoot: {
         trailWidth: 1
         width: 5
         height: 10
-        trailParam: 1.3
         hitEffect: none
-                backColor: 70658A
+                backColor: D8C7FF
                 frontColor: 70658A
-                mixColorFrom: 70658A
+                mixColorFrom: D8C7FF
                 mixColorTo: 70658A
                 trailLength: 2
                 trailColor: D8C7FF
@@ -59,11 +58,10 @@ shoot: {
         trailWidth: 1
         width: 5
         height: 10
-        trailParam: 1
-                backColor: EFE47D
+                backColor: 8DEEBB
                 frontColor: EFE47D
-                mixColorFrom: 8EF5C5
-                mixColorTo: 8EF5C5
+                mixColorFrom: EFE47D
+                mixColorTo: EFE47D
                 trailLength: 2.5
                 trailColor: 97A5F7
 	    	splashDamageRadius: 5
