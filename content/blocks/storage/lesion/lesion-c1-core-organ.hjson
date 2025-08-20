@@ -1,6 +1,6 @@
 buildVisibility: editorOnly
 type: CoreBlock
-health: 6000
+health: 8000
 crushDamageMultiplier: 3
 size: 4
 itemCapacity: 0
