@@ -1,3 +1,6 @@
-
 color: 515552
-research: carbon
+research: {
+  planet: extrull
+  parent: carbon
+}
+
