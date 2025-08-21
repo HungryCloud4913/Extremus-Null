@@ -3,7 +3,3 @@ research: {
   planet: extrull
   parent: pyrite
 }
-research: {
-  planet: serpulo
-  parent: copper
-}
