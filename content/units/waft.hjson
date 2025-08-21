@@ -90,3 +90,4 @@ weapons:[
 }
 ]
 research: hover-producer
+alwaysUnlocked: true
