@@ -145,5 +145,5 @@ parent: sun
 solarSystem: sun
 alwaysUnlocked: true
 hiddenItems: [
-    scrap, copper, graphite, coal, titanium, thorium, plastanium, sand, metaglass, beryllium, carbide
+    scrap, copper, graphite, coal, titanium, thorium, plastanium, metaglass, beryllium, carbide
 ]
