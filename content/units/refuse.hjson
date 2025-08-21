@@ -118,3 +118,4 @@ weapons:[
 }
 ]
 research: walker-producer
+alwaysUnlocked: true
