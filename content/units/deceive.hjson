@@ -107,5 +107,6 @@ fragBullets: 6
 }
 ]
 research: tank-producer
+alwaysUnlocked: true
 
 
