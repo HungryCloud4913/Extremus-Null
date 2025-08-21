@@ -1,13 +1,1 @@
 color: f7cba4
-research: {
-  planet: extrull
-  parent: pyrite
-}
-research: {
-  planet: erekir
-  parent: beryllium
-}
-research: {
-  planet: serpulo
-  parent: copper
-}
