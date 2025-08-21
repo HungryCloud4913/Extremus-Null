@@ -89,10 +89,4 @@ weapons:[
       }
 }
 ]
-research: {
-  parent: hover-producer
-  objectives: [
-hover-producer
-]
-}
-
+research: hover-producer
