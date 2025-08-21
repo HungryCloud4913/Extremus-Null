@@ -117,10 +117,4 @@ weapons:[
 }
 }
 ]
-research: {
-  parent: walker-producer
-  objectives: [
-walker-producer
-]
-}
-
+research: walker-producer
