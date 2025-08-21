@@ -1,2 +1,9 @@
 color: B8A6E0
-research: copper, pyrite
+research: {
+  planet: extrull
+  parent: pyrite
+}
+research: {
+  planet: serpulo
+  parent: copper
+}
