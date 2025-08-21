@@ -88,7 +88,7 @@ name: lesion-a4
     reload: 65
     under: true
     inaccuracy: 13
-    rotationLimit: 90
+    rotationLimit: 105
     shoot: {
       shots: 5
       shotDelay: 2
