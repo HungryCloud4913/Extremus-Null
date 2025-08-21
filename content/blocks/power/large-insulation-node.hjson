@@ -1,0 +1,18 @@
+type: PowerNode
+size: 2
+squareSprite: false
+laserRange: 16
+maxNodes: 24
+health: 160
+requirements: [
+  lead/5
+  sulphur/10
+]
+category: power
+  researchCost: [
+  lead/10
+  sulphur/20
+]
+research: {
+  parent: insulation-node
+}
