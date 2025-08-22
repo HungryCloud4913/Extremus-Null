@@ -55,11 +55,11 @@ weapons: [
    {
     name: wildlife-a1-tail1
     x: 0
-    y: -13
+    y: -11.5
     mirror: false
     alternate: false
     rotate: true
-    rotateSpeed: 2
+    rotateSpeed: 2.125
     rotationLimit: 10
     reload: 0
     inaccuracy: 0
@@ -72,7 +72,7 @@ weapons: [
     mirror: false
     alternate: false
     rotate: true
-    rotateSpeed: 2
+    rotateSpeed: 2.25
     rotationLimit: 25
     reload: 0
     inaccuracy: 0
@@ -85,7 +85,7 @@ weapons: [
     mirror: false
     alternate: false
     rotate: true
-    rotateSpeed: 2
+    rotateSpeed: 2.375
     rotationLimit: 40
     reload: 0
     inaccuracy: 0
@@ -98,7 +98,7 @@ weapons: [
     mirror: false
     alternate: false
     rotate: true
-    rotateSpeed: 2
+    rotateSpeed: 2.5
     rotationLimit: 55
     reload: 0
     inaccuracy: 0
@@ -111,7 +111,7 @@ weapons: [
     mirror: false
     alternate: false
     rotate: true
-    rotateSpeed: 2
+    rotateSpeed: 2.625
     rotationLimit: 70
     reload: 0
     inaccuracy: 0
