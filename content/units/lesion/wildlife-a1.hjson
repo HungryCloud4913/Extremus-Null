@@ -41,34 +41,34 @@ weapons: [
    {
     name: wildlife-a1-tail
     x: 0
-    y: -13
+    y: -7
     mirror: false
     alternate: false
     rotate: true
     rotateSpeed: 3
     rotationLimit: 70
-    reload: 0
+    reload: 100
     inaccuracy: 0
  shoot: {
        type: ShootBarrel
   barrels: [
       0, 1, 0
-      -1, 0.75, -3,
-      1, 0.75, 3,
-      -1.1, 0.3, -7,
-      1.1, 0.3, 7,
-      -0.1, 0.5, -1
-      0.1, 0.5, 1
+      -1, 0.75, 3,
+      1, 0.75, -3,
+      -1.1, 0.3, 7,
+      1.1, 0.3, -7,
+      -0.1, 0.5, 1
+      0.1, 0.5, -1
       ]
                     shots: 7
                     shotDelay: 0.5
             }
-    shootSound: rockBreak
+    shootSound: flame2
      bullet: {
 		lightColor: FF92C0
                 type: BasicBulletType
                 speed: 4
-                damage: 50
+                damage: 10
                 lifetime: 35
                 backColor: 70658A
                 frontColor: D8C7FF
