@@ -55,10 +55,6 @@ weapons: [
       0.1, 0.5, -1
       -1, 0.75, 3,
       1, 0.75, -3,
-      -1.1, 0.3, 7,
-      0, 1, 0
-      1.1, 0.3, -7,
-      -0.1, 0.5, 1
       ]
                     shots: 7
                     shotDelay: 1
@@ -71,9 +67,9 @@ weapons: [
                 damage: 10
                 lifetime: 25
                 backColor: ACFFA5
-                frontColor: 449D51
-                mixColorFrom: 449D51
-                mixColorTo: 449D51
+                frontColor: ACFFA5
+                mixColorFrom: ACFFA5
+                mixColorTo: ACFFA5
                 width: 6
                 height: 8
 }    
