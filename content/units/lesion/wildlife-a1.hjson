@@ -52,11 +52,11 @@ weapons: [
  shoot: {
        type: ShootBarrel
   barrels: [
-      0, 3, 0
-      2, 2, -5
-      -2, 2, 5
+      0, 1, 0
+      2, -1, -5
+      -2, -1, 5
       ]
-                    shots: 7
+                    shots: 6
                     shotDelay: 1
             }
     shootSound: flame2
