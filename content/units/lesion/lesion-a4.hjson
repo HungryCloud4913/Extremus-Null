@@ -103,7 +103,7 @@ name: lesion-a4
       pierceCap: 1
       knockback: 0
       speed: 2.3
-      lifetime: 32
+      lifetime: 54
       puddleSize: 16
       despawnHit: true
       despawnSound: plantBreak
