@@ -48,20 +48,20 @@ weapons: [
     rotateSpeed: 3
     rotationLimit: 70
     reload: 100
-    inaccuracy: 0
+    inaccuracy: 4
  shoot: {
        type: ShootBarrel
   barrels: [
-      0, 1, 0
+      0.1, 0.5, -1
       -1, 0.75, 3,
       1, 0.75, -3,
       -1.1, 0.3, 7,
+      0, 1, 0
       1.1, 0.3, -7,
       -0.1, 0.5, 1
-      0.1, 0.5, -1
       ]
                     shots: 7
-                    shotDelay: 0.5
+                    shotDelay: 1
             }
     shootSound: flame2
      bullet: {
@@ -70,12 +70,12 @@ weapons: [
                 speed: 4
                 damage: 10
                 lifetime: 35
-                backColor: 70658A
-                frontColor: D8C7FF
-                mixColorFrom: D8C7FF
-                mixColorTo: D8C7FF
-                width: 12
-                height: 16
+                backColor: 89EF80
+                frontColor: 52BB61
+                mixColorFrom: 52BB61
+                mixColorTo: 52BB61
+                width: 3
+                height: 4
 }    
 }
 ]
