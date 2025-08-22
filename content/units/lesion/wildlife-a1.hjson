@@ -8,10 +8,10 @@ hovering: true
 legStraightness: 0.5
 legSpeed: 0.5
 legCount: 8
-legLength: 6
+legLength: 17
 lockLegBase: true
 legContinuousMove: true
-legExtension: -4
+legExtension: -3
 legBaseOffset: 4
 legMaxLength: 1.05
 legLengthScl: 0.96
@@ -22,7 +22,7 @@ legSplashDamage: 0
 legSplashRange: 0
 drownTimeMultiplier: 5
 legGroupSize: 2
-baseLegStraightness: 0.7
+baseLegStraightness: 0.5
 rippleScale: 0.1
 rippleScale: 0
 targetAir: true
@@ -43,18 +43,74 @@ weapons: [
     {
     name: wildlife-a1-tail0
     x: 0
-    y: -13
+    y: -12
     mirror: false
     alternate: false
     rotate: true
     rotateSpeed: 2
-    rotationLimit: 3
+    rotationLimit: 5
     reload: 0
     inaccuracy: 0
-    shoot: {
-      shots: 0
-      shotDelay: 0
-    }
+}
+   {
+    name: wildlife-a1-tail1
+    x: 0
+    y: -12
+    mirror: false
+    alternate: false
+    rotate: true
+    rotateSpeed: 2
+    rotationLimit: 5
+    reload: 0
+    inaccuracy: 0
+}
+   {
+    name: wildlife-a1-tail2
+    x: 0
+    y: -12
+    mirror: false
+    alternate: false
+    rotate: true
+    rotateSpeed: 2
+    rotationLimit: 5
+    reload: 0
+    inaccuracy: 0
+}
+   {
+    name: wildlife-a1-tail3
+    x: 0
+    y: -12
+    mirror: false
+    alternate: false
+    rotate: true
+    rotateSpeed: 2
+    rotationLimit: 5
+    reload: 0
+    inaccuracy: 0
+}
+   {
+    name: wildlife-a1-tail4
+    x: 0
+    y: -12
+    mirror: false
+    alternate: false
+    rotate: true
+    rotateSpeed: 2
+    rotationLimit: 5
+    reload: 0
+    inaccuracy: 0
+}
+   {
+    name: wildlife-a1-tail5
+    x: 0
+    y: -12
+    mirror: false
+    alternate: false
+    rotate: true
+    rotateSpeed: 2
+    rotationLimit: 5
+    reload: 0
+    inaccuracy: 0
 }
 ]
 
