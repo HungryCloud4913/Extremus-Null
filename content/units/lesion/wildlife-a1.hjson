@@ -106,7 +106,7 @@ weapons: [
    {
     name: wildlife-a1-tail-end
     x: 0
-    y: -8
+    y: -6
     mirror: false
     alternate: false
     rotate: true
