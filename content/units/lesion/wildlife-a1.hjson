@@ -48,7 +48,7 @@ weapons: [
     alternate: false
     rotate: true
     rotateSpeed: 2
-    rotationLimit: 105
+    rotationLimit: 3
     reload: 0
     inaccuracy: 0
     shoot: {
