@@ -55,7 +55,7 @@ weapons: [
    {
     name: wildlife-a1-tail1
     x: 0
-    y: -14
+    y: -11
     mirror: false
     alternate: false
     rotate: true
@@ -68,7 +68,7 @@ weapons: [
    {
     name: wildlife-a1-tail2
     x: 0
-    y: -11
+    y: -10
     mirror: false
     alternate: false
     rotate: true
@@ -94,7 +94,7 @@ weapons: [
    {
     name: wildlife-a1-tail4
     x: 0
-    y: -7
+    y: -8
     mirror: false
     alternate: false
     rotate: true
@@ -107,7 +107,7 @@ weapons: [
    {
     name: wildlife-a1-tail5
     x: 0
-    y: -5
+    y: -7
     mirror: false
     alternate: false
     rotate: true
