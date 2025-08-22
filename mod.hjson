@@ -1,8 +1,15 @@
+subtitle: "[See no evil,]"
+
 name: "Extremus-Null"
 displayName: "Extremus Null"
-subtitle: "See no evil."
-description: "Please leave a star on Github, It lets me know you enjoy the mod."
 
-author: "HungryCloud4913"
-version: "Hear no evil"
+author: 
+"HungryCloud4913
+[Hear no evil,]"
+
+description: 
+"Please leave a star on Github, It lets me know you enjoy the mod.
+[Speak no evil.]"
+
+version: "Lost in archive"
 minGameVersion: "136"
