@@ -69,11 +69,11 @@ weapons: [
                 type: BasicBulletType
                 speed: 4
                 damage: 10
-                lifetime: 35
-                backColor: 89EF80
-                frontColor: 52BB61
-                mixColorFrom: 52BB61
-                mixColorTo: 52BB61
+                lifetime: 25
+                backColor: ACFFA5
+                frontColor: 449D51
+                mixColorFrom: 449D51
+                mixColorTo: 449D51
                 width: 6
                 height: 8
 }    
