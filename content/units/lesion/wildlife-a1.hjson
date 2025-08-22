@@ -5,13 +5,13 @@ alwaysUnlocked: true
 outlineColor: 665939
 drawCell: false
 hovering: true
-legStraightness: 0.35
+legStraightness: 0.5
 legSpeed: 0.5
 legCount: 8
-legLength: 13
+legLength: 6
 lockLegBase: true
 legContinuousMove: true
-legExtension: -3
+legExtension: -4
 legBaseOffset: 4
 legMaxLength: 1.05
 legLengthScl: 0.96
@@ -22,7 +22,7 @@ legSplashDamage: 0
 legSplashRange: 0
 drownTimeMultiplier: 5
 legGroupSize: 2
-baseLegStraightness: 0.5
+baseLegStraightness: 0.7
 rippleScale: 0.1
 rippleScale: 0
 targetAir: true
