@@ -2,7 +2,6 @@ type: legs
 health: 200
 hitSize: 15
 alwaysUnlocked: true
-outlineColor: 665939
 drawOutline: false
 drawCell: false
 hovering: true
