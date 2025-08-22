@@ -52,9 +52,9 @@ weapons: [
  shoot: {
        type: ShootBarrel
   barrels: [
-      0.1, 0.5, -1
-      -1, 0.75, 3,
-      1, 0.75, -3,
+      0, 3, 0
+      2, 2, -5
+      -2, 2, 5
       ]
                     shots: 7
                     shotDelay: 1
