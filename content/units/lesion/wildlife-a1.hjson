@@ -51,6 +51,7 @@ weapons: [
     rotationLimit: 5
     reload: 0
     inaccuracy: 0
+    layeroffset: -0.0001
 }
    {
     name: wildlife-a1-tail1
@@ -63,6 +64,7 @@ weapons: [
     rotationLimit: 5
     reload: 0
     inaccuracy: 0
+    layeroffset: -0.0001
 }
    {
     name: wildlife-a1-tail2
@@ -75,6 +77,7 @@ weapons: [
     rotationLimit: 5
     reload: 0
     inaccuracy: 0
+    layeroffset: -0.0001
 }
    {
     name: wildlife-a1-tail3
@@ -87,6 +90,7 @@ weapons: [
     rotationLimit: 5
     reload: 0
     inaccuracy: 0
+    layeroffset: -0.0001
 }
    {
     name: wildlife-a1-tail4
@@ -99,6 +103,7 @@ weapons: [
     rotationLimit: 5
     reload: 0
     inaccuracy: 0
+    layeroffset: -0.0001
 }
    {
     name: wildlife-a1-tail5
@@ -111,6 +116,7 @@ weapons: [
     rotationLimit: 5
     reload: 0
     inaccuracy: 0
+    layeroffset: -0.0001
 }
 ]
 
