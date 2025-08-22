@@ -24,7 +24,7 @@ legMoveSpace: 2
 allowLegStep: true
 legPhysicsLayer: false
 targetAir: true
-faceTarget: true
+faceTarget: false
 lightOpacity: 0
 lightRadius: 0
 
@@ -47,7 +47,7 @@ weapons: [
     alternate: false
     rotate: true
     rotateSpeed: 3
-    rotationLimit: 70
+    rotationLimit: 145
     reload: 100
     inaccuracy: 4
  shoot: {
