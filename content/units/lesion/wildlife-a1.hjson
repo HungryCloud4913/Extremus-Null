@@ -19,12 +19,12 @@ legLengthScl: 0.96
 legMinLength: 0.95
 legForwardScl: 1
 legGroupSize: 2
-rippleScale: 0.2
+rippleScale: 0
 legMoveSpace: 2
 allowLegStep: true
 legPhysicsLayer: false
 targetAir: true
-faceTarget: false
+faceTarget: true
 lightOpacity: 0
 lightRadius: 0
 
