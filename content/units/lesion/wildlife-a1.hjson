@@ -60,7 +60,7 @@ weapons: [
     alternate: false
     rotate: true
     rotateSpeed: 2
-    rotationLimit: 5
+    rotationLimit: 8
     reload: 0
     inaccuracy: 0
     layeroffset: -0.0001
@@ -68,12 +68,12 @@ weapons: [
    {
     name: wildlife-a1-tail2
     x: 0
-    y: -11
+    y: -12
     mirror: false
     alternate: false
     rotate: true
     rotateSpeed: 2
-    rotationLimit: 7
+    rotationLimit: 11
     reload: 0
     inaccuracy: 0
     layeroffset: -0.0001
@@ -86,7 +86,7 @@ weapons: [
     alternate: false
     rotate: true
     rotateSpeed: 2
-    rotationLimit: 9
+    rotationLimit: 14
     reload: 0
     inaccuracy: 0
     layeroffset: -0.0001
@@ -99,7 +99,7 @@ weapons: [
     alternate: false
     rotate: true
     rotateSpeed: 2
-    rotationLimit: 11
+    rotationLimit: 17
     reload: 0
     inaccuracy: 0
     layeroffset: -0.0001
@@ -112,7 +112,7 @@ weapons: [
     alternate: false
     rotate: true
     rotateSpeed: 2
-    rotationLimit: 13
+    rotationLimit: 20
     reload: 0
     inaccuracy: 0
     layeroffset: -0.0001
