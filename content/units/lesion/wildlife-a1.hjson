@@ -63,7 +63,6 @@ weapons: [
                     shots: 7
                     shotDelay: 0.5
             }
-    }
     shootSound: rockBreak
      bullet: {
 		lightColor: FF92C0
