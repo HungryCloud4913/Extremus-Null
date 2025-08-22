@@ -59,7 +59,7 @@ weapons: [
     mirror: false
     alternate: false
     rotate: true
-    rotateSpeed: 2.125
+    rotateSpeed: 2.25
     rotationLimit: 10
     reload: 0
     inaccuracy: 0
@@ -72,7 +72,7 @@ weapons: [
     mirror: false
     alternate: false
     rotate: true
-    rotateSpeed: 2.25
+    rotateSpeed: 2.5
     rotationLimit: 25
     reload: 0
     inaccuracy: 0
@@ -85,7 +85,7 @@ weapons: [
     mirror: false
     alternate: false
     rotate: true
-    rotateSpeed: 2.375
+    rotateSpeed: 2.75
     rotationLimit: 40
     reload: 0
     inaccuracy: 0
@@ -98,7 +98,7 @@ weapons: [
     mirror: false
     alternate: false
     rotate: true
-    rotateSpeed: 2.5
+    rotateSpeed: 3
     rotationLimit: 55
     reload: 0
     inaccuracy: 0
@@ -111,7 +111,7 @@ weapons: [
     mirror: false
     alternate: false
     rotate: true
-    rotateSpeed: 2.625
+    rotateSpeed: 3.25
     rotationLimit: 70
     reload: 0
     inaccuracy: 0
