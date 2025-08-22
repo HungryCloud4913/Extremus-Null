@@ -38,3 +38,23 @@ armor: 0
 envDisabled: 0
 immunities: [
   ]
+
+weapons: [
+    {
+    name: wildlife-a1-tail0
+    x: 0
+    y: 54
+    mirror: false
+    alternate: false
+    rotate: true
+    rotateSpeed: 2
+    rotationLimit: 105
+    reload: 0
+    inaccuracy: 0
+    shoot: {
+      shots: 0
+      shotDelay: 0
+    }
+}
+]
+
