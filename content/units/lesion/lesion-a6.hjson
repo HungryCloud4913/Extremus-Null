@@ -47,7 +47,7 @@ weapons: [
     alternate: false
     rotate: true
     rotateSpeed: 3
-    rotationLimit: 145
+    rotationLimit: 170
     reload: 100
     inaccuracy: 4
  shoot: {
@@ -65,7 +65,7 @@ weapons: [
                 type: BasicBulletType
                 speed: 4
                 damage: 25
-                lifetime: 25
+                lifetime: 40
                 backColor: D9FF9E
                 frontColor: D9FF9E
                 mixColorFrom: D9FF9E
