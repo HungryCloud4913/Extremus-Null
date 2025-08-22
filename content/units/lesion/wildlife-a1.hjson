@@ -61,7 +61,6 @@ weapons: [
             }
     shootSound: flame2
      bullet: {
-		lightColor: FF92C0
                 type: BasicBulletType
                 speed: 4
                 damage: 10
