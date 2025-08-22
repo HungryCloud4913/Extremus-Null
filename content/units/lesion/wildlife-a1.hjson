@@ -5,14 +5,13 @@ alwaysUnlocked: true
 outlines: false
 drawCell: false
 hovering: true
-legStraightness: 0.3
+legStraightness: 0.5
 allowLegStep: true
-legSpeed: 1.1
+legSpeed: 1.2
 legCount: 8
 legLength: 8
 lockLegBase: true
 legContinuousMove: true
-groundLayer: 74
 legExtension: 3
 legBaseOffset: 3
 legMaxLength: 1.05
