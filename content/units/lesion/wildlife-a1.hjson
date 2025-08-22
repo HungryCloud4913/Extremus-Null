@@ -5,7 +5,7 @@ alwaysUnlocked: true
 outlineColor: 665939
 drawCell: false
 hovering: true
-legStraightness: 0.5
+legStraightness: 0.7
 legSpeed: 0.5
 legCount: 8
 legLength: 17
@@ -43,7 +43,7 @@ weapons: [
     {
     name: wildlife-a1-tail0
     x: 0
-    y: -12
+    y: -13
     mirror: false
     alternate: false
     rotate: true
