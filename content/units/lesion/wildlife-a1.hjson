@@ -5,7 +5,7 @@ alwaysUnlocked: true
 outlines: false
 drawCell: false
 hovering: true
-legStraightness: 0.5
+legStraightness: 0.7
 allowLegStep: true
 legSpeed: 1.2
 legCount: 8
@@ -38,83 +38,17 @@ immunities: [
   ]
 
 weapons: [
-    {
-    name: wildlife-a1-tail0
-    x: 0
-    y: -7
-    mirror: false
-    alternate: false
-    rotate: true
-    rotateSpeed: 2
-    rotationLimit: 5
-    reload: 0
-    inaccuracy: 0
-    layeroffset: -0.0001
-}
    {
-    name: wildlife-a1-tail1
+    name: wildlife-a1-tail-end
     x: 0
-    y: -11.5
-    mirror: false
-    alternate: false
-    rotate: true
-    rotateSpeed: 2.5
-    rotationLimit: 10
-    reload: 0
-    inaccuracy: 0
-    layeroffset: -0.0001
-}
-   {
-    name: wildlife-a1-tail2
-    x: 0
-    y: -12
+    y: -13
     mirror: false
     alternate: false
     rotate: true
     rotateSpeed: 3
-    rotationLimit: 25
-    reload: 0
-    inaccuracy: 0
-    layeroffset: -0.0001
-}
-   {
-    name: wildlife-a1-tail3
-    x: 0
-    y: -10
-    mirror: false
-    alternate: false
-    rotate: true
-    rotateSpeed: 3.5
-    rotationLimit: 40
-    reload: 0
-    inaccuracy: 0
-    layeroffset: -0.0001
-}
-   {
-    name: wildlife-a1-tail4
-    x: 0
-    y: -9
-    mirror: false
-    alternate: false
-    rotate: true
-    rotateSpeed: 4
-    rotationLimit: 55
-    reload: 0
-    inaccuracy: 0
-    layeroffset: -0.0001
-}
-   {
-    name: wildlife-a1-tail-end
-    x: 0
-    y: -6
-    mirror: false
-    alternate: false
-    rotate: true
-    rotateSpeed: 4
     rotationLimit: 70
     reload: 0
     inaccuracy: 0
-    layeroffset: -0.0001
 }
 ]
 
