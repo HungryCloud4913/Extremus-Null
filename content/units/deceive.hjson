@@ -11,6 +11,7 @@ rotateSpeed: 2.5
 outlineColor: 252222
 targetAir: true
 faceTarget: false
+groundLayer: 60
 treadRects: [
     {
         x: -16,
@@ -43,7 +44,7 @@ weapons: [{
                 mirror: false
                 top: true
                 rotate: true
-                layerOffset: 1
+                layerOffset: 0.0001
 		rotateSpeed: 4
                 x: 0
                 y: -2.5
@@ -121,6 +122,7 @@ fragBullets: 6
 ]
 research: tank-producer
 alwaysUnlocked: true
+
 
 
 
