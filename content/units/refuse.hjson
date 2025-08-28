@@ -18,7 +18,7 @@ weapons:[
   name: refuse-mount
   reload: 45
   x: 0
-  y: -4
+  y: -5
   mirror: false
   alternate: false
   inaccuracy: 2
@@ -119,4 +119,5 @@ weapons:[
 ]
 research: walker-producer
 alwaysUnlocked: true
+
 
