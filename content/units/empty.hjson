@@ -45,7 +45,7 @@ drag: 0.3
 speed: 1.45
 rotateSpeed: 4.5
 armor: 2
-groundLayer: 61
+groundLayer: 62
 envDisabled: 0
 immunities: [
   burning
