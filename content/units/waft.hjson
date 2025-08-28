@@ -57,7 +57,7 @@ weapons:[
   name: yellow-missile
   reload: 20
   x: 0
-  y: 0
+  y: 2
   mirror: false
   alternate: false
   inaccuracy: 0.5
@@ -91,3 +91,4 @@ weapons:[
 ]
 research: hover-producer
 alwaysUnlocked: true
+
