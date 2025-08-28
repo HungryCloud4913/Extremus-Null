@@ -1,3 +1,4 @@
+template: TankUnitType
 type: tank
 health: 895
 hitSize: 9
@@ -108,5 +109,6 @@ fragBullets: 6
 ]
 research: tank-producer
 alwaysUnlocked: true
+
 
 
