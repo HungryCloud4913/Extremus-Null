@@ -3,7 +3,7 @@ health: 530
 hitSize: 10
 outlineColor: 252222
 shadowElevation: 0.1
-groundLayer: 60
+groundLayer: 61
 canDrown: true
 targetAir: true
 faceTarget: true
@@ -119,5 +119,6 @@ weapons:[
 ]
 research: walker-producer
 alwaysUnlocked: true
+
 
 
