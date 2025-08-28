@@ -46,7 +46,7 @@ weapons: [{
                 layerOffset: 1
 		rotateSpeed: 4
                 x: 0
-                y: -1
+                y: -2.5
                 reload: 100
                 shoot: {
                     type: ShootAlternate
@@ -121,6 +121,7 @@ fragBullets: 6
 ]
 research: tank-producer
 alwaysUnlocked: true
+
 
 
 
