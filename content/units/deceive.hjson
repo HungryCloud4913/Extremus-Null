@@ -13,16 +13,28 @@ targetAir: true
 faceTarget: false
 treadRects: [
     {
-        x: 9
-        y: -27
-        width: 8
-        height: 54
+        x: -16,
+        y: -30,
+        width: 10,
+        height: 20
     }
     {
-        x: -17
-        y: -27
-        width: 8
-        height: 54
+        x: 6,
+        y: -30,
+        width: 10,
+        height: 20
+    }
+    {
+        x: -19,
+        y: 13,
+        width: 10,
+        height: 16
+    }
+    {
+        x: 9,
+        y: 13,
+        width: 10,
+        height: 16
     }
 ]
 weapons: [{
@@ -109,6 +121,7 @@ fragBullets: 6
 ]
 research: tank-producer
 alwaysUnlocked: true
+
 
 
 
