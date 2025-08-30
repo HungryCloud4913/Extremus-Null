@@ -1,0 +1,20 @@
+type: StorageBlock
+size: 2
+health: 510
+itemCapacity: 250
+category: effect
+requirements: [
+  01a-06-item-lodestone/30
+  01a-09-item-obsidian/70
+]
+squareSprite: false
+  
+  research: {
+  parent: core-pointless
+  objectives: [
+{
+type: SectorComplete
+preset: Cancerous Outset
+  }
+]
+}
