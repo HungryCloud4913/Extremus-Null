@@ -27,7 +27,7 @@ effect: {
   particles: 1
   length: 2
   baseLength: 2
-  sqaure: true
+  square: true
   strokeFrom: 0.6
   strokeTo: 1.6
   lifetime: 90
