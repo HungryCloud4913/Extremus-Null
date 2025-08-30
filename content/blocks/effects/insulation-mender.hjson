@@ -23,13 +23,16 @@ category: effect
 drawer: {
   type: DrawMulti
   drawers: [
-{
+    {
+      type: DrawDefault
+    }
+    {
 type: DrawPulseShape
 color: 8DEEBB
 layer: 60
-}
-]
-  }
+    }
+          ]
+        }
 
 requirements: [
   pyrite/95
