@@ -1,0 +1,29 @@
+type: DirectionalUnloader
+size: 1
+category: distribution
+speed: 7
+solid: true
+underBullets: false
+regionRotated1: 1
+allowCoreUnload: false
+researchCostMultiplier: 0.5
+
+  requirements: [
+  pyrite/3
+  lead/1
+  silicon/2
+  ]
+  researchCost: [
+  pyrite/10
+  lead/5
+  silicon/10
+]
+  research: {
+  parent: pyrite-duct-bridge
+  objectives: [
+{
+type: SectorComplete
+preset: Cancerous Outset
+  }
+]
+}
