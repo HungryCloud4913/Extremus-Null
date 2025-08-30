@@ -1,7 +1,7 @@
 size: 2
 range: 9
 type: RegenProjector
-baseColor: 8DEEBB
+baseColor: 66C1B5
 squareSprite: false
 effectChance: 0.0075
 healPercent: 0.05
