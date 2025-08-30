@@ -31,7 +31,7 @@ effect: {
   strokeTo: 1.6
   lifetime: 90
   cone: 360
-  interp: pow2in
+  interp: pow3
   sizeInterp: pow2Out
 }
 
