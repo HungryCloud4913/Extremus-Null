@@ -20,6 +20,21 @@ optionalMultiplier: 2
 healPercent: 0.0166667
 category: effect
 
+effect: {
+  type: ParticleEffect
+  colorFrom: 8DEEBB
+  colorTo: 66C1B5
+  particles: 1
+  length: 2
+  baseLength: 2
+  strokeFrom: 0.6
+  strokeTo: 1.6
+  lifetime: 90
+  cone: 360
+  interp: pow2in
+  sizeInterp: pow2Out
+}
+
 drawer: {
   type: DrawMulti
   drawers: [
