@@ -1,23 +1,10 @@
 size: 2
 range: 9
 type: RegenProjector
-baseColor: 66C1B5
+baseColor: 8DEEBB
 squareSprite: false
-effect: {
-  type: ParticleEffect
-  colorFrom: 66C1B5
-  colorTo: 8DEEBB
-  particles: 3
-  line: true
-  length: 3
-  baseLength: 2
-  strokeFrom: 0.6
-  strokeTo: 1.6
-  lifetime: 90
-  cone: 360
-  interp: pow2
-  sizeInterp: pow2Out
-}
+effectChance: 0.0075
+healPercent: 0.05
 consumes: {
   power: 4.25
   items: {
@@ -36,24 +23,13 @@ category: effect
 drawer: {
   type: DrawMulti
   drawers: [
-    {
-      type: DrawDefault
-    }
 {
 type: DrawPulseShape
-color: 66C1B5
+color: 8DEEBB
 layer: 60
-}
-{
-type: DrawShape
-layer: 60
-radius: 4.5
-useWarmupRadius: true
-timeScl: 3
-color: 66C1B5
 }
 ]
-}
+  }
 
 requirements: [
   pyrite/95
