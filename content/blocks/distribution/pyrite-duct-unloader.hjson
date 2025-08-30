@@ -1,5 +1,6 @@
 type: DirectionalUnloader
 size: 1
+health: 90
 category: distribution
 speed: 7
 solid: true
