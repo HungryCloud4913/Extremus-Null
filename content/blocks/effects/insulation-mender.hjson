@@ -1,0 +1,67 @@
+size: 2
+range: 9
+baseColor: 66C1B5
+squareSprite: false
+effect: {
+  type: ParticleEffect
+  colorFrom: 66C1B5
+  colorTo: 8DEEBB
+  particles: 3
+  line: true
+  length: 3
+  baseLength: 2
+  strokeFrom: 0.6
+  strokeTo: 1.6
+  lifetime: 90
+  cone: 360
+  interp: pow2
+  sizeInterp: pow2Out
+}
+consumes: {
+  power: 4.25
+  items: {
+    items: [
+      silicon
+    ]
+    optional: true
+    booster: true
+  }
+}
+optionalUseTime: 180
+optionalMultiplier: 2
+healPercent: 0.0166667
+category: effect
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawPulseShape
+      square: true
+      color: 66C1B5
+      layer: 110
+    }
+  ]
+} 
+
+requirements: [
+  pyrite/95
+  silicon/30
+  siniat/10
+  ]
+  researchCost: [
+  pyrite/200
+  silicon/90
+  siniat/35
+]
+research: {
+  parent: item-tower
+  objectives: [
+{
+type: SectorComplete
+preset: Cancerous Outset
+  }
+]
+}
