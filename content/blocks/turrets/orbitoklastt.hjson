@@ -36,19 +36,6 @@ shoot: {
 parts: [
 {
 type: RegionPart
-suffix: -spawn
-progress: recoil
-x: 0
-y: 0
-moveX: 0
-moveY: 0
-moveRot: 0
-  mirror: false
-  under: true
-recoilIndex: 0
-}
-{
-type: RegionPart
 suffix: -laser
 progress: warmup
 x: 0
