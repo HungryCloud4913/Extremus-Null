@@ -23,7 +23,7 @@ engineSize: 0.01
 engineColor: FFFFFF
 trailLength: 0
 trailScl: 0
-trailColor: D7BDFF
+trailColor: FFFFFF
 loopSound: missileTrail
 missileAccelTime: 0.01
 targetAir: false
@@ -78,10 +78,10 @@ weapons:[
   shootSound: exShoot
   bullet: {
     type: MissileBulletType
-			backColor: 595656
-			frontColor: 827E7E
-      trailColor: 827E7E
-    hitColor: 595656
+			backColor: 989EAF
+			frontColor: FFFFFF
+      trailColor: FFFFFF
+    hitColor: 989EAF
     hitEffect: hitSquaresColor
     despawnEffect: hitSquaresColor
     homing: false
