@@ -22,8 +22,7 @@ consumes: {
 power: 17.5
 }
 shoot: {
-shootAlternate
-  shots: 1
+  type: ShootAlternate
   shotDelay: 0
     }
   ammoTypes:{
