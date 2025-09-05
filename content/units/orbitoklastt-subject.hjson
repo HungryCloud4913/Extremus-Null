@@ -2,7 +2,6 @@ type: tank
 template: TankUnitType
 omniMovement: false
 drawCell: false
-lowAltitude: true
 speed: 0.6
 flying: false
 health: 895
@@ -14,7 +13,6 @@ isEnemy: false
 allowedInPayloads: false
 playerControllable: false
 logicControllable: false
-controllable: false
 physics: true
 useUnitCap: true
 createWreck: false
