@@ -10,7 +10,7 @@ targetAir: false
 rotateSpeed: 1.7
 reload: 250
 recoil: 0
-recoils: 1
+recoils: 2
 shootSound: place
 soundPitchMin: 1.2
 soundPitchMax: 1.5
@@ -22,6 +22,7 @@ consumes: {
 power: 17.5
 }
 shoot: {
+shootAlternate
   shots: 1
   shotDelay: 0
     }
@@ -34,6 +35,32 @@ shoot: {
   type: DrawTurret
   basePrefix: extrull-
 parts: [
+{
+type: RegionPart
+suffix: -spawn
+progress: warmup
+x: 15
+y: 0
+moveX: 0
+moveY: 0
+moveRot: 0
+  mirror: false
+  under: false
+recoilIndex: 0
+}
+{
+type: RegionPart
+suffix: -spawn
+progress: warmup
+x: 15
+y: 0
+moveX: 0
+moveY: 0
+moveRot: 0
+  mirror: false
+  under: false
+recoilIndex: 1
+}
 {
 type: RegionPart
 suffix: -laser
