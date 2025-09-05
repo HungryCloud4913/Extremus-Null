@@ -118,6 +118,7 @@ weapons:[
   shootSound: none
   bullet: {
     type: MissileBulletType
+    recoil: -0.5
 			backColor: FFFFFF000
 			frontColor: FFFFFF000
       trailColor: FFFFFF000
