@@ -2,6 +2,7 @@ type: tank
 template: TankUnitType
 omniMovement: false
 drawCell: false
+lowAlttude: true
 speed: 0.6
 flying: false
 health: 895
