@@ -7,7 +7,7 @@ flying: false
 health: 895
 hitSize: 9
 rotateSpeed: 3
-controller: MissileAI
+controller: SuicideAI
 lifetime: 1200
 isEnemy: false
 allowedInPayloads: false
