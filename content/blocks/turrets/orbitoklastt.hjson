@@ -74,7 +74,7 @@ moveRot: 0
 {
 type: RegionPart
 suffix: -spawn
-progress: Recoil
+progress: recoil
 x: 0
 y: 0
 moveX: 0
