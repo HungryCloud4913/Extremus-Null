@@ -2,6 +2,7 @@ type: ItemTurret
 category: turret
 squareSprite: false
 outlineColor: 2A2727
+outline: false
 size: 3
 health: 1640
 targetGround: true
@@ -64,8 +65,8 @@ suffix: -railpoint
 progress: smoothReload
 x: 0
 y: 0
-moveX: 15
-moveY: 0
+moveX: 0
+moveY: 15
 moveRot: 0
   mirror: false
   under: true
@@ -75,8 +76,8 @@ moveRot: 0
     suffix: -unit
     x: 0
     y: 0
-    moveX: 15
-    moveY: 0
+    moveX: 0
+    moveY: 15
     progress: smoothReload
     colorTo: 00000000
     color: ffffff
