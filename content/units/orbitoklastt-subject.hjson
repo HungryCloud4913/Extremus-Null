@@ -15,7 +15,7 @@ isEnemy: false
 allowedInPayloads: false
 playerControllable: false
 logicControllable: false
-physics: false
+physics: true
 useUnitCap: true
 createWreck: false
 createScorch: false
@@ -117,7 +117,7 @@ weapons:[
       }
   shootSound: none
   bullet: {
-    type: MissileBulletType
+    type: BasicBulletType
     recoil: -0.5
 			backColor: FFFFFF000
 			frontColor: FFFFFF000
