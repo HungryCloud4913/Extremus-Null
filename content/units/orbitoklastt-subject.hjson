@@ -62,44 +62,6 @@ treadRects: [
 
 weapons:[
  {
-  name: orbitoklastt-subject-weapon
-  reload: 90
-  x: 0
-  y: 0
-  mirror: false
-  alternate: false
-  inaccuracy: 1
-  recoil: 1.4
-  rotate: false
-  rotateSpeed: 0
-  under: true
-  shoot: {
-    shots: 1
-    shotDelay: 0
-      }
-  shootSound: exShoot
-  bullet: {
-    type: MissileBulletType
-			backColor: 989EAF
-			frontColor: FFFFFF
-      trailColor: FFFFFF
-    hitColor: 989EAF
-    hitEffect: hitSquaresColor
-    despawnEffect: hitSquaresColor
-    homing: false
-    damage: 25
-    knockback: -0.075
-    height: 4
-    width: 7
-    hitSize: 7
-    trailWidth: 3
-    trailLength: 3
-    speed: 7
-    lifetime: 30
-    buildingDamageMultiplier: -2
-      }
-}
- {
   name: orbitoklastt-subject-move
   reload: 1
   x: 0
@@ -136,10 +98,46 @@ weapons:[
     speed: 21
     lifetime: 12
     buildingDamageMultiplier: -2
-    collidesGround: false
-    collidesTiles: false
     hitEffect: none
     despawnEffect: none
+      }
+}
+ {
+  name: orbitoklastt-subject-weapon
+  reload: 90
+  x: 0
+  y: 0
+  mirror: false
+  alternate: false
+  inaccuracy: 1
+  recoil: 1.4
+  rotate: false
+  rotateSpeed: 0
+  under: true
+  shoot: {
+    shots: 1
+    shotDelay: 0
+      }
+  shootSound: exShoot
+  bullet: {
+    type: MissileBulletType
+			backColor: 989EAF
+			frontColor: FFFFFF
+      trailColor: FFFFFF
+    hitColor: 989EAF
+    hitEffect: hitSquaresColor
+    despawnEffect: hitSquaresColor
+    homing: false
+    damage: 25
+    knockback: -0.075
+    height: 4
+    width: 7
+    hitSize: 7
+    trailWidth: 3
+    trailLength: 3
+    speed: 7
+    lifetime: 27
+    buildingDamageMultiplier: -2
       }
 }
 ]
