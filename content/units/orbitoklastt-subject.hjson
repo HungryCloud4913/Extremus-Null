@@ -72,6 +72,7 @@ weapons:[
   recoil: 1.4
   rotate: false
   rotateSpeed: 0
+  under: true
   shoot: {
     shots: 1
     shotDelay: 0
