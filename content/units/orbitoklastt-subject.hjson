@@ -94,7 +94,7 @@ weapons:[
     trailWidth: 3
     trailLength: 3
     speed: 7
-    lifetime: 12
+    lifetime: 3
     buildingDamageMultiplier: -2
       }
 }
