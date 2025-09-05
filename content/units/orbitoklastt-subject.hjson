@@ -99,3 +99,47 @@ weapons:[
       }
 }
 ]
+weapons:[
+ {
+  name: orbitoklastt-subject-move
+  reload: 1
+  x: 0
+  y: 0
+  mirror: false
+  alternate: false
+  inaccuracy: 0
+  recoil: 0
+  rotate: false
+  rotateSpeed: 0
+  shoot: {
+    shots: 1
+    shotDelay: 0
+      }
+  shootSound: none
+  bullet: {
+    type: MissileBulletType
+			backColor: FFFFFF000
+			frontColor: FFFFFF000
+      trailColor: FFFFFF000
+    hitColor: FFFFFF000
+    hitEffect: hitSquaresColor
+    despawnEffect: hitSquaresColor
+    homing: false
+    damage: 0
+    knockback: 0
+    height: 0
+    width: 0
+    hitSize: 0
+    trailWidth: 0
+    trailLength: 0
+    speed: 21
+    lifetime: 12
+    buildingDamageMultiplier: -2
+    collidesGround: false
+    collidesTiles: false
+    hitEffect: none
+    despawnEffect: none
+      }
+}
+]
+
