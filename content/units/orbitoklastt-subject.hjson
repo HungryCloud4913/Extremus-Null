@@ -75,7 +75,7 @@ weapons:[
 shoot: {
                   type: ShootBarrel
                     barrels:[
-                    0, -7, 180,
+                    0, -13, 180,
                     ]
                     shots: 1
                     shotDelay: 0
@@ -84,7 +84,7 @@ shoot: {
   shootEffects: none
   bullet: {
     type: BasicBulletType
-    recoil: 0.3
+    recoil: 0.25
 			backColor: FFFFFF000
 			frontColor: FFFFFF000
       trailColor: FFFFFF000
