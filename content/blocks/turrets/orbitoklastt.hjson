@@ -26,7 +26,7 @@ shoot: {
     }
   ammoTypes:{
     silicon: {
-        spawnUnit: erekirliquefied-volt-missile
+        spawnUnit: orbitoklastt-subject
 }
 }
   drawer: {
@@ -60,7 +60,7 @@ drawOutline: false
 }
 {
 type: RegionPart
-suffix: -rail
+suffix: -railpoint
 progress: smoothReload
 x: 0
 y: 0
