@@ -1,0 +1,72 @@
+type: missile
+template: MissileUnitType
+omniMovement: false
+speed: 0.6
+flying: true
+health: 895
+hitSize: 9
+rotateSpeed: 3
+controller: MissileAI
+lowAltitude: true
+lifetime: 300
+isEnemy: false
+allowedInPayloads: false
+playerControllable: false
+physics: true
+useUnitCap: true
+createWreck: false
+createScorch: false
+hidden: true
+engineOffset: 0
+engineSize: 0.01
+engineColor: FFFFFF
+trailLength: 0
+trailScl: 0
+trailColor: D7BDFF
+loopSound: missileTrail
+missileAccelTime: 0.01
+targetAir: false
+faceTarget: true
+        engineOffset: 7
+        engineColor: FFFFFF
+        engineColorInner: FFFFFF
+
+weapons:[
+ {
+  name: orbitoklastt-subject-weapon
+  reload: 90
+  x: 0
+  y: 0
+  mirror: false
+  alternate: false
+  inaccuracy: 1
+  recoil: 1.4
+  rotate: false
+  rotateSpeed: 0
+  shoot: {
+    shots: 1
+    shotDelay: 0
+      }
+  shootSound: exShoot
+  bullet: {
+    type: MissileBulletType
+			backColor: 595656
+			frontColor: 827E7E
+      trailColor: 827E7E
+    hitColor: 595656
+    hitEffect: hitSquaresColor
+    despawnEffect: hitSquaresColor
+    homing: false
+    damage: 25
+    knockback: -0.075
+    height: 4
+    width: 7
+    hitSize: 7
+    trailWidth: 3
+    trailLength: 3
+    speed: 7
+    lifetime: 12
+    buildingDamageMultiplier: -2
+      }
+}
+]
