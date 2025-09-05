@@ -84,13 +84,13 @@ shoot: {
   shootEffects: none
   bullet: {
     type: BasicBulletType
-    recoil: 0.25
+    recoil: 0.15
 			backColor: FFFFFF000
 			frontColor: FFFFFF000
       trailColor: FFFFFF000
     hitColor: FFFFFF000
-    hitEffect: hitSquaresColor
-    despawnEffect: hitSquaresColor
+    hitEffect: none
+    despawnEffect: none
     homing: false
     damage: 0
     knockback: 0
@@ -103,13 +103,12 @@ shoot: {
     lifetime: 12
     buildingDamageMultiplier: -2
     hitSound: none
-    hitEffect: none
-    despawnEffect: none
+    collides: false
       }
 }
  {
   name: orbitoklastt-subject-weapon
-  reload: 90
+  reload: 120
   x: 0
   y: 0
   mirror: false
