@@ -1,4 +1,4 @@
-type: missile
+type: tank
 template: TankUnitType
 omniMovement: false
 outlineColor: 252222
