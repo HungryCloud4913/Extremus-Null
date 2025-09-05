@@ -15,7 +15,7 @@ shootSound: place
 soundPitchMin: 1.2
 soundPitchMax: 1.5
 inaccuracy: 0
-range: 350
+range: 190
 consumeAmmoOnce: true
 ammoPerShot: 10
 consumes: {
