@@ -9,7 +9,7 @@ flying: false
 health: 895
 hitSize: 9
 rotateSpeed: 3
-controller: SuicideAI
+controller: DefenderAI
 lifetime: 1200
 isEnemy: false
 allowedInPayloads: false
