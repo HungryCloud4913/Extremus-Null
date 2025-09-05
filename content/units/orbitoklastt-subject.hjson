@@ -116,6 +116,7 @@ weapons:[
     shotDelay: 0
       }
   shootSound: none
+  shootEffects: none
   bullet: {
     type: BasicBulletType
     recoil: -0.5
