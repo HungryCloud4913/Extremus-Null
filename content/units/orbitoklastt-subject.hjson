@@ -1,4 +1,4 @@
-type: tank
+type: missile
 template: TankUnitType
 omniMovement: false
 drawCell: false
@@ -24,7 +24,6 @@ engineColor: FFFFFF
 trailLength: 0
 trailScl: 0
 trailColor: FFFFFF
-loopSound: missileTrail
 missileAccelTime: 0.01
 targetAir: false
 faceTarget: true
