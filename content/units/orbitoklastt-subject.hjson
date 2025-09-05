@@ -50,10 +50,9 @@ parts: [
     radius: 8.5
     sides: 5
     layerOffset: -0.0001
-    x: +4.5
+    x: 0
     y: +3
     phase: 150
-    mirror: true
   }
 ]
 
