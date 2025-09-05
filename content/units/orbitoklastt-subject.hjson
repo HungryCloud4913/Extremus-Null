@@ -1,4 +1,4 @@
-type: missile
+type: tank
 template: TankUnitType
 omniMovement: false
 drawCell: false
@@ -8,11 +8,12 @@ health: 895
 hitSize: 9
 rotateSpeed: 3
 controller: MissileAI
-lowAltitude: true
 lifetime: 1200
 isEnemy: false
 allowedInPayloads: false
 playerControllable: false
+logicControllable: false
+controllable: false
 physics: true
 useUnitCap: true
 createWreck: false
