@@ -98,8 +98,6 @@ weapons:[
     buildingDamageMultiplier: -2
       }
 }
-]
-weapons:[
  {
   name: orbitoklastt-subject-move
   reload: 1
