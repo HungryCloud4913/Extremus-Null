@@ -1,6 +1,7 @@
 type: missile
 template: TankUnitType
 omniMovement: false
+outlineColor: 252222
 drawCell: false
 groundLayer: 60
 speed: 0.6
