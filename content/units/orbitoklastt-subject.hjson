@@ -75,7 +75,7 @@ weapons:[
 shoot: {
                   type: ShootBarrel
                     barrels:[
-                    0, -2, 90,
+                    0, -7, 90,
                     ]
                     shots: 1
                     shotDelay: 0
@@ -84,7 +84,7 @@ shoot: {
   shootEffects: none
   bullet: {
     type: BasiceBulletType
-    recoil: -0.3
+    recoil: 0.3
 			backColor: FFFFFF000
 			frontColor: FFFFFF000
       trailColor: FFFFFF000
@@ -134,7 +134,7 @@ shoot: {
     despawnEffect: hitSquaresColor
     homing: false
     damage: 25
-    knockback: -0.05
+    knockback: -0.03
     height: 4
     width: 7
     hitSize: 7
