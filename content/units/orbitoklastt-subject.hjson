@@ -6,7 +6,7 @@ drawCell: false
 groundLayer: 60
 speed: 0.0001
 flying: false
-health: 895
+health: 430
 hitSize: 9
 rotateSpeed: 3
 controller: FlyingAI
