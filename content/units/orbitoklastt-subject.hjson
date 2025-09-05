@@ -1,6 +1,7 @@
 type: missile
 template: TankUnitType
 omniMovement: false
+drawCell: false
 speed: 0.6
 flying: false
 health: 895
