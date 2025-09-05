@@ -41,7 +41,7 @@ parts: [
     sides: 6
     layerOffset: -0.0001
     x: 0
-    y: -2.5
+    y: -2
     phase: 150
   }
     {
@@ -50,8 +50,8 @@ parts: [
     radius: 8.5
     sides: 5
     layerOffset: -0.0001
-    x: +5
-    y: +6.5
+    x: +4.5
+    y: +3
     phase: 150
     mirror: true
   }
