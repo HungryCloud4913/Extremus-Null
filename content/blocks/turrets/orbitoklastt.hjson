@@ -62,9 +62,9 @@ drawOutline: false
 type: RegionPart
 suffix: -rail
 progress: smoothReload
-x: 15
+x: 0
 y: 0
-moveX: 0
+moveX: 15
 moveY: 0
 moveRot: 0
   mirror: false
@@ -72,9 +72,11 @@ moveRot: 0
 }
 {
     type: RegionPart
-    suffix: -missile
-    x: 15
+    suffix: -unit
+    x: 0
     y: 0
+    moveX: 15
+    moveY: 0
     progress: smoothReload
     colorTo: 00000000
     color: ffffff
