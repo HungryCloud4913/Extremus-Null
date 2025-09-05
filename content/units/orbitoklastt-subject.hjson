@@ -1,14 +1,14 @@
 type: missile
-template: MissileUnitType
+template: TankUnitType
 omniMovement: false
 speed: 0.6
-flying: true
+flying: false
 health: 895
 hitSize: 9
 rotateSpeed: 3
 controller: MissileAI
 lowAltitude: true
-lifetime: 300
+lifetime: 1200
 isEnemy: false
 allowedInPayloads: false
 playerControllable: false
@@ -30,6 +30,33 @@ faceTarget: true
         engineOffset: 7
         engineColor: FFFFFF
         engineColorInner: FFFFFF
+
+treadRects: [
+    {
+        x: -24,
+        y: -22,
+        width: 11,
+        height: 7
+    }
+    {
+        x: 24,
+        y: -22,
+        width: 11,
+        height: 7
+    }
+    {
+        x: -20,
+        y: 16,
+        width: 13,
+        height: 7
+    }
+    {
+        x: 20,
+        y: 16,
+        width: 13,
+        height: 7
+    }
+]
 
 weapons:[
  {
