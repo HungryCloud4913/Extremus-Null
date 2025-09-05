@@ -28,6 +28,7 @@ shoot: {
     silicon: {
         spawnUnit: erekirliquefied-volt-missile
 }
+}
   drawer: {
   type: DrawTurret
   basePrefix: extrull-
@@ -84,7 +85,6 @@ moveRot: 0
 }
 ]
 }
- }
 
 
 requirements: [
