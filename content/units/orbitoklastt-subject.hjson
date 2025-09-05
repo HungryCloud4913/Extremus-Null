@@ -118,7 +118,7 @@ weapons:[
   shootEffects: none
   bullet: {
     type: BasicBulletType
-    recoil: -0.25
+    recoil: -0.3
 			backColor: FFFFFF000
 			frontColor: FFFFFF000
       trailColor: FFFFFF000
