@@ -72,10 +72,14 @@ weapons:[
   recoil: 0
   rotate: false
   rotateSpeed: 0
-  shoot: {
-    shots: 1
-    shotDelay: 0
-      }
+shoot: {
+                  type: ShootBarrel
+                    barrels:[
+                    0, -2, 90,
+                    ]
+                    shots: 1
+                    shotDelay: 0
+            }
   shootSound: none
   shootEffects: none
   bullet: {
@@ -115,14 +119,10 @@ weapons:[
   rotate: false
   rotateSpeed: 0
   under: true
-shoot: {
-                  type: ShootBarrel
-                    barrels:[
-                    0, -2, 90,
-                    ]
-                    shots: 1
-                    shotDelay: 0
-            }
+  shoot: {
+    shots: 1
+    shotDelay: 0
+      }
   shootSound: exShoot
   bullet: {
     type: MissileBulletType
