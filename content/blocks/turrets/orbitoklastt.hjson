@@ -10,7 +10,7 @@ targetAir: false
 rotateSpeed: 1.7
 reload: 250
 recoil: 0
-recoils: 0
+recoils: 1
 shootSound: place
 soundPitchMin: 1.2
 soundPitchMax: 1.5
@@ -70,6 +70,19 @@ moveY: 15
 moveRot: 0
   mirror: false
   under: true
+}
+{
+type: RegionPart
+suffix: -spawn
+progress: Recoil
+x: 0
+y: 0
+moveX: 0
+moveY: 0
+moveRot: 0
+  mirror: false
+  under: true
+recoilIndex: 0
 }
 {
     type: RegionPart
