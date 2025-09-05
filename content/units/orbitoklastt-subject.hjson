@@ -35,28 +35,28 @@ faceTarget: true
 
 treadRects: [
     {
-        x: -24,
+        x: -23,
         y: -22,
-        width: 11,
-        height: 7
+        width: 10,
+        height: 12
     }
     {
-        x: 24,
+        x: 23,
         y: -22,
-        width: 11,
-        height: 7
+        width: 10,
+        height: 12
     }
     {
-        x: -20,
-        y: 16,
-        width: 13,
-        height: 7
+        x: -18,
+        y: 11,
+        width: 10,
+        height: 12
     }
     {
-        x: 20,
-        y: 16,
-        width: 13,
-        height: 7
+        x: 18,
+        y: 11,
+        width: 10,
+        height: 12
     }
 ]
 
@@ -75,7 +75,7 @@ weapons:[
 shoot: {
                   type: ShootBarrel
                     barrels:[
-                    0, -17, 180,
+                    0, -10000, 180,
                     ]
                     shots: 1
                     shotDelay: 0
@@ -84,7 +84,7 @@ shoot: {
   shootEffects: none
   bullet: {
     type: BasicBulletType
-    recoil: 0.15
+    recoil: 0.25
 			backColor: FFFFFF000
 			frontColor: FFFFFF000
       trailColor: FFFFFF000
