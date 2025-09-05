@@ -115,10 +115,14 @@ weapons:[
   rotate: false
   rotateSpeed: 0
   under: true
-  shoot: {
-    shots: 1
-    shotDelay: 0
-      }
+shoot: {
+                  type: ShootBarrel
+                    barrels:[
+                    0, -2, 90,
+                    ]
+                    shots: 1
+                    shotDelay: 0
+            }
   shootSound: exShoot
   bullet: {
     type: MissileBulletType
@@ -130,7 +134,7 @@ weapons:[
     despawnEffect: hitSquaresColor
     homing: false
     damage: 25
-    knockback: -0.075
+    knockback: -0.05
     height: 4
     width: 7
     hitSize: 7
