@@ -171,7 +171,7 @@ parts: [{
   y: 0
   moveX: 0
   moveY: 0
-  moveRot: 180
+  moveRot: 360
   suffix: -radarspin
   progress: reload
   weaponIndex: 0
