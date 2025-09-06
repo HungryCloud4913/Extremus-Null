@@ -62,24 +62,12 @@ moveRot: 0
 drawOutline: false
 }
 {
-type: RegionPart
-suffix: -railpoint
-progress: smoothReload
-x: 0
-y: 0
-moveX: 0
-moveY: -20
-moveRot: 0
-  mirror: false
-  under: true
-}
-{
     type: RegionPart
     suffix: -unit
     x: 0
     y: 0
     moveX: 0
-    moveY: -20
+    moveY: -27
     progress: smoothReload
     colorTo: 00000000
     color: ffffff
@@ -87,6 +75,18 @@ moveRot: 0
     outline: false
     under: true
     mixColorTo: ffff00
+}
+{
+type: RegionPart
+suffix: -railpoint
+progress: smoothReload
+x: 0
+y: 0
+moveX: 0
+moveY: -27
+moveRot: 0
+  mirror: false
+  under: true
 }
 ]
 }
