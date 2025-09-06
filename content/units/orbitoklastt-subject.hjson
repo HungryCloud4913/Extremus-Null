@@ -167,11 +167,11 @@ name: orbitoklastt-subject
 parts: [{
   type: RegionPart
   mirror: false
-  x: -5
+  x: -4
   y: 0
   moveX: 0
   moveY: 0
-  moveRot: 360
+  moveRot: 180
   suffix: -radarspin
   progress: reload
   weaponIndex: 0
