@@ -39,7 +39,7 @@ parts: [
     color: E9E97D
     radius: 8.5
     sides: 6
-    layerOffset: -0.0001
+    layerOffset: -0.0002
     x: 0
     y: -2
     phase: 150
@@ -49,7 +49,7 @@ parts: [
     color: E9E97D
     radius: 8.5
     sides: 5
-    layerOffset: -0.0001
+    layerOffset: -0.0002
     x: 0
     y: +3
     phase: 150
@@ -113,7 +113,7 @@ shoot: {
   recoil: 1.4
   rotate: false
   rotateSpeed: 0
-  under: true
+  top: false
   layerOffset: -0.0001
   shoot: {
     shots: 1
