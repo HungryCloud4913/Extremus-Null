@@ -142,7 +142,7 @@ shoot: {
       }
 }
 {
-name: radar
+name: orbitoklastt-subject
     alwaysShooting: true
     controllable: false
     shootCone: 360
@@ -167,7 +167,7 @@ name: radar
 parts: [{
   type: RegionPart
   mirror: false
-  x: -10
+  x: -6
   y: 0
   moveX: 0
   moveY: 0
