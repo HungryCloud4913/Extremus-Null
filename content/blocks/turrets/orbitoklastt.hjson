@@ -1,7 +1,7 @@
 type: ItemTurret
 category: turret
 squareSprite: false
-outlineColor: 2A2727
+outlineColor: FFFFFF000
 outline: false
 size: 3
 health: 1640
