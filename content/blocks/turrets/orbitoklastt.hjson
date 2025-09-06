@@ -67,7 +67,7 @@ drawOutline: false
     x: 0
     y: 0
     moveX: 0
-    moveY: -27
+    moveY: -30
     progress: smoothReload
     colorTo: 00000000
     color: ffffff
@@ -83,10 +83,11 @@ progress: smoothReload
 x: 0
 y: 0
 moveX: 0
-moveY: -27
+moveY: -30
 moveRot: 0
   mirror: false
   under: true
+  outline: true
 }
 ]
 }
