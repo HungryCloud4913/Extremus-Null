@@ -10,14 +10,14 @@ allowCoreUnload: false
 researchCostMultiplier: 0.5
 
   requirements: [
-  pyrite/3
-  lead/1
-  silicon/2
+  pyrite/1
+  lead/2
+  silicon/1
   ]
   researchCost: [
-  pyrite/10
-  lead/5
-  silicon/10
+  pyrite/5
+  lead/10
+  silicon/5
 ]
   research: {
   parent: pyrite-duct-bridge
