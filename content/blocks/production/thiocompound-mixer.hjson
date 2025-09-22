@@ -32,7 +32,7 @@ drawer: {
     }
     {
     type: DrawPistons
-    suffix: piston1
+    suffix: -piston1
     sides: 1
     sinMag: 11
     sinScl: 6
