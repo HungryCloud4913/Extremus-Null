@@ -57,8 +57,8 @@ craftEffect: {
     type: radialEffect
 	amount: 4
     rotationSpacing: 90
-    lengthOffset: 10
-    rotationOffset: 36
+    lengthOffset: 9
+    rotationOffset: 30
     effect: {
       type: ParticleEffect
       particles: 6
@@ -81,7 +81,7 @@ craftEffect: {
 	amount: 4
     rotationSpacing: 90
     lengthOffset: 9
-    rotationOffset: 36
+    rotationOffset: 30
     effect: {
       type: ParticleEffect
       particles: 6
@@ -126,7 +126,7 @@ craftEffect: {
     type: radialEffect
 	amount: 4
     rotationSpacing: 90
-    lengthOffset: 9
+    lengthOffset: 10
     rotationOffset: 45
     effect: {
       type: ParticleEffect
@@ -149,8 +149,8 @@ craftEffect: {
     type: radialEffect
 	amount: 4
     rotationSpacing: 90
-    lengthOffset: 10
-    rotationOffset: 54
+    lengthOffset: 9
+    rotationOffset: 60
     effect: {
       type: ParticleEffect
       particles: 6
@@ -173,7 +173,7 @@ craftEffect: {
 	amount: 4
     rotationSpacing: 90
     lengthOffset: 9
-    rotationOffset: 54
+    rotationOffset: 60
     effect: {
       type: ParticleEffect
       particles: 6
