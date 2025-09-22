@@ -1,0 +1,63 @@
+type: GenericCrafter
+health: 400
+size: 2
+squareSprite: false
+category: crafting
+craftTime: 95
+craftEffect: reactorsmoke
+outputItems: [
+thiocompound/3
+]
+itemCapacity: 15
+consumes: {
+  power: 1.9
+items: [
+sulphur/3
+sand/2
+]
+}
+
+requirements: [
+pyrite/50
+silicon/10
+siniat/30
+]
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+    type: DrawPistons
+    suffix: piston1
+    sides: 1
+    sinMag: 11
+    sinScl: 6
+    angleOffset: 0
+    horiOffset: 0
+    sinOffset: 0
+    lenOffset: -8
+    }
+    {
+    type: DrawDefault
+    }
+  ]
+}
+
+ researchCost: [
+pyrite/150
+silicon/30
+siniat/90
+]
+research: {
+  parent: exoglass-crucible
+  objectives: [
+{
+type: SectorComplete
+preset: Cancerous Outset
+  }
+]
+}
