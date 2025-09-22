@@ -31,9 +31,6 @@ drawer: {
       suffix: -bottom
     }
     {
-    type: DrawDefault
-    }
-    {
     type: DrawPistons
     suffix: -piston1
     sides: 1
@@ -54,6 +51,9 @@ drawer: {
     horiOffset: 0
     sinOffset: 0
     lenOffset: -4
+    }
+    {
+    type: DrawDefault
     }
   ]
 }
