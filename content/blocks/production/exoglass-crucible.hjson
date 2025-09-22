@@ -70,16 +70,15 @@ drawer: {
     effect: {
       type: ParticleEffect
       particles: 1
-      length: 45
+      length: 50
       lifetime: 150
       strokeFrom: 4
-      strokeTo: 1
       startDelay: 0
       line: true
       strokeTo: 0
       lenFrom: 7
-      lenTo: 0
-      cone: 5
+      lenTo: 1
+      cone: 6
       baseRotation: 90
       useRotation: false
       interp: pow3Out
