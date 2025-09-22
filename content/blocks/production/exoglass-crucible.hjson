@@ -71,7 +71,7 @@ drawer: {
       type: ParticleEffect
       particles: 1
       length: 45
-      lifetime: 70
+      lifetime: 120
       strokeFrom: 4
       startDelay: 0
       line: true
