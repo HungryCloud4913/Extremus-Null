@@ -65,19 +65,19 @@ drawer: {
     type: radialEffect
     amount: 10
     rotationSpacing: 55
-    lengthOffset: 4
+    lengthOffset: 2.75
     rotationOffset: 2.25
     effect: {
       type: ParticleEffect
       particles: 1
-      length: 50
-      lifetime: 150
-      strokeFrom: 4
+      length: 60
+      lifetime: 250
       startDelay: 0
       line: true
-      strokeTo: 0
-      lenFrom: 7
-      lenTo: 1
+      strokeFrom: 0
+      strokeTo: 4
+      lenFrom: 1
+      lenTo: 7
       cone: 6
       baseRotation: 90
       useRotation: false
