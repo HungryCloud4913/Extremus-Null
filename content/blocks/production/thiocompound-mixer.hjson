@@ -37,8 +37,8 @@ drawer: {
     sinMag: 11
     sinScl: 6
     angleOffset: 0
-    horiOffset: 5
-    sinOffset: 0
+    horiOffset: 0
+    sinOffset: 5
     lenOffset: -8
     }
     {
