@@ -8,10 +8,10 @@ unitCapModifier: 35
 thrusterLength: 15
 isFirstTier: true
 requirements: [
-pyrite/500
-lead/250
-carbon/25
-silicon/50
+pyrite/750
+lead/750
+carbon/250
+silicon/500
   ]
 research: {
   planet: extrull
