@@ -64,14 +64,14 @@ drawer: {
  {
     type: radialEffect
     amount: 10
-    rotationSpacing: 45
-    lengthOffset: 3
+    rotationSpacing: 55
+    lengthOffset: 4
     rotationOffset: 2.25
     effect: {
       type: ParticleEffect
       particles: 1
       length: 45
-      lifetime: 50
+      lifetime: 70
       strokeFrom: 4
       startDelay: 0
       line: true
