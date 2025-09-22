@@ -73,7 +73,7 @@ craftEffect: {
     rotationOffset: 25
     effect: {
       type: ParticleEffect
-      particles: 4
+      particles: 3
       length: 15
       lifetime: 50
       sizeFrom: 3
@@ -96,7 +96,7 @@ craftEffect: {
     rotationOffset: 45
     effect: {
       type: ParticleEffect
-      particles: 6
+      particles: 4
       length: 15
       lifetime: 50
       sizeFrom: 3
@@ -119,7 +119,7 @@ craftEffect: {
     rotationOffset: 45
     effect: {
       type: ParticleEffect
-      particles: 6
+      particles: 4
       length: 20
       lifetime: 70
       sizeFrom: 2
@@ -142,7 +142,7 @@ craftEffect: {
     rotationOffset: 65
     effect: {
       type: ParticleEffect
-      particles: 4
+      particles: 3
       length: 15
       lifetime: 50
       sizeFrom: 3
