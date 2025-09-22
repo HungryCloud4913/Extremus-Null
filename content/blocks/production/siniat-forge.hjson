@@ -64,7 +64,7 @@ craftEffect: {
 	amount: 4
     rotationSpacing: 90
     lengthOffset: 9
-    rotationOffset: 30
+    rotationOffset: 25
     effect: {
       type: ParticleEffect
       particles: 4
@@ -133,7 +133,7 @@ craftEffect: {
 	amount: 4
     rotationSpacing: 90
     lengthOffset: 9
-    rotationOffset: 60
+    rotationOffset: 65
     effect: {
       type: ParticleEffect
       particles: 4
