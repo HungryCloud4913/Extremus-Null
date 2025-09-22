@@ -32,12 +32,6 @@ drawer: {
       type: DrawRegion
       suffix: -bottom
     }
-    {  
-	  type: DrawRegion
-	  suffix: -rotator
-	  rotateSpeed: 3
-	  spinSprite: true
-    }
     {
       type: DrawLiquidTile
       drawLiquid: nitrogen
@@ -48,6 +42,12 @@ drawer: {
 	  type: DrawRegion
 	  suffix: -rotator
 	  rotateSpeed: 3
+	  spinSprite: true
+    }
+    {  
+	  type: DrawRegion
+	  suffix: -rotator
+	  rotateSpeed: -3
 	  spinSprite: true
     }
       {
