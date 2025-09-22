@@ -54,7 +54,9 @@ drawer: {
       type: DrawDefault
     }
     {
-      type: DrawHeatOutput
+      type: DrawGlowRegion
+      glowScale: 10
+      alpha: 1
     }
   ]
 }
