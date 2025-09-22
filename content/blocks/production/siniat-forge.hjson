@@ -57,6 +57,7 @@ drawer: {
       type: DrawGlowRegion
       glowScale: 10
       alpha: 1
+	  glowColor: FF7624
     }
   ]
 }
