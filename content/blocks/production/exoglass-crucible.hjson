@@ -64,9 +64,9 @@ drawer: {
  {
     type: radialEffect
     amount: 10
-    rotationSpacing: 36
+    rotationSpacing: 45
     lengthOffset: 3
-    rotationOffset: 2
+    rotationOffset: 2.25
     effect: {
       type: ParticleEffect
       particles: 1
@@ -78,12 +78,12 @@ drawer: {
       strokeTo: 0
       lenFrom: 7
       lenTo: 0
-      cone: 4
+      cone: 5
       baseRotation: 90
       useRotation: false
       interp: pow3Out
-      colorFrom: ffc575
-      colorTo: ab5238
+      colorFrom: C6ACE8
+      colorTo: FFFFFF00
       }
     }
   ]
