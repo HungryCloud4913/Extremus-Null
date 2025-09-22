@@ -19,9 +19,10 @@ sand/2
 }
 
 requirements: [
-pyrite/50
+lead/50
 silicon/10
-siniat/30
+siniat/15
+exoglass/15
 ]
 
 drawer: {
@@ -102,11 +103,13 @@ craftEffect: {
   ]
 }
 
- researchCost: [
-pyrite/150
+researchCost: [
+lead/150
 silicon/30
-siniat/90
+siniat/45
+exoglass/45
 ]
+
 research: {
   parent: exoglass-crucible
   objectives: [
