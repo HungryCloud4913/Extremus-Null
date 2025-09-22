@@ -34,12 +34,12 @@ drawer: {
     type: DrawPistons
     suffix: -piston1
     sides: 1
-    sinMag: 10
-    sinScl: 5
+    sinMag: 8
+    sinScl: 6
     angleOffset: 0
     horiOffset: 0
     sinOffset: 0
-    lenOffset: -5
+    lenOffset: -4.5
     }
     {
     type: DrawDefault
