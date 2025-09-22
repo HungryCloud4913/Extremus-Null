@@ -78,8 +78,8 @@ craftEffect: {
       baseRotation: 73
       useRotation: false
       interp: pow3Out
-      colorFrom: 4C4B39
-      colorTo: 77794F00
+      colorFrom: 34332E
+      colorTo: 6A696100
       layer: 100.3
       }
     }
@@ -94,8 +94,8 @@ craftEffect: {
       baseRotation: 73
       useRotation: false
       interp: pow3Out
-      colorFrom: 4C4B39
-      colorTo: 77794F00
+      colorFrom: 34332E
+      colorTo: 6A696100
       layer: 100.3
       startDelay: 20
     }
