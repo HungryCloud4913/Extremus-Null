@@ -48,7 +48,7 @@ drawer: {
       type: DrawFlame
  flameColor: CDD9D1
 	midColor: ffffff
-	flameRad: 0.5
+	flameRad: 1
     }
       {
       type: DrawDefault
@@ -67,7 +67,7 @@ craftEffect: {
     rotationOffset: 30
     effect: {
       type: ParticleEffect
-      particles: 6
+      particles: 4
       length: 15
       lifetime: 50
       sizeFrom: 3
@@ -136,7 +136,7 @@ craftEffect: {
     rotationOffset: 60
     effect: {
       type: ParticleEffect
-      particles: 6
+      particles: 4
       length: 15
       lifetime: 50
       sizeFrom: 3
