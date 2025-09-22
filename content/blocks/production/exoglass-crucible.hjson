@@ -3,7 +3,7 @@ health: 380
 size: 2
 squareSprite: false
 category: crafting
-craftTime: 95
+craftTime: 65
 outputItems: [
 exoglass/1
 ]
