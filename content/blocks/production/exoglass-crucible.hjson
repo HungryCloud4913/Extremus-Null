@@ -4,7 +4,6 @@ size: 2
 squareSprite: false
 category: crafting
 craftTime: 45
-craftEffect: reactorsmoke
 outputItems: [
 exoglass/1
 ]
@@ -60,6 +59,21 @@ drawer: {
     }
   ]
 }
+
+ craftEffect: [
+        {
+        length: 8
+        lifetime: 7
+        particles: 12
+        interp: linear
+        sizeInterp: linear
+        region: circle
+        sizeFrom: 3
+        sizeTo: 0
+        colorFrom: ffffff
+        colorTo: FCFFDA
+        }
+    ]
 
  researchCost: [
 pyrite/150
