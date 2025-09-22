@@ -1,9 +1,11 @@
-type: GenericCrafter
+type: HeatCrafter
 health: 400
 size: 2
 squareSprite: false
 category: crafting
 craftTime: 100
+heatRequirement: 4
+maxEfficiency: 2
 outputItems: [
 thiocompound/3
 ]
