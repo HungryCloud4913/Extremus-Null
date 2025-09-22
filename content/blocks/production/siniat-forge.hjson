@@ -58,7 +58,7 @@ craftEffect: {
 	amount: 4
     rotationSpacing: 90
     lengthOffset: 10
-    rotationOffset: 38
+    rotationOffset: 36
     effect: {
       type: ParticleEffect
       particles: 6
@@ -81,7 +81,99 @@ craftEffect: {
 	amount: 4
     rotationSpacing: 90
     lengthOffset: 9
-    rotationOffset: 38
+    rotationOffset: 36
+    effect: {
+      type: ParticleEffect
+      particles: 6
+      length: 20
+      lifetime: 70
+      sizeFrom: 2
+      sizeTo: 0
+      cone: 10
+      spin: 0
+      startDelay: 0
+      interp: pow3Out
+      colorFrom: F9FFF9
+      colorTo: 8FA091
+      lightOpacity: 0
+      layer: 100.3
+      }
+    }
+{
+    type: radialEffect
+	amount: 4
+    rotationSpacing: 90
+    lengthOffset: 10
+    rotationOffset: 45
+    effect: {
+      type: ParticleEffect
+      particles: 6
+      length: 15
+      lifetime: 50
+      sizeFrom: 3
+      sizeTo: 0
+      cone: 20
+      spin: -0.5
+      startDelay: 0
+      interp: pow3Out
+      colorFrom: F9FFF9
+      colorTo: 8FA091
+      lightOpacity: 0
+      layer: 100.3
+      }
+    }
+ {
+    type: radialEffect
+	amount: 4
+    rotationSpacing: 90
+    lengthOffset: 9
+    rotationOffset: 45
+    effect: {
+      type: ParticleEffect
+      particles: 6
+      length: 20
+      lifetime: 70
+      sizeFrom: 2
+      sizeTo: 0
+      cone: 10
+      spin: 0
+      startDelay: 0
+      interp: pow3Out
+      colorFrom: F9FFF9
+      colorTo: 8FA091
+      lightOpacity: 0
+      layer: 100.3
+      }
+    }
+{
+    type: radialEffect
+	amount: 4
+    rotationSpacing: 90
+    lengthOffset: 10
+    rotationOffset: 54
+    effect: {
+      type: ParticleEffect
+      particles: 6
+      length: 15
+      lifetime: 50
+      sizeFrom: 3
+      sizeTo: 0
+      cone: 20
+      spin: -0.5
+      startDelay: 0
+      interp: pow3Out
+      colorFrom: F9FFF9
+      colorTo: 8FA091
+      lightOpacity: 0
+      layer: 100.3
+      }
+    }
+ {
+    type: radialEffect
+	amount: 4
+    rotationSpacing: 90
+    lengthOffset: 9
+    rotationOffset: 54
     effect: {
       type: ParticleEffect
       particles: 6
