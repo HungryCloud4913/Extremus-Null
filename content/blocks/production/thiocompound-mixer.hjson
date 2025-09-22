@@ -42,7 +42,7 @@ drawer: {
     angleOffset: 0
     horiOffset: 0
     sinOffset: 0
-    lenOffset: -4.5
+    lenOffset: -4
     }
     {
     type: DrawPistons
@@ -53,7 +53,7 @@ drawer: {
     angleOffset: 0
     horiOffset: 0
     sinOffset: 0
-    lenOffset: -4.5
+    lenOffset: -4
     }
   ]
 }
