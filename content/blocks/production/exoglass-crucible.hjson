@@ -38,6 +38,12 @@ drawer: {
 	  rotateSpeed: 3
 	  spinSprite: true
     }
+    {
+      type: DrawLiquidTile
+      drawLiquid: nitrogen
+      alpha: 0.9
+      padding: 1.5
+    }
     {  
 	  type: DrawRegion
 	  suffix: -rotator
@@ -46,12 +52,6 @@ drawer: {
     }
       {
       type: DrawDefault
-    }
-    {
-      type: DrawLiquidTile
-      drawLiquid: nitrogen
-      alpha: 0.9
-      padding: 1.5
     }
     {
       type: DrawRegion
