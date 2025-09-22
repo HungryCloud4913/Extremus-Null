@@ -4,6 +4,7 @@ size: 2
 squareSprite: false
 category: crafting
 craftTime: 45
+craftEffect: reactorsmoke
 outputItems: [
 exoglass/1
 ]
