@@ -39,7 +39,7 @@ drawer: {
     angleOffset: 0
     horiOffset: 0
     sinOffset: 0
-    lenOffset: -4
+    lenOffset: -6
     }
     {
     type: DrawDefault
