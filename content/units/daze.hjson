@@ -12,7 +12,7 @@ outlineColor: 252222
 targetAir: true
 faceTarget: false
 groundLayer: 60
-treadFrames: 5
+treadFrames: 15
 treadRects: [
     {
         x: -24,
@@ -28,17 +28,19 @@ treadRects: [
     }
     {
         x: -33,
-        y: 15,
+        y: 10,
         width: 10,
         height: 30
     }
     {
         x: 23,
-        y: 15,
+        y: 10,
         width: 10,
         height: 30
     }
 ]
+
+
 weapons: [{
                 name: daze-weapon
                 recoils: 2
