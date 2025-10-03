@@ -95,6 +95,7 @@ weapons: [{
         fragVelocityMax: 1
         fragRandomSpread: 0
         fragSpread: 20
+        fragOnHit: true
 		fragBullet: {
 			type: BasicBulletType
 			speed: 5.8
