@@ -55,7 +55,7 @@ weapons: [{
 		lightColor: FF92C0
                 type: ArtilleryBulletType
                 speed: 6
-                lifetime: 32
+                lifetime: 29
                 backColor: F39FC2
                 frontColor: FF92C0
                 mixColorFrom: F39FC2
@@ -90,24 +90,27 @@ weapons: [{
             despawnEffect: hitBulletColor
             hitColor: FF92C0
 			}
-         fragBullets: 4
+         fragBullets: 6
          fragVelocityMin: 0
          fragVelocityMax: 0
-         fragSpread: 90
+         fragSpread: 20
          fragRandomSpread: 0
          fragBullet: {
-type: LaserBulletType
-                damage: 5
-                speed: 0
-                lifetime: 8
-                knockback: 0
-                pierce: true
-		colors: [794151, F39FC2, FEEBF3]
-                width: 15
-                length: 9
-                sideAngle: 0
-   despawnEffect: none
-        despawnHit: false
+type: BasicBulletType
+			speed: 4
+			damage: 2
+			lifetime: 8
+			trailLength: 4
+			height: 10
+			width: 8
+            backColor: F39FC2
+            frontColor: FF92C0
+            mixColorFrom: F39FC2
+            mixColorTo: FF92C0
+            trailColor: FF92C0
+			hitEffect: hitBulletColor
+            despawnEffect: hitBulletColor
+            hitColor: FF92C0
 }
                }
  parts: [
