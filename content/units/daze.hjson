@@ -1,0 +1,124 @@
+template: TankUnitType
+type: tank
+health: 1950
+hitSize: 14
+flying: false
+speed: 0.65
+accel: 0.5
+drag: 0.4
+armor: 10
+rotateSpeed: 2.3
+outlineColor: 252222
+targetAir: true
+faceTarget: false
+groundLayer: 60
+treadRects: [
+    {
+        x: -16,
+        y: -30,
+        width: 10,
+        height: 20
+    }
+    {
+        x: 6,
+        y: -30,
+        width: 10,
+        height: 20
+    }
+    {
+        x: -19,
+        y: 13,
+        width: 10,
+        height: 16
+    }
+    {
+        x: 9,
+        y: 13,
+        width: 10,
+        height: 16
+    }
+]
+weapons: [{
+                name: daze-weapon
+                recoils: 2
+                mirror: false
+                top: true
+                rotate: true
+                layerOffset: 0.5
+                rotationLimit: 310
+		        rotateSpeed: 3.5
+                x: 0
+                y: -2.5
+                reload: 70
+                shoot: {
+                type: shootAlternate
+                shots: 1
+                shotDelay: 0
+     			      }
+            inaccuracy: 1.7
+            recoil: 0.7
+            shootSound: artillery
+            soundPitchMin: 1.2
+            soundPitchMax: 1.5
+            bullet: {
+		lightColor: FF92C0
+                type: ArtilleryBulletType
+                speed: 6
+                lifetime: 32
+                backColor: F39FC2
+                frontColor: FF92C0
+                mixColorFrom: F39FC2
+                mixColorTo: FF92C0
+                width: 13
+                height: 13
+		splashDamageRadius: 30
+		splashDamage: 55
+		hitEffect: blastExplosion
+        trailLength: 6
+        trailColor: FF92C0
+         fragBullets: 4
+fragVelocityMin: 0
+fragVelocityMax: 0
+         fragSpread: 90
+         fragRandomSpread: 0
+         fragBullet: {
+type: LaserBulletType
+                damage: 5
+                speed: 0
+                lifetime: 8
+                knockback: 0
+                pierce: true
+		colors: [794151, F39FC2, FEEBF3]
+                width: 15
+                length: 9
+                sideAngle: 0
+   despawnEffect: none
+        despawnHit: false
+}
+               }
+ parts: [
+    {
+      type: RegionPart
+      suffix: -barrel-right
+      recoilIndex: 0
+      moveY: -2
+      moveX: 0
+      progress: recoil
+      mirror: false
+      under: true
+}
+       {
+      type: RegionPart
+      suffix: -barrel-left
+      recoilIndex: 1
+      moveY: -2
+      moveX: 0
+      progress: recoil
+      mirror: false
+      under: true
+}
+]
+}
+]
+research: tank-producer
+alwaysUnlocked: true
