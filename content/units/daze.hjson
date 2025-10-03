@@ -94,12 +94,12 @@ weapons: [{
         fragVelocityMin: 1
         fragVelocityMax: 1
         fragRandomSpread: 0
-        fragSpread: 10
+        fragSpread: 20
 		fragBullet: {
 			type: BasicBulletType
 			speed: 5.8
 			damage: 5
-			lifetime: 12
+			lifetime: 9
 			width: 9
 			height: 9
             backColor: F39FC2
