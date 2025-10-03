@@ -83,7 +83,7 @@ weapons: [{
 type: LaserBulletType
                 damage: 5
                 speed: 0
-                lifetime: 17
+                lifetime: 8
                 knockback: 0
                 pierce: true
 		colors: [794151, F39FC2, FEEBF3]
@@ -109,6 +109,7 @@ type: LaserBulletType
 ]
 research: tank-producer
 alwaysUnlocked: true
+
 
 
 
