@@ -87,7 +87,8 @@ type: LaserBulletType
 		colors: [794151, F39FC2, FEEBF3]
                 width: 7
                 length: 15
-                sideAngle: -30
+                sideAngle: 5
+                fragAngle: 120
    despawnEffect: none
         despawnHit: false
 }
@@ -107,6 +108,7 @@ type: LaserBulletType
 ]
 research: tank-producer
 alwaysUnlocked: true
+
 
 
 
