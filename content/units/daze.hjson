@@ -71,16 +71,16 @@ weapons: [{
         trailLength: 6
         trailColor: FF92C0
         intervalBullets: 1
-		bulletInterval: 7
-        intervalRandomSpread: 90
+		bulletInterval: 3
+        intervalRandomSpread: 60
 		intervalBullet: {
 			type: BasicBulletType
-			speed: 3
-			damage: 3
-			lifetime: 12
+			speed: 4
+			damage: 2
+			lifetime: 8
 			trailLength: 4
-			height: 12
-			width: 10
+			height: 10
+			width: 8
             backColor: F39FC2
             frontColor: FF92C0
             mixColorFrom: F39FC2
