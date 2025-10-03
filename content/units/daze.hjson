@@ -96,10 +96,10 @@ weapons: [{
          fragSpread: 20
          fragRandomSpread: 0
          fragBullet: {
-type: BasicBulletType
-			speed: 4
-			damage: 2
-			lifetime: 8
+            type: BasicBulletType
+			speed: 5
+			damage: 5
+			lifetime: 9
 			trailLength: 4
 			height: 10
 			width: 8
