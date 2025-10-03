@@ -75,7 +75,9 @@ weapons: [{
         trailLength: 5
         trailColor: FF92C0
          fragBullets: 3
-         fragSpread: 120
+fragVelocityMin: 0
+fragVelocityMax: 0
+         fragAngle: 120
          fragRandomSpread: 0
          fragBullet: {
 type: LaserBulletType
@@ -107,6 +109,7 @@ type: LaserBulletType
 ]
 research: tank-producer
 alwaysUnlocked: true
+
 
 
 
