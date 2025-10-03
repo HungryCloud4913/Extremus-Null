@@ -21,19 +21,7 @@ treadRects: [
         height: 30
     }
     {
-        x: 14,
-        y: -43,
-        width: 10,
-        height: 30
-    }
-    {
         x: -33,
-        y: 10,
-        width: 10,
-        height: 30
-    }
-    {
-        x: 23,
         y: 10,
         width: 10,
         height: 30
