@@ -47,7 +47,7 @@ weapons: [{
                 shotDelay: 0
      			      }
             inaccuracy: 1.7
-            recoil: 1.5
+            recoil: 2.5
             shootSound: shootAltLong
             soundPitchMin: 0.7
             soundPitchMax: 1.1
@@ -92,7 +92,7 @@ type: LaserBulletType
       type: RegionPart
       suffix: -barrel-left
       recoilIndex: 0
-      moveY: -3
+      moveY: -4
       moveX: 0
       progress: recoil
       mirror: false
@@ -102,7 +102,7 @@ type: LaserBulletType
       type: RegionPart
       suffix: -barrel-right
       recoilIndex: 1
-      moveY: -3
+      moveY: -4
       moveX: 0
       progress: recoil
       mirror: false
