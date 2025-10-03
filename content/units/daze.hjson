@@ -65,7 +65,7 @@ weapons: [{
 		weaveMag: 10
 		weaveScl: 13
 		splashDamageRadius: 30
-		splashDamage: 55
+		splashDamage: 60
 		hitEffect: blastExplosion
         hitColor: FF92C0
         trailLength: 6
@@ -76,7 +76,7 @@ weapons: [{
 		intervalBullet: {
 			type: BasicBulletType
 			speed: 4
-			damage: 2
+			damage: 4
 			lifetime: 8
 			trailLength: 4
 			height: 10
@@ -99,7 +99,7 @@ weapons: [{
 		fragBullet: {
 			type: BasicBulletType
 			speed: 5.8
-			damage: 5
+			damage: 7
 			lifetime: 9
 			width: 9
 			height: 9
