@@ -78,18 +78,18 @@ weapons: [{
          fragVelocityMax: 0.4
          fragBullets: 3
          fragSpread: 120
-         fragRandomSpread: 0
+         fragRandomSpread: 360
          fragBullet: {
 type: LaserBulletType
                 damage: 5
                 speed: 0
-                lifetime: 15
+                lifetime: 17
                 knockback: 0
                 pierce: true
 		colors: [794151, F39FC2, FEEBF3]
                 width: 7
-                length: 15
-                sideAngle: 5
+                length: 12
+                sideAngle: 0
    despawnEffect: none
         despawnHit: false
 }
@@ -109,6 +109,7 @@ type: LaserBulletType
 ]
 research: tank-producer
 alwaysUnlocked: true
+
 
 
 
