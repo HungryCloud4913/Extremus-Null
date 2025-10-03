@@ -29,13 +29,13 @@ treadRects: [
         x: -33,
         y: 15,
         width: 10,
-        height: 25
+        height: 30
     }
     {
         x: 23,
         y: 15,
         width: 10,
-        height: 25
+        height: 30
     }
 ]
 weapons: [{
