@@ -78,6 +78,7 @@ weapons: [{
          fragVelocityMax: 0.4
          fragBullets: 3
          fragAngle: 120
+         fragSpread: 120
          fragBullet: {
 type: LaserBulletType
                 damage: 5
@@ -108,6 +109,7 @@ type: LaserBulletType
 ]
 research: tank-producer
 alwaysUnlocked: true
+
 
 
 
