@@ -67,19 +67,18 @@ weapons: [{
 		splashDamageRadius: 30
 		splashDamage: 55
 		hitEffect: blastExplosion
+        hitColor: FF92C0
         trailLength: 6
         trailColor: FF92C0
         intervalBullets: 1
-		bulletInterval: 60
-        intervalRandomSpread: 110
+		bulletInterval: 7
+        intervalRandomSpread: 90
 		intervalBullet: {
 			type: BasicBulletType
-			speed: 4
-			damage: 12
-			lifetime: 10
-			splashDamage: 13
-			trailLength: 12
-			trailWidth: 1.9
+			speed: 3
+			damage: 3
+			lifetime: 12
+			trailLength: 4
 			height: 12
 			width: 10
             backColor: F39FC2
@@ -89,7 +88,7 @@ weapons: [{
             trailColor: FF92C0
 			hitEffect: hitBulletColor
             despawnEffect: hitBulletColor
-            hitColor:FF92C0
+            hitColor: FF92C0
 			}
          fragBullets: 4
          fragVelocityMin: 0
