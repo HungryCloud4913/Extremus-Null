@@ -95,8 +95,8 @@ type: LaserBulletType
  parts: [
     {
       type: RegionPart
-      suffix: -barrel
-      moveY: -2
+      suffix: -top
+      moveY: 0
       moveX: 0
       progress: recoil
       mirror: false
@@ -104,8 +104,8 @@ type: LaserBulletType
 }
     {
       type: RegionPart
-      suffix: -top
-      moveY: 0
+      suffix: -barrel
+      moveY: -2
       moveX: 0
       progress: recoil
       mirror: false
@@ -116,6 +116,7 @@ type: LaserBulletType
 ]
 research: tank-producer
 alwaysUnlocked: true
+
 
 
 
