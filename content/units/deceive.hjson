@@ -74,8 +74,6 @@ weapons: [{
 		hitEffect: blastExplosion
         trailLength: 5
         trailColor: FF92C0
-         fragVelocityMin: 0.2
-         fragVelocityMax: 0.4
          fragBullets: 3
          fragSpread: 120
          fragRandomSpread: 0
@@ -109,6 +107,7 @@ type: LaserBulletType
 ]
 research: tank-producer
 alwaysUnlocked: true
+
 
 
 
