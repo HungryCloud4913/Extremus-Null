@@ -6,7 +6,7 @@ flying: false
 speed: 0.7
 accel: 0.5
 drag: 0.4
-armor: 16
+armor: 7
 rotateSpeed: 2.5
 outlineColor: 252222
 targetAir: true
@@ -98,6 +98,7 @@ type: LaserBulletType
 ]
 research: tank-producer
 alwaysUnlocked: true
+
 
 
 
