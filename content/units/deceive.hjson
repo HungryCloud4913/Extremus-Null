@@ -40,12 +40,12 @@ treadRects: [
 ]
 weapons: [{
                 name: deceive-weapon
-                recoils: 2
                 mirror: false
                 top: true
                 rotate: true
                 layerOffset: 0.5
-		rotateSpeed: 4
+                rotationLimit: 290
+		        rotateSpeed: 4
                 x: 0
                 y: -2.5
                 reload: 100
@@ -54,8 +54,7 @@ weapons: [{
                     shotDelay: 0
             }
             inaccuracy: 2
-            velocityRnd: 0.1
-            recoil: 1.5
+            recoil: 0.5
             shootSound: artillery
             soundPitchMin: 1.2
             soundPitchMax: 1.5
@@ -64,9 +63,9 @@ weapons: [{
                 type: ArtilleryBulletType
                 speed: 5.5
                 lifetime: 30
-                backColor: FF92C0
+                backColor: F39FC2
                 frontColor: FF92C0
-                mixColorFrom: FF92C0
+                mixColorFrom: F39FC2
                 mixColorTo: FF92C0
                 width: 10
                 height: 10
@@ -77,43 +76,29 @@ weapons: [{
         trailColor: FF92C0
          fragVelocityMin: 0.2
          fragVelocityMax: 0.4
-fragBullets: 6
+fragBullets: 3
          fragBullet: {
-		lightColor: FF92C0
-                type: ArtilleryBulletType
-                lifetime: 75
-                speed: 5.5
-                drag: 0.1
-                backColor: FF92C0
-                frontColor: FF92C0
-                mixColorFrom: FF92C0
-                mixColorTo: FF92C0
-                sprite: large-bomb
-                width: 9
-                height: 9
-		hitEffect: blastExplosion
-		splashDamageRadius: 20
-		splashDamage: 15
-}     
+type: LaserBulletType
+                damage: 5
+                speed: 0
+                lifetime: 15
+                knockback: 0
+                pierce: true
+		colors: [794151, F39FC2, FEEBF3]
+                width: 7
+                length: 15
+                sideAngle: -30
+   despawnEffect: none
+        despawnHit: false
+}
                }
  parts: [
     {
       type: RegionPart
-      suffix: -barrel-left
+      suffix: -barrel
       moveY: -2
       moveX: 0
       progress: recoil
-      recoilIndex: 0
-      mirror: false
-      under: true
-}
-    {
-      type: RegionPart
-      suffix: -barrel-right
-      moveY: -2
-      moveX: 0
-      progress: recoil
-      recoilIndex: 1
       mirror: false
       under: true
 }
@@ -122,6 +107,7 @@ fragBullets: 6
 ]
 research: tank-producer
 alwaysUnlocked: true
+
 
 
 
