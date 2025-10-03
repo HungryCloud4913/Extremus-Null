@@ -12,6 +12,7 @@ outlineColor: 252222
 targetAir: true
 faceTarget: false
 groundLayer: 60
+treadFrames: 5
 treadRects: [
     {
         x: -24,
