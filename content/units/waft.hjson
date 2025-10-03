@@ -57,12 +57,12 @@ weapons:[
   name: yellow-missile
   reload: 20
   x: 0
-  y: 2
+  y: 0
   mirror: false
   alternate: false
   inaccuracy: 0.5
   rotate: true
-  rotateSpeed: 7
+  rotateSpeed: 4.5
   shoot: {
     shots: 1
     shotDelay: 0
@@ -91,5 +91,6 @@ weapons:[
 ]
 research: hover-producer
 alwaysUnlocked: true
+
 
 
