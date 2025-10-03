@@ -100,7 +100,7 @@ type: LaserBulletType
       moveX: 0
       progress: recoil
       mirror: false
-      under: true
+      under: false
 }
     {
       type: RegionPart
@@ -116,6 +116,7 @@ type: LaserBulletType
 ]
 research: tank-producer
 alwaysUnlocked: true
+
 
 
 
