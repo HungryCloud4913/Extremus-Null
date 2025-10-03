@@ -58,8 +58,8 @@ weapons: [{
             inaccuracy: 1.7
             recoil: 1.5
             shootSound: shootAltLong
-            soundPitchMin: -0.7
-            soundPitchMax: 0
+            soundPitchMin: -1.7
+            soundPitchMax: -1
             bullet: {
 		lightColor: FF92C0
                 type: ArtilleryBulletType
