@@ -91,6 +91,8 @@ weapons: [{
             hitColor: FF92C0
 			}
         fragBullets: 6
+        fragVelocityMin: 1
+        fragVelocityMax: 1
         fragRandomSpread: 0
         fragSpread: 5
 		fragBullet: {
@@ -105,6 +107,7 @@ weapons: [{
             mixColorFrom: F39FC2
             mixColorTo: FF92C0
             trailColor: FF92C0
+			trailLength: 4
 			hitEffect: hitBulletColor
             despawnEffect: hitBulletColor
             hitColor: FF92C0
