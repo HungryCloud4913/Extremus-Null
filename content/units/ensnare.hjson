@@ -40,9 +40,9 @@ regen: 2
 max: 2100
 cooldown: 600
 angleOffset: 0
-whenShooting: false
+whenShooting: true
 radius: 40
-drawArc: false
+drawArc: true
 x: 0
 y: 0
   }
