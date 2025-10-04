@@ -58,7 +58,7 @@ radius: 7
 drawArc: true
 pushUnits: true
 x: 0
-y: -7
+y: -8.75
   }
 ]
 weapons: [{
