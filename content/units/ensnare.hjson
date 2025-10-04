@@ -73,7 +73,7 @@ weapons: [{
                 mixColorTo: FF92C0
                 width: 9
                 height: 11
-    homingPower: 0.1
+    homingPower: 0.5
 		splashDamageRadius: 30
 		splashDamage: 70
 		hitEffect: blastExplosion
