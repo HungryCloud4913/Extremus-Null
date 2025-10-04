@@ -48,7 +48,7 @@ weapons: [{
                 y: -0.5
                 reload: 70
                 shoot: {
-          bullets: 2
+          shots: 2
         type: ShootBarrel
         barrels: [
           -5, -10, 67.5
@@ -69,8 +69,8 @@ weapons: [{
                 frontColor: FF92C0
                 mixColorFrom: F39FC2
                 mixColorTo: FF92C0
-                width: 10
-                height: 120
+                width: 9
+                height: 11
     homingPower: 0.1
 		splashDamageRadius: 30
 		splashDamage: 70
