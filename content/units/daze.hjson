@@ -46,7 +46,7 @@ weapons: [{
                 shots: 1
                 shotDelay: 0
      			      }
-            inaccuracy: 1.7
+            inaccuracy: 0.5
             recoil: 2.5
             shootSound: shootAltLong
             soundPitchMin: 0.7
@@ -96,6 +96,7 @@ weapons: [{
         fragRandomSpread: 0
         fragSpread: 20
         fragOnHit: true
+        fragAngle: 20
 		fragBullet: {
 			type: BasicBulletType
 			speed: 5.8
