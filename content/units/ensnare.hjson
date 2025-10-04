@@ -52,6 +52,7 @@ weapons: [{
         barrels: [
           5, -10, 45
             ]
+}
             inaccuracy: 0.5
             recoil: -2.1
             shootSound: shootAltLong
@@ -95,7 +96,7 @@ type: LaserBulletType
    despawnEffect: none
         despawnHit: false
 }
-               }
+}
  parts: [
     {
       type: RegionPart
@@ -140,6 +141,8 @@ type: LaserBulletType
       progress: recoil
       mirror: false
       under: true
+}
+]
 }
 ]
 research: tank-producer
