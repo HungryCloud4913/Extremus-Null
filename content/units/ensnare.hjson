@@ -36,15 +36,16 @@ treadRects: [
 abilities: [
 {
 type: ShieldArcAbility
-regen: 2
-max: 2100
-cooldown: 600
+regen: 0.4
+max: 750
+cooldown: 420
 angleOffset: 0
-whenShooting: true
-radius: 40
+whenShooting: false
+radius: 20
 drawArc: true
+pushUnits: true
 x: 0
-y: 0
+y: -7
   }
 ]
 weapons: [{
