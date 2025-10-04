@@ -48,9 +48,11 @@ weapons: [{
                 y: -0.5
                 reload: 70
                 shoot: {
+          bullets: 2
         type: ShootBarrel
         barrels: [
-          5, -10, 67.5
+          -5, -10, 67.5
+          5, -10, -67.5
             ]
 }
             inaccuracy: 0.5
