@@ -53,28 +53,28 @@ weapons: [{
         barrels: [
           -8, -7, 67.5
           8, -7, -67.5
-          -5, -10, 67.5
-          5, -10, -67.5
+          -3, -10, 67.5
+          3, -10, -67.5
             ]
 }
             inaccuracy: 0.5
-            recoil: -0.1
-            shootSound: shootAltLong
+            recoil: -0.3
+            shootSound: shockBlast
             soundPitchMin: 0.7
             soundPitchMax: 1.1
             bullet: {
 		lightColor: FF92C0
                 type: BasicBulletType
-                speed: 6
-                lifetime: 30
+                speed: 6.3
+                lifetime: 40
                 backColor: F39FC2
                 frontColor: FF92C0
                 mixColorFrom: F39FC2
                 mixColorTo: FF92C0
                 width: 9
                 height: 11
-    homingPower: 0.5
-		splashDamageRadius: 30
+    homingPower: 0.31
+		splashDamageRadius: 15
 		splashDamage: 70
 		hitEffect: blastExplosion
         hitColor: FF92C0
