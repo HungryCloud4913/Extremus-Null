@@ -37,7 +37,7 @@ abilities: [
 {
 type: ShieldArcAbility
 regen: 0.4
-max: 750
+max: 430
 cooldown: 420
 angleOffset: 0
 whenShooting: false
@@ -45,7 +45,20 @@ radius: 20
 drawArc: true
 pushUnits: true
 x: 0
-y: -7
+y: -6.5
+  }
+{
+type: ShieldArcAbility
+regen: 0.3
+max: 430
+cooldown: 660
+angleOffset: 180
+whenShooting: false
+radius: 20
+drawArc: true
+pushUnits: true
+x: 0
+y: -6.5
   }
 ]
 weapons: [{
