@@ -37,7 +37,7 @@ treadRects: [
 
 weapons: [{
                 name: ensnare-weapon
-                recoils: 2
+                recoils: 4
                 mirror: false
                 top: true
                 rotate: true
@@ -51,8 +51,10 @@ weapons: [{
           shots: 2
         type: ShootBarrel
         barrels: [
-          -5, -10, 67.5
-          5, -10, -67.5
+          -7, -7, 67.5
+          7, -7, -67.5
+          -4, -10, 67.5
+          4, -10, -67.5
             ]
 }
             inaccuracy: 0.5
@@ -104,8 +106,8 @@ type: LaserBulletType
       type: RegionPart
       suffix: -barrel1
       recoilIndex: 0
-      moveY: 5
-      moveX: 5
+      moveY: 3.2
+      moveX: 3.2
       recoilIndex: 0
       progress: recoil
       mirror: false
@@ -114,9 +116,9 @@ type: LaserBulletType
        {
       type: RegionPart
       suffix: -barrel2
-      recoilIndex: 0
-      moveY: 5
-      moveX: -5
+      recoilIndex: 1
+      moveY: 3.2
+      moveX: -3.2
       recoilIndex: 0
       progress: recoil
       mirror: false
@@ -125,9 +127,9 @@ type: LaserBulletType
       {
       type: RegionPart
       suffix: -barrel3
-      recoilIndex: 0
-      moveY: 5
-      moveX: 5
+      recoilIndex: 2
+      moveY: 3.2
+      moveX: 3.2
       recoilIndex: 1
       progress: recoil
       mirror: false
@@ -136,9 +138,9 @@ type: LaserBulletType
        {
       type: RegionPart
       suffix: -barrel4
-      recoilIndex: 0
-      moveY: 5
-      moveX: -5
+      recoilIndex: 3
+      moveY: 3.2
+      moveX: -3.2
       recoilIndex: 1
       progress: recoil
       mirror: false
