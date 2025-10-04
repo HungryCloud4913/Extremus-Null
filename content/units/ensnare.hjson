@@ -33,8 +33,20 @@ treadRects: [
         height: 38
     }
 ]
-
-
+abilities: [
+{
+type: ShieldArcAbility
+regen: 2
+max: 2100
+cooldown: 600
+angleOffset: 0
+whenShooting: false
+radius: 40
+drawArc: false
+x: 0
+y: 0
+  }
+]
 weapons: [{
                 name: ensnare-weapon
                 recoils: 4
