@@ -45,16 +45,16 @@ weapons: [{
                 rotationLimit: 310
 		        rotateSpeed: 2
                 x: 0
-                y: -2.5
+                y: -0.5
                 reload: 70
                 shoot: {
         type: ShootBarrel
         barrels: [
-          5, -10, 45
+          5, -10, 67.5
             ]
 }
             inaccuracy: 0.5
-            recoil: -2.1
+            recoil: -0.1
             shootSound: shootAltLong
             soundPitchMin: 0.7
             soundPitchMax: 1.1
@@ -67,8 +67,8 @@ weapons: [{
                 frontColor: FF92C0
                 mixColorFrom: F39FC2
                 mixColorTo: FF92C0
-                width: 18
-                height: 18
+                width: 10
+                height: 120
     homingPower: 0.1
 		splashDamageRadius: 30
 		splashDamage: 70
