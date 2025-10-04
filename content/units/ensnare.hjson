@@ -74,7 +74,7 @@ weapons: [{
                 width: 9
                 height: 11
     homingPower: 0.31
-		splashDamageRadius: 15
+		splashDamageRadius: 20
 		splashDamage: 70
 		hitEffect: blastExplosion
         hitColor: FF92C0
@@ -94,8 +94,8 @@ type: LaserBulletType
                 knockback: 0
                 pierce: true
 		colors: [794151, F39FC2, FEEBF3]
-                width: 10
-                length: 14
+                width: 15
+                length: 21
                 sideAngle: 0
    despawnEffect: none
         despawnHit: false
