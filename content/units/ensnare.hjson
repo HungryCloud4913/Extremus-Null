@@ -172,6 +172,20 @@ type: LaserBulletType
       mirror: false
       under: true
 }
+    {
+      type: RegionPart
+      suffix: -heatbarrel1
+      recoilIndex: 0
+      moveY: 2
+      moveX: 2
+      color: F39FC2
+      colorTo: F39FC2
+      mixColor: F39FC2
+      mixColorTo: F39FC2
+      progress: recoil
+      mirror: false
+      under: true
+}
 ]
 }
 ]
