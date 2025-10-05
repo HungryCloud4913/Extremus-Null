@@ -119,7 +119,7 @@ smokeEffect: {
           colorTo: FFFFFF00
           colorFrom: F39FC2
           interp: pow10Out
-          sizeInterp: pow7In
+          sizeInterp: pow10In
           particles: 4
           cone: 40
           }
