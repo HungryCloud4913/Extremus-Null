@@ -130,23 +130,8 @@ spawnBullets: [
 {
     type: LightningBulletType
     lightningColor: FF92CO
-    lightningLength: 7
-    damage: 15
-    lightning: 1
-    lightningType: {
-        type: LightningBulletType
-        lightningLengthRand: 1
-        lightningLength: 7
-        damage: 10
-        lightningColor: FF92CO
-        lifetime: 34
-        hitEffect: hitLancer
-        despawnEffect: none
-        hittable: false
-          }
-    hitEffect: hitLancer
-    shootEffect: hitLancer
-}
+    lightningLength: 2.5
+    damage: 10
 ]
 }
  parts: [
