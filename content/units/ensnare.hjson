@@ -112,17 +112,18 @@ smokeEffect: {
           {
           type: ParticleEffect
           line: true
-          strokeFrom: 0.5
+          strokeFrom: 1
           strokeTo: 0
           lenFrom: 2.1
           lenTo: 1
           color: F39FC2
-          colorTo: FFFFFF00
+          colorTo: F39FC200
           colorFrom: F39FC2
           interp: pow10Out
           sizeInterp: pow10In
-          particles: 4
+          particles: 5
           cone: 20
+          lifetime: 10
           }
           ]
           }
