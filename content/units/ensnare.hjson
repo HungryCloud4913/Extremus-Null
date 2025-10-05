@@ -129,9 +129,16 @@ type: LaserBulletType
 spawnBullets: [
 {
     type: LightningBulletType
-    lightningColor: FF92CO
-    lightningLength: 2.5
-    damage: 10
+    lightningColor: D7BDFF
+    lightningLength: 7
+    damage: 20
+    lightning: 1
+        lightningLengthRand: 1
+        damage: 20
+        lifetime: 12
+        despawnEffect: none
+        hittable: false
+    hitEffect: hitLancer
 }
 ]
 }
