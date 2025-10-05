@@ -119,7 +119,7 @@ weapons: [{
           color: F39FC2
           colorTo: F39FC200
           mixColor: F39FC2
-          mixColorTo: FFC9DF
+          mixColorTo: F39FC2
           interp: pow10Out
           sizeInterp: pow10In
           particles: 5
