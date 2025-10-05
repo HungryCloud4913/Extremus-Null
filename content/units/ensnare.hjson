@@ -179,13 +179,62 @@ type: LaserBulletType
       moveY: 2
       moveX: 2
       color: FFFFFF00
-      colorTo: FFC9DF
+      colorTo: FFB4D3
       mixColor: F39FC200
       mixColorTo: FFC9DF
       blending: additive
       progress: recoil
       mirror: false
       under: true
+      outline: false
+}
+    {
+      type: RegionPart
+      suffix: -heatbarrel2
+      recoilIndex: 1
+      moveY: 2
+      moveX: -2
+      color: FFFFFF00
+      colorTo: FFB4D3
+      mixColor: F39FC200
+      mixColorTo: FFC9DF
+      blending: additive
+      progress: recoil
+      mirror: false
+      under: true
+      outline: false
+}
+    {
+      type: RegionPart
+      suffix: -heatbarrel3
+      recoilIndex: 2
+      moveY: 2
+      moveX: 2
+      color: FFFFFF00
+      colorTo: FFB4D3
+      mixColor: F39FC200
+      mixColorTo: FFC9DF
+      blending: additive
+      progress: recoil
+      mirror: false
+      under: true
+      outline: false
+}
+    {
+      type: RegionPart
+      suffix: -heatbarrel1
+      recoilIndex: 3
+      moveY: 2
+      moveX: -2
+      color: FFFFFF00
+      colorTo: FFB4D3
+      mixColor: F39FC200
+      mixColorTo: FFC9DF
+      blending: additive
+      progress: recoil
+      mirror: false
+      under: true
+      outline: false
 }
 ]
 }
