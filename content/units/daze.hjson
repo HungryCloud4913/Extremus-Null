@@ -89,7 +89,6 @@ weapons: [{
 			hitEffect: hitBulletColor
             despawnEffect: hitBulletColor
             hitColor: FF92C0
-            smokeColor: FF92C0
 			}
         fragBullets: 6
         fragVelocityMin: 1
