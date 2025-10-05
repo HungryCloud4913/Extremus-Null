@@ -60,8 +60,8 @@ weapons: [{
                 frontColor: FF92C0
                 mixColorFrom: F39FC2
                 mixColorTo: FF92C0
-                width: 13
-                height: 13
+                width: 8.5
+                height: 10
 		weaveMag: 10
 		weaveScl: 13
 		splashDamageRadius: 30
