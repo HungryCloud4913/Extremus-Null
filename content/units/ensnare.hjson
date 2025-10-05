@@ -86,6 +86,7 @@ weapons: [{
             inaccuracy: 0.5
             recoil: -0.3
             shootSound: shockBlast
+            heatColor: F39FC2
             soundPitchMin: 0.7
             soundPitchMax: 1.1
             bullet: {
