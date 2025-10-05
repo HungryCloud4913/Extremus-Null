@@ -126,21 +126,6 @@ type: LaserBulletType
    despawnEffect: none
         despawnHit: false
 }
-spawnBullets: [
-{
-    type: LightningBulletType
-    lightningAngleRand: 30
-    lightningColor: D7BDFF
-    lightningLength: 3
-    damage: 20
-    lightning: 1
-    lightningLengthRand: 1
-    lifetime: 12
-    despawnEffect: none
-    hittable: false
-    hitEffect: none
-}
-]
 }
  parts: [
     {
