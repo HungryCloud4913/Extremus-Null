@@ -86,7 +86,6 @@ weapons: [{
             inaccuracy: 0.5
             recoil: -0.3
             shootSound: shockBlast
-            heatColor: F39FC2
             soundPitchMin: 0.7
             soundPitchMax: 1.1
             bullet: {
@@ -132,6 +131,7 @@ type: LaserBulletType
     {
       type: RegionPart
       suffix: -barrel1
+            heatColor: FF549B
       recoilIndex: 0
       moveY: 3.2
       moveX: 3.2
@@ -142,6 +142,7 @@ type: LaserBulletType
        {
       type: RegionPart
       suffix: -barrel2
+            heatColor: FF549B
       recoilIndex: 1
       moveY: 3.2
       moveX: -3.2
@@ -152,6 +153,7 @@ type: LaserBulletType
       {
       type: RegionPart
       suffix: -barrel3
+            heatColor: FF549B
       recoilIndex: 2
       moveY: 3.2
       moveX: 3.2
@@ -162,6 +164,7 @@ type: LaserBulletType
        {
       type: RegionPart
       suffix: -barrel4
+            heatColor: FF549B
       recoilIndex: 3
       moveY: 3.2
       moveX: -3.2
