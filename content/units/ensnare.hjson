@@ -180,8 +180,9 @@ type: LaserBulletType
       moveX: 2
       color: FFFFFF00
       colorTo: FFC9DF
-      mixColor: F39FC2
+      mixColor: F39FC200
       mixColorTo: FFC9DF
+      blending: additive
       progress: recoil
       mirror: false
       under: true
