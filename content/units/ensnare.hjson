@@ -132,6 +132,7 @@ spawnBullets: [
     lightningColor: FF92CO
     lightningLength: 2.5
     damage: 10
+}
 ]
 }
  parts: [
