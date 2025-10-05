@@ -116,8 +116,9 @@ smokeEffect: {
           strokeTo: 0
           lenFrom: 2
           lenTo: 3
-          colorTo: F39FC2
-          interp: pow6Out
+          colorTo: FFFFFF00
+          colorFrom: F39FC2
+          interp: pow10Out
           sizeInterp: pow7In
           particles: 4
           cone: 40
