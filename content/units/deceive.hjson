@@ -60,7 +60,6 @@ weapons: [{
 		splashDamageRadius: 25
 		splashDamage: 40
 		hitEffect: blastExplosion
-        smokeColor: FF92C0
         hitColor: FF92C0
         trailLength: 5
         trailColor: FF92C0
@@ -100,6 +99,7 @@ type: LaserBulletType
 ]
 research: tank-producer
 alwaysUnlocked: true
+
 
 
 
