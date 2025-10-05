@@ -131,10 +131,10 @@ type: LaserBulletType
     {
       type: RegionPart
       suffix: -barrel1
-            heatColor: FF549B
+      heatColor: F39FC2
       recoilIndex: 0
-      moveY: 3.2
-      moveX: 3.2
+      moveY: 2
+      moveX: 2
       progress: recoil
       mirror: false
       under: true
@@ -142,10 +142,10 @@ type: LaserBulletType
        {
       type: RegionPart
       suffix: -barrel2
-            heatColor: FF549B
+      heatColor: F39FC2
       recoilIndex: 1
-      moveY: 3.2
-      moveX: -3.2
+      moveY: 2
+      moveX: -2
       progress: recoil
       mirror: false
       under: true
@@ -153,10 +153,10 @@ type: LaserBulletType
       {
       type: RegionPart
       suffix: -barrel3
-            heatColor: FF549B
+      heatColor: F39FC2
       recoilIndex: 2
-      moveY: 3.2
-      moveX: 3.2
+      moveY: 2
+      moveX: 2
       progress: recoil
       mirror: false
       under: true
@@ -164,10 +164,10 @@ type: LaserBulletType
        {
       type: RegionPart
       suffix: -barrel4
-            heatColor: FF549B
+      heatColor: F39FC2
       recoilIndex: 3
-      moveY: 3.2
-      moveX: -3.2
+      moveY: 2
+      moveX: -2
       progress: recoil
       mirror: false
       under: true
