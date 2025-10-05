@@ -222,7 +222,7 @@ type: LaserBulletType
 }
     {
       type: RegionPart
-      suffix: -heatbarrel1
+      suffix: -heatbarrel4
       recoilIndex: 3
       moveY: 2
       moveX: -2
