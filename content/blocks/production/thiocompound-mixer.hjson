@@ -3,7 +3,7 @@ health: 400
 size: 2
 squareSprite: false
 category: crafting
-craftTime: 100
+craftTime: 200
 heatRequirement: 4
 maxEfficiency: 2
 outputItems: [
