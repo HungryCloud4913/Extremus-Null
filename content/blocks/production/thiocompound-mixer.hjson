@@ -7,7 +7,7 @@ craftTime: 200
 heatRequirement: 4
 maxEfficiency: 2
 outputItems: [
-thiocompound/3
+thiocompound/2
 ]
 itemCapacity: 15
 consumes: {
