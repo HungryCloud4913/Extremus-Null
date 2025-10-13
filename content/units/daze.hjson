@@ -139,5 +139,12 @@ weapons: [{
 ]
 }
 ]
-research: tank-producer
-alwaysUnlocked: true
+research: {
+  parent: decieve
+  alwaysUnlocked: true
+  objectives: [
+{
+content: tank-producer
+  }
+]
+}
