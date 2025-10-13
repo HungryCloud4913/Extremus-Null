@@ -139,7 +139,5 @@ weapons: [{
 ]
 }
 ]
-research: {
-  parent: decieve
-  alwaysUnlocked: true
-}
+research: deceive
+alwaysUnlocked: true
