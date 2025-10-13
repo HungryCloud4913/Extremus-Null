@@ -144,7 +144,7 @@ research: {
   alwaysUnlocked: true
   objectives: [
 {
-content: tank-producer
+research: tank-producer
   }
 ]
 }
