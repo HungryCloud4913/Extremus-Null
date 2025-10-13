@@ -142,11 +142,4 @@ weapons: [{
 research: {
   parent: deceive
   alwaysUnlocked: true
-objectives: [
-{
-Type: OnPlanet
-Preset: extrull
-Research: tank-producer
-}
-]
 }
