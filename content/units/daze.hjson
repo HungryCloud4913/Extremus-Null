@@ -142,9 +142,4 @@ weapons: [{
 research: {
   parent: decieve
   alwaysUnlocked: true
-  objectives: [
-{
-research: tank-producer
-  }
-]
 }
