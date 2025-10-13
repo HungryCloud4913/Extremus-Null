@@ -145,7 +145,7 @@ research: {
 objectives: [
 {
 Type: OnPlanet
-Preset: Extrull
+Preset: extrull
 Research: tank-producer
 }
 ]
