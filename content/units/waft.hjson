@@ -76,7 +76,7 @@ weapons:[
     hitColor: 826C30
     hitEffect: hitSquaresColor
     despawnEffect: hitSquaresColor
-    damage: 35
+    damage: 18
     knockback: 0.1
     height: 4
     width: 7
@@ -91,6 +91,7 @@ weapons:[
 ]
 research: hover-producer
 alwaysUnlocked: true
+
 
 
 
