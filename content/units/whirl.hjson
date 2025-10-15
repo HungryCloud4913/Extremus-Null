@@ -23,7 +23,7 @@ parts: [
   {
     type: HoverPart
     color: EBC930
-    radius: 13
+    radius: 12
     sides: 4
     layerOffset: -0.0001
     x: 0
@@ -37,7 +37,7 @@ parts: [
     sides: 6
     layerOffset: -0.0001
     x: 0
-    y: -2
+    y: -3.5
     phase: 150
   }
 ]
