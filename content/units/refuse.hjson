@@ -34,7 +34,7 @@ weapons:[
         hitEffect: pointHit
         smokeEffect: pointHit
         maxRange: 60
-        damage: 20
+        damage: 12
       }
 }
 {
@@ -106,6 +106,7 @@ weapons:[
 ]
 research: walker-producer
 alwaysUnlocked: true
+
 
 
 
