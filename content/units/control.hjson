@@ -10,9 +10,9 @@ lockLegBase: true
 legContinuousMove: true
 legExtension: -4
 legBaseOffset: 5
-legMaxLength: 1.05
+legMaxLength: 1.15
 legLengthScl: 0.96
-legMinLength: 0.8
+legMinLength: 0.77
 legForwardScl: 1
 fogRadius: 2
 legSplashDamage: 0
@@ -29,7 +29,7 @@ shadowElevation: 0.1
 groundLayer: 61
 canDrown: true
 isEnemy: true
-speed: 0.82
+speed: 0.78
 accel: 0.5
 drag: 0.4
 rotateSpeed: 3
@@ -72,8 +72,8 @@ weapons:[
 		rotateSpeed: 1.1
                 reload: 100
                  shoot: {
-                 shots: 1
-                 shotDelay: 0
+                 shots: 3
+                 shotDelay: 1.5
             }
             inaccuracy: 0
             recoil: 4
@@ -84,6 +84,7 @@ weapons:[
                 type: LaserBulletType
                 damage: 23
                 speed: 0
+                inaccuracy: 10
                 lifetime: 27
                 knockback: 0
                 pierce: true
