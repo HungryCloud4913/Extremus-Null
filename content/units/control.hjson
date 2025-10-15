@@ -8,12 +8,12 @@ legCount: 4
 legLength: 10
 lockLegBase: false
 legContinuousMove: true
-legExtension: -4
+legExtension: -2
 legBaseOffset: 5
 legMaxLength: 1.05
-legLengthScl: 0.96
-legMinLength: 0.8
-legForwardScl: 1
+legLengthScl: 0.1
+legMinLength: 0.9
+legForwardScl: 1.1
 fogRadius: 2
 legSplashDamage: 0
 legSplashRange: 0
@@ -23,7 +23,7 @@ baseLegStraightness: 0.6
 rippleScale: 0.1
 rippleScale: 0
 targetAir: true
-faceTarget: false
+faceTarget: true
 outlineColor: 252222
 shadowElevation: 0.1
 groundLayer: 61
@@ -43,7 +43,7 @@ weapons:[
         alternate: false
         rotate: true
 	rotateSpeed: 6
-        x: -8
+        x: -6.5
         y: -1
         reload: 70
       controllable: false
@@ -67,7 +67,7 @@ weapons:[
                 rotate: true
 		rotateSpeed: 1.2
                 x: 0
-                y: +7
+                y: +5
                 rotationLimit: 30
 		rotateSpeed: 1.1
                 reload: 100
