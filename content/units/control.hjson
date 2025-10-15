@@ -32,7 +32,7 @@ isEnemy: true
 speed: 0.82
 accel: 0.5
 drag: 0.4
-rotateSpeed: 4.1
+rotateSpeed: 3
 armor: 5
 weapons:[
  {
