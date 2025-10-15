@@ -67,7 +67,7 @@ weapons:[
                 rotate: true
 		rotateSpeed: 1.2
                 x: 0
-                y: +5
+                y: +3
                 rotationLimit: 30
 		rotateSpeed: 1.1
                 reload: 100
