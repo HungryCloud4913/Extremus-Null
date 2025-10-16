@@ -59,7 +59,7 @@ weapons:[
       }
 }
 {
-                name: refuse-weapon
+                name: control-mouth
                 mirror: true
                 top: false
                 alternate: true
@@ -69,15 +69,14 @@ weapons:[
                 x: 0
                 y: +3
                 rotationLimit: 30
-		rotateSpeed: 1.1
-                reload: 100
+                reload: 120
                  shoot: {
                  shots: 4
-                 shotDelay: 4.7
+                 shotDelay: 4
                  firstShotDelay: 27
             }
             inaccuracy: 0
-            recoil: 4
+            recoil: 0
             chargeSound: wradCharge
             shootSound: wradLaser
             soundPitchMin: 1.3
@@ -126,6 +125,38 @@ weapons:[
           ]
           }
 }
+Parts: [
+{
+  type: HaloPart
+  haloRadius: 13
+  triLength: 10
+  triLengthTo: 0
+  haloRotateSpeed: 1
+  layer: 110
+  haloRadTo: 0
+  progress: warmup
+  color: D7BDFF
+  colorTo: 000000ff
+  tri: true
+  shapes: 4
+  x: 0
+  y: 0
+    }
+ {
+  type: ShapePart
+  sides: 3
+    layer: 110
+  hollow: true
+  radius: 13
+  radiusTo: 0
+  color: D7BDFF
+  colorTo: 000000ff
+  rotateSpeed: -1
+  progress: warmup
+  x: 0
+  y: 0
+}
+]
 }
 ]
 research: walker-producer
