@@ -76,7 +76,6 @@ weapons:[
                  shoot: {
                  shots: 4
                  shotDelay: 4
-                 firstShotDelay: 27
             }
             inaccuracy: 0
             recoil: 0
@@ -128,38 +127,9 @@ weapons:[
           ]
           }
 }
-Parts: [
-{
-  type: HaloPart
-  haloRadius: 13
-  triLength: 10
-  triLengthTo: 0
-  haloRotateSpeed: 1
-  layer: 110
-  haloRadTo: 0
-  progress: recoil
-  color: D7BDFF
-  colorTo: 000000ff
-  tri: true
-  shapes: 4
-  x: 0
-  y: 0
-    }
- {
-  type: ShapePart
-  sides: 3
-    layer: 110
-  hollow: true
-  radius: 13
-  radiusTo: 0
-  color: D7BDFF
-  colorTo: 000000ff
-  rotateSpeed: -1
-  progress: recoil
-  x: 0
-  y: 0
-}
-]
+
+///Where to put parts
+
 }
 ]
 research: walker-producer
