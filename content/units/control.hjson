@@ -134,7 +134,7 @@ Parts: [
   haloRotateSpeed: 1
   layer: 110
   haloRadTo: 0
-  progress: warmup
+  progress: charge
   color: D7BDFF
   colorTo: 000000ff
   tri: true
@@ -152,7 +152,7 @@ Parts: [
   color: D7BDFF
   colorTo: 000000ff
   rotateSpeed: -1
-  progress: warmup
+  progress: charge
   x: 0
   y: 0
 }
