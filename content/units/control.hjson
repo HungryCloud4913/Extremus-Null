@@ -69,9 +69,7 @@ weapons:[
                 x: 0
                 y: +3
                 rotationLimit: 30
-                reload: 0
-                minWarmup: 120
-                linearWarmup: true
+                reload: 120
                  shoot: {
                  shots: 4
                  shotDelay: 4
@@ -136,7 +134,7 @@ Parts: [
   haloRotateSpeed: 1
   layer: 110
   haloRadTo: 0
-  progress: charge
+  progress: reload
   color: D7BDFF
   colorTo: 000000ff
   tri: true
@@ -154,7 +152,7 @@ Parts: [
   color: D7BDFF
   colorTo: 000000ff
   rotateSpeed: -1
-  progress: charge
+  progress: reload
   x: 0
   y: 0
 }
