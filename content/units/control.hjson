@@ -2,7 +2,7 @@ type: legs
 health: 1570
 hitSize: 14
 hovering: true
-legStraightness: 0.1.7
+legStraightness: 0.17
 legSpeed: 0.1
 legCount: 4
 legLength: 9
