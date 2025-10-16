@@ -73,8 +73,8 @@ weapons:[
                 reload: 100
                  shoot: {
                  shots: 4
-                 shotDelay: 3.5
-                 firstShotDelay: 17
+                 shotDelay: 4.7
+                 firstShotDelay: 22
             }
             inaccuracy: 0
             recoil: 4
