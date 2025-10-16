@@ -70,6 +70,7 @@ weapons:[
                 y: +3
                 rotationLimit: 30
                 reload: 120
+                minWarmup: 120
                  shoot: {
                  shots: 4
                  shotDelay: 4
