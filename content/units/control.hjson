@@ -8,10 +8,10 @@ legCount: 4
 legLength: 10
 lockLegBase: true
 legContinuousMove: true
-legExtension: -1
+legExtension: -2
 legBaseOffset: 5
 legMaxLength: 1.2
-legLengthScl: 0.96
+legLengthScl: 1.0
 legMinLength: 0.7
 legForwardScl: 1
 fogRadius: 2
@@ -19,7 +19,7 @@ legSplashDamage: 0
 legSplashRange: 0
 drownTimeMultiplier: 5
 legGroupSize: 3
-baseLegStraightness: 0.6
+baseLegStraightness: 0.2
 rippleScale: 0.1
 rippleScale: 0
 targetAir: true
