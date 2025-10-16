@@ -74,10 +74,12 @@ weapons:[
                  shoot: {
                  shots: 4
                  shotDelay: 3.5
+                 firstShotDelay: 10
             }
             inaccuracy: 0
             recoil: 4
-            shootSound: dullExplosion
+            chargeSound: wradCharge
+            shootSound: wradBlast
             soundPitchMin: 1.3
             soundPitchMax: 1.3
             bullet: {
