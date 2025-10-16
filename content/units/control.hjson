@@ -70,12 +70,10 @@ weapons:[
                 y: +3
                 rotationLimit: 30
                 reload: 120
-                shootWarmupSpeed: 0.05
-                minWarmup: 0.1
-                linearWarmup: true
                  shoot: {
                  shots: 4
                  shotDelay: 4
+                 firstShotDelay: 29
             }
             inaccuracy: 0
             recoil: 0
