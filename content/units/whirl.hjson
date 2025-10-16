@@ -68,6 +68,8 @@ weapons:[
     shotDelay: 0
       }
   shootSound: cannon
+minVolume: 0.3
+maxVolume: 0.4
   bullet: {
     type: MissileBulletType
 			backColor: 826C30
