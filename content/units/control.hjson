@@ -69,8 +69,9 @@ weapons:[
                 x: 0
                 y: +3
                 rotationLimit: 30
-                reload: 120
+                reload: 0
                 minWarmup: 120
+                linearWarmup: true
                  shoot: {
                  shots: 4
                  shotDelay: 4
