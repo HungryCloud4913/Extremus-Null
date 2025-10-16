@@ -67,7 +67,7 @@ weapons:[
     shots: 1
     shotDelay: 0
       }
-  shootSound: exShoot
+  shootSound: cannon
   bullet: {
     type: MissileBulletType
 			backColor: 826C30
