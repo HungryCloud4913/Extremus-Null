@@ -1,4 +1,4 @@
-type: OverflowGate
+type: OverflowDuct
 invert: true
 category: distribution
 alwaysUnlocked: false
