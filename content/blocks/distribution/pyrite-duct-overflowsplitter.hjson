@@ -1,9 +1,10 @@
-type: OverflowGate
+type: OverflowDuct
 category: distribution
 alwaysUnlocked: false
 size: 1
 speed: 7
 health: 50
+
 
 requirements: [
  pyrite/1
