@@ -131,13 +131,13 @@ chargeEffect: {
 effects: [
 {
     type: WaveEffect
-    rotWithParent: true
-    followParent: true
     lifetime: 17
-    offsetX: 2.1
+    offsetX: 0
+    offsetY: -2
     sizeFrom: 15
     sizeTo: 0
-
+    followParent: true
+    rotWithParent: true
     colorFrom: E3F7FF000
     colorTo: 49B8E6
 }
