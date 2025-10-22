@@ -136,8 +136,8 @@ effects: [
     offsetY: 0
     sizeFrom: 15
     sizeTo: 0
-    followParent: true
-    rotWithParent: false
+    followParent: false
+    rotWithParent: true
     colorFrom: E3F7FF000
     colorTo: 49B8E6
 }
