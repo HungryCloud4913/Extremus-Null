@@ -124,6 +124,7 @@ weapons:[
           }
           ]
           }
+
 chargeEffect: {
     type: MultiEffect
 
@@ -140,11 +141,9 @@ effects: [
     colorFrom: E3F7FF000
     colorTo: 49B8E6
 }
-
-
 ]
 }
-]
+}
 
 ///Where to put parts
 
