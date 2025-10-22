@@ -8,7 +8,7 @@ size: 3
 health: 1640
 targetGround: true
 targetAir: false
-rotateSpeed: 1.7
+rotateSpeed: 1.1
 reload: 250
 recoil: 0
 recoils: 0
