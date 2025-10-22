@@ -173,6 +173,7 @@ parts: [
           type: charge
           interp: pow5In
         }
+}
       {
         type: FlarePart
         y: 1
@@ -189,8 +190,7 @@ parts: [
           interp: pow5In
         }
       }
-    ]
-
+]
 }
 ]
 research: walker-producer
