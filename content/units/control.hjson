@@ -142,9 +142,9 @@ effects: [
     colorTo: 49B8E6
 }
 {
-    type: WaveEffect
+    type: RadialEffect
     lifetime: 17
-    sizeFrom: 15
+    sizeFrom: 20
     sizeTo: 0
     amount: 12
     rotationSpacing: 360
@@ -160,13 +160,29 @@ effects: [
 parts: [
       {
         type: FlarePart
+        y: 1
         radius: 0
-        radiusTo: 10
+        radiusTo: 9
         stroke: 5
-        colorFrom: E3F7FF000
+        colorTo: 49B8E6000
         colorTo: 49B8E6
         rotation: 10
         rotMove: 85
+        followRotation: false
+        progress: {
+          type: charge
+          interp: pow5In
+        }
+      {
+        type: FlarePart
+        y: 1
+        radius: 0
+        radiusTo: 9
+        stroke: 5
+        colorTo: 49B8E6000
+        colorTo: 49B8E6
+        rotation: 10
+        rotMove: -85
         followRotation: false
         progress: {
           type: charge
