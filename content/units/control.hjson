@@ -136,7 +136,19 @@ effects: [
     offsetY: 0
     sizeFrom: 15
     sizeTo: 0
-    followParent: false
+    followParent: true
+    rotWithParent: true
+    colorFrom: E3F7FF000
+    colorTo: 49B8E6
+}
+{
+    type: WaveEffect
+    lifetime: 17
+    sizeFrom: 15
+    sizeTo: 0
+    amount: 12
+    rotationSpacing: 360
+    followParent: true
     rotWithParent: true
     colorFrom: E3F7FF000
     colorTo: 49B8E6
