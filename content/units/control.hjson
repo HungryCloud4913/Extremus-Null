@@ -122,6 +122,18 @@ weapons:[
           lifetime: 0
           particles: 1
           }
+          {
+    type: WaveEffect
+    lifetime: 20
+    offsetX: 0
+    offsetY: 0
+    sizeFrom: 0
+    sizeTo: 10
+    followParent: true
+    rotWithParent: true
+    colorFrom: 49B8E6
+    colorTo: E3F7FF000
+          }
           ]
           }
 
@@ -160,11 +172,11 @@ effects: [
 parts: [
       {
         type: FlarePart
-        y: 1
+        y: 2.5
         radius: 0
         radiusTo: 9
         stroke: 5
-        colorTo: 49B8E6000
+        colorTo: 49B8E6
         colorTo: 49B8E6
         rotation: 10
         rotMove: 85
@@ -176,11 +188,11 @@ parts: [
 }
       {
         type: FlarePart
-        y: 1
+        y: 2.5
         radius: 0
         radiusTo: 9
         stroke: 5
-        colorTo: 49B8E6000
+        colorTo: 49B8E6
         colorTo: 49B8E6
         rotation: 10
         rotMove: -85
