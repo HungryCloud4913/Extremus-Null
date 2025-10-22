@@ -124,7 +124,27 @@ weapons:[
           }
           ]
           }
+chargeEffect: {
+    type: MultiEffect
+
+effects: [
+{
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    lifetime: 17
+    offsetX: 2.1
+    sizeFrom: 15
+    sizeTo: 0
+
+    colorFrom: E3F7FF000
+    colorTo: 49B8E6
 }
+
+
+]
+}
+]
 
 ///Where to put parts
 
