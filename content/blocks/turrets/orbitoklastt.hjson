@@ -19,7 +19,7 @@ inaccuracy: 0
 range: 190
 consumeAmmoOnce: true
 ammoPerShot: 10
-shootY: 40
+shootY: 50
 consumes: {
 power: 17.5
 }
@@ -67,7 +67,7 @@ drawOutline: false
     x: 0
     y: 0
     moveX: 0
-    moveY: -30
+    moveY: -40
     progress: smoothReload
     colorTo: 00000000
     color: ffffff
@@ -83,7 +83,7 @@ progress: smoothReload
 x: 0
 y: 0
 moveX: 0
-moveY: -30
+moveY: -40
 moveRot: 0
   mirror: false
   under: true
