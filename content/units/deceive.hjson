@@ -1,6 +1,7 @@
 template: TankUnitType
 type: tank
 health: 895
+lightRadius: 10
 hitSize: 9
 flying: false
 speed: 0.7
@@ -99,6 +100,7 @@ type: LaserBulletType
 ]
 research: tank-producer
 alwaysUnlocked: true
+
 
 
 
