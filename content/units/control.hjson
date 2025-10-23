@@ -1,6 +1,6 @@
 type: legs
 health: 1570
-lightRadius: 10
+lightRadius: 12
 hitSize: 14
 hovering: true
 legStraightness: 0.2
