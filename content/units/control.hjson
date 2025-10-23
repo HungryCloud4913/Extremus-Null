@@ -188,8 +188,8 @@ parts: [
         radius: 0
         radiusTo: 9
         stroke: 5
-        colorTo: E3F7FF
-        colorTo: E3F7FF
+        colorTo: 305882
+        colorTo: 305882
         rotation: 10
         rotMove: 85
         followRotation: false
@@ -204,8 +204,8 @@ parts: [
         radius: 0
         radiusTo: 9
         stroke: 5
-        colorTo: E3F7FF
-        colorTo: E3F7FF
+        colorTo: 305882
+        colorTo: 305882
         rotation: 10
         rotMove: -85
         followRotation: false
