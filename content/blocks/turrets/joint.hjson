@@ -75,7 +75,60 @@ shoot: {
         despawnHit: true
         hitColor: 8DEEBB
         shootEffect: shootBigColor
-        smokeEffect: shootSmokeSquareSparse
+        smokeEffect: {
+          type: MultiEffect
+          effects: [
+          {
+          type: ParticleEffect
+          line: true
+          strokeFrom: 1
+          strokeTo: 0
+          lenFrom: 3
+          lenTo: 10
+          colorTo: FF9674
+          interp: pow10Out
+          sizeInterp: pow10In
+          particles: 4
+          cone: 30
+          }
+          {
+          type: ParticleEffect
+          length: 5
+          sizeFrom: 1
+          cone: 10
+          interp: pow10Out
+          sizeInterp: pow10In
+          colorTo: FF9674
+          lifetime: 0
+          particles: 1
+          }
+          {
+    type: WaveEffect
+    lifetime: 10
+    offsetX: 0
+    offsetY: 0
+    sizeFrom: 0
+    sizeTo: 10
+    followParent: true
+    rotWithParent: true
+    colorFrom: FF9674
+    colorTo: FF9674000
+          }
+          {
+    type: WaveEffect
+    lifetime: 3
+    offsetX: 0
+    offsetY: 0
+    sizeFrom: 10
+    sizeTo: 0
+    followParent: true
+    rotWithParent: true
+    colorFrom: FF9674
+    colorTo: FF9674000
+          }
+          ]
+          }
+
           hitEffect: {
       type: MultiEffect
       effects: [
