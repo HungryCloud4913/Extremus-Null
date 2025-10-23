@@ -33,8 +33,8 @@ shoot: {
         trailWidth: 2.3
         trailSinMag: 1
         trailSinScl: 5
-        width: 14
-        height: 17
+        width: 8
+        height: 11
         trailParam: 2.2
         hitEffect: none
                 backColor: BCC5E4
@@ -62,8 +62,8 @@ shoot: {
         trailWidth: 2.3
         trailSinMag: 1
         trailSinScl: 5
-        width: 9
-        height: 14
+        width: 8
+        height: 11
         trailParam: 2.2
         hitEffect: none
                 backColor: FF9674
