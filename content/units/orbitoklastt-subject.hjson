@@ -1,6 +1,6 @@
 type: missile
 template: TankUnitType
-lightRadius: 10
+lightRadius: 13
 omniMovement: false
 outlineColor: 252222
 drawCell: false
