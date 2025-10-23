@@ -1,6 +1,6 @@
 type: mech
 health: 630
-lightRadius: 10
+lightRadius: 13
 hitSize: 10
 outlineColor: 252222
 shadowElevation: 0.1
@@ -107,6 +107,7 @@ weapons:[
 ]
 research: walker-producer
 alwaysUnlocked: true
+
 
 
 
