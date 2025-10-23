@@ -1,6 +1,7 @@
 type: mech
 health: 510
-lightRadius: 13
+lightRadius: 19
+LightOpacity: 0.5
 hitSize: 10
 outlineColor: 252222
 hovering: true
@@ -92,6 +93,7 @@ weapons:[
 ]
 research: hover-producer
 alwaysUnlocked: true
+
 
 
 
