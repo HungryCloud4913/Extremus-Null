@@ -1,6 +1,6 @@
 type: mech
 health: 1200
-lightRadius: 13
+lightRadius: 16
 hitSize: 13
 outlineColor: 252222
 hovering: true
