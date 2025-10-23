@@ -1,6 +1,7 @@
 type: legs
 health: 180
-lightRadius: 37
+lightRadius: 42
+LightOpcaity: 0.5
 research: core-pointless
 alwaysUnlocked: true
 controller: builderAI
