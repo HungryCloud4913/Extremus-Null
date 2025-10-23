@@ -1,7 +1,8 @@
 template: TankUnitType
 type: tank
 health: 4270
-lightRadius: 24
+lightRadius: 28
+LightOpacity: 0.5
 hitSize: 23
 flying: false
 speed: 0.52
