@@ -1,0 +1,26 @@
+type: StorageBlock
+size: 2
+health: 510
+itemCapacity: 350
+category: effect
+squareSprite: false
+
+requirements: [
+  pyrite/125
+  lead/75
+  siniat/5
+  ]
+  researchCost: [
+  pyrite/250
+  lead/200
+  siniat/20
+]
+  research: {
+  parent: core-pointless
+  objectives: [
+{
+type: SectorComplete
+preset: Cancerous Outset
+  }
+]
+}

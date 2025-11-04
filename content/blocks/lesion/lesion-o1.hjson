@@ -1,0 +1,10 @@
+buildVisibility: editorOnly
+type: Conduit
+category: liquid
+requirements: [
+]
+health: 50
+leaks: false
+underBullets: true
+liquidCapacity: 20
+squareSprite: false

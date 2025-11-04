@@ -1,0 +1,147 @@
+template: TankUnitType
+type: tank
+health: 1950
+lightRadius: 22
+LightOpacity: 0.5
+hitSize: 14
+flying: false
+speed: 0.60
+accel: 0.5
+drag: 0.4
+armor: 10
+rotateSpeed: 2.1
+outlineColor: 252222
+targetAir: true
+faceTarget: false
+groundLayer: 60
+treadFrames: 20
+treadRects: [
+    {
+        x: -24,
+        y: -43,
+        width: 10,
+        height: 30
+    }
+    {
+        x: -33,
+        y: 10,
+        width: 10,
+        height: 30
+    }
+]
+
+
+weapons: [{
+                name: daze-weapon
+                recoils: 2
+                mirror: false
+                top: true
+                rotate: true
+                layerOffset: 0.5
+                rotationLimit: 310
+		        rotateSpeed: 2
+                x: 0
+                y: -2.5
+                reload: 70
+                shoot: {
+                type: shootAlternate
+                shots: 1
+                shotDelay: 0
+     			      }
+            inaccuracy: 0.5
+            recoil: 2.5
+            shootSound: shootAltLong
+            soundPitchMin: 0.7
+            soundPitchMax: 1.1
+            bullet: {
+		lightColor: FF92C0
+                type: ArtilleryBulletType
+                speed: 6
+                lifetime: 29
+                backColor: F39FC2
+                frontColor: FF92C0
+                mixColorFrom: F39FC2
+                mixColorTo: FF92C0
+                width: 8.5
+                height: 10
+		weaveMag: 10
+		weaveScl: 13
+		splashDamageRadius: 30
+		splashDamage: 60
+		hitEffect: blastExplosion
+        hitColor: FF92C0
+        trailLength: 6
+        trailColor: FF92C0
+        intervalBullets: 1
+		bulletInterval: 3
+        intervalRandomSpread: 60
+		intervalBullet: {
+			type: BasicBulletType
+			speed: 4
+			damage: 4
+			lifetime: 8
+			trailLength: 4
+			height: 10
+			width: 8
+            backColor: F39FC2
+            frontColor: FF92C0
+            mixColorFrom: F39FC2
+            mixColorTo: FF92C0
+            trailColor: FF92C0
+			hitEffect: hitBulletColor
+            despawnEffect: hitBulletColor
+            hitColor: FF92C0
+			}
+        fragBullets: 6
+        fragVelocityMin: 1
+        fragVelocityMax: 1
+        fragRandomSpread: 0
+        fragSpread: 20
+        fragOnHit: true
+        fragAngle: 10
+		fragBullet: {
+			type: BasicBulletType
+			speed: 5.8
+			damage: 7
+			lifetime: 9
+			width: 9
+			height: 9
+            backColor: F39FC2
+            frontColor: FF92C0
+            mixColorFrom: F39FC2
+            mixColorTo: FF92C0
+            trailColor: FF92C0
+			trailLength: 4
+			hitEffect: hitBulletColor
+            despawnEffect: hitBulletColor
+            hitColor: FF92C0
+			}
+               }
+ parts: [
+    {
+      type: RegionPart
+      suffix: -barrel-left
+      recoilIndex: 0
+      moveY: -4
+      moveX: 0
+      progress: recoil
+      mirror: false
+      under: true
+}
+       {
+      type: RegionPart
+      suffix: -barrel-right
+      recoilIndex: 1
+      moveY: -4
+      moveX: 0
+      progress: recoil
+      mirror: false
+      under: true
+}
+]
+}
+]
+research: {
+  parent: deceive
+  alwaysUnlocked: true
+}

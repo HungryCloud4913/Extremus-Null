@@ -1,0 +1,159 @@
+hidden: true
+type: legs
+health: 220
+hitSize: 12
+lowAltitude: true
+groundLayer: 60
+alwaysUnlocked: true
+outlineColor: 0C0606
+drawCell: false
+drawBody: false
+hovering: true
+legStraightness: 0.25
+legSpeed: 0.5
+legCount: 5
+legLength: 15
+lockLegBase: true
+legContinuousMove: true
+legExtension: -2
+legBaseOffset: 4
+legMaxLength: 1.05
+legLengthScl: 0.96
+legMinLength: 0.8
+legForwardScl: 1
+fogRadius: 2
+legSplashDamage: 0
+legSplashRange: 0
+drownTimeMultiplier: 5
+legGroupSize: 2
+baseLegStraightness: 0.5
+rippleScale: 0.1
+rippleScale: 0
+targetAir: false
+faceTarget: true
+lightOpacity: 0
+lightRadius: 0
+
+accel: 0.3
+drag: 0.3
+speed: 0.7
+rotateSpeed: 2
+armor: 0
+envDisabled: 0
+immunities: [
+  burning
+  ]
+
+weapons: [{
+                name: lesion-a5
+                mirror: false
+                top: true
+                alternate: false
+                rotate: false
+                layerOffset: 1
+	            	rotateSpeed: 0
+                x: 0
+                y: 0
+                reload: 20
+                shoot: {
+        type: ShootBarrel
+        barrels: [
+          +1.5, +6, 0
+          -6, +5, 0
+          -9, -7, 0
+          -3.5, -10, 0
+          +3, -9, 0
+          +6, -4, 0
+          +7, +2, 0
+            ]
+            firstShotDelay: 0
+            shots: 7
+            }
+            inaccuracy: 0
+            recoil: 0
+            shootSound: none
+            bullet: {
+	damage: 25
+	type: RailBulletType
+	shootEffect: none
+	smokeEffect: none
+	pointEffect: none
+	endEffect: none
+	hitEffect: hitBulletColor
+	despawnEffect: none
+	length: 2
+	hitColor: EDD9BB
+			}
+parts: [{
+  type: RegionPart
+  mirror: false
+  moveX: 2
+  moveY: 3
+  moveRot: 0
+  suffix: -spike1
+  progress: reload
+  under: true
+    }
+{
+  type: RegionPart
+  mirror: false
+  moveX: -2
+  moveY: 3
+  moveRot: 0
+  suffix: -spike2
+  progress: reload
+  under: true
+    }
+{
+  type: RegionPart
+  mirror: false
+  moveX: -3
+  moveY: -1
+  moveRot: 0
+  suffix: -spike3
+  progress: reload
+  under: true
+    }
+{
+  type: RegionPart
+  mirror: false
+  moveX: -2
+  moveY: -3
+  moveRot: 0
+  suffix: -spike4
+  progress: reload
+  under: true
+    }
+{
+  type: RegionPart
+  mirror: false
+  moveX: 1
+  moveY: -3
+  moveRot: 0
+  suffix: -spike5
+  progress: reload
+  under: true
+    }
+{
+  type: RegionPart
+  mirror: false
+  moveX: 3
+  moveY: -1.5
+  moveRot: 0
+  suffix: -spike6
+  progress: reload
+  under: true
+    }
+{
+  type: RegionPart
+  mirror: false
+  moveX: 3
+  moveY: 2
+  moveRot: 0
+  suffix: -spike7
+  progress: reload
+  under: true
+    }
+]
+}
+]

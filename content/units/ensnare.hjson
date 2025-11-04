@@ -1,0 +1,269 @@
+template: TankUnitType
+type: tank
+health: 4270
+lightRadius: 28
+LightOpacity: 0.5
+hitSize: 23
+flying: false
+speed: 0.52
+accel: 0.5
+drag: 0.4
+armor: 12
+rotateSpeed: 1.8
+outlineColor: 252222
+targetAir: true
+faceTarget: false
+groundLayer: 60
+treadFrames: 25
+treadRects: [
+    {
+        x: -35,
+        y: -53,
+        width: 14,
+        height: 38
+    }
+    {
+        x: -42,
+        y: 14,
+        width: 10,
+        height: 38
+    }
+    {
+        x: -20,
+        y: 18,
+        width: 10,
+        height: 38
+    }
+]
+abilities: [
+{
+type: ShieldArcAbility
+regen: 0.4
+max: 430
+cooldown: 420
+angleOffset: 0
+whenShooting: false
+radius: 20
+drawArc: true
+pushUnits: true
+x: 0
+y: -6.5
+  }
+{
+type: ShieldArcAbility
+regen: 0.3
+max: 430
+cooldown: 660
+angleOffset: 180
+whenShooting: false
+radius: 7
+drawArc: true
+pushUnits: true
+x: 0
+y: -8.75
+  }
+]
+weapons: [{
+                name: ensnare-weapon
+                recoils: 4
+                mirror: false
+                top: true
+                rotate: true
+                layerOffset: 0.5
+                rotationLimit: 310
+		        rotateSpeed: 2
+                x: 0
+                y: -0.5
+                reload: 60
+                shoot: {
+          shots: 2
+        type: ShootBarrel
+        barrels: [
+          -8, -7, 67.5
+          8, -7, -67.5
+          -3, -10, 67.5
+          3, -10, -67.5
+            ]
+}
+            inaccuracy: 0.5
+            recoil: -0.3
+            shootSound: shockBlast
+            soundPitchMin: 0.7
+            soundPitchMax: 1.1
+            bullet: {
+		lightColor: FF92C0
+                type: BasicBulletType
+                speed: 6.3
+                lifetime: 40
+                backColor: F39FC2
+                frontColor: FF92C0
+                mixColorFrom: F39FC2
+                mixColorTo: FF92C0
+                width: 9
+                height: 11
+    homingPower: 0.31
+		splashDamageRadius: 20
+		splashDamage: 70
+		hitEffect: blastExplosion
+        hitColor: FF92C0
+        trailLength: 9
+        trailColor: FF92C0
+          smokeEffect: {
+          type: MultiEffect
+          effects: [
+          {
+          type: ParticleEffect
+          line: true
+          strokeFrom: 1
+          strokeTo: 0
+          lenFrom: 2.1
+          lenTo: 1
+          color: F39FC2
+          colorTo: F39FC200
+          mixColor: F39FC2
+          mixColorTo: F39FC2
+          interp: pow10Out
+          sizeInterp: pow10In
+          particles: 5
+          cone: 20
+          }
+          ]
+          }
+         fragBullets: 1
+         fragVelocityMin: 1
+         fragVelocityMax: 1
+         fragSpread: 0
+         fragRandomSpread: 0
+        fragOnHit: true
+         fragBullet: {
+type: LaserBulletType
+                damage: 35
+                speed: 0
+                lifetime: 8
+                knockback: 0
+                pierce: true
+		colors: [794151, F39FC2, FEEBF3]
+                width: 15
+                length: 21
+                sideAngle: 0
+   despawnEffect: none
+        despawnHit: false
+}
+}
+ parts: [
+    {
+      type: RegionPart
+      suffix: -barrel1
+      heatColor: F39FC2
+      recoilIndex: 0
+      moveY: 2
+      moveX: 2
+      progress: recoil
+      mirror: false
+      under: true
+}
+       {
+      type: RegionPart
+      suffix: -barrel2
+      heatColor: F39FC2
+      recoilIndex: 1
+      moveY: 2
+      moveX: -2
+      progress: recoil
+      mirror: false
+      under: true
+}
+      {
+      type: RegionPart
+      suffix: -barrel3
+      heatColor: F39FC2
+      recoilIndex: 2
+      moveY: 2
+      moveX: 2
+      progress: recoil
+      mirror: false
+      under: true
+}
+       {
+      type: RegionPart
+      suffix: -barrel4
+      heatColor: F39FC2
+      recoilIndex: 3
+      moveY: 2
+      moveX: -2
+      progress: recoil
+      mirror: false
+      under: true
+}
+    {
+      type: RegionPart
+      suffix: -heatbarrel1
+      recoilIndex: 0
+      moveY: 2
+      moveX: 2
+      color: FFFFFF00
+      colorTo: FFB4D3
+      mixColor: F39FC200
+      mixColorTo: FFC9DF
+      blending: additive
+      progress: recoil
+      mirror: false
+      under: true
+      outline: false
+}
+    {
+      type: RegionPart
+      suffix: -heatbarrel2
+      recoilIndex: 1
+      moveY: 2
+      moveX: -2
+      color: FFFFFF00
+      colorTo: FFB4D3
+      mixColor: F39FC200
+      mixColorTo: FFC9DF
+      blending: additive
+      progress: recoil
+      mirror: false
+      under: true
+      outline: false
+}
+    {
+      type: RegionPart
+      suffix: -heatbarrel3
+      recoilIndex: 2
+      moveY: 2
+      moveX: 2
+      color: FFFFFF00
+      colorTo: FFB4D3
+      mixColor: F39FC200
+      mixColorTo: FFC9DF
+      blending: additive
+      progress: recoil
+      mirror: false
+      under: true
+      outline: false
+}
+    {
+      type: RegionPart
+      suffix: -heatbarrel4
+      recoilIndex: 3
+      moveY: 2
+      moveX: -2
+      color: FFFFFF00
+      colorTo: FFB4D3
+      mixColor: F39FC200
+      mixColorTo: FFC9DF
+      blending: additive
+      progress: recoil
+      mirror: false
+      under: true
+      outline: false
+}
+]
+}
+]
+research: {
+  parent: daze
+  alwaysUnlocked: true
+}
+

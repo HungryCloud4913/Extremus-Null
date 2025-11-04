@@ -1,0 +1,9 @@
+research: {
+  parent: lesion-database-entry-1a
+  objectives: [
+{
+type: SectorComplete
+preset: First Contact
+  }
+]
+}

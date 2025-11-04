@@ -1,0 +1,108 @@
+type: GenericCrafter
+health: 1100
+size: 3
+squareSprite: false
+category: crafting
+craftTime: 200
+hasLiquids: true
+liquidCapacity: 30
+outputItems: [
+cartenic-alloy/3
+]
+itemCapacity: 20
+consumes: {
+  power: 4
+items: [
+pyrite/3
+silicon/2
+carbon/1
+]
+liquids: [
+nitrogen/0.2
+]
+}
+
+requirements: [
+  pyrite/120
+  siniat/60
+  silicon/25
+  thiocompound/30
+]
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+      {
+      type: DrawLiquidRegion
+      drawLiquid: nitrogen
+      suffix: -nitro
+    }
+  {
+	type: DrawCrucibleFlame
+	flameColor: FFB59E
+	midColor: ffffff
+	alpha: 0.75
+	flameRad: 0
+	circleStroke: 0
+	particles: 30
+	particleRad: 11
+	particleSize: 5
+}
+    {
+      type: DrawFlame
+      flameColor: FFB59E
+	  flameRadius: 6
+    }
+      {
+      type: DrawDefault
+    }
+  ]
+}
+
+craftEffect: {
+    type: MultiEffect
+    effects: [
+{
+    type: radialEffect
+    amount: 12
+    rotationSpacing: 90
+    lengthOffset: 6
+    rotationOffset: 45
+    effect: {
+      type: ParticleEffect
+      particles: 4
+      length: 95
+      lifetime: 700
+      sizeFrom: 1
+      sizeTo: 6
+      cone: 8
+      baseRotation: 73
+      useRotation: false
+      interp: pow3Out
+      colorFrom: BB6B33
+      colorTo: 7B4B1900
+      layer: 100.3
+      }
+}
+  ]
+}
+
+ researchCost: [
+  pyrite/200
+  siniat/100
+  silicon/50
+  thiocompound/75
+]
+research: {
+  parent: siniat-forge
+  objectives: [
+{
+type: SectorComplete
+preset: Cancerous Outset
+  }
+]
+}

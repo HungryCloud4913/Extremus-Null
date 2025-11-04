@@ -1,0 +1,6 @@
+type: TreeBlock
+variants: 1
+name: Sulphungus Invis
+attributes: {
+  sulphur: 1
+}

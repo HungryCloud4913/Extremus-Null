@@ -1,0 +1,11 @@
+buildVisibility: editorOnly
+type: LiquidRouter
+size: 1
+solid: false
+underBullets: true
+health: 70
+liquidCapacity: 30
+category: liquid
+squareSprite: false
+requirements: [
+]

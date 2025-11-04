@@ -1,0 +1,52 @@
+type: GenericCrafter
+health: 320
+size: 2
+category: crafting
+craftTime: 90
+craftEffect: reactorsmoke
+outputItems: [
+silicon/2
+]
+
+consumes: {
+power: 1
+items: [
+sand/3
+carbon/2
+]
+}
+
+requirements: [
+pyrite/40
+lead/20
+carbon/5
+]
+
+research: core-pointless
+  researchCost: [
+  pyrite/45
+  lead/20
+  carbon/20
+]
+squareSprite: false
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawCrucibleFlame
+      flameColor: 9E9696
+    }
+    {
+      type: DrawFlame
+      flameColor: 9E9696
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}

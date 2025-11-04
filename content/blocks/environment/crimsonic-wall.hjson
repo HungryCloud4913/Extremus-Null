@@ -1,0 +1,6 @@
+type: StaticWall
+variants: 3
+name: Crimsonic Wall
+attributes: {
+  sand: 1
+}

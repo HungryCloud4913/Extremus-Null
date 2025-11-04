@@ -1,0 +1,70 @@
+size: 2
+range: 9
+type: RegenProjector
+baseColor: 8DEEBB
+squareSprite: false
+effectChance: 0.0075
+healPercent: 0.05
+consumes: {
+  power: 4.25
+  items: {
+    items: [
+      silicon/1
+    ]
+    optional: true
+    booster: true
+  }
+}
+optionalUseTime: 180
+optionalMultiplier: 2
+healPercent: 0.0166667
+category: effect
+
+effect: {
+  type: ParticleEffect
+  colorFrom: 8DEEBB
+  colorTo: 66C1B5
+  particles: 1
+  length: 2
+  baseLength: 2
+  strokeFrom: 0.6
+  strokeTo: 1.6
+  lifetime: 90
+  cone: 360
+  interp: pow3
+  sizeInterp: pow2Out
+}
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+type: DrawPulseShape
+color: 8DEEBB
+layer: 60
+    }
+          ]
+        }
+
+requirements: [
+  pyrite/95
+  silicon/30
+  siniat/10
+  ]
+  researchCost: [
+  pyrite/200
+  silicon/90
+  siniat/35
+]
+research: {
+  parent: item-tower
+  objectives: [
+{
+type: SectorComplete
+preset: Cancerous Outset
+  }
+]
+}

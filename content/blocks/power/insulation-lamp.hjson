@@ -1,0 +1,24 @@
+type: LightBlock
+health: 80
+size: 2
+category: power
+squareSprite: false
+brightness: 1
+radius: 80
+
+consumes: {
+power: 0.025
+}
+
+requirements: [
+lead/10
+carbon/5
+]
+
+  researchCost: [
+  lead/15
+  carbon/5
+]
+research: {
+  parent: insulation-node
+}

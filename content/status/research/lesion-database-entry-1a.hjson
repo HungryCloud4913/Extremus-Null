@@ -1,0 +1,9 @@
+research: {
+  parent: core-pointless
+  objectives: [
+{
+type: SectorLand
+preset: First Contact
+  }
+]
+}

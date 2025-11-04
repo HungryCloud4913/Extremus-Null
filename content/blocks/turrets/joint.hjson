@@ -1,0 +1,259 @@
+type: ItemTurret
+category: turret
+squareSprite: false
+outlineColor: 2A2727
+size: 2
+health: 520
+targetGround: true
+targetAir: false
+rotateSpeed: 2
+reload: 100
+recoil: 2
+recoils: 2
+shootSound: missileSmall
+loopSound: false
+inaccuracy: 3
+range: 90
+consumeAmmoOnce: true
+ammoPerShot: 3
+shoot: {
+  type: ShootAlternate
+  shotDelay: 0
+    }
+  ammoTypes:{
+       silicon: {
+        type: MissileBulletType
+        homingPower: 0.1
+	homingRange: 20
+        reloadMultiplier: 1
+        speed: 7
+        lifetime: 17
+        damage: 150
+        trailInterp: slope
+        trailWidth: 2.3
+        trailSinMag: 1
+        trailSinScl: 5
+        width: 8
+        height: 11
+        trailParam: 2.2
+        hitEffect: none
+                backColor: BCC5E4
+                frontColor: BCC5E4
+                mixColorFrom: BCC5E4
+                mixColorTo: BCC5E4
+                trailLength: 7.5
+                trailColor: BCC5E4
+        despawnHit: true
+        hitColor: BCC5E4
+        shootEffect: shootBigColor
+        smokeEffect: shootSmokeSquareSparse
+}
+    cartenic-alloy: {
+        type: MissileBulletType
+        homingPower: 0.05
+	homingRange: 50
+	weaveMag: 15
+	weaveScl: 10
+        reloadMultiplier: 0.75
+        speed: 5
+        lifetime: 24
+        damage: 320
+        trailInterp: slope
+        trailWidth: 2.3
+        trailSinMag: 1
+        trailSinScl: 5
+        width: 8
+        height: 11
+        trailParam: 2.2
+        hitEffect: none
+                backColor: FF9674
+                frontColor: FF9674
+                mixColorFrom: FF9674
+                mixColorTo: FFEBE5
+                trailLength: 20
+                trailColor: FF9674
+        despawnHit: true
+        hitColor: FF9674
+        shootEffect: shootBigColor
+        smokeEffect: {
+          type: MultiEffect
+          effects: [
+          {
+    type: WaveEffect
+    lifetime: 10
+    offsetX: 0
+    offsetY: 0
+    sizeFrom: 0
+    sizeTo: 5
+    followParent: true
+    rotWithParent: true
+    colorFrom: FF9674
+    colorTo: FF9674000
+          }
+          {
+    type: WaveEffect
+    lifetime: 3
+    offsetX: 0
+    offsetY: 0
+    sizeFrom: 5
+    sizeTo: 0
+    followParent: true
+    rotWithParent: true
+    colorFrom: FF9674
+    colorTo: FF9674000
+          }
+          ]
+          }
+
+          hitEffect: {
+      type: MultiEffect
+      effects: [
+        {
+        colorFrom: FF9674
+        colorTo: BB6B33
+        lifetime: 12
+        strokeFrom: 4
+        }
+        {  
+        type: ParticleEffect
+        colorFrom: FF9674
+        colorTo: BB6B33
+        interp: circleOut
+        sizeInterp: pow4In
+        particles: 12
+        length: 6
+        lifetime: 45
+        }
+        {
+        type: ParticleEffect
+        line: true
+        colorFrom: FF9674
+        colorTo: BB6B33
+        lenFrom: 3
+        lenTo: 2
+        strokeFrom: 1
+        strokeTo: 0
+        lifetime: 25
+        length: 6
+        interp: pow4Out
+        sizeInterp: pow4In
+        randLength: false
+        }
+        {  
+        type: ParticleEffect
+        colorFrom: FF9674
+        colorTo: BB6B33
+        interp: circleOut
+        sizeInterp: pow4In
+        particles: 12
+        length: 30
+        lifetime: 45
+        cone: 40
+        }
+        {
+        type: ParticleEffect
+        line: true
+        colorFrom: FF9674
+        colorTo: BB6B33
+        lenFrom: 3
+        lenTo: 2
+        strokeFrom: 1
+        strokeTo: 0
+        lifetime: 25
+        length: 30
+        interp: pow4Out
+        sizeInterp: pow4In
+        randLength: true
+        cone: 40
+        }
+        ]
+      }
+}
+  }
+  drawer: {
+  type: DrawTurret
+  basePrefix: extrull-
+parts: [
+{
+type: RegionPart
+suffix: -midleft
+progress: recoil
+x: 0
+y: 0
+moveX: 0
+moveY: -3
+  mirror: false
+  under: false
+  recoilIndex: 0
+}
+{
+type: RegionPart
+suffix: -midright
+progress: recoil
+x: 0
+y: 0
+moveX: 0
+moveY: -3
+  mirror: false
+  under: false
+  recoilIndex: 1
+}
+{
+type: RegionPart
+suffix: -back
+progress: recoil
+x: 0
+y: 0
+moveX: 0
+moveY: 0
+  mirror: false
+  under: false
+}
+    {
+type: RegionPart
+suffix: -armleft
+progress: recoil
+x: 0
+y: 0
+moveX: 0
+moveY: -3
+moveRot: 30
+  mirror: false
+  under: false
+  recoilIndex: 0
+}
+{
+type: RegionPart
+suffix: -armright
+progress: recoil
+x: 0
+y: 0
+moveX: 0
+moveY: -3
+moveRot: -30
+  mirror: false
+  under: false
+  recoilIndex: 1
+}
+]
+}
+
+requirements: [
+  pyrite/80
+  lead/25
+  silicon/20
+  ]
+  researchCost: [
+  pyrite/80
+  lead/25
+  silicon/20
+]
+research: {
+  parent: rapidal
+  objectives: [
+{
+type: OnSector
+preset: Resisted Expansion
+  }
+]
+}

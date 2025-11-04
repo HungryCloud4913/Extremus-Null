@@ -1,0 +1,15 @@
+size: 3
+health: 5580
+  requirements: [
+    siniat/54
+    tungsten/27
+  ]
+type: Wall
+category: defense
+research: {
+  parent: large-siniat-wall
+}
+  researchCost: [
+  siniat/110
+  tungsten/30
+]

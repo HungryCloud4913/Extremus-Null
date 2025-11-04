@@ -1,0 +1,54 @@
+{
+buildVisibility: editorOnly
+type: GenericCrafter
+health: 540
+size: 3
+category: crafting
+research: []
+craftTime: 1
+craftEffect: none
+outputLiquid: lesion-oil/20
+
+consumes: {
+}
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: lesion-oil
+      alpha: 1
+    }
+    {
+      type: DrawDefault
+    }
+    {  
+	  type: DrawRegion
+	  suffix: -tendril1
+	  rotateSpeed: 1
+	  spinSprite: true
+    }
+      {  
+	  type: DrawRegion
+	  suffix: -tendril2
+	  rotateSpeed: 1.2
+	  spinSprite: true
+    }
+    {  
+	  type: DrawRegion
+	  suffix: -tendril1
+	  rotateSpeed: -0.8
+	  spinSprite: true
+    }
+    {
+      type: DrawRegion
+      suffix: -top
+    }
+  ]
+}
+}

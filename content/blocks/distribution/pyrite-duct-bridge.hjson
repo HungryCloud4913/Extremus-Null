@@ -1,0 +1,16 @@
+type: DuctBridge
+category: distribution
+alwaysUnlocked: false
+size: 1
+speed: 7
+health: 50
+range: 4
+
+requirements: [
+ pyrite/2
+]
+researchCost: [
+  pyrite/20
+]
+
+research: pyrite-duct

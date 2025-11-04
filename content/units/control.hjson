@@ -1,0 +1,223 @@
+type: legs
+health: 1570
+lightRadius: 22
+LightOpacity: 0.5
+hitSize: 14
+hovering: true
+legStraightness: 0.2
+legSpeed: 0.1
+legCount: 4
+legLength: 10
+lockLegBase: true
+legContinuousMove: true
+legExtension: -2
+legBaseOffset: 5
+legMaxLength: 1.2
+legLengthScl: 1.0
+legMinLength: 0.7
+legForwardScl: 1
+fogRadius: 2
+legSplashDamage: 0
+legSplashRange: 0
+drownTimeMultiplier: 5
+legGroupSize: 3
+baseLegStraightness: 0.2
+rippleScale: 0.1
+rippleScale: 0
+targetAir: true
+faceTarget: true
+outlineColor: 252222
+shadowElevation: 0.1
+groundLayer: 61
+canDrown: true
+isEnemy: true
+speed: 0.68
+accel: 0.5
+drag: 0.4
+rotateSpeed: 3
+armor: 5
+weapons:[
+ {
+  name: control-point
+ type: PointDefenseWeapon
+        mirror: false
+        top: true
+        alternate: false
+        rotate: true
+	rotateSpeed: 6
+        x: -5.2
+        y: -1
+        reload: 70
+      controllable: false
+      autoTarget: true
+      targetInterval: 5
+      targetSwitchInterval: 5
+      shootSound: sap
+      bullet: {
+        hitEffect: pointHit
+        smokeEffect: pointHit
+        maxRange: 70
+        damage: 15
+      }
+}
+{
+                name: control-mouth
+                mirror: true
+                top: false
+                alternate: true
+                layerOffset: -0.0001
+                rotate: true
+		rotateSpeed: 1.2
+                x: 0
+                y: +3
+                rotationLimit: 30
+                reload: 120
+                 shoot: {
+                 shots: 4
+                 shotDelay: 4
+                 firstShotDelay: 29
+            }
+            inaccuracy: 0
+            recoil: 0
+            chargeSound: wradCharge
+            shootSound: wradLaser
+            soundPitchMin: 1.3
+            soundPitchMax: 1.3
+            bullet: {
+                type: LaserBulletType
+                damage: 18
+                speed: 0
+                inaccuracy: 10
+                lifetime: 27
+                knockback: 0
+                pierce: true
+		colors: [305882, 49B8E6, F6F0FF]
+                width: 20
+                length: 80
+                sideAngle: 29
+   despawnEffect: none
+        despawnHit: false
+        smokeEffect: {
+          type: MultiEffect
+          effects: [
+          {
+          type: ParticleEffect
+          line: true
+          strokeFrom: 1
+          strokeTo: 0
+          lenFrom: 3
+          lenTo: 10
+          colorTo: 49B8E6
+          interp: pow10Out
+          sizeInterp: pow10In
+          particles: 4
+          cone: 30
+          }
+          {
+          type: ParticleEffect
+          length: 5
+          sizeFrom: 1
+          cone: 10
+          interp: pow10Out
+          sizeInterp: pow10In
+          colorTo: 49B8E6
+          lifetime: 0
+          particles: 1
+          }
+          {
+    type: WaveEffect
+    lifetime: 10
+    offsetX: 0
+    offsetY: 0
+    sizeFrom: 0
+    sizeTo: 10
+    followParent: true
+    rotWithParent: true
+    colorFrom: 49B8E6
+    colorTo: E3F7FF000
+          }
+          {
+    type: WaveEffect
+    lifetime: 3
+    offsetX: 0
+    offsetY: 0
+    sizeFrom: 10
+    sizeTo: 0
+    followParent: true
+    rotWithParent: true
+    colorFrom: 49B8E6
+    colorTo: E3F7FF000
+          }
+          ]
+          }
+
+chargeEffect: {
+    type: MultiEffect
+
+effects: [
+{
+    type: WaveEffect
+    lifetime: 17
+    offsetX: 0
+    offsetY: 0
+    sizeFrom: 15
+    sizeTo: 0
+    followParent: true
+    rotWithParent: true
+    colorFrom: E3F7FF000
+    colorTo: 49B8E6
+}
+{
+    type: RadialEffect
+    lifetime: 17
+    sizeFrom: 20
+    sizeTo: 0
+    amount: 12
+    rotationSpacing: 360
+    followParent: true
+    rotWithParent: true
+    colorFrom: E3F7FF000
+    colorTo: 49B8E6
+}
+]
+}
+}
+
+parts: [
+      {
+        type: FlarePart
+        y: 2.5
+        radius: 0
+        radiusTo: 9
+        stroke: 5
+        colorTo: 305882
+        colorTo: 305882
+        rotation: 10
+        rotMove: 85
+        followRotation: false
+        progress: {
+          type: charge
+          interp: pow5In
+        }
+}
+      {
+        type: FlarePart
+        y: 2.5
+        radius: 0
+        radiusTo: 9
+        stroke: 5
+        colorTo: 305882
+        colorTo: 305882
+        rotation: 10
+        rotMove: -85
+        followRotation: false
+        progress: {
+          type: charge
+          interp: pow5In
+        }
+      }
+]
+}
+]
+research: walker-producer
+alwaysUnlocked: true

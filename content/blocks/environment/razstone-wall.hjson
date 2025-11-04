@@ -1,0 +1,6 @@
+type: StaticWall
+variants: 4
+name: Razstone Wall
+attributes: {
+  sand: 0.5
+}

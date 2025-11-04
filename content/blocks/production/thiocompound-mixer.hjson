@@ -1,0 +1,129 @@
+type: HeatCrafter
+health: 400
+size: 2
+squareSprite: false
+category: crafting
+craftTime: 200
+heatRequirement: 4
+maxEfficiency: 2
+outputItems: [
+thiocompound/2
+]
+itemCapacity: 15
+consumes: {
+  power: 1.9
+items: [
+sulphur/3
+sand/2
+]
+}
+
+requirements: [
+lead/50
+silicon/10
+siniat/15
+exoglass/15
+]
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+    type: DrawPistons
+    suffix: -piston1
+    sides: 1
+    sinMag: 8
+    sinScl: 6
+    angleOffset: 0
+    horiOffset: 0
+    sinOffset: 0
+    lenOffset: -4
+    }
+    {
+    type: DrawPistons
+    suffix: -piston2
+    sides: 1
+    sinMag: 8
+    sinScl: -6
+    angleOffset: 0
+    horiOffset: 0
+    sinOffset: 0
+    lenOffset: -4
+    }
+    {
+      type: DrawHeatInput
+      suffix: -space
+    }
+    {
+    type: DrawDefault
+    }
+    {
+      type: DrawHeatInput
+      suffix: -heat
+    }
+  ]
+}
+
+craftEffect: {
+ type: MultiEffect
+    effects: [
+    {
+    type: radialEffect
+    amount: 7
+    rotationSpacing: 72
+    lengthOffset: 3
+    effect: {
+      type: ParticleEffect
+      particles: 3
+      length: 90
+      lifetime: 500
+      sizeFrom: 1
+      sizeTo: 5
+      cone: 4
+      baseRotation: 73
+      useRotation: false
+      interp: pow3Out
+      colorFrom: 34332E
+      colorTo: 6A696100
+      layer: 100.3
+      }
+    }
+    {
+      type: ParticleEffect
+      particles: 4
+      length: 90
+      lifetime: 500
+      sizeFrom: 1
+      sizeTo: 5
+      cone: 4
+      baseRotation: 73
+      useRotation: false
+      interp: pow3Out
+      colorFrom: 34332E
+      colorTo: 6A696100
+      layer: 100.3
+      startDelay: 20
+    }
+  ]
+}
+
+researchCost: [
+lead/150
+silicon/30
+siniat/45
+exoglass/45
+]
+
+research: {
+  parent: exoglass-crucible
+  objectives: [
+{
+type: SectorComplete
+preset: Cancerous Outset
+  }
+]
+}

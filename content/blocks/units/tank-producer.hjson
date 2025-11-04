@@ -1,0 +1,42 @@
+size: 3
+health: 850
+type: unitFactory
+configurable: false
+  consumes: {
+    power: 2.25
+  }
+plans: [
+{
+unit: deceive
+  requirements: [
+    silicon/60
+    pyrite/20
+    tungsten/25
+  ]
+time: 2900
+}
+]
+category: units
+requirements: [
+    pyrite/150
+    silicon/80
+    lead/50
+  ]
+ researchCost: [
+  pyrite/125
+  silicon/50
+  lead/25
+]
+research: {
+  parent: hover-producer
+  objectives: [
+{
+type: SectorComplete
+preset: Cancerous Outset
+  }
+]
+}
+
+
+
+

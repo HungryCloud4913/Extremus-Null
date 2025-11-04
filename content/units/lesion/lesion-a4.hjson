@@ -1,0 +1,116 @@
+hidden: true
+type: flying
+health: 190
+hitSize: 15
+flying: true
+speed: 1.7
+accel: 0.05
+drag: 0.01
+armor: 0
+rotateSpeed: 3.25
+outlineColor: 0C0606
+targetair: true
+faceTarget: false
+immunities: [
+  burning
+  ]
+drawEngines: false
+engineSize: 1
+lowAltitude: false
+lightOpacity: 0
+lightRadius: 0
+  
+  weapons: [
+ {
+name: lesion-a4
+    alwaysShooting: true
+    controllable: false
+    shootCone: 360
+    x: 0
+    mirror: false
+    recoil: 0
+    reload: 35
+    shootWarmupSpeed: 0.04
+    minWarmup: 0.25
+    shootSound: none
+    bullet: {
+      type: BulletType
+      hittable: false
+      absorbable: false 
+      collides: false 
+      speed: 0
+      lifetime: 0
+      shootEffect: none
+      smokeEffect: none
+      despawnEffect: none
+    }
+   parts: [{
+  type: RegionPart
+  mirror: false
+  moveX: 3
+  moveY: 2 
+  moveRot: 90
+  suffix: -leftwing1
+  progress: smoothReload
+  weaponIndex: 0
+  under: false
+    }
+{
+  type: RegionPart
+  mirror: false
+  moveX: -2
+  moveY: 0
+  moveRot: 75
+  suffix: -leftwing2
+  progress: smoothReload
+  weaponIndex: 0
+  under: false
+    }
+{
+  type: RegionPart
+  mirror: false
+  moveX: -0.5
+  moveY: 1
+  moveRot: -70
+  suffix: -rightwing1
+  progress: smoothReload
+  weaponIndex: 0
+  under: false
+    }
+     ]
+  }
+    {
+    name: oil-drop
+    x: 0
+    y: -1
+    mirror: false
+    alternate: false
+    rotate: true
+    reload: 65
+    under: true
+    inaccuracy: 13
+    rotationLimit: 105
+    shoot: {
+      shots: 5
+      shotDelay: 2
+    }
+    shootSound: sap
+    bullet: {
+      type: LiquidBulletType
+      liquid: lesion-oil
+      orbSize: 2.5
+      damage: 30
+      pierce: false
+      pierceCap: 1
+      knockback: 0
+      speed: 2.3
+      lifetime: 54
+      puddleSize: 16
+      despawnHit: true
+      despawnSound: plantBreak
+      status: tarred
+      statusDuration: 30
+      layer: 99
+    }
+  }
+]

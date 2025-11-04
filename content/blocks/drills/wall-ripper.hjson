@@ -1,0 +1,23 @@
+type: WallCrafter
+squareSprite: false
+size: 2
+category: production
+research: mineral-ripper
+requirements: [
+  pyrite/30
+]
+drillTime: 100
+output: sand
+attribute: sand
+ambientSound: drill
+ambientSoundVolume: 0.08
+squareSprite: false
+consumes: {
+power: 0.25
+}
+  researchCost: [
+  pyrite/20
+]
+research: {
+  parent: mineral-ripper
+}

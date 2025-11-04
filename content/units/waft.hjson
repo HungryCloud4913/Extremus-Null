@@ -1,0 +1,103 @@
+type: mech
+health: 510
+lightRadius: 19
+LightOpacity: 0.5
+hitSize: 10
+outlineColor: 252222
+hovering: true
+hoverable: true
+lowAltitude: true
+shadowElevation: 0.1
+mechFrontSway: 0
+mechSideSway: 0
+mechStride: 0
+groundLayer: 61
+canDrown: false
+targetAir: true
+faceTarget: false
+isEnemy: true
+accel: 0.5
+drag: 0.09
+speed: 2.1
+rotateSpeed: 4.5
+armor: 0
+parts: [
+  {
+    type: HoverPart
+    color: EBC930
+    radius: 8.5
+    sides: 6
+    layerOffset: -0.0001
+    x: 0
+    y: -2.5
+    phase: 150
+  }
+    {
+    type: HoverPart
+    color: EBC930
+    radius: 8.5
+    sides: 3
+    layerOffset: -0.0001
+    x: 0
+    y: +6.5
+    phase: 150
+  }
+]
+abilities: [
+  {
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrailShort
+    x: 0
+    y: -6.5
+    interval: 3
+    minVelocity: 0.6
+  }
+]
+weapons:[
+ {
+  name: yellow-missile
+  reload: 20
+  x: 0
+  y: 0
+  mirror: false
+  alternate: false
+  inaccuracy: 0.5
+  rotate: true
+  rotateSpeed: 4.5
+  shoot: {
+    shots: 1
+    shotDelay: 0
+      }
+  shootSound: exShoot
+  bullet: {
+    type: MissileBulletType
+			backColor: 826C30
+			frontColor: EBC930
+      trailColor: EBC930
+    hitColor: 826C30
+    hitEffect: hitSquaresColor
+    despawnEffect: hitSquaresColor
+    damage: 18
+    knockback: 0.1
+    height: 4
+    width: 7
+    hitSize: 7
+    trailWidth: 3
+    trailLength: 3
+    speed: 7
+    lifetime: 12
+    buildingDamageMultiplier: 1
+      }
+}
+]
+research: hover-producer
+alwaysUnlocked: true
+
+
+
+
+
+
+
+

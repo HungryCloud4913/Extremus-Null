@@ -1,0 +1,38 @@
+type: BeamDrill
+squareSprite: false
+health: 160
+drillTime: 150
+range: 5
+optionalBoostIntensity: 2
+consumes: {
+  liquids: {
+    liquids: [
+        hydrogen/0.2
+      ]
+    booster: true
+    optional: true
+      }
+  power: 0.25
+}
+size: 2
+
+requirements: [
+  pyrite/2
+  lead/30
+  ]
+
+fogRadius: 3
+category: production
+  researchCost: [
+  pyrite/2
+  lead/20
+]
+research: {
+  parent: mineral-ripper
+  objectives: [
+{
+type: OnSector
+preset: Resisted Expansion
+  }
+]
+}

@@ -1,0 +1,7 @@
+type: TreeBlock
+variants: 3
+name: Sulphungus
+attributes: {
+  sulphur: 1
+}
+shadowOffset: -5

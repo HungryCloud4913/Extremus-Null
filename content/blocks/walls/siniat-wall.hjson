@@ -1,0 +1,15 @@
+size: 1
+health: 620
+  requirements: [
+    siniat/6
+    tungsten/3
+  ]
+type: Wall
+category: defense
+research: {
+  parent: pyrite-wall
+}
+  researchCost: [
+  siniat/15
+  tungsten/7
+]

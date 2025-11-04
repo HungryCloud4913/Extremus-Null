@@ -1,0 +1,78 @@
+hidden: true
+type: legs
+health: 270
+hitSize: 15
+alwaysUnlocked: true
+outlineColor: 0C0606
+drawCell: false
+hovering: true
+legStraightness: 0.7
+allowLegStep: true
+legSpeed: 1.2
+legCount: 8
+legLength: 8
+lockLegBase: true
+legContinuousMove: true
+legExtension: 3
+legBaseOffset: 3
+legMaxLength: 1.05
+legLengthScl: 0.96
+legMinLength: 0.95
+legForwardScl: 1
+legGroupSize: 2
+rippleScale: 0
+legMoveSpace: 2
+allowLegStep: true
+legPhysicsLayer: false
+targetAir: true
+faceTarget: false
+lightOpacity: 0
+lightRadius: 0
+
+accel: 0.3
+drag: 0.3
+speed: 0.8
+rotateSpeed: 3.25
+armor: 0
+envDisabled: 0
+immunities: [
+burning
+  ]
+
+weapons: [
+   {
+    name: lesion-a6-tail
+    x: 0
+    y: -6
+    mirror: false
+    alternate: false
+    rotate: true
+    rotateSpeed: 3
+    rotationLimit: 345
+    reload: 100
+    inaccuracy: 4
+ shoot: {
+       type: ShootBarrel
+  barrels: [
+      0, 1, 0
+      2, -1, -5
+      -2, -1, 5
+      ]
+                    shots: 6
+                    shotDelay: 1
+            }
+    shootSound: flame2
+     bullet: {
+                type: BasicBulletType
+                speed: 4
+                damage: 25
+                lifetime: 40
+                backColor: D9FF9E
+                frontColor: D9FF9E
+                mixColorFrom: D9FF9E
+                mixColorTo: D9FF9E
+                width: 6
+                height: 8
+}    
+}
+]

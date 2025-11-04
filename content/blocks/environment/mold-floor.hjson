@@ -1,0 +1,7 @@
+type: Floor
+name: Mold Floor
+itemDrop: mold-chunk
+playerUnmineable: true
+attributes: {
+  mold-chunk: 0.5
+}

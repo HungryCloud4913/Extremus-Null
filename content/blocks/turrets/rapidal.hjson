@@ -1,0 +1,223 @@
+type: ItemTurret
+category: turret
+squareSprite: false
+outlineColor: 2A2727
+size: 2
+health: 700
+targetGround: true
+targetAir: true
+rotateSpeed: 4
+reload: 25
+recoil: 1.5
+recoils: 2
+shootSound: rapidalShot
+loopSound: false
+inaccuracy: 1
+range: 125
+consumeAmmoOnce: true
+ammoPerShot: 1
+shoot: {
+  type: ShootAlternate
+  shotDelay: 0
+    }
+  ammoTypes:{
+    pyrite: {
+        type: BasicBulletType
+        speed: 6
+        lifetime: 20
+        damage: 45
+        trailInterp: slope
+        trailWidth: 2.3
+        trailSinMag: 1
+        trailSinScl: 5
+        width: 11
+        height: 14
+        trailParam: 2.2
+        hitEffect: none
+                backColor: EDD9BB
+                frontColor: EDD9BB
+                mixColorFrom: EDD9BB
+                mixColorTo: EDD9BB
+                trailLength: 10
+                trailColor: EDD9BB
+        despawnHit: true
+        hitColor: EDD9BB
+        shootEffect: shootBigColor
+        smokeEffect: shootSmokeSquareSparse
+}
+    siniat: {
+        type: BasicBulletType
+        reloadMultiplier: 0.8
+        speed: 5
+        lifetime: 24
+        damage: 75
+        trailInterp: slope
+        trailWidth: 2.3
+        trailSinMag: 1
+        trailSinScl: 5
+        width: 14
+        height: 17
+        trailParam: 2.2
+        hitEffect: none
+                backColor: 91EDE8
+                frontColor: 8DEEBB
+                mixColorFrom: 91EDE8
+                mixColorTo: 8DEEBB
+                trailLength: 20
+                trailColor: 91EDE8
+        despawnHit: true
+        hitColor: 8DEEBB
+        shootEffect: shootBigColor
+        smokeEffect: shootSmokeSquareSparse
+          hitEffect: {
+      type: MultiEffect
+      effects: [
+        {
+        type: WaveEffect
+        sizeTo: 4
+        colorFrom: 91EDE8
+        colorTo: 8DEEBB
+        lifetime: 12
+        strokeFrom: 4
+        }
+        {  
+        type: ParticleEffect
+        colorFrom: 91EDE8
+        colorTo: 8DEEBB
+        interp: circleOut
+        sizeInterp: pow4In
+        particles: 12
+        length: 6
+        lifetime: 45
+        }
+        {
+        type: ParticleEffect
+        line: true
+        colorFrom: 91EDE8
+        colorTo: 8DEEBB
+        lenFrom: 3
+        lenTo: 2
+        strokeFrom: 1
+        strokeTo: 0
+        lifetime: 25
+        length: 6
+        interp: pow4Out
+        sizeInterp: pow4In
+        randLength: false
+        }
+        {  
+        type: ParticleEffect
+        colorFrom: 91EDE8
+        colorTo: 8DEEBB
+        interp: circleOut
+        sizeInterp: pow4In
+        particles: 12
+        length: 30
+        lifetime: 45
+        cone: 40
+        }
+        {
+        type: ParticleEffect
+        line: true
+        colorFrom: 91EDE8
+        colorTo: 8DEEBB
+        lenFrom: 3
+        lenTo: 2
+        strokeFrom: 1
+        strokeTo: 0
+        lifetime: 25
+        length: 30
+        interp: pow4Out
+        sizeInterp: pow4In
+        randLength: true
+        cone: 40
+        }
+        ]
+      }
+}
+   silicon: {
+        type: BasicBulletType
+        homingPower: 0.05
+		    homingRange: 30
+        reloadMultiplier: 2.3
+        speed: 7
+        lifetime: 17
+        damage: 15
+        trailInterp: slope
+        trailWidth: 2.3
+        trailSinMag: 1
+        trailSinScl: 5
+        width: 8
+        height: 11
+        trailParam: 2.2
+        hitEffect: none
+                backColor: BCC5E4
+                frontColor: BCC5E4
+                mixColorFrom: BCC5E4
+                mixColorTo: BCC5E4
+                trailLength: 7.5
+                trailColor: BCC5E4
+        despawnHit: true
+        hitColor: BCC5E4
+        shootEffect: shootBigColor
+        smokeEffect: shootSmokeSquareSparse
+}
+  }
+  drawer: {
+  type: DrawTurret
+  basePrefix: extrull-
+parts: [
+{
+type: RegionPart
+suffix: -barrel-l
+progress: recoil
+x: 0
+y: 0
+moveX: 0
+moveY: -3
+  mirror: false
+  under: false
+  recoilIndex: 0
+}
+{
+type: RegionPart
+suffix: -barrel-r
+progress: recoil
+x: 0
+y: 0
+moveX: 0
+moveY: -3
+  mirror: false
+  under: false
+  recoilIndex: 1
+}
+{
+type: RegionPart
+suffix: -mid
+progress: recoil
+x: 0
+y: 0
+moveX: 0
+moveY: 0
+  mirror: false
+  under: false
+}
+]
+}
+
+requirements: [
+  pyrite/75
+  carbon/20
+  ]
+  researchCost: [
+  pyrite/100
+  carbon/50
+]
+research: {
+  root: false
+  name: Extrull
+  requiresUnlock: true
+  planet: extrull
+  parent: core-pointless
+
+}

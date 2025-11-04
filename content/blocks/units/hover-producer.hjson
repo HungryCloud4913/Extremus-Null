@@ -1,0 +1,39 @@
+size: 3
+health: 600
+type: unitFactory
+configurable: false
+  consumes: {
+    power: 2
+  }
+plans: [
+{
+unit: waft
+  requirements: [
+    silicon/30
+    pyrite/15
+  ]
+time: 2400
+}
+]
+category: units
+requirements: [
+    pyrite/100
+    silicon/50
+  ]
+ researchCost: [
+  pyrite/125
+  silicon/75
+]
+research: {
+  parent: core-pointless
+  objectives: [
+{
+type: OnSector
+preset: Cancerous Outset
+  }
+]
+}
+
+
+
+

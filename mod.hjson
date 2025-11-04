@@ -1,0 +1,94 @@
+subtitle: "[See no evil]"
+
+name: Extremus Null
+displayName: "Extremus Null"
+
+author: 
+"HunNimbus
+[Hear no evil]"
+
+description: 
+"Reccomended texture pack to use with this mod: HunNimbus Gas Resprites
+
+Please leave a star on Github, It lets me know you enjoy the mod.
+[Speak no evil]"
+
+version: "Lost in archive"
+minGameVersion: "136"
+
+contentOrder:
+  [
+#Production
+silicon-chamber
+siniat-forge
+exoglass-crucible
+thiocompound-mixer
+
+#Walls
+pyrite-wall
+large-pyrite-wall
+huge-pyrite-wall
+siniat-wall
+large-siniat-wall
+huge-siniat-wall
+
+#Effects
+insulation-mender
+
+#Distribution
+pyrite-duct
+pyrite-duct-router
+pyrite-duct-bridge
+pyrite-duct-overflowsplitter
+pyrite-duct-underflowsplitter
+pyrite-duct-unloader
+
+#Liquid
+
+#Power
+insulation-node
+large-insulation-node
+insulation-lamp
+fossil-burner
+
+#Drills
+mineral-ripper
+wall-ripper
+fossil-ripper
+sulphungus-harvester
+mineral-tearer
+
+#Storage
+core-pointless
+item-tower
+
+#Turrets
+rapidal
+joint
+autogunn
+orbitoklastt
+
+#Unit Production
+hover-producer
+tank-producer
+walker-producer
+
+#Logic
+
+#Units
+waft
+whirl
+updraft
+vortex
+hurricane
+refuse
+control
+quarantine
+block
+barricade
+deceive
+daze
+ensnare
+capture
+imprison
+]

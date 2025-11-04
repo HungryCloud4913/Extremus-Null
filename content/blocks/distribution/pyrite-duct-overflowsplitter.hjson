@@ -1,0 +1,18 @@
+type: OverflowDuct
+category: distribution
+alwaysUnlocked: false
+size: 1
+speed: 7
+health: 50
+
+
+requirements: [
+ pyrite/1
+ lead/2
+]
+researchCost: [
+  pyrite/4
+  lead/8
+]
+
+research: pyrite-duct-router

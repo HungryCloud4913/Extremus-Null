@@ -1,0 +1,105 @@
+type: ItemTurret
+category: turret
+squareSprite: false
+outlineColor: 2A2727
+outline: false
+outlineRadius: 0
+size: 3
+health: 1640
+targetGround: true
+targetAir: false
+rotateSpeed: 1.1
+reload: 250
+recoil: 0
+recoils: 0
+shootSound: place
+soundPitchMin: 1.2
+soundPitchMax: 1.5
+inaccuracy: 0
+range: 190
+consumeAmmoOnce: true
+ammoPerShot: 10
+shootY: 50
+consumes: {
+power: 17.5
+}
+shoot: {
+  shots: 1
+  shotDelay: 0
+    }
+  ammoTypes:{
+    silicon: {
+        spawnUnit: orbitoklastt-subject
+}
+}
+  drawer: {
+  type: DrawTurret
+  basePrefix: extrull-
+parts: [
+{
+type: RegionPart
+suffix: -laser
+progress: warmup
+x: 0
+y: 0
+moveX: 0
+moveY: 0
+moveRot: 0
+  mirror: false
+  under: false
+}
+    {
+type: RegionPart
+suffix: -laser
+progress: warmup
+x: 0
+y: 0
+moveX: 0
+moveY: 0
+moveRot: 0
+  mirror: false
+  under: false
+drawOutline: false
+}
+{
+    type: RegionPart
+    suffix: -unit
+    x: 0
+    y: 0
+    moveX: 0
+    moveY: -40
+    progress: smoothReload
+    colorTo: 00000000
+    color: ffffff
+    mixColor: 00000000
+    outline: false
+    under: true
+    mixColorTo: ffff00
+}
+{
+type: RegionPart
+suffix: -railpoint
+progress: smoothReload
+x: 0
+y: 0
+moveX: 0
+moveY: -40
+moveRot: 0
+  mirror: false
+  under: true
+  outline: true
+}
+]
+}
+
+
+requirements: [
+  pyrite/210
+  silicon/60
+  tungsten/30
+  ]
+  researchCost: [
+  pyrite/300
+  silicon/100
+  tungsten/10
+]

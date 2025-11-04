@@ -1,0 +1,15 @@
+type: Duct
+category: distribution
+alwaysUnlocked: false
+speed: 7
+health: 50
+bridgeReplacement: pyrite-duct-bridge
+
+requirements: [
+ pyrite/1
+]
+researchCost: [
+  pyrite/12
+]
+
+research: core-pointless

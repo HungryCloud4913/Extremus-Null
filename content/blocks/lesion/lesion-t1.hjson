@@ -1,0 +1,110 @@
+buildVisibility: editorOnly
+type: LiquidTurret
+size: 3
+health: 820
+reload: 90
+inaccuracy: 15
+hasLiquids: true
+liquidCapacity: 60
+outlineColor: 0C0606
+recoil: 1
+category: turret
+shootSound: plantBreak
+shoot: {
+shots: 5
+shotDelay: 1
+}
+range: 100
+requirements: [
+]
+ammoTypes: {
+  lesion-oil: {
+    despawnHit: true
+    despawnSound: plantBreak
+    hitEffect: none
+    type: LiquidBulletType
+    liquid: lesion-oil
+    speed: 3
+    lifetime: 40
+    knockback: 0
+    status: tarred
+    statusDuration: 30
+    damage: 75
+    layer: 98
+  }
+}
+squareSprite: false
+drawer: {
+  type: DrawTurret
+  basePrefix: lesion-
+parts: [
+{
+type: RegionPart
+suffix: -jawleft
+progress: recoil
+x: 0
+y: 0
+moveX: 0
+moveY: -3
+moveRot: 21
+  mirror: false
+  under: false
+}
+{
+type: RegionPart
+suffix: -jawright
+progress: recoil
+x: 0
+y: 0
+moveX: 0
+moveY: -3
+moveRot: -21
+  mirror: false
+  under: false
+}
+{
+type: RegionPart
+suffix: -spike1
+progress: recoil
+x: 0
+y: 0
+moveX: -2
+moveY: -4
+  mirror: false
+  under: false
+}
+{
+type: RegionPart
+suffix: -spike2
+progress: recoil
+x: 0
+y: 0
+moveX: 0
+moveY: -4
+  mirror: false
+  under: false
+}
+{
+type: RegionPart
+suffix: -spike3
+progress: recoil
+x: 0
+y: 0
+moveX: +4
+moveY: -4
+  mirror: false
+  under: false
+}
+{
+type: RegionPart
+suffix: -mid
+progress: recoil
+x: 0
+y: 0
+moveX: 0
+moveY: 0
+  mirror: false
+  under: false
+}
+]
+}

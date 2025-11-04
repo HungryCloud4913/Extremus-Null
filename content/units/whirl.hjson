@@ -1,0 +1,117 @@
+type: mech
+health: 1200
+lightRadius: 22
+LightOpacity: 0.5
+hitSize: 13
+outlineColor: 252222
+hovering: true
+hoverable: true
+lowAltitude: true
+shadowElevation: 0.1
+mechFrontSway: 0
+mechSideSway: 0
+mechStride: 0
+groundLayer: 61
+canDrown: false
+targetAir: true
+faceTarget: false
+isEnemy: true
+accel: 0.5
+drag: 0.09
+speed: 0.95
+rotateSpeed: 3.85
+armor: 3
+parts: [
+  {
+    type: HoverPart
+    color: EBC930
+    radius: 12
+    sides: 4
+    layerOffset: -0.0001
+    x: 0
+    y: 1
+    phase: 150
+  }
+  {
+    type: HoverPart
+    color: EBC930
+    radius: 10
+    sides: 6
+    layerOffset: -0.0001
+    x: 0
+    y: -3.5
+    phase: 150
+  }
+]
+abilities: [
+  {
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrailShort
+    x: 0
+    y: -6.5
+    interval: 4
+    minVelocity: 0.6
+  }
+]
+weapons:[
+ {
+  name: whirl-weapon
+  reload: 55
+  x: 7
+  y: -1
+  mirror: true
+  alternate: true
+  inaccuracy: 1.5
+  rotate: true
+  rotateSpeed: 3.1
+  shoot: {
+    shots: 1
+    shotDelay: 0
+      }
+  shootSound: cannon
+minVolume: 0.3
+maxVolume: 0.4
+  bullet: {
+    type: MissileBulletType
+			backColor: 826C30
+			frontColor: EBC930
+      trailColor: EBC930
+    hitColor: 826C30
+    hitEffect: hitSquaresColor
+    despawnEffect: hitSquaresColor
+    damage: 20
+    knockback: 0.05
+    height: 6
+    width: 8
+    trailWidth: 3
+    trailLength: 4
+    speed: 7
+    lifetime: 20
+    buildingDamageMultiplier: 1
+      fragBullets: 6
+         fragVelocityMin: 1
+         fragVelocityMax: 1
+         fragSpread: 60
+         fragRandomSpread: 0
+        fragOnHit: true
+         fragBullet: 
+    {
+      type: BasicBulletType
+			backColor: 826C30
+			frontColor: EBC930
+      trailColor: EBC930
+    damage: 3
+    knockback: 0.05
+    height: 6
+    width: 8
+    trailWidth: 3
+    trailLength: 4
+    speed: 6
+    lifetime: 4.5
+}
+      }
+}
+]
+research: waft
+alwaysUnlocked: true

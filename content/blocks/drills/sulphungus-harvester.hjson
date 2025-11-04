@@ -1,0 +1,39 @@
+type: WallCrafter
+squareSprite: false
+health: 1250
+drillTime: 100  
+output: sulphur
+attribute: sulphur
+consumes: {
+  liquids: {
+    liquids: [
+        zisofluid/0.4
+      ]
+    booster: true
+    optional: true
+optionalBoostIntensity: 2
+      }
+  power: 0.75
+}
+size: 3
+requirements: [
+  pyrite/70
+  lead/20
+  tungsten/50
+  ]
+fogRadius: 3
+category: production
+  researchCost: [
+  pyrite/100
+  lead/75
+  tungsten/200
+]
+research: {
+  parent: fossil-ripper
+  objectives: [
+{
+type: OnSector
+preset: Cancerous Outset
+  }
+]
+}

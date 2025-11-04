@@ -1,0 +1,141 @@
+template: TankUnitType
+type: tank
+health: 895
+lightRadius: 19
+LightOpacity: 0.5
+hitSize: 9
+flying: false
+speed: 0.7
+accel: 0.5
+drag: 0.4
+armor: 7
+rotateSpeed: 2.5
+outlineColor: 252222
+targetAir: true
+faceTarget: false
+groundLayer: 60
+treadRects: [
+    {
+        x: -16,
+        y: -30,
+        width: 10,
+        height: 20
+    }
+    {
+        x: -19,
+        y: 13,
+        width: 10,
+        height: 16
+    }
+]
+weapons: [{
+                name: deceive-weapon
+                mirror: false
+                top: true
+                rotate: true
+                layerOffset: 0.5
+                rotationLimit: 290
+		        rotateSpeed: 4
+                x: 0
+                y: -2.5
+                reload: 100
+                shoot: {
+                shots: 1
+                shotDelay: 0
+     			      }
+            inaccuracy: 2
+            recoil: 0.5
+            shootSound: artillery
+            soundPitchMin: 1.2
+            soundPitchMax: 1.5
+            bullet: {
+		lightColor: FF92C0
+                type: ArtilleryBulletType
+                speed: 5.5
+                lifetime: 30
+                backColor: F39FC2
+                frontColor: FF92C0
+                mixColorFrom: F39FC2
+                mixColorTo: FF92C0
+                width: 10
+                height: 10
+		splashDamageRadius: 25
+		splashDamage: 40
+		hitEffect: blastExplosion
+        hitColor: FF92C0
+        trailLength: 5
+        trailColor: FF92C0
+         fragBullets: 3
+         fragVelocityMin: 1
+         fragVelocityMax: 1
+         fragSpread: 120
+         fragRandomSpread: 0
+        fragOnHit: true
+         fragBullet: {
+type: LaserBulletType
+                damage: 5
+                speed: 0
+                lifetime: 8
+                knockback: 0
+                pierce: true
+		colors: [794151, F39FC2, FEEBF3]
+                width: 7
+                length: 12
+                sideAngle: 0
+   despawnEffect: none
+        despawnHit: false
+}
+               }
+ parts: [
+    {
+      type: RegionPart
+      suffix: -barrel
+      moveY: -2
+      moveX: 0
+      progress: recoil
+      mirror: false
+      under: true
+}
+]
+}
+]
+research: tank-producer
+alwaysUnlocked: true
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,5 @@
+color: BB6B33
+research: {
+  planet: extrull
+  parent: silicon
+}

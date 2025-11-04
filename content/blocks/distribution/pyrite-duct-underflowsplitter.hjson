@@ -1,0 +1,18 @@
+type: OverflowDuct
+invert: true
+category: distribution
+alwaysUnlocked: false
+size: 1
+speed: 7
+health: 50
+
+requirements: [
+ pyrite/2
+ lead/1
+]
+researchCost: [
+  pyrite/8
+  lead/4
+]
+
+research: pyrite-duct-overflowsplitter

@@ -1,0 +1,161 @@
+type: ItemTurret
+category: turret
+squareSprite: false
+outlineColor: 2A2727
+size: 3
+health: 1575
+targetGround: false
+targetAir: true
+rotateSpeed: 3
+reload: 6.5
+recoil: 0.75
+recoils: 0
+shootSound: shootAltLong
+soundPitchMin: 1.2
+soundPitchMax: 1.5
+loopSound: false
+inaccuracy: 6.5
+range: 290
+consumeAmmoOnce: true
+ammoPerShot: 1
+consumes: {
+power: 5
+}
+shoot: {
+  shots: 1
+  shotDelay: 0
+    }
+  ammoTypes:{
+    lead: {
+        type: BasicBulletType
+        collidesGround: false
+        collidesTiles: false
+        speed: 11
+        lifetime: 30
+        damage: 45
+        trailWidth: 2
+        width: 7
+        height: 10
+        hitEffect: none
+                backColor: B8A6E0
+                frontColor: D8C7FF
+                mixColorFrom: B8A6E0
+                mixColorTo: D8C7FF
+                trailLength: 2
+                trailColor: DAD6F7
+        despawnHit: true
+        hitColor: D8C7FF
+        shootEffect: shootBigColor
+        smokeEffect: shootSmokeSquareSparse
+}
+    sulphur: {
+        type: BasicBulletType
+        collidesGround: false
+        collidesTiles: false
+        speed: 11
+        lifetime: 30
+        damage: 95
+        trailWidth: 2
+        width: 7
+        height: 10
+                backColor: B3A867
+                frontColor: EFE47D
+                mixColorFrom: EFE47D
+                mixColorTo: EFE47D
+                trailLength: 2.5
+                trailColor: 97A5F7
+	    	splashDamageRadius: 5
+		    splashDamage: 10
+		    hitEffect: blastExplosion
+        despawnHit: true
+        hitColor: 97A5F7
+        shootEffect: shootBigColor
+        smokeEffect: shootSmokeSquareSparse
+}
+  }
+  drawer: {
+  type: DrawTurret
+  basePrefix: extrull-
+parts: [
+{
+type: RegionPart
+suffix: -plate1
+progress: warmup
+x: 0
+y: 0
+moveX: 0
+moveY: 0
+moveRot: 13
+  mirror: false
+  under: false
+}
+{
+type: RegionPart
+suffix: -plate2
+progress: warmup
+x: 0
+y: 0
+moveX: 0
+moveY: 0
+moveRot: -13
+  mirror: false
+  under: false
+}
+{
+type: RegionPart
+suffix: -body
+progress: recoil
+x: 0
+y: 0
+moveX: 0
+moveY: 0
+moveRot: 0
+  mirror: false
+  under: false
+}
+{
+type: RegionPart
+suffix: -ammo1
+progress: warmup
+x: 0
+y: 0
+moveX: 0.75
+moveY: -1
+moveRot: -5
+  mirror: false
+  under: false
+}
+{
+type: RegionPart
+suffix: -ammo2
+progress: warmup
+x: 0
+y: 0
+moveX: -0.75
+moveY: -1
+moveRot: 5
+  mirror: false
+  under: false
+}
+]
+}
+
+requirements: [
+  pyrite/210
+  silicon/60
+  tungsten/30
+  ]
+  researchCost: [
+  pyrite/300
+  silicon/100
+  tungsten/10
+]
+research: {
+  parent: rapidal
+  objectives: [
+{
+type: OnSector
+preset: Cancerous Outset
+  }
+]
+}

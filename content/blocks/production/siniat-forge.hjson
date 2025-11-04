@@ -1,0 +1,193 @@
+type: GenericCrafter
+health: 720
+size: 3
+squareSprite: false
+category: crafting
+craftTime: 110
+outputItems: [
+siniat/2
+]
+itemCapacity: 20
+consumes: {
+  power: 3.5
+items: [
+lead/4
+tungsten/2
+]
+}
+
+requirements: [
+pyrite/120
+lead/40
+silicon/65
+]
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+{
+	type: DrawCrucibleFlame
+	flameColor: CDD9D1
+	midColor: ffffff
+	alpha: 0.75
+	flameRad: 0
+	circleStroke: 0
+	particles: 30
+	particleRad: 11
+	particleSize: 5
+}
+    {
+      type: DrawFlame
+ flameColor: CDD9D1
+	midColor: ffffff
+	flameRad: 1
+    }
+      {
+      type: DrawDefault
+    }
+    {
+      type: DrawGlowRegion
+      glowScale: 10
+      alpha: 1
+	  color: FF5018
+    }
+  ]
+}
+
+craftEffect: {
+    type: MultiEffect
+    effects: [
+    {
+    type: radialEffect
+	amount: 4
+    rotationSpacing: 90
+    lengthOffset: 9
+    rotationOffset: 25
+    effect: {
+      type: ParticleEffect
+      particles: 3
+      length: 15
+      lifetime: 50
+      sizeFrom: 3
+      sizeTo: 0
+      cone: 20
+      spin: -0.5
+      startDelay: 0
+      interp: pow3Out
+      colorFrom: F9FFF9
+      colorTo: 8FA09100
+      lightOpacity: 0
+      layer: 100.3
+      }
+    }
+{
+    type: radialEffect
+	amount: 4
+    rotationSpacing: 90
+    lengthOffset: 10
+    rotationOffset: 45
+    effect: {
+      type: ParticleEffect
+      particles: 4
+      length: 15
+      lifetime: 50
+      sizeFrom: 3
+      sizeTo: 0
+      cone: 20
+      spin: -0.5
+      startDelay: 0
+      interp: pow3Out
+      colorFrom: F9FFF9
+      colorTo: 8FA09100
+      lightOpacity: 0
+      layer: 100.3
+      }
+    }
+ {
+    type: radialEffect
+	amount: 4
+    rotationSpacing: 90
+    lengthOffset: 10
+    rotationOffset: 45
+    effect: {
+      type: ParticleEffect
+      particles: 4
+      length: 20
+      lifetime: 70
+      sizeFrom: 2
+      sizeTo: 0
+      cone: 10
+      spin: 0
+      startDelay: 0
+      interp: pow3Out
+      colorFrom: F9FFF9
+      colorTo: 8FA09100
+      lightOpacity: 0
+      layer: 100.3
+      }
+    }
+{
+    type: radialEffect
+	amount: 4
+    rotationSpacing: 90
+    lengthOffset: 9
+    rotationOffset: 65
+    effect: {
+      type: ParticleEffect
+      particles: 3
+      length: 15
+      lifetime: 50
+      sizeFrom: 3
+      sizeTo: 0
+      cone: 20
+      spin: -0.5
+      startDelay: 0
+      interp: pow3Out
+      colorFrom: F9FFF9
+      colorTo: 8FA09100
+      lightOpacity: 0
+      layer: 100.3
+      }
+    }
+{
+    type: radialEffect
+    amount: 10
+    rotationSpacing: 90
+    lengthOffset: 3
+    effect: {
+      type: ParticleEffect
+      particles: 5
+      length: 35
+      lifetime: 50
+      sizeFrom: 1
+      sizeTo: 3
+      cone: 12
+      baseRotation: 73
+      useRotation: false
+      interp: pow3Out
+      colorFrom: F9FFF9
+      colorTo: 8FA09100
+      layer: 100.3
+      }
+}
+  ]
+}
+
+ researchCost: [
+  pyrite/200
+  lead/100
+  silicon/75
+]
+research: {
+  parent: silicon-chamber
+  objectives: [
+{
+type: SectorComplete
+preset: Cancerous Outset
+  }
+]
+}

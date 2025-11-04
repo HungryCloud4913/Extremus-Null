@@ -1,0 +1,5 @@
+color: 2E2A2A
+research: {
+  planet: extrull
+  parent: pyrite
+}

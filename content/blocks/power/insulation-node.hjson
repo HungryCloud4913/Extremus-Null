@@ -1,0 +1,18 @@
+type: PowerNode
+size: 1
+squareSprite: false
+laserRange: 7
+maxNodes: 8
+health: 40
+requirements: [
+  carbon/1
+  lead/2
+]
+category: power
+  researchCost: [
+  carbon/2
+  lead/4
+]
+research: {
+  parent: fossil-burner
+}

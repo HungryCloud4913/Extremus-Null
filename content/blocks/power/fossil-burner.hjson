@@ -1,0 +1,82 @@
+type: ConsumeGenerator
+size: 2
+category: power
+squareSprite: false
+powerProduction: 2
+itemDuration: 70
+generateEffect: {
+ type: MultiEffect
+    effects: [
+    {
+    type: radialEffect
+    amount: 7
+    rotationSpacing: 72
+    lengthOffset: 3
+    effect: {
+      type: ParticleEffect
+      particles: 3
+      length: 90
+      lifetime: 500
+      sizeFrom: 1
+      sizeTo: 5
+      cone: 4
+      baseRotation: 73
+      useRotation: false
+      interp: pow3Out
+      colorFrom: 464646
+      colorTo: 68686800
+      layer: 100.3
+      }
+    }
+    {
+      type: ParticleEffect
+      particles: 4
+      length: 90
+      lifetime: 500
+      sizeFrom: 1
+      sizeTo: 5
+      cone: 4
+      baseRotation: 73
+      useRotation: false
+      interp: pow3Out
+      colorFrom: 464646
+      colorTo: 68686800
+      layer: 100.3
+      startDelay: 20
+    }
+  ]
+}
+ambientSound: smelter
+ambientSoundVolume: 0.02
+requirements: [
+ pyrite/10
+  lead/10
+]
+consumes: {
+items: [
+  carbon/1
+]
+}
+drawer: {
+  type: DrawMulti
+  drawers: [
+   {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawFlame
+    }
+      {
+      type: DrawDefault
+    }
+ ]
+}
+  researchCost: [
+  pyrite/10
+  lead/5
+  carbon/5
+]
+research: {
+  parent: core-pointless
+}

@@ -1,0 +1,188 @@
+type: missile
+template: TankUnitType
+lightRadius: 19
+LightOpacity: 0.5
+omniMovement: false
+outlineColor: 252222
+drawCell: false
+groundLayer: 60
+speed: 0.0001
+flying: false
+health: 430
+hitSize: 9
+rotateSpeed: 3
+controller: FlyingAI
+lifetime: 1200
+isEnemy: false
+allowedInPayloads: false
+playerControllable: false
+logicControllable: false
+physics: true
+useUnitCap: true
+createWreck: false
+createScorch: false
+hidden: false
+engineOffset: 0
+engineSize: 0.01
+engineColor: FFFFFF
+trailLength: 0
+trailScl: 0
+trailColor: FFFFFF
+missileAccelTime: 0.01
+targetAir: false
+faceTarget: true
+        engineOffset: 7
+        engineColor: FFFFFF
+        engineColorInner: FFFFFF
+
+parts: [
+  {
+    type: HoverPart
+    color: E9E97D
+    radius: 8.5
+    sides: 6
+    layerOffset: -0.0002
+    x: 0
+    y: -2
+    phase: 150
+  }
+    {
+    type: HoverPart
+    color: E9E97D
+    radius: 8.5
+    sides: 5
+    layerOffset: -0.0002
+    x: 0
+    y: +3
+    phase: 150
+  }
+]
+
+weapons:[
+ {
+  name: orbitoklastt-subject-move
+  reload: 1
+  x: 0
+  y: 0
+  mirror: false
+  alternate: false
+  inaccuracy: 0
+  recoil: 0
+  rotate: false
+  rotateSpeed: 0
+shoot: {
+                  type: ShootBarrel
+                    barrels:[
+                    0, -10000, 180,
+                    ]
+                    shots: 1
+                    shotDelay: 0
+            }
+  shootSound: none
+  shootEffects: none
+  bullet: {
+    type: BasicBulletType
+    recoil: 0.25
+			backColor: FFFFFF000
+			frontColor: FFFFFF000
+      trailColor: FFFFFF000
+    hitColor: FFFFFF000
+    hitEffect: none
+    despawnEffect: none
+    homing: false
+    damage: 0
+    knockback: 0
+    height: 0
+    width: 0
+    hitSize: 0
+    trailWidth: 0
+    trailLength: 0
+    speed: 21
+    lifetime: 12
+    buildingDamageMultiplier: -2
+    hitSound: none
+    collides: false
+      }
+}
+ {
+  name: orbitoklastt-subject-weapon
+  reload: 120
+  x: 0
+  y: 0
+  mirror: false
+  alternate: false
+  inaccuracy: 1
+  recoil: 1.4
+  rotate: false
+  rotateSpeed: 0
+  top: false
+  layerOffset: +0.0001
+  shoot: {
+    shots: 1
+    shotDelay: 0
+      }
+  shootSound: exShoot
+  bullet: {
+    type: MissileBulletType
+			backColor: 989EAF
+			frontColor: FFFFFF
+      trailColor: FFFFFF
+    hitColor: 989EAF
+    hitEffect: hitSquaresColor
+    despawnEffect: hitSquaresColor
+    homing: false
+    damage: 25
+    knockback: -0.03
+    height: 4
+    width: 7
+    hitSize: 7
+    trailWidth: 3
+    trailLength: 3
+    speed: 7
+    lifetime: 27
+    buildingDamageMultiplier: -2
+      }
+}
+{
+name: orbitoklastt-subject
+    alwaysShooting: true
+    controllable: false
+    shootCone: 360
+    x: 0
+    mirror: false
+    recoil: 0
+    reload: 35
+    shootWarmupSpeed: 0.04
+    minWarmup: 0.25
+    shootSound: none
+    bullet: {
+      type: BulletType
+      hittable: false
+      absorbable: false 
+      collides: false 
+      speed: 0
+      lifetime: 0
+      shootEffect: none
+      smokeEffect: none
+      despawnEffect: none
+}
+parts: [{
+  type: RegionPart
+  mirror: false
+  x: -4
+  y: 0
+  moveX: 0
+  moveY: 0
+  moveRot: 360
+  suffix: -radarspin
+  progress: reload
+  weaponIndex: 0
+  under: false
+  layerOffset: +0.001
+    }
+]
+}
+]
+research: orbitoklastt
+alwaysUnlocked: true
+

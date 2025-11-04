@@ -1,0 +1,9 @@
+research: {
+  parent: lesion-database-entry-2a
+  objectives: [
+{
+type: SectorLand
+preset: Resisted Expansion
+  }
+]
+}

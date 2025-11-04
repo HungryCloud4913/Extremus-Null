@@ -1,0 +1,46 @@
+type: Drill
+squareSprite: false
+health: 520
+size: 3
+category: production
+
+consumes: {
+  liquids: {
+    liquids: [
+        zisofluid/0.5
+      ]
+    booster: true
+    optional: true
+optionalBoostIntensity: 2
+      }
+  power: 1.5
+}
+
+drillTime: 550
+minerTier: 10
+tier: 10
+hardnessDrillMultiplier: 2
+itemCapacity: 45
+drillEffect: {
+}
+
+requirements: [
+  pyrite/70
+  lead/30
+  carbon/15
+]
+
+  researchCost: [
+  pyrite/100
+  lead/40
+  carbon/30
+]
+research: {
+  parent: mineral-ripper
+  objectives: [
+{
+type: OnSector
+preset: Cancerous Outset
+  }
+]
+}
