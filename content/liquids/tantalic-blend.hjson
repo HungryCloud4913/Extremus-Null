@@ -1,0 +1,9 @@
+type: liquid
+  gas: false
+  color: B188A7
+  coolant: false
+  explosiveness: 5%
+  flammability: 0%
+  heatCapacity: 50%
+  viscosity: 70%
+  temperature: 80%

@@ -1,0 +1,9 @@
+type: liquid
+  gas: false
+  color: FFE9E7
+  coolant: true
+  explosiveness: 0%
+  flammability: 5%
+  heatCapacity: 40%
+  viscosity: 40%
+  temperature: 50%

@@ -5,4 +5,4 @@ type: liquid
   flammability: 0%
   heatCapacity: 60%
   viscosity: 0%
-  temperature: 50%
+  temperature: 0%
