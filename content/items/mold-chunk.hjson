@@ -3,4 +3,7 @@ research: {
   planet: extrull
   parent: carbon
 }
-
+explosiveness: 0
+flammability: 50%
+radioactivity: 0
+charge: 0.2

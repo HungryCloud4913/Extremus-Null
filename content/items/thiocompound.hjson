@@ -1,5 +1,9 @@
 color: 847E60
 research: {
   planet: extrull
-  parent: exoglass
+  parent: sand
 }
+explosiveness: 0.05
+flammability: 0
+radioactivity: 0
+charge: 0

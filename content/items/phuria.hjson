@@ -3,3 +3,7 @@ research: {
   planet: extrull
   parent: sulphur
 }
+explosiveness: 0.05
+flammability: 2
+radioactivity: 0
+charge: 0

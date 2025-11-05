@@ -3,3 +3,7 @@ research: {
   planet: extrull
   parent: pyrite
 }
+explosiveness: 0.2
+flammability: 1.1
+radioactivity: 0
+charge: 0
