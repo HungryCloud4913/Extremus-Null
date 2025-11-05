@@ -20,6 +20,11 @@ shoot: {
   type: ShootAlternate
   shotDelay: 0
     }
+coolant: {
+  type: ConsumeCoolant
+  allowGas: false
+  allowLiquid: true
+  amount: 0.2
   ammoTypes:{
     pyrite: {
         type: BasicBulletType
