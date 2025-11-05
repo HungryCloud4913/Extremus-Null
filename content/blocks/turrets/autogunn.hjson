@@ -30,6 +30,7 @@ coolant: {
   allowGas: false
   allowLiquid: true
   amount: 0.2
+}
   ammoTypes:{
     lead: {
         type: BasicBulletType
