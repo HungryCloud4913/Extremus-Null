@@ -1,8 +1,8 @@
 type: liquid
 gas: true
 color: 5B4C4C
-    explosiveness: 0%
-  flammability: 0%
-  heatCapacity: 50%
-  viscosity: 50%
-  temperature: 50%
+    explosiveness: 0
+  flammability: 0
+  heatCapacity: 0.5
+  viscosity: 0.5
+  temperature: 0.5

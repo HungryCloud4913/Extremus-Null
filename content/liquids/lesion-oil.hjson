@@ -2,8 +2,8 @@ type: liquid
   gas: false
   color: FFD27E
   coolant: false
-    explosiveness: 10%
-  flammability: 10%
-  heatCapacity: 70%
-  viscosity: 75%
-  temperature: 50%
+    explosiveness: 0.02
+  flammability: 0.02
+  heatCapacity: 0.14
+  viscosity: 0.15
+  temperature: 0.5
