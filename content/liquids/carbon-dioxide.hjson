@@ -1,6 +1,6 @@
 type: liquid
 gas: true
-color: 5F3F3F
+color: A88484
     explosiveness: 0
   flammability: 0
   heatCapacity: 0.5

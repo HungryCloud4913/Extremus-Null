@@ -1,6 +1,6 @@
 type: liquid
   gas: false
-  color: FFE9E7
+  color: CAACA3
   coolant: true
   explosiveness: 0
   flammability: 0

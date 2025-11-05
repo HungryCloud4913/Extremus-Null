@@ -1,6 +1,6 @@
 type: liquid
   gas: false
-  color: B188A7
+  color: 735669
   coolant: false
   explosiveness: 0.05
   flammability: 0

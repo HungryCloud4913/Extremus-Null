@@ -1,6 +1,6 @@
 type: liquid
   gas: true
-  color: FEF6FF
+  color: B388CD
   coolant: false
   explosiveness: 0
   flammability: 0
