@@ -1,3 +1,8 @@
 type: liquid
   gas: true
   color: CDD9D1
+    explosiveness: 0%
+  flammability: 0%
+  heatCapacity: 60%
+  viscosity: 0%
+  temperature: 50%

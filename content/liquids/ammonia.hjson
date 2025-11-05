@@ -1,3 +1,9 @@
 type: liquid
   gas: false
   color: 8BD3D5
+  coolant: false
+  explosiveness: 5%
+  flammability: 50%
+  heatCapacity: 50%
+  viscosity: 60%
+  temperature: 50%
