@@ -25,6 +25,11 @@ shoot: {
   shots: 1
   shotDelay: 0
     }
+coolant: {
+  type: ConsumeCoolant
+  allowGas: false
+  allowLiquid: true
+  amount: 0.2
   ammoTypes:{
     lead: {
         type: BasicBulletType
