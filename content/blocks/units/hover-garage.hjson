@@ -6,7 +6,8 @@ squareSprite: false
   consumes: {
     power: 3
 items: [
-
+    silicon/30
+    pyrite/15
 ]
 liquids: [
 hydrogen/0.05
@@ -14,7 +15,7 @@ hydrogen/0.05
   }
 plans: [
 {
-upgrades: [waft, whirl]
+upgrades: [[waft, whirl]]
 category: units
 requirements: [
     pyrite/100
