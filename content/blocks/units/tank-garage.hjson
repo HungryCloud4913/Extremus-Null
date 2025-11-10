@@ -2,6 +2,7 @@ size: 3
 health: 1100
 type: Reconstructor
 configurable: false
+squareSprite: false
   consumes: {
     power: 2
 items: [
@@ -12,10 +13,17 @@ liquids: [
 hydrogen/0.05
 ]
   }
-upgrades: [
-[deceive, daze]
-]
+plans: [
+{
+unit: daze
+  requirements: [
+    silicon/30
+    pyrite/15
+    decieve
+  ]
 time: 2100
+}
+]
 category: units
 requirements: [
     pyrite/100
