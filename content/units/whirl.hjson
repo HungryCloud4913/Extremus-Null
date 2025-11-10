@@ -108,10 +108,11 @@ maxVolume: 0.3
     trailWidth: 3
     trailLength: 4
     speed: 5.8
-    drag: -0.1
+    drag: -0.3
     lifetime: 4.5
     hitEffect: hitSquaresColor
     despawnEffect: hitSquaresColor
+    hitColor: 826C30
 }
       }
 }
