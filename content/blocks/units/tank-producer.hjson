@@ -2,6 +2,7 @@ size: 3
 health: 850
 type: unitFactory
 configurable: false
+squareSprite: false
   consumes: {
     power: 2.25
   }
