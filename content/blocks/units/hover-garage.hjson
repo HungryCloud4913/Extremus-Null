@@ -21,7 +21,7 @@ unit: whirl
     pyrite/15
     waft/1
   ]
-time: 2400
+time: 2100
 }
 ]
 category: units
