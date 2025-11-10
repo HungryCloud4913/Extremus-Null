@@ -1,6 +1,6 @@
 size: 3
 health: 1000
-type: unitFactory
+type: Reconstructor
 configurable: false
   consumes: {
     power: 2
@@ -14,7 +14,7 @@ hydrogen/0.05
   }
 upgrades: [
 [refuse, control]
-]
+time: 1980
 category: units
 requirements: [
     pyrite/100
