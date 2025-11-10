@@ -14,6 +14,7 @@ hydrogen/0.05
   }
 upgrades: [
 [refuse, control]
+]
 time: 1980
 category: units
 requirements: [
