@@ -14,6 +14,7 @@ hydrogen/0.05
   }
 upgrades: [
 [deceive, daze]
+]
 time: 2100
 category: units
 requirements: [
