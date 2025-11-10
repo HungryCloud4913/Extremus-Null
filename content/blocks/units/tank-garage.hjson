@@ -3,7 +3,7 @@ health: 1100
 type: Reconstructor
 configurable: false
 squareSprite: false
-constructTime: 2100
+constructTime: 1980
   consumes: {
     power: 2
 items: [
