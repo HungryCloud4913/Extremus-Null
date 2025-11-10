@@ -22,3 +22,9 @@ requirements: [
   pyrite/20
   lead/10
 ]
+drillMultipliers: {
+  lead: 0.9
+  pyrite: 0.9
+  carbon: 1
+  mold-chunk: 0.25
+}
