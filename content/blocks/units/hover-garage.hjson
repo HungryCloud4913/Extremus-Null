@@ -1,0 +1,35 @@
+size: 3
+health: 950
+type: unitFactory
+configurable: false
+  consumes: {
+    power: 2
+items: [
+    silicon/30
+    pyrite/15
+]
+liquids: [
+hydrogen/0.05
+]
+  }
+upgrades: [
+[waft, whirl]
+]
+category: units
+requirements: [
+    pyrite/100
+    silicon/50
+  ]
+ researchCost: [
+  pyrite/125
+  silicon/75
+]
+research: {
+  parent: hover-producer
+  objectives: [
+{
+type: OnSector
+preset: Cancerous Outset
+  }
+]
+}
