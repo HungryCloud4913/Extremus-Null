@@ -2,6 +2,7 @@ size: 3
 health: 1000
 type: Reconstructor
 configurable: false
+squareSprite: false
   consumes: {
     power: 2
 items: [
