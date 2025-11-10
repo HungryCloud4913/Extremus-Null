@@ -5,10 +5,6 @@ configurable: false
 squareSprite: false
   consumes: {
     power: 3
-items: [
-    silicon/30
-    pyrite/15
-]
 liquids: [
 hydrogen/0.05
 ]
