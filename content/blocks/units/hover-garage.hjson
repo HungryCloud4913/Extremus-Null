@@ -13,8 +13,6 @@ liquids: [
 hydrogen/0.05
 ]
   }
-plans: [
-{
 upgrades: [[waft, whirl]]
 category: units
 requirements: [
