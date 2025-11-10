@@ -5,21 +5,16 @@ configurable: false
 squareSprite: false
   consumes: {
     power: 3
+items: [
+
+]
 liquids: [
 hydrogen/0.05
 ]
   }
 plans: [
 {
-unit: whirl
-  requirements: [
-    silicon/30
-    pyrite/15
-    waft/1
-  ]
-time: 2100
-}
-]
+upgrades: [waft, whirl]
 category: units
 requirements: [
     pyrite/100
