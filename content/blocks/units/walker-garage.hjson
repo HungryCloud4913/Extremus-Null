@@ -3,6 +3,7 @@ health: 1000
 type: Reconstructor
 configurable: false
 squareSprite: false
+constructTime: 1980
   consumes: {
     power: 2
 items: [
@@ -13,17 +14,7 @@ liquids: [
 hydrogen/0.05
 ]
   }
-plans: [
-{
-unit: control
-  requirements: [
-    silicon/30
-    pyrite/15
-    refuse/1
-  ]
-time: 1980
-}
-]
+upgrades: [[refuse, control]]
 category: units
 requirements: [
     pyrite/100
