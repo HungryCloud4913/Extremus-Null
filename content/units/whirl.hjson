@@ -70,8 +70,8 @@ weapons:[
     shotDelay: 0
       }
   shootSound: cannon
-minVolume: 0.3
-maxVolume: 0.4
+minVolume: 0.1
+maxVolume: 0.3
   bullet: {
     type: MissileBulletType
 			backColor: 826C30
@@ -107,8 +107,11 @@ maxVolume: 0.4
     width: 8
     trailWidth: 3
     trailLength: 4
-    speed: 6
+    speed: 5.8
+    drag: -0.1
     lifetime: 4.5
+    hitEffect: hitColor
+    despawnEffect: hitColor
 }
       }
 }
