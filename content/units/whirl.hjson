@@ -110,8 +110,8 @@ maxVolume: 0.3
     speed: 5.8
     drag: -0.1
     lifetime: 4.5
-    hitEffect: hitColor
-    despawnEffect: hitColor
+    hitEffect: hitSquaresColor
+    despawnEffect: hitSquaresColor
 }
       }
 }
