@@ -12,10 +12,17 @@ liquids: [
 hydrogen/0.05
 ]
   }
-upgrades: [
-[refuse, control]
-]
+plans: [
+{
+unit: control
+  requirements: [
+    silicon/30
+    pyrite/15
+    refuse/1
+  ]
 time: 1980
+}
+]
 category: units
 requirements: [
     pyrite/100
