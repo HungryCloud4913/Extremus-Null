@@ -15,6 +15,7 @@ hydrogen/0.05
 upgrades: [
 [waft, whirl]
 ]
+time: 2100
 category: units
 requirements: [
     pyrite/100
