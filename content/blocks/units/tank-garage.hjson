@@ -8,8 +8,8 @@ regionSuffix: -brown
   consumes: {
     power: 2
 items: [
-    silicon/30
-    siniat/15
+    silicon/75
+    siniat/30
 ]
 liquids: [
 nitrogen/0.05

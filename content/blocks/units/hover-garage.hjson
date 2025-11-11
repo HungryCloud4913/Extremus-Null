@@ -8,8 +8,8 @@ regionSuffix: -brown
   consumes: {
     power: 3
 items: [
-    silicon/30
-    exoglass/15
+    silicon/50
+    exoglass/25
 ]
 liquids: [
 hydrogen/0.05

@@ -8,8 +8,8 @@ regionSuffix: -brown
   consumes: {
     power: 2
 items: [
-    silicon/30
-    thiocompound/15
+    silicon/50
+    thiocompound/30
 ]
 liquids: [
 hydrogen/0.05
