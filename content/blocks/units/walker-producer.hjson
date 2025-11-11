@@ -11,8 +11,8 @@ plans: [
 {
 unit: refuse
   requirements: [
-    silicon/40
-    pyrite/30
+    silicon/20
+    pyrite/15
     carbon/15
   ]
 time: 2520

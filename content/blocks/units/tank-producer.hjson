@@ -11,8 +11,8 @@ plans: [
 {
 unit: deceive
   requirements: [
-    silicon/60
-    pyrite/20
+    silicon/20
+    pyrite/10
     tungsten/25
   ]
 time: 2820

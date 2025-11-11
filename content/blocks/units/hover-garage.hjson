@@ -9,7 +9,7 @@ regionSuffix: -brown
     power: 3
 items: [
     silicon/30
-    pyrite/15
+    exoglass/15
 ]
 liquids: [
 hydrogen/0.05
@@ -18,12 +18,16 @@ hydrogen/0.05
 upgrades: [[waft, whirl]]
 category: units
 requirements: [
-    pyrite/100
-    silicon/50
+    silicon/200
+    siniat/50
+    lead/30
+    carbon/10
   ]
  researchCost: [
-  pyrite/125
-  silicon/75
+    silicon/250
+    siniat/100
+    lead/45
+    carbon/50
 ]
 research: {
   parent: hover-producer

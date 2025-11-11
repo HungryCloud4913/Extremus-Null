@@ -9,7 +9,7 @@ regionSuffix: -brown
     power: 2
 items: [
     silicon/30
-    pyrite/15
+    thiocompound/15
 ]
 liquids: [
 hydrogen/0.05
@@ -18,12 +18,14 @@ hydrogen/0.05
 upgrades: [[refuse, control]]
 category: units
 requirements: [
-    pyrite/100
-    silicon/50
+    silicon/200
+    siniat/100
+    carbon/50
   ]
  researchCost: [
-  pyrite/125
-  silicon/75
+    silicon/250
+    siniat/200
+    carbon/100
 ]
 research: {
   parent: walker-producer
