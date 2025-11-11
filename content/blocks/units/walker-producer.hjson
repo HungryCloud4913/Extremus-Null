@@ -3,6 +3,7 @@ health: 650
 type: unitFactory
 configurable: false
 squareSprite: false
+regionSuffix: -producer
   consumes: {
     power: 2
   }
