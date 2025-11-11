@@ -4,7 +4,7 @@ type: Reconstructor
 configurable: false
 squareSprite: false
 constructTime: 1980
-regionSuffix: -garage
+regionSuffix: -brown
   consumes: {
     power: 2
 items: [
