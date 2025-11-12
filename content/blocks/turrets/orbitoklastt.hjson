@@ -48,19 +48,6 @@ moveRot: 0
   mirror: false
   under: false
 }
-    {
-type: RegionPart
-suffix: -laser
-progress: warmup
-x: 0
-y: 0
-moveX: 0
-moveY: 0
-moveRot: 0
-  mirror: false
-  under: false
-drawOutline: false
-}
 {
     type: RegionPart
     suffix: -unit
