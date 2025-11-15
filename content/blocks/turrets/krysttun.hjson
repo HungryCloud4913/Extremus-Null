@@ -14,8 +14,7 @@ shootWarmupSpeed: 0.03
 recoils: 2
 shootSound: none
 loopSound: false
-inaccuracy: 3
-range: 90
+inaccuracy: 0
 consumeAmmoOnce: true
 ammoPerShot: 3
 shoot: {
@@ -34,7 +33,7 @@ coolant: {
         type: BasicBulletType
         reloadMultiplier: 1
         speed: 8
-        lifetime: 60
+        lifetime: 40
         damage: 100
         trailInterp: slope
         trailWidth: 2.3
@@ -65,8 +64,8 @@ parts: [
 type: RegionPart
 suffix: -rightarm
 mirror: false
-moveX: -2
-moveY: -2.25
+moveX: -2.1
+moveY: -2.4
 moveRot: 30
 progress: {
         type: warmup
@@ -87,8 +86,8 @@ rot: -20
 type: RegionPart
 suffix: -leftarm
 mirror: false
-moveX: 2
-moveY: -2.25
+moveX: 2.1
+moveY: -2.4
 moveRot: -30
 progress: {
         type: warmup
