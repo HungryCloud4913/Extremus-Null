@@ -64,7 +64,7 @@ parts: [
 type: RegionPart
 suffix: -rightarm
 mirror: false
-moveX: -1
+moveX: -2
 moveY: -2
 moveRot: 30
 progress: {
@@ -77,10 +77,43 @@ moves: [
 type: PartMove
 progress: recoil
 x: 1
-y: -4
+y: -3
 rot: -20
 }
 ]
+}
+{
+type: RegionPart
+suffix: -leftarm
+mirror: false
+moveX: 2
+moveY: -2
+moveRot: -30
+progress: {
+        type: warmup
+        op: delay
+        amount: 0.6
+        }
+moves: [
+{
+type: PartMove
+progress: recoil
+x: -1
+y: -3
+rot: 20
+}
+]
+}
+{
+type: RegionPart
+suffix: -mid
+progress: recoil
+x: 0
+y: 0
+moveX: 0
+moveY: 0
+  mirror: false
+  under: false
 }
 {
 type: RegionPart
