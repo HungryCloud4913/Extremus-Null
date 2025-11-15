@@ -12,9 +12,12 @@ minWarmup: 0.96
 recoil: 2
 shootWarmupSpeed: 0.03
 recoils: 2
-shootSound: none
+shootSound: shotgun
+soundPitchMin: 0.7
+soundPitchMax: 0.8
 loopSound: false
 inaccuracy: 0
+range: 290
 consumeAmmoOnce: true
 ammoPerShot: 3
 shoot: {
@@ -33,25 +36,26 @@ coolant: {
         type: BasicBulletType
         reloadMultiplier: 1
         speed: 8
-        lifetime: 40
+        lifetime: 20
         damage: 100
+        trailEffect: disperseTrail
         trailInterp: slope
         trailWidth: 2.3
+        trailLength: 7.5
         trailSinMag: 1
         trailSinScl: 5
         trailParam: 2.2
-        trailEffect: disperseTrail
+        trailColor: FFBA74
         width: 8
         height: 11
         hitEffect: none
-                backColor: D96039
-                frontColor: FFBA74
-                mixColorFrom: FFBA74
-                mixColorTo: FFBA74
-                trailLength: 7.5
-                trailColor: FFBA74
-        despawnHit: true
+        backColor: D96039
+        frontColor: FFBA74
+        mixColorFrom: FFBA74
+        mixColorTo: FFBA74
+        lightColor: FFBA74
         hitColor: FFBA74
+        despawnHit: true
         shootEffect: shootBigColor
         smokeEffect: shootSmokeSquareSparse
 }
