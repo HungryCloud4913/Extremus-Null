@@ -8,7 +8,9 @@ targetGround: true
 targetAir: false
 rotateSpeed: 2
 reload: 100
+minWarmup: 0.96
 recoil: 2
+shootWarmupSpeed: 0.03
 recoils: 2
 shootSound: missileSmall
 loopSound: false
@@ -59,11 +61,22 @@ coolant: {
 parts: [
 {
 type: RegionPart
+suffix: -body
+progress: recoil
+x: 0
+y: 0
+moveX: 0
+moveY: 0
+  mirror: false
+  under: false
+}
+{
+type: RegionPart
 suffix: -rightarm
 mirror: false
 moveX: -1
 moveY: 3
-moveRot: -60
+moveRot: 60
 progress: {
         type: warmup
         op: delay
@@ -74,9 +87,20 @@ moves: [
 type: PartMove
 x: 3
 y: -6
-moveRot: -15
+moveRot: 15
 }
 ]
+}
+{
+type: RegionPart
+suffix: -rightbarrel
+progress: recoil
+x: 0
+y: -3
+moveX: 0
+moveY: 0
+  mirror: false
+  under: false
 }
 ]
 }
