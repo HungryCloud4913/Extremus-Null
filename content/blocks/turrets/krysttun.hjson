@@ -1,0 +1,102 @@
+  type: ItemTurret
+category: turret
+squareSprite: false
+outlineColor: 2A2727
+size: 3
+health: 2300
+targetGround: true
+targetAir: false
+rotateSpeed: 2
+reload: 100
+recoil: 2
+recoils: 2
+shootSound: missileSmall
+loopSound: false
+inaccuracy: 3
+range: 90
+consumeAmmoOnce: true
+ammoPerShot: 3
+shoot: {
+  type: ShootAlternate
+  shotDelay: 0
+    }
+coolant: {
+  type: ConsumeCoolant
+  allowGas: false
+  allowLiquid: true
+  amount: 0.2
+}
+  ammoTypes:{
+       volatilite: {
+        type: ArtilleryBulletType
+        reloadMultiplier: 1
+        speed: 5
+        lifetime: 40
+        damage: 100
+        trailInterp: slope
+        trailWidth: 2.3
+        trailSinMag: 1
+        trailSinScl: 5
+        width: 8
+        height: 11
+        trailParam: 2.2
+        hitEffect: none
+                backColor: D96039
+                frontColor: FFBA74
+                mixColorFrom: FFBA74
+                mixColorTo: FFBA74
+                trailLength: 7.5
+                trailColor: D96039
+        despawnHit: true
+        hitColor: BCC5E4
+        shootEffect: shootBigColor
+        smokeEffect: shootSmokeSquareSparse
+}
+        }
+  drawer: {
+  type: DrawTurret
+  basePrefix: extrull-
+parts: [
+{
+type: RegionPart
+suffix: -rightarm
+mirror: false
+moveX: -1
+moveY: 3
+moveRot: -60
+progress: {
+        type: warmup
+        op: delay
+        amount: 0.6
+        }
+moves: [
+{
+type: PartMove
+x: 3
+y: -6
+moveRot: -15
+}
+]
+}
+]
+}
+
+requirements: [
+  pyrite/80
+  lead/25
+  silicon/20
+  ]
+  researchCost: [
+  pyrite/80
+  lead/25
+  silicon/20
+]
+research: {
+  parent: rapidal
+  objectives: [
+{
+type: OnSector
+preset: Resisted Expansion
+  }
+]
+}
