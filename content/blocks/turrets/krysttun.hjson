@@ -7,7 +7,7 @@ health: 2300
 targetGround: true
 targetAir: false
 rotateSpeed: 2
-reload: 100
+reload: 90
 minWarmup: 0.96
 recoil: 2
 recoils: 2
@@ -58,6 +58,36 @@ coolant: {
         mixColorTo: FFBA74
         lightColor: FFBA74
         hitColor: FFBA74
+        despawnHit: true
+        shootEffect: shootBigColor
+        smokeEffect: shootSmokeSquareSparse
+}
+exoglass: {
+        type: BasicBulletType
+        reloadMultiplier: 3
+        speed: 16
+        lifetime: 10
+        damage: 30
+        trailEffect: disperseTrail
+        trailInterp: slope
+        trailRotation: true
+        trailInterval: 2.5
+        trailChance: 0.25
+        trailWidth: 2.3
+        trailLength: 7.5
+        trailSinMag: 1
+        trailSinScl: 5
+        trailParam: 2.2
+        trailColor: 8EF5C5
+        width: 8
+        height: 11
+        hitEffect: none
+        backColor: 69AA97
+        frontColor: 8EF5C5
+        mixColorFrom: 8EF5C5
+        mixColorTo: 8EF5C5
+        lightColor: 8EF5C5
+        hitColor: 8EF5C5
         despawnHit: true
         shootEffect: shootBigColor
         smokeEffect: shootSmokeSquareSparse
