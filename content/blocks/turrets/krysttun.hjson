@@ -39,13 +39,9 @@ coolant: {
         lifetime: 20
         damage: 100
         trailEffect: disperseTrail
-        trailInterp: slope
         trailChance: 0.2
         trailWidth: 2.3
         trailLength: 7.5
-        trailSinMag: 1
-        trailSinScl: 5
-        trailParam: 2.2
         trailColor: FFBA74
         width: 8
         height: 11
