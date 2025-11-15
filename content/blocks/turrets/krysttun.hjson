@@ -76,7 +76,7 @@ suffix: -rightarm
 mirror: false
 moveX: -1
 moveY: 3
-moveRot: 60
+moveRot: 45
 progress: {
         type: warmup
         op: delay
@@ -85,6 +85,7 @@ progress: {
 moves: [
 {
 type: PartMove
+progress: recoil
 x: 3
 y: -6
 moveRot: 15
@@ -96,11 +97,24 @@ type: RegionPart
 suffix: -rightbarrel
 progress: recoil
 x: 0
-y: -3
+y: 0
 moveX: 0
-moveY: 0
+moveY: -3
   mirror: false
   under: false
+  recoilIndex: 0
+}
+{
+type: RegionPart
+suffix: -leftbarrel
+progress: recoil
+x: 0
+y: 0
+moveX: 0
+moveY: -3
+  mirror: false
+  under: false
+  recoilIndex: 1
 }
 ]
 }
