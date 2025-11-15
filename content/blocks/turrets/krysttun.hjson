@@ -196,14 +196,12 @@ moveY: 0
 }
 
 requirements: [
-  pyrite/80
-  lead/25
-  silicon/20
+  beryllium/10
+  plastanium/10
   ]
   researchCost: [
-  pyrite/80
-  lead/25
-  silicon/20
+  beryllium/10
+  plastanium/10
 ]
 research: {
   parent: rapidal
