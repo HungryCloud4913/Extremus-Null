@@ -1,3 +1,6 @@
 type: floor
 variants: 5
 name: Purepale Stone
+attributes: {
+  plasm: 0.1
+}
