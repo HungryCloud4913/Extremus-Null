@@ -63,6 +63,9 @@ coolant: {
         despawnHit: true
         shootEffect: shootBigColor
         smokeEffect: shootSmokeSquareSparse
+        splashDamageRadius: 7
+		    splashDamage: 100
+		    hitEffect: blastExplosion
 }
 exoglass: {
         type: BasicBulletType
