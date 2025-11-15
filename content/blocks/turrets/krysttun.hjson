@@ -10,14 +10,14 @@ rotateSpeed: 2
 reload: 100
 minWarmup: 0.96
 recoil: 2
-shootWarmupSpeed: 0.03
 recoils: 2
+shootWarmupSpeed: 0.03
 shootSound: shotgun
-soundPitchMin: 0.7
+soundPitchMin: 0.6
 soundPitchMax: 0.8
 loopSound: false
 inaccuracy: 0
-range: 290
+range: 160
 consumeAmmoOnce: true
 ammoPerShot: 3
 shoot: {
@@ -40,6 +40,7 @@ coolant: {
         damage: 100
         trailEffect: disperseTrail
         trailInterp: slope
+        trailChance: 0.2
         trailWidth: 2.3
         trailLength: 7.5
         trailSinMag: 1
