@@ -61,6 +61,30 @@ coolant: {
 parts: [
 {
 type: RegionPart
+suffix: -rightbarrel
+progress: recoil
+x: 0
+y: 0
+moveX: 0
+moveY: -3
+  mirror: false
+  under: false
+  recoilIndex: 1
+}
+{
+type: RegionPart
+suffix: -leftbarrel
+progress: recoil
+x: 0
+y: 0
+moveX: 0
+moveY: -3
+  mirror: false
+  under: false
+  recoilIndex: 0
+}
+{
+type: RegionPart
 suffix: -body
 progress: recoil
 x: 0
@@ -74,9 +98,9 @@ moveY: 0
 type: RegionPart
 suffix: -rightarm
 mirror: false
-moveX: -1
-moveY: 3
-moveRot: 45
+moveX: 0
+moveY: 0
+moveRot: 30
 progress: {
         type: warmup
         op: delay
@@ -87,34 +111,10 @@ moves: [
 type: PartMove
 progress: recoil
 x: 3
-y: -6
-moveRot: 15
+y: -9
+moveRot: -20
 }
 ]
-}
-{
-type: RegionPart
-suffix: -rightbarrel
-progress: recoil
-x: 0
-y: 0
-moveX: 0
-moveY: -3
-  mirror: false
-  under: false
-  recoilIndex: 0
-}
-{
-type: RegionPart
-suffix: -leftbarrel
-progress: recoil
-x: 0
-y: 0
-moveX: 0
-moveY: -3
-  mirror: false
-  under: false
-  recoilIndex: 1
 }
 ]
 }
