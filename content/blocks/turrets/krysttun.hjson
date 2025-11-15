@@ -12,7 +12,7 @@ minWarmup: 0.96
 recoil: 2
 shootWarmupSpeed: 0.03
 recoils: 2
-shootSound: missileSmall
+shootSound: none
 loopSound: false
 inaccuracy: 3
 range: 90
@@ -32,13 +32,14 @@ coolant: {
        volatilite: {
         type: ArtilleryBulletType
         reloadMultiplier: 1
-        speed: 5
-        lifetime: 40
+        speed: 7
+        lifetime: 65
         damage: 100
         trailInterp: slope
         trailWidth: 2.3
         trailSinMag: 1
         trailSinScl: 5
+        trailEffect: disperseTrail
         width: 8
         height: 11
         trailParam: 2.2
@@ -48,9 +49,9 @@ coolant: {
                 mixColorFrom: FFBA74
                 mixColorTo: FFBA74
                 trailLength: 7.5
-                trailColor: D96039
+                trailColor: FFBA74
         despawnHit: true
-        hitColor: BCC5E4
+        hitColor: FFBA74
         shootEffect: shootBigColor
         smokeEffect: shootSmokeSquareSparse
 }
@@ -85,21 +86,10 @@ moveY: -3
 }
 {
 type: RegionPart
-suffix: -body
-progress: recoil
-x: 0
-y: 0
-moveX: 0
-moveY: 0
-  mirror: false
-  under: false
-}
-{
-type: RegionPart
 suffix: -rightarm
 mirror: false
-moveX: 0
-moveY: 0
+moveX: -1
+moveY: -2
 moveRot: 30
 progress: {
         type: warmup
@@ -110,11 +100,22 @@ moves: [
 {
 type: PartMove
 progress: recoil
-x: 3
+x: 1.7
 y: -9
-moveRot: -20
+rot: -20
 }
 ]
+}
+{
+type: RegionPart
+suffix: -body
+progress: recoil
+x: 0
+y: 0
+moveX: 0
+moveY: 0
+  mirror: false
+  under: false
 }
 ]
 }
