@@ -19,8 +19,9 @@ range: 90
 consumeAmmoOnce: true
 ammoPerShot: 3
 shoot: {
-  type: ShootAlternate
-  shotDelay: 0
+    type: ShootAlternate
+    shotDelay: 0
+    shots:1
     }
 coolant: {
   type: ConsumeCoolant
@@ -30,7 +31,7 @@ coolant: {
 }
   ammoTypes:{
        volatilite: {
-        type: ArtilleryBulletType
+        type: BasicBulletType
         reloadMultiplier: 1
         speed: 8
         lifetime: 180
@@ -65,7 +66,7 @@ type: RegionPart
 suffix: -rightarm
 mirror: false
 moveX: -2
-moveY: -2
+moveY: -2.25
 moveRot: 30
 progress: {
         type: warmup
@@ -87,7 +88,7 @@ type: RegionPart
 suffix: -leftarm
 mirror: false
 moveX: 2
-moveY: -2
+moveY: -2.25
 moveRot: -30
 progress: {
         type: warmup
@@ -122,7 +123,7 @@ progress: recoil
 x: 0
 y: 0
 moveX: 0
-moveY: -3
+moveY: -2
   mirror: false
   under: false
   recoilIndex: 1
@@ -134,7 +135,7 @@ progress: recoil
 x: 0
 y: 0
 moveX: 0
-moveY: -3
+moveY: -2
   mirror: false
   under: false
   recoilIndex: 0
