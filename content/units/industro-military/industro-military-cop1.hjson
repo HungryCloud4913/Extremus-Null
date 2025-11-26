@@ -19,7 +19,7 @@ lightRadius: 0
   
   weapons: [
  {
-name: blades
+name: industro-military-cop1
     alwaysShooting: true
     controllable: false
     shootCone: 360
@@ -41,15 +41,15 @@ name: blades
       despawnEffect: none
 }
 parts: [
-  {
+    {
   type: RegionPart
   mirror: false
   x: 0
   y: 0.5
   moveX: 0
   moveY: 0
-  moveRot: 720
-  suffix: -blades-spin
+  moveRot: 0
+  suffix: -blades-top
   progress: reload
   weaponIndex: 0
   under: false
@@ -69,15 +69,30 @@ parts: [
   under: false
   layerOffset: +0.001
     }
+    {
+  type: RegionPart
+  mirror: false
+  x: 0
+  y: 0.5
+  moveX: 0
+  moveY: 0
+  moveRot: 720
+  suffix: -blades-spin
+  progress: reload
+  weaponIndex: 0
+  under: false
+  layerOffset: +0.001
+    }
 ]
 }
 {
   name: industro-military-cop1-missile
   reload: 40
-  x: +7
+  x: +6
   y: 0
   mirror: true
   alternate: false
+  under: true
   inaccuracy: 0.5
   rotate: true
   rotateSpeed: 4.5
