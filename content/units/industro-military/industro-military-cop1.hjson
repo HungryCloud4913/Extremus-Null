@@ -51,7 +51,7 @@ parts: [
   y: 0.5
   moveX: 0
   moveY: 0
-  moveRot: 540
+  moveRot: 560
   suffix: -blades-spin
   progress: reload
   weaponIndex: 0
@@ -66,7 +66,7 @@ parts: [
   y: 0.5
   moveX: 0
   moveY: 0
-  moveRot: 180
+  moveRot: 110
   suffix: -blades-spin-shine
   progress: reload
   weaponIndex: 0
