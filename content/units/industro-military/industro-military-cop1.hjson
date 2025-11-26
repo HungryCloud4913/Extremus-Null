@@ -76,7 +76,6 @@ parts: [
     {
   type: RegionPart
   mirror: false
-  outline: true
   x: 0
   y: 0.5
   moveX: 0
