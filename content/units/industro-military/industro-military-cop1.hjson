@@ -1,0 +1,109 @@
+hidden: true
+type: flying
+health: 540
+hitSize: 15
+flying: true
+speed: 1.7
+accel: 0.05
+drag: 0.01
+armor: 0
+rotateSpeed: 3.25
+outlineColor: 14190C
+targetair: false
+faceTarget: true
+drawEngines: false
+engineSize: 1
+lowAltitude: false
+lightOpacity: 0
+lightRadius: 0
+  
+  weapons: [
+ {
+name: blades
+    alwaysShooting: true
+    controllable: false
+    shootCone: 360
+    x: 0
+    y: 0
+    mirror: false
+    recoil: 0
+    reload: 1
+    shootSound: none
+    bullet: {
+      type: BulletType
+      hittable: false
+      absorbable: false 
+      collides: false 
+      speed: 0
+      lifetime: 0
+      shootEffect: none
+      smokeEffect: none
+      despawnEffect: none
+}
+parts: [
+  {
+  type: RegionPart
+  mirror: false
+  x: 0
+  y: 0.5
+  moveX: 0
+  moveY: 0
+  moveRot: 720
+  suffix: -blades-spin
+  progress: reload
+  weaponIndex: 0
+  under: false
+  layerOffset: +0.001
+    }
+    {
+  type: RegionPart
+  mirror: false
+  x: 0
+  y: 0.5
+  moveX: 0
+  moveY: 0
+  moveRot: 120
+  suffix: -blades-spin-shine
+  progress: reload
+  weaponIndex: 0
+  under: false
+  layerOffset: +0.001
+    }
+]
+}
+{
+  name: industro-military-cop1-missile
+  reload: 40
+  x: +7
+  y: 0
+  mirror: true
+  alternate: false
+  inaccuracy: 0.5
+  rotate: true
+  rotateSpeed: 4.5
+  shoot: {
+    shots: 1
+    shotDelay: 0
+      }
+  shootSound: exShoot
+  bullet: {
+    type: MissileBulletType
+			backColor: B3832D
+			frontColor: FFE77E
+      trailColor: FFE77E
+    hitColor: B3832D
+	  hitEffect: blastExplosion
+    damage: 50
+    knockback: 0.1
+    height: 4
+    width: 7
+    hitSize: 7
+    trailWidth: 3
+    trailLength: 3
+    speed: 6
+    drag: -0.1
+    lifetime: 12
+    buildingDamageMultiplier: 1
+      }
+}
+]
