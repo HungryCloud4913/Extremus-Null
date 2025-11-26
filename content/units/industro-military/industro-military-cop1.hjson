@@ -27,7 +27,7 @@ name: industro-military-cop1
     y: 0
     mirror: false
     recoil: 0
-    reload: 1
+    reload: 35
     shootWarmupSpeed: 0.04
     minWarmup: 0.25
     shootSound: none
@@ -46,13 +46,12 @@ parts: [
     {
   type: RegionPart
   mirror: false
-
-  outlineColor: 7575750
+  outline: false
   x: 0
   y: 0.5
   moveX: 0
   moveY: 0
-  moveRot: 180
+  moveRot: 540
   suffix: -blades-spin
   progress: reload
   weaponIndex: 0
@@ -62,13 +61,12 @@ parts: [
     {
   type: RegionPart
   mirror: false
-
-  outlineColor: 7575750
+  outline: false
   x: 0
   y: 0.5
   moveX: 0
   moveY: 0
-  moveRot: 10
+  moveRot: 180
   suffix: -blades-spin-shine
   progress: reload
   weaponIndex: 0
