@@ -28,6 +28,8 @@ name: industro-military-cop1
     mirror: false
     recoil: 0
     reload: 1
+    shootWarmupSpeed: 0.04
+    minWarmup: 0.25
     shootSound: none
     bullet: {
       type: BulletType
@@ -44,7 +46,8 @@ parts: [
     {
   type: RegionPart
   mirror: false
-  outline: false
+
+  outlineColor: 7575750
   x: 0
   y: 0.5
   moveX: 0
@@ -59,7 +62,8 @@ parts: [
     {
   type: RegionPart
   mirror: false
-  outline: false
+
+  outlineColor: 7575750
   x: 0
   y: 0.5
   moveX: 0
@@ -95,6 +99,7 @@ parts: [
   mirror: true
   alternate: false
   top: false
+  layerOffset: -0.0001
   inaccuracy: 0.5
   rotate: true
   rotateSpeed: 4.5
