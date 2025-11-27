@@ -43,6 +43,21 @@ name: industro-military-cop1
       despawnEffect: none
 }
 parts: [
+      {
+  type: RegionPart
+  mirror: false
+  outline: false
+  x: 0
+  y: 0.5
+  moveX: 0
+  moveY: 0
+  moveRot: 720
+  suffix: -blades-blur
+  progress: reload
+  weaponIndex: 0
+  under: false
+  layerOffset: +0.001
+    }
     {
   type: RegionPart
   mirror: false
@@ -51,7 +66,7 @@ parts: [
   y: 0.5
   moveX: 0
   moveY: 0
-  moveRot: 560
+  moveRot: 720
   suffix: -blades-spin
   progress: reload
   weaponIndex: 0
@@ -67,6 +82,21 @@ parts: [
   moveX: 0
   moveY: 0
   moveRot: 180
+  suffix: -blades-spin-shine
+  progress: reload
+  weaponIndex: 0
+  under: false
+  layerOffset: +0.001
+    }
+    {
+  type: RegionPart
+  mirror: false
+  outline: false
+  x: 0
+  y: 0.5
+  moveX: 0
+  moveY: 0
+  moveRot: -180
   suffix: -blades-spin-shine
   progress: reload
   weaponIndex: 0
