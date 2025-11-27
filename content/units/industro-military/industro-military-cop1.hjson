@@ -16,7 +16,7 @@ engineSize: 1
 lowAltitude: false
 lightOpacity: 0
 lightRadius: 0
-  
+
   weapons: [
  {
 name: industro-military-cop1
