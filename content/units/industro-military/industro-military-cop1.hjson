@@ -16,7 +16,51 @@ engineSize: 1
 lowAltitude: false
 lightOpacity: 0
 lightRadius: 0
-  
+ parts: [
+    {
+  type: RegionPart
+  mirror: false
+  outline: false
+  x: 0
+  y: 0.5
+  moveX: 0
+  moveY: 0
+  moveRot: 560
+  suffix: -blades-spin
+  progress: time
+  under: false
+  layerOffset: +0.001
+    }
+    {
+  type: RegionPart
+  mirror: false
+  outline: false
+  x: 0
+  y: 0.5
+  moveX: 0
+  moveY: 0
+  moveRot: 180
+  suffix: -blades-spin-shine
+  progress: time
+  under: false
+  layerOffset: +0.001
+    }
+    {
+  type: RegionPart
+  mirror: false
+  x: 0
+  y: 0.5
+  moveX: 0
+  moveY: 0
+  moveRot: 0
+  suffix: -blades-top
+  progress: time
+  under: false
+  layerOffset: +0.001
+    }
+]
+
+
   weapons: [
  {
 name: industro-military-cop1
@@ -42,52 +86,6 @@ name: industro-military-cop1
       smokeEffect: none
       despawnEffect: none
 }
-parts: [
-    {
-  type: RegionPart
-  mirror: false
-  outline: false
-  x: 0
-  y: 0.5
-  moveX: 0
-  moveY: 0
-  moveRot: 560
-  suffix: -blades-spin
-  progress: reload
-  weaponIndex: 0
-  under: false
-  layerOffset: +0.001
-    }
-    {
-  type: RegionPart
-  mirror: false
-  outline: false
-  x: 0
-  y: 0.5
-  moveX: 0
-  moveY: 0
-  moveRot: 180
-  suffix: -blades-spin-shine
-  progress: reload
-  weaponIndex: 0
-  under: false
-  layerOffset: +0.001
-    }
-    {
-  type: RegionPart
-  mirror: false
-  x: 0
-  y: 0.5
-  moveX: 0
-  moveY: 0
-  moveRot: 0
-  suffix: -blades-top
-  progress: reload
-  weaponIndex: 0
-  under: false
-  layerOffset: +0.001
-    }
-]
 }
 {
   name: industro-military-cop1-missile
