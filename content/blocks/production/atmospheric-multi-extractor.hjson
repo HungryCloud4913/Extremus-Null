@@ -14,104 +14,96 @@ regionRotated1: 5
 rotate: true
 invertFlip: true
 
-outputLiquids:
-[
-carbon-dioxide/0.7
-hydrogen-sulphide/0.2
-nitrogen/0.3
+outputLiquids:[
+  carbon-dioxide/0.7
+  hydrogen-sulphide/0.2
+  nitrogen/0.3
 ]
-liquidOutputDirections: 
-[
-2
-3
-4
+liquidOutputDirections: [
+  2
+  3
+  4
 ]
 
 
-consumes: 
-{
-power: 5
+consumes: {
+  power: 5
 }
 
 
-requirements: 
-[
-siniat/60
-silicon/30
-thiocompound/70
-cartenic-alloy/45
+requirements: [
+  siniat/60
+  silicon/30
+  thiocompound/70
+  cartenic-alloy/45
 ]
 
-drawer: 
-{
+drawer: {
   type: DrawMulti
   drawers: 
   [
     {
-    type: DrawRegion
-    suffix: -bottom
+      type: DrawRegion
+      suffix: -bottom
     }
     {
-    type: DrawLiquidRegion
-    drawLiquid: hydrogen-sulphide
-    suffix: -hydrosulph
-    alpha: 0.9
-    padding: 1.5
+      type: DrawLiquidRegion
+      drawLiquid: hydrogen-sulphide
+      suffix: -hydrosulph
+      alpha: 1
+      padding: 1.5
     }
     {
-    type: DrawLiquidRegion
-    drawLiquid: nitrogen
-    suffix: -nitro
-     alpha: 0.9
-    padding: 1.5
+      type: DrawLiquidRegion
+      drawLiquid: nitrogen
+      suffix: -nitro
+      alpha: 1
+      padding: 1.5
     }
     {
-    type: DrawLiquidRegion
-    drawLiquid: carbon-dioxide
-    suffix: -carbodiox
-    alpha: 0.9
-    padding: 1.5
+      type: DrawLiquidRegion
+      drawLiquid: carbon-dioxide
+      suffix: -carbodiox
+      alpha: 1
+      padding: 1.5
     }
     {
-    type: DrawRegion
+      type: DrawRegion
     }
     {
-    type: DrawLiquidOutputs
+      type: DrawLiquidOutputs
     }
     {
-    type: DrawHeatInput
-    suffix: -heat
+      type: DrawHeatInput
+      suffix: -heat
     }
     {
-	  type: DrawParticles
-	  color: 3D2E2E0
-	  alpha: 0.75
-	  particles: 15
-	  particleRad: 12
-	  particleSize: 5
-    particleLife: 165
+	    type: DrawParticles
+	    color: 3D2E2E0
+	    alpha: 0.75
+	    particles: 15
+	    particleRad: 12
+	    particleSize: 5
+      particleLife: 165
     }
   ]
 }
 
 craftEffect: none
 
-researchCost:
-[
-siniat/100
-silicon/100
-thiocompound/150
-cartenic-alloy/200
+researchCost:[
+  siniat/100
+  silicon/100
+  thiocompound/150
+  cartenic-alloy/200
 ]
 
-research:
-{
-parent: thiocompound-mixer
-  objectives: 
-  [
+research:{
+  parent: thiocompound-mixer
+  objectives:[
     {
-    type: SectorComplete
-    preset: Cancerous Outset
+     type: SectorComplete
+     preset: Cancerous Outset
     }
   ]
 }

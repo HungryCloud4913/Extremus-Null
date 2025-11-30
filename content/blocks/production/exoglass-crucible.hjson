@@ -4,66 +4,75 @@ size: 2
 squareSprite: false
 category: crafting
 craftTime: 45
-outputItems: [
-exoglass/1
-]
+outputItems:
+  [
+  exoglass/1
+  ]
 itemCapacity: 10
-consumes: {
+consumes:
+  {
   power: 2.8
-items: [
-sulphur/2
-sand/1
-]
-liquids: [
-nitrogen/0.1
-]
-}
+  items: 
+    [
+    sulphur/2
+    sand/1
+    ]
+  liquids: 
+    [
+    nitrogen/0.1
+    ]
+  }
 
-requirements: [
-pyrite/50
-silicon/10
-siniat/30
-]
+requirements: 
+  [
+  pyrite/50
+  silicon/10
+  siniat/30
+  ]
 
-drawer: {
+drawer:
+  {
   type: DrawMulti
-  drawers: [
-    {
+  drawers:
+    [
+      {
       type: DrawRegion
       suffix: -bottom
-    }
-    {
+      }
+      {
       type: DrawLiquidTile
       drawLiquid: nitrogen
       alpha: 0.9
       padding: 1.5
-    }
-    {  
+      }
+      {  
 	  type: DrawRegion
 	  suffix: -rotator
 	  rotateSpeed: 3
 	  spinSprite: true
-    }
-    {  
+      }
+      {  
 	  type: DrawRegion
 	  suffix: -rotator
 	  rotateSpeed: -3
 	  spinSprite: true
-    }
+      }
       {
       type: DrawDefault
-    }
-  ]
-}
+      }
+    ]
+  }
 
- craftEffect: [
- {
+ craftEffect:
+ [
+  {
     type: radialEffect
     amount: 10
     rotationSpacing: 72
     lengthOffset: 2.75
     rotationOffset: 2.25
-    effect: {
+    effect:
+      {
       type: ParticleEffect
       particles: 1
       length: 60
@@ -84,17 +93,20 @@ drawer: {
     }
   ]
 
- researchCost: [
-pyrite/150
-silicon/30
-siniat/90
+ researchCost:
+[
+  pyrite/150
+  silicon/30
+  siniat/90
 ]
-research: {
-  parent: siniat-forge
-  objectives: [
+research:
 {
-type: SectorComplete
-preset: Cancerous Outset
-  }
-]
+  parent: siniat-forge
+  objectives:
+  [
+    {
+      type: SectorComplete
+      preset: Cancerous Outset
+    }
+  ]
 }
