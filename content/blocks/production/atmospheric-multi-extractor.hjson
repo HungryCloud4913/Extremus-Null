@@ -67,7 +67,7 @@ drawer:
     suffix: -carbodiox
     }
     {
-    type: DrawDefault
+    type: DrawRegion
     }
     {
     type: DrawLiquidOutputs
@@ -76,9 +76,10 @@ drawer:
 	  type: DrawParticles
 	  color: 3D2E2E0
 	  alpha: 0.75
-	  particles: 30
+	  particles: 15
 	  particleRad: 12
 	  particleSize: 5
+    particleLife: 60
     }
     {
     type: DrawHeatInput
