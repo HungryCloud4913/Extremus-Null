@@ -59,30 +59,6 @@ mesh: [
   octaves: 3.7
   persistence: 1.1
   }
- {
-    //yellow
-    type: NoiseMesh
-  planet: extrull
-    seed: 92
-    divisions: 6
-    color1: 5B4F2F
-    color2: 68462E
-  radius: 1.14
-  octaves: 3.7
-  persistence: 1.1
-  }
- {
-    //yellow2
-    type: NoiseMesh
-  planet: extrull
-    seed: 56
-    divisions: 6
-    color1: 5B4F2F
-    color2: 68462E
-  radius: 1.1
-  octaves: 3.7
-  persistence: 1.1
-  }
 ]
 cloudMesh: [
  {
