@@ -16,9 +16,9 @@ invertFlip: true
 
 outputLiquids:
 [
+carbon-dioxide/0.7
 hydrogen-sulphide/0.2
 nitrogen/0.3
-carbon-dioxide/0.7
 ]
 liquidOutputDirections: 
 [
@@ -73,17 +73,17 @@ drawer:
     type: DrawLiquidOutputs
     }
     {
+    type: DrawHeatInput
+    suffix: -heat
+    }
+    {
 	  type: DrawParticles
 	  color: 3D2E2E0
 	  alpha: 0.75
 	  particles: 15
 	  particleRad: 12
 	  particleSize: 5
-    particleLife: 60
-    }
-    {
-    type: DrawHeatInput
-    suffix: -heat
+    particleLife: 140
     }
   ]
 }
