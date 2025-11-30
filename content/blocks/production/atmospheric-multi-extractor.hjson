@@ -83,7 +83,7 @@ drawer:
 	  particles: 15
 	  particleRad: 12
 	  particleSize: 5
-    particleLife: 140
+    particleLife: 165
     }
   ]
 }
