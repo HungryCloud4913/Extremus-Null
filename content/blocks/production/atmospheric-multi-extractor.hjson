@@ -20,6 +20,12 @@ carbon-dioxide/0.7
 hydrogen-sulphide/0.2
 nitrogen/0.3
 ]
+liquidOutputRegions:
+[
+atmospheric-multi-extractor-carbon-dioxide
+atmospheric-multi-extractor-hydrogen-sulphide
+atmospheric-multi-extractor-nitrogen
+]
 liquidOutputDirections: 
 [
 2
