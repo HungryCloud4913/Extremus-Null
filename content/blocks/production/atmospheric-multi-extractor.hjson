@@ -1,0 +1,107 @@
+type: HeatCrafter
+health: 1100
+size: 3
+squareSprite: false
+category: crafting
+craftTime: 60
+hasLiquids: true
+hasPower: true
+hasItems: false
+liquidCapacity: 50
+heatRequirement: 8
+maxEfficiency: 3
+regionRotated1: 4
+rotate: true
+invertFlip: true
+
+outputLiquids:
+[
+hydrogen-sulphide/0.2
+nitrogen/0.3
+carbon-dioxide/0.7
+]
+liquidOutputDirections: 
+[
+2
+3
+4
+]
+
+
+consumes: 
+{
+power: 5
+}
+
+
+requirements: 
+[
+siniat/60
+silicon/30
+thiocompound/70
+cartenic-alloy/45
+]
+
+drawer: 
+{
+  type: DrawMulti
+  drawers: 
+  [
+    {
+    type: DrawRegion
+    suffix: -bottom
+    }
+    {
+    type: DrawLiquidRegion
+    drawLiquid: hydrogen-sulphide
+    suffix: -hydrosulph
+    }
+    {
+    type: DrawLiquidRegion
+    drawLiquid: nitrogen
+    suffix: -nitro
+    }
+    {
+    type: DrawLiquidRegion
+    drawLiquid: carbon-dioxide
+    suffix: -carbodiox
+    }
+    {
+    type: DrawDefault
+    }
+    {
+	  type: DrawParticles
+	  color: 3D2E2E0
+	  alpha: 0.75
+	  particles: 30
+	  particleRad: 12
+	  particleSize: 5
+    }
+    {
+    type: DrawHeatInput
+    suffix: -heat
+    }
+  ]
+}
+
+craftEffect: none
+
+researchCost:
+[
+siniat/100
+silicon/100
+thiocompound/150
+cartenic-alloy/200
+]
+
+research:
+{
+parent: thiocompound-mixer
+  objectives: 
+  [
+    {
+    type: SectorComplete
+    preset: Cancerous Outset
+    }
+  ]
+}
