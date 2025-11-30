@@ -20,12 +20,6 @@ carbon-dioxide/0.7
 hydrogen-sulphide/0.2
 nitrogen/0.3
 ]
-liquidOutputRegions:
-[
-atmospheric-multi-extractor-carbon-dioxide
-atmospheric-multi-extractor-hydrogen-sulphide
-atmospheric-multi-extractor-nitrogen
-]
 liquidOutputDirections: 
 [
 2
@@ -61,16 +55,22 @@ drawer:
     type: DrawLiquidRegion
     drawLiquid: hydrogen-sulphide
     suffix: -hydrosulph
+    alpha: 0.9
+    padding: 1.5
     }
     {
     type: DrawLiquidRegion
     drawLiquid: nitrogen
     suffix: -nitro
+     alpha: 0.9
+    padding: 1.5
     }
     {
     type: DrawLiquidRegion
     drawLiquid: carbon-dioxide
     suffix: -carbodiox
+    alpha: 0.9
+    padding: 1.5
     }
     {
     type: DrawRegion
