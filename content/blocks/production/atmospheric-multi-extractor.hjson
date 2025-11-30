@@ -10,7 +10,7 @@ hasItems: false
 liquidCapacity: 50
 heatRequirement: 8
 maxEfficiency: 3
-regionRotated1: 4
+regionRotated1: 5
 rotate: true
 invertFlip: true
 
@@ -68,6 +68,9 @@ drawer:
     }
     {
     type: DrawDefault
+    }
+    {
+    type: DrawLiquidOutputs
     }
     {
 	  type: DrawParticles
