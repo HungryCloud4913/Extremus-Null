@@ -15,7 +15,7 @@ rotate: true
 invertFlip: true
 
 outputLiquids:[
-  carbon-dioxide/0.7
+  carbon-dioxide/0.4
   hydrogen-sulphide/0.2
   nitrogen/0.3
 ]
