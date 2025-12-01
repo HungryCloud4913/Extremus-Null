@@ -1,3 +1,4 @@
-type: StaticWall
+type: TreeBlock
 variants: 10
 name: Lesion Mangrove
+shadowOffset: 0
