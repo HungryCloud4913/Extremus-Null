@@ -4,4 +4,4 @@ liquidDrop: zisofluid
 liquidMultiplier: 0.5
 shallow: true
 speedMultiplier: 0.9
-cacheLayer: zisofluid
+cacheLayer: water
