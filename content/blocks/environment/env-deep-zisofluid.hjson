@@ -1,11 +1,11 @@
 type: floor
 variants: 1
 liquidDrop: zisofluid
-liquidMultiplier: 0.5
-shallow: true
-speedMultiplier: 0.7
+liquidMultiplier: 0.1
+drownTime: 180
+speedMultiplier: 0.4
 cacheLayer: water
-name: Zisofluid
+name: Deep Zisofluid
 isLiquid: true
 albedo: 0.9
 supportsOverlay: true

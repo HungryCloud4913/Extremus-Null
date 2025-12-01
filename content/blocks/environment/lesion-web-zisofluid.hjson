@@ -1,7 +1,8 @@
 type: floor
 variants: 11
 liquidDrop: zisofluid
-liquidMultiplier: 0.5
+liquidMultiplier: 0.1
 shallow: true
-speedMultiplier: 0.9
+speedMultiplier: 0.8
 cacheLayer: water
+name: Lesion Web
