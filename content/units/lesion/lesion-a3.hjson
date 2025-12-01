@@ -21,7 +21,7 @@ legForwardScl: 1
 fogRadius: 2
 legSplashDamage: 0
 legSplashRange: 0
-drownTimeMultiplier: 5
+drownTimeMultiplier: 0.7
 legGroupSize: 2
 baseLegStraightness: 0.5
 rippleScale: 0.1

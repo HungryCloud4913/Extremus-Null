@@ -24,6 +24,7 @@ rippleScale: 0
 legMoveSpace: 2
 allowLegStep: true
 legPhysicsLayer: false
+drownTimeMultiplier: 1
 targetAir: true
 faceTarget: false
 lightOpacity: 0
