@@ -203,7 +203,6 @@ type: LaserBulletType
     ]
       under: true
 }
-}
 {
     type: RegionPart
     suffix: -chamber-glow
