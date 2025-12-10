@@ -163,7 +163,7 @@ parts: [
     y: 0.5
     moveY: 0
     moveX: 0
-    moveRot: 180
+    moveRot: -180
     progress: {
     type: warmup
     op: delay
