@@ -150,7 +150,7 @@ type: LaserBulletType
       heatColor: F39FC2
       moveY: -4
       moveX: -4
-      progress: time
+      progress: charge
       under: true
 }
 {
@@ -160,7 +160,7 @@ type: LaserBulletType
       heatColor: F39FC2
       moveY: 6
       moveX: 0
-      progress: time
+      progress: charge
       under: true
 }
        {
@@ -173,7 +173,7 @@ type: LaserBulletType
       moveY: 0
       moveX: 0
       moveRot: -180
-      progress: time
+      progress: charge
       under: true
 }
     {
@@ -187,7 +187,7 @@ type: LaserBulletType
       mixColor: F39FC200
       mixColorTo: FFC9DF
       blending: additive
-      progress: time
+      progress: charge
       under: true
       outline: false
 }
