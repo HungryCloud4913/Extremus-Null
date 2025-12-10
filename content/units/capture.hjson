@@ -147,8 +147,8 @@ parts: [
         {
             type: PartMove
             progress: recoil
-            x: -1
-            y: 0
+            x: 0
+            y: -1
             rot: 0
         }
     ]
@@ -163,7 +163,7 @@ parts: [
     y: 0.5
     moveY: 0
     moveX: 0
-    moveRot: 20
+    moveRot: 180
     progress: {
     type: warmup
     op: delay
@@ -198,7 +198,7 @@ parts: [
             progress: recoil
             x: 0
             y: 0
-            rot: 20
+            rot: 2
         }
     ]
       under: true
@@ -225,7 +225,7 @@ parts: [
             progress: recoil
             x: 0
             y: 0
-            rot: 10
+            rot: 2
         }
     ]
       under: true
