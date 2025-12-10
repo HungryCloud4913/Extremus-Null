@@ -58,8 +58,8 @@ weapons: [{
                 x: 0
                 y: -1
                 reload: 100
-                shootWarmupSpeed: 0.04
-                minWarmup: 0.25
+                shootWarmupSpeed: 0.01
+                minWarmup: 0.5
                 shoot: {
           shots: 2
         type: ShootBarrel
@@ -137,10 +137,10 @@ type: LaserBulletType
 {
       type: RegionPart
       suffix: -barrels
+      mirror: false
       moveY: -4
       moveX: 0
       progress: recoil
-      mirror: false
       under: true
 }
 {
@@ -151,17 +151,16 @@ type: LaserBulletType
       moveY: -4
       moveX: -4
       progress: warmup
-      mirror: false
       under: true
 }
 {
       type: RegionPart
       suffix: -middlesupport
+      mirror: false
       heatColor: F39FC2
-      moveY: 7.5
+      moveY: 5
       moveX: 0
       progress: warmup
-      mirror: false
       under: true
 }
        {
@@ -169,13 +168,12 @@ type: LaserBulletType
       suffix: -sidesupport
       mirror: true
       heatColor: F39FC2
-      x: 11
-      y: 11
+      x: -12
+      y: 5
       moveY: 0
       moveX: 0
       moveRot: -180
       progress: warmup
-      mirror: false
       under: true
 }
     {
@@ -190,23 +188,6 @@ type: LaserBulletType
       mixColorTo: FFC9DF
       blending: additive
       progress: warmup
-      mirror: false
-      under: true
-      outline: false
-}
-    {
-      type: RegionPart
-      suffix: -chamber-heatglow
-      mirror: true
-      X: -4
-      Y: -4
-      color: FFFFFF00
-      colorTo: BC7755
-      mixColor: E99B7C
-      mixColorTo: FFC5A9
-      blending: additive
-      progress: recoil
-      mirror: false
       under: true
       outline: false
 }
