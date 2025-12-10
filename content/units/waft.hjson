@@ -11,6 +11,7 @@ shadowElevation: 0.1
 mechFrontSway: 0
 mechSideSway: 0
 mechStride: 0
+drawLegs: false
 groundLayer: 61
 canDrown: false
 targetAir: true
