@@ -150,7 +150,7 @@ type: LaserBulletType
       heatColor: F39FC2
       moveY: -4
       moveX: -4
-      progress: warmup
+      progress: life
       under: true
 }
 {
@@ -158,9 +158,9 @@ type: LaserBulletType
       suffix: -middlesupport
       mirror: false
       heatColor: F39FC2
-      moveY: 5
+      moveY: 6
       moveX: 0
-      progress: warmup
+      progress: life
       under: true
 }
        {
@@ -168,12 +168,12 @@ type: LaserBulletType
       suffix: -sidesupport
       mirror: true
       heatColor: F39FC2
-      x: -12
+      x: -11
       y: 5
       moveY: 0
       moveX: 0
       moveRot: -180
-      progress: warmup
+      progress: life
       under: true
 }
     {
@@ -187,7 +187,7 @@ type: LaserBulletType
       mixColor: F39FC200
       mixColorTo: FFC9DF
       blending: additive
-      progress: warmup
+      progress: life
       under: true
       outline: false
 }
