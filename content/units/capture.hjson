@@ -121,7 +121,7 @@ type: LaserBulletType
         despawnHit: false
 }
 }
- parts: [
+parts: [
 {
       type: RegionPart
       suffix: -barrels
@@ -230,6 +230,8 @@ type: LaserBulletType
     ]
       under: true
       outline: false
+}
+]
 }
 ]
 research: {
