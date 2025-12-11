@@ -332,12 +332,12 @@ parts: [
     mirror: true
     shapes: 1
     x: 0
-    y: -5
+    y: -4
     haloRotateSpeed: 0
     haloRotation: 90
     shapeRotation: 90
     triLength: 0
-    triLengthTo: 6
+    triLengthTo: 5
     haloRadius: 0
     haloRadiusTo: 13.5
     radius: 0
@@ -354,16 +354,16 @@ parts: [
     mirror: true
     shapes: 1
     x: 0
-    y: -5
+    y: -4
     haloRotateSpeed: 0
     haloRotation: 90
     shapeRotation: 270
     triLength: 0
-    triLengthTo: 3
+    triLengthTo: 7
     haloRadius: 0
-    haloRadiusTo: 13.5
+    haloRadiusTo: 11.5
     radius: 0
-    radiusTo: 5
+    radiusTo: 7
     layer: 110
     tri: true
     color: F39FC2F
