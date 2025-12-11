@@ -328,6 +328,28 @@ parts: [
     under: true
 }
 {
+    type: HaloPart
+    mirror: true
+    shapes: 1
+    x: 0
+    y: -9
+    haloRotateSpeed: 0
+    haloRotation: 90
+    shapeRotation: 90
+    triLength: 0
+    triLengthTo: 9
+    haloRadius: 0
+    haloRadiusTo: 17.6
+    radius: 0
+    radiusTo: 3
+    layer: 110
+    tri: true
+    color: F39FC2F
+    colorTo: F39FC2
+    progress: warmup
+    under: true
+}
+{
     type: RegionPart
     suffix: -body
     mirror: false
