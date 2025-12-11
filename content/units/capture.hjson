@@ -126,14 +126,14 @@ parts: [
     type: HaloPart
     shapes: 1
     x: 0
-    y: 0
+    y: -9
     haloRotateSpeed: 0
     haloRotation: 0
     shapeRotation: 0
     triLength: 0
     triLengthTo: 7
     haloRadius: 0
-    haloRadiusTo: 6
+    haloRadiusTo: 17
     radius: 0
     radiusTo: 3
     layer: 110
@@ -146,14 +146,14 @@ parts: [
     type: HaloPart
     shapes: 1
     x: 0
-    y: 0
+    y: -9
     haloRotateSpeed: 0
     haloRotation: 0
     shapeRotation: 180
     triLength: 0
     triLengthTo: 5
     haloRadius: 0
-    haloRadiusTo: 6
+    haloRadiusTo: 17
     radius: 0
     radiusTo: 3
     layer: 110
