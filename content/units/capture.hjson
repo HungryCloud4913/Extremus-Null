@@ -170,7 +170,7 @@ parts: [
         mirror: false
         moveY: -5
         moveX: 0
-        layer: 120
+        layer: 122
         progress: recoil
         under: true
 }
@@ -181,7 +181,7 @@ parts: [
         heatColor: F39FC2
         moveY: 6
         moveX: 0
-        layer: 120
+        layer: 122
     progress: {
     type: warmup
     op: delay
@@ -199,7 +199,7 @@ parts: [
     moveY: 0
     moveX: 0
     moveRot: -180
-    layer: 120
+    layer: 122
     progress: {
     type: warmup
     op: delay
@@ -223,7 +223,7 @@ parts: [
     heatColor: F39FC2
     moveY: -4
     moveX: -4
-    layer: 109
+    layer: 121
     progress: {
     type: warmup
     op: delay
@@ -251,7 +251,7 @@ parts: [
     mixColor: F39FC200
     mixColorTo: FFC9DF
     blending: additive
-    layer: 110
+    layer: 121
     progress: {
     type: warmup
     op: delay
@@ -281,7 +281,7 @@ parts: [
     colorTo: F39FC2
     circle: true
     hollow: true
-    layer: 110
+    layer: 121
     progress: warmup
     under: true
 }
@@ -299,7 +299,7 @@ parts: [
     haloRadiusTo: 10
     radius: 0
     radiusTo: 3
-    layer: 110
+    layer: 121
     tri: true
     color: F39FC2F
     colorTo: F39FC2
@@ -320,7 +320,7 @@ parts: [
     haloRadiusTo: 10
     radius: 0
     radiusTo: 3
-    layer: 110
+    layer: 121
     tri: true
     color: F39FC2F
     colorTo: F39FC2
@@ -328,14 +328,14 @@ parts: [
     under: true
 }
 {
-        type: RegionPart
-        suffix: -body
-        mirror: false
-        moveY: 0
-        moveX: 0
-        layer: 120
-        progress: recoil
-        under: true
+    type: RegionPart
+    suffix: -body
+    mirror: false
+    moveY: 0
+    moveX: 0
+    layer: 122
+    progress: recoil
+    under: true
 }
 ]
 }
