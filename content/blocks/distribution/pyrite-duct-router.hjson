@@ -2,7 +2,7 @@ type: DuctRouter
 category: distribution
 alwaysUnlocked: false
 size: 1
-speed: 7
+speed: 8
 health: 50
 
 requirements: [
