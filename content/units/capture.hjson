@@ -237,31 +237,31 @@ parts: [
     y: -9
     radius: 3
     radiusTo: 10
-    color: F39FC20
+    color: F39FC2F
     colorTo: F39FC2
     circle: true
     hollow: true
     progress: warmup
 }
 {
-    type: HaloPart
-    shapes: 0
-    x: 0
-    y: -9
-    haloRotateSpeed: 0
-    haloRotation: 0
-    shapeRotation: 0
-    triLength: 1
-    triLengthTo: 3
-    haloRadius: 0
-    haloRadTo: 10
-    radius: 0
-    radiusTo: 10
-    tri: true
-    color: F39FC20
-    colorTo: F39FC2
-    progress: warmup
-    under: false
+type: HaloPart
+shapes: 1
+x: 0
+y: +60
+haloRotateSpeed: 0
+haloRotation: 90
+shapeRotation: 0
+triLength: 5
+triLengthTo: 0
+haloRadius: 3
+haloRadTo: 0
+radius: 8
+radiusTo: 0
+layer: 110
+tri: true
+color: F39FC2F
+colorTo: F39FC2
+progress: recoil
 }
 ]
 }
