@@ -255,9 +255,9 @@ shapeRotation: 0
 triLength: 0
 triLengthTo: 13
 haloRadius: 0
-haloRadiusTo: 7
+haloRadiusTo: 3
 radius: 0
-radiusTo: 7
+radiusTo: 10
 layer: 110
 tri: true
 color: F39FC2F
