@@ -237,12 +237,11 @@ parts: [
     y: -9
     radius: 3
     radiusTo: 10
-    color: F39FC2
+    color: F39FC20
     colorTo: F39FC2
     circle: true
     hollow: true
     progress: warmup
-    under: true
 }
 {
     type: HaloPart
@@ -259,7 +258,7 @@ parts: [
     radius: 0
     radiusTo: 10
     tri: true
-    color: F39FC2
+    color: F39FC20
     colorTo: F39FC2
     progress: warmup
     under: false
