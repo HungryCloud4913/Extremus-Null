@@ -234,15 +234,15 @@ parts: [
 {
     type: ShapePart
     x: 0
-    y: -7
-    radius: 11
-    radiusTo: 12
-    color: F39FC2
-    colorTo: 000000ff
-    layer: 110
+    y: -9
+    radius: 5
+    radiusTo: 9
+    color: F39FC20
+    colorTo: F39FC2
     circle: true
     hollow: true
     progress: warmup
+    under: true
 }
 ]
 }
