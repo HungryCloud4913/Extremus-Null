@@ -254,7 +254,7 @@ parts: [
     shapeRotation: 0
     triLength: 0
     triLengthTo: 3
-    haloRadius: 0
+    haloRadius: 3
     haloRadiusTo: 10
     radius: 0
     radiusTo: 3
@@ -273,11 +273,11 @@ parts: [
     haloRotation: 45
     shapeRotation: 0
     triLength: 0
-    triLengthTo: 7
-    haloRadius: 0
+    triLengthTo: -6
+    haloRadius: 3
     haloRadiusTo: 10
     radius: 0
-    radiusTo: -5
+    radiusTo: 3
     layer: 110
     tri: true
     color: F39FC2F
