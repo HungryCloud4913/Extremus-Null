@@ -238,7 +238,7 @@ parts: [
     radius: 3
     radiusTo: 10
     color: F39FC20
-    colorTo: F39FC0
+    colorTo: F39FC
     circle: true
     hollow: true
     progress: warmup
@@ -254,14 +254,14 @@ parts: [
     shapeRotation: 0
     triLength: 5
     triLengthTo: 0
-    haloRadius: 3
-    haloRadTo: 10
+    haloRadius: 10
+    haloRadTo: 0
     radius: 3
     radiusTo: 10
     tri: true
     color: F39FC20
-    colorTo: F39FC0
-    progress: recoil
+    colorTo: F39FC
+    progress: warmup
     under: true
 }
 ]
