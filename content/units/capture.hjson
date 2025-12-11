@@ -274,8 +274,8 @@ parts: [
     shapeRotation: 0
     triLength: 0
     triLengthTo: 3
-    haloRadius: -3
-    haloRadiusTo: -10
+    haloRadius: 1
+    haloRadiusTo: 10
     radius: 0
     radiusTo: 3
     layer: 110
