@@ -252,7 +252,7 @@ parts: [
     haloRotateSpeed: 0
     haloRotation: 45
     shapeRotation: 0
-    triLength: 5
+    triLength: 2
     triLengthTo: 0
     haloRadius: 10
     haloRadTo: 0
