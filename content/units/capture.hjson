@@ -223,7 +223,7 @@ parts: [
     heatColor: F39FC2
     moveY: -4
     moveX: -4
-    layer: 100
+    layer: 109
     progress: {
     type: warmup
     op: delay
@@ -326,6 +326,16 @@ parts: [
     colorTo: F39FC2
     progress: warmup
     under: true
+}
+{
+        type: RegionPart
+        suffix: -body
+        mirror: false
+        moveY: 0
+        moveX: 0
+        layer: 120
+        progress: recoil
+        under: true
 }
 ]
 }
