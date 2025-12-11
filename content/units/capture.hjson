@@ -246,23 +246,43 @@ parts: [
 }
 {
 type: HaloPart
-shapes: 1
+shapes: 8
 x: 0
 y: -9
-haloRotateSpeed: 0
-haloRotation: 180
-shapeRotation: 0
-triLength: 0
-triLengthTo: 5
-haloRadius: 0
-haloRadiusTo: 10
-radius: 0
-radiusTo: 5
-layer: 110
-tri: true
-color: F39FC2F
-colorTo: F39FC2
-progress: warmup
+    haloRotateSpeed: 0
+    haloRotation: 45
+    shapeRotation: 0
+    triLength: 0
+    triLengthTo: 5
+    haloRadius: 0
+    haloRadiusTo: 10
+    radius: 0
+    radiusTo: 5
+    layer: 110
+    tri: true
+    color: F39FC2F
+    colorTo: F39FC2
+    progress: warmup
+}
+{
+type: HaloPart
+shapes: 8
+x: 0
+y: -9
+    haloRotateSpeed: 0
+    haloRotation: 45
+    shapeRotation: 0
+    triLength: 0
+    triLengthTo: -8
+    haloRadius: 0
+    haloRadiusTo: 10
+    radius: 0
+    radiusTo: 5
+    layer: 110
+    tri: true
+    color: F39FC2F
+    colorTo: F39FC2
+    progress: warmup
 }
 ]
 }
