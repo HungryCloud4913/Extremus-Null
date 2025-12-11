@@ -359,7 +359,7 @@ parts: [
     haloRotation: 90
     shapeRotation: 270
     triLength: 0
-    triLengthTo: 11
+    triLengthTo: 4
     haloRadius: 0
     haloRadiusTo: 11.5
     radius: 0
