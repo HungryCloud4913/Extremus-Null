@@ -241,7 +241,7 @@ parts: [
     radiusTo: 10
     color: F39FC2F
     colorTo: F39FC2
-    circle: false
+    circle: true
     hollow: true
     layer: 110
     progress: warmup
