@@ -28,7 +28,7 @@ targetAir: true
 faceTarget: true
 outlineColor: 252222
 shadowElevation: 0.1
-groundLayer: 125
+groundLayer: 150
 canDrown: true
 isEnemy: true
 speed: 0.68
