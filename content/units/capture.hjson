@@ -270,12 +270,12 @@ parts: [
     x: 0
     y: -9
     haloRotateSpeed: 0
-    haloRotation: 45
+    haloRotation: 0
     shapeRotation: 0
     triLength: 0
-    triLengthTo: -6
-    haloRadius: 3
-    haloRadiusTo: 10
+    triLengthTo: 3
+    haloRadius: -3
+    haloRadiusTo: -10
     radius: 0
     radiusTo: 3
     layer: 110
