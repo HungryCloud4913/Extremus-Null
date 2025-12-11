@@ -270,8 +270,8 @@ parts: [
     x: 0
     y: -9
     haloRotateSpeed: 0
-    haloRotation: 90
-    shapeRotation: 0
+    haloRotation: 45
+    shapeRotation: 90
     triLength: 0
     triLengthTo: 6
     haloRadius: 0
