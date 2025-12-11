@@ -359,11 +359,11 @@ parts: [
     haloRotation: 90
     shapeRotation: 270
     triLength: 0
-    triLengthTo: 7
+    triLengthTo: 11
     haloRadius: 0
     haloRadiusTo: 11.5
     radius: 0
-    radiusTo: 7
+    radiusTo: 9
     layer: 110
     tri: true
     color: F39FC2F
