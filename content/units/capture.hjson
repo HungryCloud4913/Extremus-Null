@@ -136,7 +136,7 @@ parts: [
     haloRadiusTo: 17.6
     radius: 0
     radiusTo: 3
-    layer: 110
+    layerOffset: -1
     tri: true
     color: F39FC2F
     colorTo: F39FC2
