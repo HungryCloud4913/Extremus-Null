@@ -276,59 +276,6 @@ parts: [
 }
 {
     type: RegionPart
-    suffix: -chamber
-    mirror: true
-    heatColor: F39FC2
-    moveY: -4
-    moveX: -4
-    layer: 120
-    progress: {
-    type: warmup
-    op: delay
-    amount: 0.6
-    }
-    moves: [
-        {
-            type: PartMove
-            progress: recoil
-            x: 0
-            y: 0
-            rot: 2
-        }
-    ]
-      under: true
-}
-{
-    type: RegionPart
-    suffix: -chamber-glow
-    mirror: true
-    moveY: -4
-    moveX: -4
-    color: FFFFFF00
-    colorTo: FFB4D3
-    mixColor: F39FC200
-    mixColorTo: FFC9DF
-    blending: additive
-    layer: 120
-    progress: {
-    type: warmup
-    op: delay
-    amount: 0.6
-    }
-    moves: [
-        {
-            type: PartMove
-            progress: recoil
-            x: 0
-            y: 0
-            rot: 2
-        }
-    ]
-      under: true
-      outline: false
-}
-{
-    type: RegionPart
     suffix: -body
     mirror: false
     moveY: 0
