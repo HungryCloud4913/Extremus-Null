@@ -5,7 +5,7 @@ lightRadius: 34
 LightOpacity: 0.5
 hitSize: 30
 flying: false
-speed: 0.327
+speed: 0.36
 accel: 0.5
 drag: 0.4
 armor: 16
@@ -52,8 +52,8 @@ weapons: [{
           shots: 2
         type: ShootBarrel
         barrels: [
-          -11, +7, 0
-          11, +7, 0
+          -5.5, +6, 0
+          5.5, +6, 0
             ]
 }
             inaccuracy: 0.2
@@ -230,6 +230,19 @@ parts: [
     ]
       under: true
       outline: false
+}
+{
+    type: ShapePart
+    x: 0
+    y: -7
+    radius: 8
+    radiusTo: 0
+    color: F39FC2
+    colorTo: 000000ff
+    layer: 110
+    circle: true
+    hollow: true
+    progress: warmup
 }
 ]
 }
