@@ -235,6 +235,8 @@ parts: [
     type: ShapePart
     x: 0
     y: -9
+    RotateSpeed: 0
+    Rotation: 0
     radius: 3
     radiusTo: 10
     color: F39FC2F
