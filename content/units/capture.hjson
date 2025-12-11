@@ -253,11 +253,11 @@ haloRotateSpeed: 0
 haloRotation: 180
 shapeRotation: 0
 triLength: 2
-triLengthTo: 0
-haloRadius: 3
+triLengthTo: 2
+haloRadius: 0
 haloRadTo: 3
-radius: 8
-radiusTo: 0
+radius: 0
+radiusTo: 8
 layer: 110
 tri: true
 color: F39FC2F
