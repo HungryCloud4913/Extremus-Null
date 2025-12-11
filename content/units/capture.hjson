@@ -241,7 +241,7 @@ parts: [
     radiusTo: 10
     color: F39FC2F
     colorTo: F39FC2
-    circle: true
+    circle: false
     hollow: true
     layer: 110
     progress: warmup
@@ -273,7 +273,7 @@ parts: [
     y: -9
     haloRotateSpeed: 0
     haloRotation: 45
-    shapeRotation: 90
+    shapeRotation: 180
     triLength: 0
     triLengthTo: 6
     haloRadius: 0
