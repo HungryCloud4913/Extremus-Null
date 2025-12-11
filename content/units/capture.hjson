@@ -133,7 +133,7 @@ parts: [
     triLength: 0
     triLengthTo: 7
     haloRadius: 0
-    haloRadiusTo: 18
+    haloRadiusTo: 17.6
     radius: 0
     radiusTo: 3
     layer: 110
@@ -141,6 +141,7 @@ parts: [
     color: F39FC2F
     colorTo: F39FC2
     progress: warmup
+    under: true
 }
 {
     type: HaloPart
@@ -151,9 +152,9 @@ parts: [
     haloRotation: 0
     shapeRotation: 180
     triLength: 0
-    triLengthTo: 5
+    triLengthTo: 9
     haloRadius: 0
-    haloRadiusTo: 18
+    haloRadiusTo: 17.6
     radius: 0
     radiusTo: 3
     layer: 110
@@ -161,6 +162,7 @@ parts: [
     color: F39FC2F
     colorTo: F39FC2
     progress: warmup
+    under: true
 }
 {
       type: RegionPart
@@ -276,6 +278,7 @@ parts: [
     hollow: true
     layer: 110
     progress: warmup
+    under: true
 }
 {
     type: HaloPart
@@ -296,6 +299,7 @@ parts: [
     color: F39FC2F
     colorTo: F39FC2
     progress: warmup
+    under: true
 }
 {
     type: HaloPart
@@ -316,12 +320,13 @@ parts: [
     color: F39FC2F
     colorTo: F39FC2
     progress: warmup
+    under: true
 }
 ]
 }
 ]
 research: {
-  parent: daze
+  parent: ensnare
   alwaysUnlocked: true
 }
 
