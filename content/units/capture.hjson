@@ -131,9 +131,9 @@ parts: [
     haloRotation: 0
     shapeRotation: 0
     triLength: 0
-    triLengthTo: 3
-    haloRadius: 3
-    haloRadiusTo: 9
+    triLengthTo: 7
+    haloRadius: 0
+    haloRadiusTo: 4
     radius: 0
     radiusTo: 3
     layer: 110
