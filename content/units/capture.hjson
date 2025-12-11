@@ -332,12 +332,34 @@ parts: [
     mirror: true
     shapes: 1
     x: 0
-    y: -9
+    y: -5
     haloRotateSpeed: 0
     haloRotation: 90
     shapeRotation: 90
     triLength: 0
     triLengthTo: 6
+    haloRadius: 0
+    haloRadiusTo: 13
+    radius: 0
+    radiusTo: 5
+    layer: 110
+    tri: true
+    color: F39FC2F
+    colorTo: F39FC2
+    progress: warmup
+    under: true
+}
+{
+    type: HaloPart
+    mirror: true
+    shapes: 1
+    x: 0
+    y: -5
+    haloRotateSpeed: 0
+    haloRotation: 90
+    shapeRotation: 0
+    triLength: 0
+    triLengthTo: 3
     haloRadius: 0
     haloRadiusTo: 13
     radius: 0
