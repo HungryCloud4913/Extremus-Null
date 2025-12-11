@@ -141,7 +141,7 @@ parts: [
     color: F39FC2F
     colorTo: F39FC2
     progress: warmup
-    under: false
+    under: true
 }
 {
     type: HaloPart
@@ -162,7 +162,7 @@ parts: [
     color: F39FC2F
     colorTo: F39FC2
     progress: warmup
-    under: false
+    under: true
 }
 {
         type: RegionPart
@@ -283,7 +283,7 @@ parts: [
     hollow: true
     layer: 110
     progress: warmup
-    under: false
+    under: true
 }
 {
     type: HaloPart
@@ -304,7 +304,7 @@ parts: [
     color: F39FC2F
     colorTo: F39FC2
     progress: warmup
-    under: false
+    under: true
 }
 {
     type: HaloPart
@@ -325,7 +325,7 @@ parts: [
     color: F39FC2F
     colorTo: F39FC2
     progress: warmup
-    under: false
+    under: true
 }
 {
     type: HaloPart
@@ -337,7 +337,7 @@ parts: [
     haloRotation: 90
     shapeRotation: 90
     triLength: 0
-    triLengthTo: 10
+    triLengthTo: 6
     haloRadius: 0
     haloRadiusTo: 13
     radius: 0
@@ -347,7 +347,7 @@ parts: [
     color: F39FC2F
     colorTo: F39FC2
     progress: warmup
-    under: false
+    under: true
 }
 {
     type: RegionPart
