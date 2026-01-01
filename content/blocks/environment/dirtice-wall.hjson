@@ -1,6 +1,0 @@
-type: StaticWall
-variants: 3
-name: Dirtice Wall
-attributes: {
-  sand: 0.1
-}
