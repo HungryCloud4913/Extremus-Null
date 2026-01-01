@@ -5,7 +5,7 @@ lightRadius: 34
 LightOpacity: 0.5
 hitSize: 30
 flying: false
-speed: 0.36
+speed: 0.41
 accel: 0.5
 drag: 0.4
 armor: 16
