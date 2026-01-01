@@ -5,7 +5,7 @@ lightRadius: 42
 LightOpacity: 0.5
 hitSize: 30
 flying: false
-speed: 0.12
+speed: 0.28
 accel: 0.5
 drag: 0.4
 armor: 20
@@ -14,7 +14,7 @@ outlineColor: 252222
 targetAir: true
 faceTarget: false
 groundLayer: 60
-treadFrames: 26
+treadFrames: 13
 treadRects: [
     {
         x: -76,
