@@ -3,9 +3,9 @@ type: tank
 health: 20400
 lightRadius: 42
 LightOpacity: 0.5
-hitSize: 30
+hitSize: 46
 flying: false
-speed: 0.28
+speed: 0.29
 accel: 0.5
 drag: 0.4
 armor: 20
