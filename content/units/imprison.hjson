@@ -14,31 +14,31 @@ outlineColor: 252222
 targetAir: true
 faceTarget: false
 groundLayer: 60
-treadFrames: 13
+treadFrames: 26
 treadRects: [
     {
         x: -76,
         y: -92,
         width: 15,
-        height: 88
+        height: 78
     }
     {
         x: -79,
-        y: 34,
+        y: 35,
         width: 21,
-        height: 66
+        height: 65
     }
     {
         x: -32,
-        y: 29,
+        y: 43,
         width: 21,
-        height: 66
+        height: 52
     }
     {
-        x: -27,
+        x: -24,
         y: -97,
-        width: 54,
-        height: 66
+        width: 24,
+        height: 52
     }
 ]
 weapons: [
