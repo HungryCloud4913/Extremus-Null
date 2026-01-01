@@ -1,0 +1,50 @@
+template: TankUnitType
+type: tank
+health: 20400
+lightRadius: 42
+LightOpacity: 0.5
+hitSize: 30
+flying: false
+speed: 0.12
+accel: 0.5
+drag: 0.4
+armor: 20
+rotateSpeed: 0.6
+outlineColor: 252222
+targetAir: true
+faceTarget: false
+groundLayer: 60
+treadFrames: 26
+treadRects: [
+    {
+        x: -76,
+        y: -92,
+        width: 15,
+        height: 88
+    }
+    {
+        x: -79,
+        y: 34,
+        width: 21,
+        height: 66
+    }
+    {
+        x: -32,
+        y: 29,
+        width: 21,
+        height: 66
+    }
+    {
+        x: -27,
+        y: -97,
+        width: 54,
+        height: 66
+    }
+]
+weapons: [
+]
+research: {
+  parent: capture
+  alwaysUnlocked: true
+}
+
