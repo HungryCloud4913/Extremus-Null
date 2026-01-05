@@ -49,10 +49,10 @@ weapons: [
   shootSound: exShoot
   bullet: {
     type: MissileBulletType
-			backColor: B3832D
-			frontColor: FFE77E
-      trailColor: FFE77E
-    hitColor: B3832D
+			backColor: 442295
+			frontColor: 8E7EFF
+      trailColor: 8E7EFF
+    hitColor: 442295
 	  hitEffect: blastExplosion
     damage: 50
     knockback: 0.1
@@ -71,7 +71,6 @@ parts: [
     type: RegionPart
     suffix: -barrel
     mirror: true
-    heatColor: F39FC2
     moveY: -3
     moveX: 0
     progress: recoil
