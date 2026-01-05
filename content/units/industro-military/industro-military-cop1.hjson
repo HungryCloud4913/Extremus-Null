@@ -10,7 +10,7 @@ armor: 0
 rotateSpeed: 3.25
 outlineColor: 14190C
 targetair: false
-faceTarget: true
+faceTarget: false
 drawEngines: false
 engineSize: 1
 lowAltitude: false
