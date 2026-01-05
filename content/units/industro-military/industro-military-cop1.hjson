@@ -20,9 +20,9 @@ lightRadius: 0
 abilities: [
 {
   type: SuppressionFieldAbility
-  orbRadius: 5
+  orbRadius: 2
   x: 0
-  y: 1
+  y: 0.5
   particleColor: 8E7EFF
   color: D1CBFF
     }
@@ -38,6 +38,7 @@ weapons: [
   top: false
   layerOffset: -0.0001
   inaccuracy: 0.5
+  recoil: 0
   rotate: true
   rotateSpeed: 4.5
   shoot: {
@@ -64,5 +65,18 @@ weapons: [
     lifetime: 12
     buildingDamageMultiplier: 1
       }
+parts: [
+  {
+    type: RegionPart
+    suffix: -chamber
+    mirror: true
+    heatColor: F39FC2
+    moveY: -3
+    moveX: 0
+    layer: 120
+    progress: recoil
+    under: true
+  }
+]
 }
 ]
