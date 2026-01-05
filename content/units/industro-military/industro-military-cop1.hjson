@@ -20,11 +20,12 @@ lightRadius: 0
 abilities: [
 {
   type: SuppressionFieldAbility
+  color: D1CBFF
   orbRadius: 2
+  particleColor: 8E7EFF
+  particleSize: 1
   x: 0
   y: 0.5
-  particleColor: 8E7EFF
-  color: D1CBFF
     }
 ]
 weapons: [
@@ -68,7 +69,7 @@ weapons: [
 parts: [
   {
     type: RegionPart
-    suffix: -chamber
+    suffix: -barrel
     mirror: true
     heatColor: F39FC2
     moveY: -3
