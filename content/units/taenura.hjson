@@ -17,7 +17,6 @@ Parts: [
       type: RegionPart
       suffix: -heat
       heatColor: F8FFD2
-      heatColor
       recoilIndex: 0
       moveY: 0
       moveX: 0
