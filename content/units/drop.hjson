@@ -19,7 +19,7 @@ weapons:[
                 mirror: true
                 top: false
                 alternate: true
-                layerOffset: 0
+                layerOffset: +0.0001
                 rotate: false
 		rotateSpeed: 0
                 x: +3.5
@@ -40,7 +40,6 @@ weapons:[
 			frontColor: C1FFED
       trailColor: 509FAD
     hitColor: C1FFED
-    shootColour
     sprite: extremus-null-sharp
     damage: 20
     knockback: 0
