@@ -1,0 +1,75 @@
+template: TankUnitType
+type: tank
+health: 300
+hitSize: 9
+flying: false
+speed: 0.6
+accel: 0.5
+drag: 0.4
+armor: 5
+rotateSpeed: 2.5
+outlineColor: 242628
+targetAir: true
+faceTarget: false
+groundLayer: 60
+treadFrames: 8
+treadRects: [
+    {
+        x: 9,
+        y: -15,
+        width: 6,
+        height: 7
+    }
+    {
+        x: 9,
+        y: -8,
+        width: 6,
+        height: 9
+    }
+    {
+        x: 9,
+        y: 10,
+        width: 6,
+        height: 8
+    }
+]
+weapons: [
+{
+                name: intrude-mount
+                mirror: false
+                top: true
+                rotate: true
+                layerOffset: +0.00001
+		        rotateSpeed: 4.1
+                x: 0
+                y: -4
+                reload: 65
+                shoot: {
+                shots: 1
+                shotDelay: 0
+     			      }
+            inaccuracy: 0.75
+            recoil: 1
+            shootSound: lasershoot
+            soundPitchMin: 0.8
+            soundPitchMax: 1
+            bullet: {
+             type: BasicBulletType
+	        backColor: 802433
+	        frontColor: F17F5A
+            trailColor: 802433
+            hitColor: F17F5A
+            sprite: shell
+            damage: 10
+            knockback: 0
+            height: 9
+            width: 9
+            trailLength: 3
+            trailWidth: 1.2
+            speed: 6.5
+            lifetime: 10
+            buildingDamageMultiplier: 1
+               }
+}
+]
+alwaysUnlocked: true

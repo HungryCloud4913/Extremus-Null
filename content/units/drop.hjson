@@ -23,13 +23,13 @@ weapons:[
                 mirror: true
                 top: false
                 alternate: true
-                layerOffset: -0.01
+                layerOffset: -0.00001
                 rotate: false
 		rotateSpeed: 0
                 x: +3.5
                 y: 0
 		rotateSpeed: 0
-                reload: 80
+                reload: 90
                  shoot: {
                  shots: 1
                  shotDelay: 0
