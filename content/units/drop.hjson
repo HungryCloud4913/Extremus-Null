@@ -17,7 +17,7 @@ weapons:[
 {
                 name: drop-arm
                 mirror: true
-                top: true
+                top: false
                 alternate: true
                 layerOffset: +0.0001
                 rotate: false
@@ -45,11 +45,8 @@ weapons:[
     sprite: extremus-null-sharp
     damage: 20
     knockback: 0
-    height: 4
-    width: 7
-    hitSize: 7
-    trailWidth: 3
-    trailLength: 3
+    height: 7
+    width: 4
     speed: 6
     lifetime: 20
     buildingDamageMultiplier: 1
