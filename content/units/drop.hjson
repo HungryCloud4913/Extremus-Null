@@ -13,13 +13,17 @@ accel: 0.5
 drag: 0.4
 rotateSpeed: 3.8
 armor: 2
+drawWeapons: true
+drawWeaponOutlines: true
+drawBody: true
+drawOutline: true
 weapons:[
 {
                 name: drop-arm
                 mirror: true
                 top: false
                 alternate: true
-                layerOffset: -0.1
+                layerOffset: -0.01
                 rotate: false
 		rotateSpeed: 0
                 x: +3.5
