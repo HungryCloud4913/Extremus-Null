@@ -45,36 +45,25 @@ weapons: [
     shotDelay: 0
       }
   shootSound: exShoot
-  bullet: {
-    type: MissileBulletType
-			backColor: 442295
-			frontColor: 8E7EFF
-      trailColor: 8E7EFF
-    hitColor: 442295
-	  hitEffect: blastExplosion
-    damage: 50
-    knockback: 0.1
-    height: 4
-    width: 7
-    hitSize: 7
-    trailWidth: 3
-    trailLength: 3
-    speed: 6
-    drag: -0.1
-    lifetime: 12
+            bullet: {
+    type: BasicBulletType
+    homing: true
+    homingPower: 0.1
+	backColor: 8FBB58
+	frontColor: F8FFD2
+    trailColor: 8FBB58
+    hitColor: F8FFD2
+    sprite: extremus-null-mantaray
+    damage: 30
+    knockback: 0
+    height: 11
+    width: 8
+    trailLength: 2
+    trailWidth: 1
+    speed: 7
+    lifetime: 13
     buildingDamageMultiplier: 1
       }
-parts: [
-  {
-    type: RegionPart
-    suffix: -barrel
-    mirror: true
-    moveY: -3
-    moveX: 0
-    progress: recoil
-    under: true
-  }
-]
 }
 ]
 alwaysUnlocked: true
