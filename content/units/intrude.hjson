@@ -13,7 +13,7 @@ outlines: false
 targetAir: true
 faceTarget: false
 groundLayer: 60
-treadFrames: 16
+treadFrames: 4
 treadRects: [
     {
         x: 9,
