@@ -77,15 +77,16 @@ Parts: [
       recoilIndex: 0
       moveY: 2
       moveX: 2
-      color: 8FBB58
-      colorTo: F8FFD200
-      mixColor: ABDC7000
-      mixColorTo: ABDC70
+      color: F8FFD200
+      colorTo: 8FBB58
+      mixColor: B9DA8F00
+      mixColorTo: B9DA8F
       blending: additive
       progress: reload
       partProgress: reload
       mirror: false
       under: false
+      top: true
       outline: false
 }
 ]
