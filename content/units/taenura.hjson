@@ -15,17 +15,17 @@ lowAltitude: true
 engineOffset: 1
 engines: [
 		  {
-			  x: +3.75
+			  x: +3
 			  y: -0.5
-			  radius: 2
+			  radius: 1.5
 			  rotation: -90
         mirror: true
 		    trailLength: 1
 		  }
       {
-			  x: -3.75
+			  x: -3
 			  y: -0.5
-			  radius: 2
+			  radius: 1.5
 			  rotation: -90
         mirror: true
 		    trailLength: 1
