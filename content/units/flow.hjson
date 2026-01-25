@@ -1,6 +1,6 @@
 type: mech
-health: 500
-hitSize: 9
+health: 1000
+hitSize: 13
 outlineColor: 242628
 shadowElevation: 0.1
 groundLayer: 61
@@ -8,24 +8,24 @@ canDrown: false
 targetAir: true
 faceTarget: true
 isEnemy: true
-speed: 0.4
+speed: 0.6
 accel: 0.5
 drag: 0.4
-rotateSpeed: 3.8
-armor: 2
+rotateSpeed: 3.5
+armor: 5
 weapons:[
 {
-                name: drop-arm
+                name: flow-arm
                 mirror: true
                 top: false
                 alternate: true
                 layerOffset: -0.00001
                 rotate: false
 		rotateSpeed: 0
-                x: +3.5
+                x: +7
                 y: 0
 		rotateSpeed: 0
-                reload: 90
+                reload: 130
                  shoot: {
                  shots: 1
                  shotDelay: 0
@@ -40,14 +40,14 @@ weapons:[
       trailColor: 509FAD
     hitColor: C1FFED
     sprite: extremus-null-sharp
-    damage: 20
+    damage: 60
     knockback: 0
-    height: 11
-    width: 8
-    trailLength: 3
-    trailWidth: 1
+    height: 19
+    width: 14
+    trailLength: 4
+    trailWidth: 1.5
     speed: 6
-    lifetime: 20
+    lifetime: 30
     buildingDamageMultiplier: 1
       }
 }
