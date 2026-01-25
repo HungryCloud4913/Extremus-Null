@@ -75,15 +75,15 @@ Parts: [
       type: RegionPart
       suffix: -heatray
       recoilIndex: 0
-      moveY: 2
-      moveX: 2
+      moveY: 0
+      moveX: 0
       color: F8FFD200
       colorTo: 8FBB58
       mixColor: B9DA8F00
       mixColorTo: B9DA8F
       blending: additive
-      progress: reload
-      partProgress: reload
+      progress: recoil
+      partProgress: recoil
       mirror: false
       under: false
       top: true
