@@ -1,8 +1,8 @@
 type: flying
-health: 200
+health: 120
 hitSize: 7
 flying: true
-speed: 0.7
+speed: 0.9
 accel: 0.05
 drag: 0.01
 armor: 0
@@ -50,7 +50,7 @@ weapons: [
     shots: 1
     shotDelay: 0
       }
-  shootSound: unlock
+  shootSound: spark
             bullet: {
     type: BasicBulletType
     homing: true

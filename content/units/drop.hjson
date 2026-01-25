@@ -1,5 +1,5 @@
 type: mech
-health: 500
+health: 300
 hitSize: 9
 outlineColor: 242628
 shadowElevation: 0.1
