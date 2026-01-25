@@ -78,9 +78,9 @@ Parts: [
       moveY: 2
       moveX: 2
       color: 8FBB58
-      colorTo: FFFFFF000
-      mixColor: F8FFD2
-      mixColorTo: F8FFD2
+      colorTo: E8FFCB000
+      mixColor: E8FFCB
+      mixColorTo: E8FFCB
       blending: additive
       progress: recoil
       mirror: false
