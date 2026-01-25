@@ -1,7 +1,7 @@
 template: TankUnitType
 type: tank
 health: 300
-hitSize: 9
+hitSize: 8
 flying: false
 speed: 0.6
 accel: 0.5
@@ -9,6 +9,7 @@ drag: 0.4
 armor: 5
 rotateSpeed: 2.5
 outlineColor: 242628
+drawOutline: false
 targetAir: true
 faceTarget: false
 groundLayer: 60
@@ -42,7 +43,7 @@ weapons: [
                 layerOffset: +0.00001
 		        rotateSpeed: 4.1
                 x: 0
-                y: -4
+                y: -3
                 reload: 65
                 shoot: {
                 shots: 1
@@ -63,7 +64,7 @@ weapons: [
             damage: 10
             knockback: 0
             height: 9
-            width: 9
+            width: 6
             trailLength: 3
             trailWidth: 1.2
             speed: 6.5

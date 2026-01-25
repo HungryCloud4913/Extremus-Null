@@ -1,6 +1,6 @@
 type: flying
 health: 200
-hitSize: 8.5
+hitSize: 7
 flying: true
 speed: 0.7
 accel: 0.05
@@ -12,6 +12,17 @@ targetair: true
 faceTarget: true
 drawEngines: true
 lowAltitude: true
+engineOffset: 1
+engines: [
+		  {
+			x: +2
+			y: -7
+			radius: 5
+			rotation: -90
+      mirror: true
+		  trailLength: 1
+		  }
+		]
 weapons: [
 {
   name: taenura-body
@@ -48,19 +59,25 @@ weapons: [
     trailLength: 2
     trailWidth: 1
     speed: 7
-    lifetime: 13
+    lifetime: 17
     buildingDamageMultiplier: 1
       }
 Parts: [
-{
+    {
       type: RegionPart
       suffix: -heat
-      heatColor: F8FFD2
-      moveY: 0
-      moveX: 0
+      recoilIndex: 0
+      moveY: 2
+      moveX: 2
+      color: FFFFFF00
+      colorTo: F8FFD2
+      mixColor: FBFFE700
+      mixColorTo: FEFFF6
+      blending: additive
       progress: reload
       mirror: false
-      under: false
+      under: true
+      outline: false
 }
 ]
 }
