@@ -34,6 +34,7 @@ engines: [
 weapons: [
 {
   name: taenurabody
+  heatColor: 8FBB58
   reload: 95
   x: 0
   y: 0
@@ -70,25 +71,6 @@ weapons: [
     lifetime: 17
     buildingDamageMultiplier: 1
       }
-Parts: [
-    {
-      type: RegionPart
-      suffix: -heatray
-      recoilIndex: 0
-      moveY: 0
-      moveX: 0
-      heatColor: 8FBB58
-      color: FFFFFF00
-      colorTo: 8FBB58
-      mixColor: F8FFD200
-      mixColorTo: BADE8D
-      blending: additive
-      progress: reload
-      mirror: false
-      under: false
-      outline: false
-}
-]
 }
 ]
 alwaysUnlocked: true
