@@ -22,7 +22,7 @@ weapons:[
                 layerOffset: -0.00001
                 rotate: false
 		rotateSpeed: 0
-                x: +5
+                x: +5.5
                 y: 0
 		rotateSpeed: 0
                 reload: 130
@@ -32,7 +32,7 @@ weapons:[
             }
             inaccuracy: 0
             recoil: 1.5
-            shootSound: missile
+            shootSound: dullExplosion
             bullet: {
     type: BasicBulletType
 			backColor: 509FAD
@@ -42,12 +42,12 @@ weapons:[
     sprite: extremus-null-sharp
     damage: 60
     knockback: 0
-    height: 19
-    width: 14
+    height: 16.5
+    width: 11.5
     trailLength: 4
     trailWidth: 1.5
     speed: 6
-    lifetime: 30
+    lifetime: 23
     buildingDamageMultiplier: 1
       }
 }

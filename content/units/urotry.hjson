@@ -1,12 +1,12 @@
 type: flying
-health: 200
-hitSize: 7
+health: 2000
+hitSize: 11.2
 flying: true
-speed: 0.7
+speed: 0.78
 accel: 0.05
 drag: 0.01
-armor: 0
-rotateSpeed: 3.3
+armor: 2
+rotateSpeed: 3.2
 outlineColor: 242628
 targetair: true
 faceTarget: true
@@ -33,9 +33,9 @@ engines: [
 		]
 weapons: [
 {
-  name: taenurabody
+  name: urotrybody
   heatColor: 8FBB58
-  reload: 95
+  reload: 150
   x: 0
   y: 0
   mirror: false
@@ -50,7 +50,7 @@ weapons: [
     shots: 1
     shotDelay: 0
       }
-  shootSound: unlock
+  shootSound: shootAlt
             bullet: {
     type: BasicBulletType
     homing: true
@@ -59,7 +59,7 @@ weapons: [
 	frontColor: F8FFD2
     trailColor: 8FBB58
     hitColor: F8FFD2
-    sprite: extremus-null-mantaray
+    sprite: extremus-null-stingray
     shootEffect: none
     damage: 30
     knockback: 0
@@ -69,6 +69,43 @@ weapons: [
     trailWidth: 1
     speed: 7
     lifetime: 17
+    buildingDamageMultiplier: 1
+      }
+}
+{
+                name: urotry-mount
+                mirror: false
+                top: false
+                alternate: false
+                layerOffset: +0.00001
+                rotate: false
+		rotateSpeed: 0
+                x: 0
+                y: -2
+		rotateSpeed: 0
+                reload: 80
+                 shoot: {
+                 shots: 1
+                 shotDelay: 0
+            }
+            inaccuracy: 0
+            recoil: 1.5
+            shootSound: missile
+            bullet: {
+    type: BasicBulletType
+	backColor: 8FBB58
+	frontColor: F8FFD2
+    trailColor: 8FBB58
+    hitColor: F8FFD2
+    sprite: extremus-null-sharp
+    damage: 20
+    knockback: 0
+    height: 11
+    width: 8
+    trailLength: 3
+    trailWidth: 1
+    speed: 5
+    lifetime: 15
     buildingDamageMultiplier: 1
       }
 }
