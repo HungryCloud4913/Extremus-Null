@@ -62,7 +62,7 @@ weapons: [
     shootEffect: none
     damage: 30
     knockback: 0
-    height: 11
+    height: 10
     width: 8
     trailLength: 2
     trailWidth: 1
@@ -77,8 +77,8 @@ Parts: [
       recoilIndex: 0
       moveY: 2
       moveX: 2
-      color: 8FBB58
-      colorTo: DBFFAE00
+      color: DBFFAE00
+      colorTo: 8FBB58
       mixColor: ABDC70
       mixColorTo: ABDC70
       blending: additive
