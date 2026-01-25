@@ -50,7 +50,7 @@ weapons: [
     shots: 1
     shotDelay: 0
       }
-  shootSound: exShoot
+  shootSound: unlock
             bullet: {
     type: BasicBulletType
     homing: true
