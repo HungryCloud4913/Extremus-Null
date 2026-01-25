@@ -61,7 +61,7 @@ weapons: [
     hitColor: F8FFD2
     sprite: extremus-null-mantaray
     shootEffect: none
-    damage: 30
+    damage: 32
     knockback: 0
     height: 10
     width: 8

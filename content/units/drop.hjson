@@ -39,7 +39,7 @@ weapons:[
       trailColor: 509FAD
     hitColor: C1FFED
     sprite: extremus-null-sharp
-    damage: 20
+    damage: 25
     knockback: 0
     height: 11
     width: 8

@@ -77,7 +77,7 @@ weapons: [
     hitColor: F8FFD2
     sprite: extremus-null-stingray
     shootEffect: none
-    damage: 30
+    damage: 57
     knockback: 0
     height: 16
     width: 11
@@ -113,7 +113,7 @@ weapons: [
     trailColor: 8FBB58
     hitColor: F8FFD2
     sprite: extremus-null-sharp
-    damage: 20
+    damage: 13
     knockback: 0
     height: 11
     width: 8

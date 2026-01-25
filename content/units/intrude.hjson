@@ -61,7 +61,7 @@ weapons: [
             trailColor: 8E0E22
             hitColor: F17F5A
             sprite: shell
-            damage: 10
+            damage: 12
             knockback: 0
             height: 9
             width: 6
