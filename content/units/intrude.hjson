@@ -56,9 +56,9 @@ weapons: [
             soundPitchMax: 1
             bullet: {
              type: BasicBulletType
-	        backColor: 802433
+	        backColor: 8E0E22
 	        frontColor: F17F5A
-            trailColor: 802433
+            trailColor: 8E0E22
             hitColor: F17F5A
             sprite: shell
             damage: 10
