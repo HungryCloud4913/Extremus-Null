@@ -13,6 +13,7 @@ outlines: false
 targetAir: true
 faceTarget: false
 groundLayer: 60
+canDrown: true
 treadFrames: 12
 treadRects: [
     {
@@ -67,7 +68,7 @@ weapons: [
             trailLength: 4
             trailWidth: 1.2
             speed: 6.5
-            lifetime: 16
+            lifetime: 26
             buildingDamageMultiplier: 1
                }
 }
