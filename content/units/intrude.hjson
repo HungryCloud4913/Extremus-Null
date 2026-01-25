@@ -14,7 +14,7 @@ targetAir: true
 faceTarget: false
 groundLayer: 60
 canDrown: true
-treadFrames: 8
+treadFrames: 4
 treadRects: [
     {
         x: 9,
