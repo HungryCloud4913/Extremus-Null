@@ -74,19 +74,17 @@ Parts: [
     {
       type: RegionPart
       suffix: -heatray
-      layerOffset: +0.0001
       recoilIndex: 0
       moveY: 0
       moveX: 0
-      color: F8FFD200
+      color: FFFFFF00
       colorTo: 8FBB58
-      mixColor: BADE8D00
-      mixColorTo: F8FFD2
+      mixColor: F8FFD200
+      mixColorTo: BADE8D
       blending: additive
       progress: recoil
       mirror: false
-      under: false
-      top: true
+      under: true
       outline: false
 }
 ]
