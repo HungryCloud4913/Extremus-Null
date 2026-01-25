@@ -73,7 +73,7 @@ weapons: [
 Parts: [
     {
       type: RegionPart
-      suffix: -heat
+      suffix: -heatray
       recoilIndex: 0
       moveY: 2
       moveX: 2
@@ -83,7 +83,7 @@ Parts: [
       mixColorTo: ABDC70
       blending: additive
       progress: reload
-      partProgress: recoil
+      partProgress: reload
       mirror: false
       under: false
       outline: false
