@@ -1,6 +1,6 @@
 type: mech
 health: 1000
-hitSize: 11.5
+hitSize: 11
 outlineColor: 242628
 shadowElevation: 0.1
 groundLayer: 61
@@ -22,7 +22,7 @@ weapons:[
                 layerOffset: -0.00001
                 rotate: false
 		rotateSpeed: 0
-                x: +7
+                x: +5
                 y: 0
 		rotateSpeed: 0
                 reload: 130
