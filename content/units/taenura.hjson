@@ -40,6 +40,7 @@ weapons: [
     trailColor: 8FBB58
     hitColor: F8FFD2
     sprite: extremus-null-mantaray
+    shootEffect: none
     damage: 30
     knockback: 0
     height: 11
@@ -55,7 +56,6 @@ Parts: [
       type: RegionPart
       suffix: -heat
       heatColor: F8FFD2
-      recoilIndex: 0
       moveY: 0
       moveX: 0
       progress: reload
