@@ -43,8 +43,8 @@ weapons: [
   layerOffset: +0.0001
   inaccuracy: 0.5
   recoil: 0
-  rotate: true
-  rotateSpeed: 4.5
+  rotate: false
+  rotateSpeed: 0
   shoot: {
     shots: 1
     shotDelay: 0
@@ -74,16 +74,16 @@ Parts: [
     {
       type: RegionPart
       suffix: -heatray
+      layerOffset: +0.0001
       recoilIndex: 0
       moveY: 0
       moveX: 0
       color: F8FFD200
       colorTo: 8FBB58
-      mixColor: B9DA8F00
-      mixColorTo: B9DA8F
+      mixColor: BADE8D00
+      mixColorTo: F8FFD2
       blending: additive
       progress: recoil
-      partProgress: recoil
       mirror: false
       under: false
       top: true
