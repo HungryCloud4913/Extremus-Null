@@ -15,24 +15,32 @@ lowAltitude: true
 engineOffset: 1
 engines: [
 		  {
-			x: +2
-			y: -7
-			radius: 5
-			rotation: -90
-      mirror: true
-		  trailLength: 1
+			  x: +2.5
+			  y: -1
+			  radius: 1
+			  rotation: -90
+        mirror: true
+		    trailLength: 1
+		  }
+      {
+			  x: -2.5
+			  y: -1
+			  radius: 1
+			  rotation: -90
+        mirror: true
+		    trailLength: 1
 		  }
 		]
 weapons: [
 {
-  name: taenura-body
+  name: taenurabody
   reload: 95
   x: 0
   y: 0
   mirror: true
   alternate: false
-  top: false
-  layerOffset: -0.0001
+  top: true
+  layerOffset: +0.0001
   inaccuracy: 0.5
   recoil: 0
   rotate: true

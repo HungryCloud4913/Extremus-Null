@@ -9,7 +9,7 @@ drag: 0.4
 armor: 5
 rotateSpeed: 2.5
 outlineColor: 242628
-drawOutline: false
+outlines: false
 targetAir: true
 faceTarget: false
 groundLayer: 60
