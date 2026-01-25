@@ -1,6 +1,6 @@
 type: mech
 health: 1000
-hitSize: 13
+hitSize: 11.5
 outlineColor: 242628
 shadowElevation: 0.1
 groundLayer: 61
@@ -8,7 +8,7 @@ canDrown: false
 targetAir: true
 faceTarget: true
 isEnemy: true
-speed: 0.6
+speed: 0.475
 accel: 0.5
 drag: 0.4
 rotateSpeed: 3.5
