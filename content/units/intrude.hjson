@@ -14,27 +14,7 @@ targetAir: true
 faceTarget: false
 groundLayer: 60
 canDrown: true
-treadFrames: 4
-treadRects: [
-    {
-        x: 9,
-        y: -15,
-        width: 6,
-        height: 7
-    }
-    {
-        x: 9,
-        y: -8,
-        width: 6,
-        height: 9
-    }
-    {
-        x: 9,
-        y: 10,
-        width: 6,
-        height: 8
-    }
-]
+treadFrames: 8
 weapons: [
 {
                 name: intrude-mount
