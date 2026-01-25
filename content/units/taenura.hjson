@@ -79,7 +79,7 @@ Parts: [
       moveX: 2
       color: DBFFAE00
       colorTo: 8FBB58
-      mixColor: ABDC70
+      mixColor: ABDC7000
       mixColorTo: ABDC70
       blending: additive
       progress: reload

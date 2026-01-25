@@ -8,7 +8,7 @@ canDrown: false
 targetAir: true
 faceTarget: true
 isEnemy: true
-speed: 0.45
+speed: 0.4
 accel: 0.5
 drag: 0.4
 rotateSpeed: 3.8
