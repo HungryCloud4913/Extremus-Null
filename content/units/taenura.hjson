@@ -12,19 +12,6 @@ targetair: true
 faceTarget: true
 drawEngines: true
 lowAltitude: true
-Parts: [
-{
-      type: RegionPart
-      suffix: -heat
-      heatColor: F8FFD2
-      recoilIndex: 0
-      moveY: 0
-      moveX: 0
-      progress: reload
-      mirror: false
-      under: false
-}
-]
 weapons: [
 {
   name: taenura-body
@@ -63,6 +50,19 @@ weapons: [
     lifetime: 13
     buildingDamageMultiplier: 1
       }
+Parts: [
+{
+      type: RegionPart
+      suffix: -heat
+      heatColor: F8FFD2
+      recoilIndex: 0
+      moveY: 0
+      moveX: 0
+      progress: reload
+      mirror: false
+      under: false
+}
+]
 }
 ]
 alwaysUnlocked: true
