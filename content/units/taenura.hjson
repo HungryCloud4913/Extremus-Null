@@ -37,7 +37,7 @@ weapons: [
   reload: 95
   x: 0
   y: 0
-  mirror: true
+  mirror: false
   alternate: false
   top: true
   layerOffset: +0.0001
@@ -78,11 +78,12 @@ Parts: [
       moveY: 2
       moveX: 2
       color: 8FBB58
-      colorTo: E8FFCB000
-      mixColor: E8FFCB
-      mixColorTo: E8FFCB
+      colorTo: DBFFAE00
+      mixColor: ABDC70
+      mixColorTo: ABDC70
       blending: additive
-      progress: recoil
+      progress: reload
+      partProgress: reload
       mirror: false
       under: false
       outline: false
