@@ -31,16 +31,16 @@ engines: [
 		    trailLength: 1
 		  }
           		  {
-			  x: +4
-			  y: -0.5
+			  x: +6
+			  y: 0.5
 			  radius: 2
 			  rotation: -90
         mirror: true
 		    trailLength: 1
 		  }
       {
-			  x: -4
-			  y: -0.5
+			  x: -6
+			  y: 0.5
 			  radius: 2
 			  rotation: -90
         mirror: true
@@ -98,7 +98,6 @@ weapons: [
 		rotateSpeed: 3.2
                 x: 0
                 y: -2
-		rotateSpeed: 0
                 reload: 80
                  shoot: {
                  shots: 1

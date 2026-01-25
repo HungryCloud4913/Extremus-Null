@@ -21,10 +21,9 @@ weapons:[
                 alternate: true
                 layerOffset: -0.00001
                 rotate: false
-		rotateSpeed: 0
+		        rotateSpeed: 0
                 x: +5.5
                 y: 0
-		rotateSpeed: 0
                 reload: 130
                  shoot: {
                  shots: 1

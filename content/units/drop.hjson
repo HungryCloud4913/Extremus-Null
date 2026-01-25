@@ -24,7 +24,6 @@ weapons:[
 		rotateSpeed: 0
                 x: +3.5
                 y: 0
-		rotateSpeed: 0
                 reload: 90
                  shoot: {
                  shots: 1
