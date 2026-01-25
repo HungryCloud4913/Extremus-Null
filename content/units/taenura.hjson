@@ -82,7 +82,7 @@ Parts: [
       mixColor: F8FFD200
       mixColorTo: BADE8D
       blending: additive
-      progress: recoil
+      progress: reload
       mirror: false
       under: true
       outline: false
