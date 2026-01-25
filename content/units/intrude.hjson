@@ -10,7 +10,6 @@ armor: 5
 rotateSpeed: 2.5
 outlineColor: 242628
 outlines: false
-drawWeaponOutlines: true
 targetAir: true
 faceTarget: false
 groundLayer: 60
@@ -38,7 +37,6 @@ treadRects: [
 weapons: [
 {
                 name: intrude-mount
-                outlines: true
                 mirror: false
                 top: true
                 rotate: true

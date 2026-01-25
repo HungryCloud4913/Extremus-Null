@@ -15,17 +15,17 @@ lowAltitude: true
 engineOffset: 1
 engines: [
 		  {
-			  x: +4
+			  x: +3.75
 			  y: -0.5
-			  radius: 3
+			  radius: 2
 			  rotation: -90
         mirror: true
 		    trailLength: 1
 		  }
       {
-			  x: -4
+			  x: -3.75
 			  y: -0.5
-			  radius: 3
+			  radius: 2
 			  rotation: -90
         mirror: true
 		    trailLength: 1
@@ -82,9 +82,9 @@ Parts: [
       mixColor: F8FFD2
       mixColorTo: F8FFD2
       blending: additive
-      progress: reload
+      progress: recoil
       mirror: false
-      under: true
+      under: false
       outline: false
 }
 ]
