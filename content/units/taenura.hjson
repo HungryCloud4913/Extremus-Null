@@ -13,64 +13,72 @@ faceTarget: true
 drawEngines: true
 lowAltitude: true
 engineOffset: 1
-engines: [
-		  {
-			  x: +3
-			  y: -0.5
-			  radius: 1.5
-			  rotation: -90
-        mirror: true
-		    trailLength: 1
-		  }
-      {
-			  x: -3
-			  y: -0.5
-			  radius: 1.5
-			  rotation: -90
-        mirror: true
-		    trailLength: 1
-		  }
-		]
-weapons: [
-{
-  name: taenurabody
-  heatColor: 8FBB58
-  reload: 95
-  x: 0
-  y: 0
-  mirror: false
-  alternate: false
-  top: true
-  layerOffset: +0.0001
-  inaccuracy: 0.5
-  recoil: 0
-  rotate: false
-  rotateSpeed: 0
-  shoot: {
-    shots: 1
-    shotDelay: 0
-      }
-  shootSound: spark
-            bullet: {
-    type: BasicBulletType
-    homing: true
-    homingPower: 0.1
-	backColor: 8FBB58
-	frontColor: F8FFD2
-    trailColor: 8FBB58
-    hitColor: F8FFD2
-    sprite: extremus-null-mantaray
-    shootEffect: none
-    damage: 32
-    knockback: 0
-    height: 10
-    width: 8
-    trailLength: 2
-    trailWidth: 1
-    speed: 6
-    lifetime: 26
-    buildingDamageMultiplier: 1
-      }
-}
+engines: 
+[
+	{
+	  x: +3
+		y: -0.5
+		radius: 1.5
+		rotation: -90
+    mirror: true
+		trailLength: 1
+	}
+  {
+		x: -3
+		y: -0.5
+		radius: 1.5
+		rotation: -90
+    mirror: true
+		trailLength: 1
+	}
+]
+weapons: 
+[
+  {
+    name: taenurabody
+    mirror: false
+    alternate: false
+    top: true
+    rotate: false
+    heatColor: 8FBB58
+    shootSound: spark
+    x: 0
+    y: 0
+    reload: 95
+    layerOffset: +0.0001
+    inaccuracy: 0.5
+    recoil: 0
+    rotateSpeed: 0
+    shoot: 
+    {
+      shots: 1
+      shotDelay: 0
+    }
+    bullet:
+    {
+      type: BasicBulletType
+      homing: true
+      hitEffect: hitBulletColor
+      shootEffect: none
+      smokeEffect: none
+      despawnEffect: hitBulletColor
+	    backColor: 8FBB58
+	    frontColor: F8FFD2
+      trailColor: 8FBB58
+      hitColor: F8FFD2
+      sprite: extremus-null-mantaray
+      recoil: 1
+      homingPower: 0.1
+      damage: 32
+      knockback: 0
+      height: 10
+      width: 8
+      trailLength: 2
+      trailWidth: 1
+      speed: 6
+      lifetime: 26
+      buildingDamageMultiplier: 1
+    }
+  }
 ]
 alwaysUnlocked: true

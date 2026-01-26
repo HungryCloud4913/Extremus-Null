@@ -13,43 +13,88 @@ accel: 0.5
 drag: 0.4
 rotateSpeed: 3.5
 armor: 5
-weapons:[
-{
-                name: flow-arm
-                mirror: true
-                top: false
-                alternate: true
-                layerOffset: -0.00001
-                rotate: false
-		        rotateSpeed: 0
-                x: +5.5
-                y: 0
-                reload: 130
-                 shoot: {
-                 shots: 1
-                 shotDelay: 0
-            }
-            inaccuracy: 0
-            recoil: 1.5
-            shootSound: dullExplosion
-            bullet: {
-    type: BasicBulletType
+weapons:
+[
+  {
+    name: flow-arm
+    mirror: true
+    top: false
+    alternate: true
+    rotate: false
+    shootSound: dullExplosion
+    x: +5.5
+    y: 0
+    reload: 130
+    layerOffset: -0.00001
+    rotateSpeed: 0
+    inaccuracy: 0
+    recoil: 1.5
+    shoot: 
+    {
+      shots: 1
+      shotDelay: 0
+    }
+    bullet: 
+    {
+      type: BasicBulletType
+      hitEffect: 
+      {
+        type: MultiEffect
+        effects:
+        [
+          {
+            type: WaveEffect
+            lifetime: 10
+            offsetX: 0
+            offsetY: 0
+            sizeFrom: 0
+            sizeTo: 12
+            followParent: true
+            rotWithParent: true
+            colorFrom: 8FBB58
+            colorTo: F8FFD200
+          }
+        ]
+      }
+      shootEffect: shootBigColor
+      smokeEffect: none
+      despawnEffect:
+      {
+        type: MultiEffect
+        effects:
+        [
+          {
+            type: WaveEffect
+            lifetime: 10
+            offsetX: 0
+            offsetY: 0
+            sizeFrom: 0
+            sizeTo: 12
+            followParent: true
+            rotWithParent: true
+            colorFrom: 8FBB58
+            colorTo: F8FFD200
+          }
+        ]
+      }
 			backColor: 509FAD
 			frontColor: C1FFED
       trailColor: 509FAD
-    hitColor: C1FFED
-    sprite: extremus-null-sharp
-    damage: 63
-    knockback: 0
-    height: 16.5
-    width: 11.5
-    trailLength: 4
-    trailWidth: 1.5
-    speed: 6
-    lifetime: 38
-    buildingDamageMultiplier: 1
-      }
-}
+      hitColor: C1FFED
+      sprite: extremus-null-bubble
+      damage: 0
+      knockback: 0
+      height: 14.5
+      width: 14.5
+      trailLength: 4
+      trailWidth: 1.5
+      speed: 6
+      lifetime: 38
+      splashDamageRadius: 12
+		  splashDamage: 63
+      buildingDamageMultiplier: 1
+    }
+  }
 ]
 
 alwaysUnlocked: true

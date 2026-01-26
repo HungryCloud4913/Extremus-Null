@@ -13,43 +13,50 @@ accel: 0.5
 drag: 0.4
 rotateSpeed: 3.8
 armor: 2
-weapons:[
-{
-                name: drop-arm
-                mirror: true
-                top: false
-                alternate: true
-                layerOffset: -0.00001
-                rotate: false
+weapons:
+[
+  { 
+    name: drop-arm
+    mirror: true
+    top: false
+    alternate: true
+    rotate: false
+    shootSound: shootAlt
+    x: +3.5
+    y: 0
+    reload: 90
+    layerOffset: -0.00001
 		rotateSpeed: 0
-                x: +3.5
-                y: 0
-                reload: 90
-                 shoot: {
-                 shots: 1
-                 shotDelay: 0
-            }
-            inaccuracy: 0
-            recoil: 1.5
-            shootSound: missile
-            bullet: {
-    type: BasicBulletType
+    inaccuracy: 0
+    recoil: 1.5
+    shoot: 
+    {
+      shots: 1
+      shotDelay: 0
+    }
+    bullet: 
+    {
+      type: ShrapnelBulletType
+      laserAbsorb: true
+      pierce: true
+      pierceBuilding: false
+      hitEffect: hitBulletColor
+      shootEffect: shootBigColor
+      smokeEffect: none
+      despawnEffect: hitBulletColor
 			backColor: 509FAD
 			frontColor: C1FFED
       trailColor: 509FAD
-    hitColor: C1FFED
-    sprite: extremus-null-sharp
-    damage: 25
-    knockback: 0
-    height: 11
-    width: 8
-    trailLength: 3
-    trailWidth: 1
-    speed: 6
-    lifetime: 29
-    buildingDamageMultiplier: 1
-      }
-}
+      hitColor: C1FFED
+      damage: 30
+      knockback: 0
+      speed: 6
+      ifetime: 14
+      length: 25
+      width: 4
+      buildingDamageMultiplier: 1
+    }
+  }
 ]
 
 alwaysUnlocked: true
