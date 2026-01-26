@@ -60,9 +60,9 @@ weapons:
         bullet: 
         {
             type: BasicBulletType
-            backColor: 8E0E22
+            backColor: 802433
             frontColor: F17F5A
-            trailColor: 8E0E22
+            trailColor: 802433
             hitColor: F17F5A
             sprite: shell
             damage: 12
