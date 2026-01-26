@@ -76,8 +76,9 @@ weapons:
             width: 8
             trailLength: 4
             trailWidth: 2
-            speed: 6.5
-            lifetime: 20
+            speed: 6
+            drag: 0.01
+            lifetime: 20 
             buildingDamageMultiplier: 1
             fragBullets: 1
             fragRandomSpread: 90
@@ -103,9 +104,9 @@ weapons:
                 speed: 1.5
                 drag: 0.15
                 lifetime: 5200
-                splashDamageRadius: 20
+                splashDamageRadius: 30
 		        splashDamage: 63
-                hitSize: 20
+                hitSize: 30
                 buildingDamageMultiplier: 1
             }
         }
