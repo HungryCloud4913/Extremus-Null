@@ -1,17 +1,17 @@
 type: flying
+targetair: true
+faceTarget: true
+drawEngines: true
+lowAltitude: true
+flying: true
 health: 390
 hitSize: 11.2
-flying: true
 speed: 0.91
 accel: 0.05
 drag: 0.01
 armor: 2
 rotateSpeed: 3.2
 outlineColor: 242628
-targetair: true
-faceTarget: true
-drawEngines: true
-lowAltitude: true
 engineOffset: 1
 engines:  
 [

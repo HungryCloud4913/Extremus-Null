@@ -1,19 +1,19 @@
 template: TankUnitType
 type: tank
+flying: false
+outlines: false
+targetAir: true
+faceTarget: false
+canDrown: true
 health: 200
 hitSize: 8
-flying: false
 speed: 0.69
 accel: 0.5
 drag: 0.4
 armor: 5
 rotateSpeed: 2.5
 outlineColor: 242628
-outlines: false
-targetAir: true
-faceTarget: false
 groundLayer: 60
-canDrown: true
 treadFrames: 8
 treadRects: 
 [
