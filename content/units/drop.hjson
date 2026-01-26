@@ -2,10 +2,9 @@ type: mech
 canDrown: false
 targetAir: true
 faceTarget: true
-hovering: true
-hoverable: true
-lowAltitude: true
-omniMovement: false
+mechSideSway: 0
+mechFrontSway: 0
+mechStride: 0
 health: 300
 hitSize: 9
 outlineColor: 242628
