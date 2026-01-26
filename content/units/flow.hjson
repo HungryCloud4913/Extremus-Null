@@ -2,6 +2,7 @@ type: mech
 canDrown: false
 targetAir: true
 faceTarget: true
+mechSideSway: 0
 health: 730
 hitSize: 11
 outlineColor: 242628
