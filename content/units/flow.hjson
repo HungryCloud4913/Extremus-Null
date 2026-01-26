@@ -5,7 +5,7 @@ faceTarget: true
 hovering: true
 hoverable: true
 lowAltitude: true
-isEnemy: true
+omniMovement: false
 health: 730
 hitSize: 11
 outlineColor: 242628

@@ -5,7 +5,7 @@ faceTarget: true
 hovering: true
 hoverable: true
 lowAltitude: true
-isEnemy: true
+omniMovement: false
 health: 300
 hitSize: 9
 outlineColor: 242628
@@ -58,8 +58,8 @@ weapons:
       speed: 0
       lifetime: 18
       length: 52
-      width: 7
-      sideAngle: 180
+      width: 8
+      sideAngle: 90
       buildingDamageMultiplier: 1
     }
   }
