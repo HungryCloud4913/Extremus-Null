@@ -38,8 +38,9 @@ weapons:
     {
       type: ShrapnelBulletType
       laserAbsorb: true
-      pierce: true
+      pierce: false
       pierceBuilding: false
+      hitLarge: true
       hitEffect: none
       shootEffect: shootBigColor
       smokeEffect: none
@@ -50,10 +51,11 @@ weapons:
       hitColor: C1FFED
       damage: 62
       knockback: 0
-      serrations: 0
+      serrations: 3
+      serrationWidth: 1
       speed: 0
-      ifetime: 18
-      length: 7
+      lifetime: 18
+      length: 10
       width: 6
       buildingDamageMultiplier: 1
     }
