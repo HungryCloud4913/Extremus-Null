@@ -48,7 +48,7 @@ weapons:
 			frontColor: C1FFED
       trailColor: 509FAD
       hitColor: C1FFED
-      damage: 54
+      damage: 60
       knockback: 0
       serrations: 0
       speed: 0

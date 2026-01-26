@@ -85,7 +85,7 @@ weapons:
       sprite: extremus-null-stingray
       recoil: 1.2
       homingPower: 0.1
-      damage: 57
+      damage: 132
       knockback: 0
       height: 16
       width: 11

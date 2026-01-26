@@ -77,8 +77,7 @@ weapons:
             trailLength: 4
             trailWidth: 2
             speed: 6
-            drag: 0.01
-            lifetime: 20 
+            lifetime: 21
             buildingDamageMultiplier: 1
             fragBullets: 1
             fragRandomSpread: 90

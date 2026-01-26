@@ -69,7 +69,7 @@ weapons:
       sprite: extremus-null-mantaray
       recoil: 1
       homingPower: 0.1
-      damage: 32
+      damage: 62
       knockback: 0
       height: 10
       width: 8
