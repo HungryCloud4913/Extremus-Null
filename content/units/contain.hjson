@@ -65,9 +65,9 @@ weapons:
             shootEffect: shootBigColor
             smokeEffect: none
             despawnEffect: none
-	        backColor: 3C4646
-	        frontColor: 99A49A
-            trailColor: D8332B
+            backColor: 802433
+            frontColor: F17F5A
+            trailColor: 802433
             hitColor: F17F5A
             sprite: extremus-null-landmine
             damage: 0
@@ -80,8 +80,8 @@ weapons:
             lifetime: 20
             buildingDamageMultiplier: 1
             fragBullets: 1
-            fragRandomSpread: 360
-            fragSpread: 360
+            fragRandomSpread: 90
+            fragSpread: 90
             fragBullet: 
             {
                 type: BasicBulletType
@@ -89,9 +89,9 @@ weapons:
                 shootEffect: none
                 smokeEffect: none
                 despawnEffect: blastExplosion
-	            backColor: D8332B
+	            backColor: 3C4646
 	            frontColor: 99A49A
-                trailColor: D8332B
+                trailColor: 802433
                 hitColor: F17F5A
                 sprite: extremus-null-landmine
                 damage: 0
@@ -102,7 +102,7 @@ weapons:
                 trailWidth: 0
                 speed: 1.5
                 drag: 0.15
-                lifetime: 2600
+                lifetime: 5200
                 splashDamageRadius: 20
 		        splashDamage: 63
                 hitSize: 20
