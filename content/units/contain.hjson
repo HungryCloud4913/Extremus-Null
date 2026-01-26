@@ -85,7 +85,7 @@ weapons:
             fragBullet: 
             {
                 type: BasicBulletType
-                despawnEffect: blastExplosion
+                hitEffect: blastExplosion
                 shootEffect: none
                 smokeEffect: none
                 despawnEffect: blastExplosion

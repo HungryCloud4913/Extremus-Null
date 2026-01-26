@@ -24,7 +24,7 @@ weapons:
     shootSound: shootAlt
     x: +3.5
     y: 0
-    reload: 90
+    reload: 70
     layerOffset: -0.00001
 		rotateSpeed: 0
     inaccuracy: 0
