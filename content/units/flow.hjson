@@ -14,27 +14,6 @@ accel: 0.5
 drag: 0.4
 rotateSpeed: 3.5
 armor: 5
-abilities:
-[
-  {
-  type: StatusFieldAbility
-  activeEffect: true
-  effect: crabspeed
-  duration: 2
-  range: 1
-  reload: 1
-  timer: 1
-  }
-  {
-  type: StatusFieldAbility
-  activeEffect: true
-  effect: crabcancel
-  duration: 5
-  range: 1
-  reload: 1
-  timer: 1
-  }
-]
 weapons:
 [
   {
