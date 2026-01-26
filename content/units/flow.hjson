@@ -29,7 +29,7 @@ abilities:
   type: StatusFieldAbility
   activeEffect: true
   effect: crabcancel
-  duration: 2
+  duration: 5
   range: 1
   reload: 1
   timer: 1
