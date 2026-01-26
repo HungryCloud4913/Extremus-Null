@@ -57,7 +57,7 @@ weapons:
       lifetime: 18
       length: 52
       width: 8
-      sideAngle: 90
+      sideAngle: 0
       buildingDamageMultiplier: 1
     }
   }
