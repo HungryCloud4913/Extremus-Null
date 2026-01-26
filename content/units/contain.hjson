@@ -76,7 +76,7 @@ weapons:
       width: 8
       trailLength: 4
       trailWidth: 2
-      peed: 6
+      speed: 6
       lifetime: 21
       buildingDamageMultiplier: 1
       fragBullets: 1
