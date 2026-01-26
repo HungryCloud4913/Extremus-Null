@@ -91,7 +91,7 @@ weapons:
       speed: 6
       lifetime: 32
       splashDamageRadius: 12
-		  splashDamage: 87
+		  splashDamage: 95
       buildingDamageMultiplier: 1
     }
   }

@@ -17,64 +17,65 @@ canDrown: true
 treadFrames: 8
 treadRects: 
 [
-    {
-        x: 9,
-        y: -15,
-        width: 6,
-        height: 7
-    }
-    {
-        x: 9,
-        y: -8,
-        width: 6,
-        height: 9
-    }
-    {
-        x: 9,
-        y: 10,
-        width: 6,
-       height: 8
-    }
+  {
+    x: 9,
+    y: -15,
+    width: 6,
+    height: 7
+  }
+  {
+    x: 9,
+    y: -8,
+    width: 6,
+    height: 9
+  }
+  {
+    x: 9,
+    y: 10,
+    width: 6,
+    height: 8
+  }
 ]
 weapons: 
 [
+  {
+    name: intrude-mount
+    mirror: false
+    top: true
+    rotate: true
+    shootSound: lasershoot
+    x: 0
+    y: -2
+    reload: 65
+    layerOffset: +0.00001
+    rotateSpeed: 4.1
+    inaccuracy: 0.75
+    recoil: 1
+    soundPitchMin: 0.8
+    soundPitchMax: 1
+    shoot:
     {
-        name: intrude-mount
-        mirror: false
-        top: true
-        rotate: true
-        shootSound: lasershoot
-        x: 0
-        y: -2
-        reload: 65
-        layerOffset: +0.00001
-        rotateSpeed: 4.1
-        inaccuracy: 0.75
-        recoil: 1
-        soundPitchMin: 0.8
-        soundPitchMax: 1
-        shoot: {
-        shots: 1
-        shotDelay: 0
-        }
-        bullet: 
-        {
-            type: BasicBulletType
-            backColor: 802433
-            frontColor: F17F5A
-            trailColor: 802433
-            hitColor: F17F5A
-            sprite: shell
-            damage: 26
-            knockback: 0
-            height: 9
-            width: 6
-            trailLength: 3
-            trailWidth: 1.2
-            speed: 6.5
-            lifetime: 24
-            buildingDamageMultiplier: 1
-        }
+      shots: 1
+      shotDelay: 0
     }
+      bullet: 
+      {
+        type: BasicBulletType
+        backColor: 802433
+        frontColor: F17F5A
+        trailColor: 802433
+        hitColor: F17F5A
+        sprite: shell
+        damage: 52
+        knockback: 0
+        height: 9
+        width: 6
+        trailLength: 3
+        trailWidth: 1.2
+        speed: 6.5
+        lifetime: 24
+        buildingDamageMultiplier: 1
+      }
+  }
 ]
 alwaysUnlocked: true

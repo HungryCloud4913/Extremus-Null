@@ -85,7 +85,7 @@ weapons:
       sprite: extremus-null-stingray
       recoil: 1.2
       homingPower: 0.1
-      damage: 132
+      damage: 114
       knockback: 0
       height: 16
       width: 11
@@ -105,7 +105,7 @@ weapons:
         despawnEffect: none
         lightningColor: 8FBB58
         lightningLength: 3
-        damage: 5
+        damage: 3
         lightning: 1
         lightningType: 
         {
@@ -117,7 +117,7 @@ weapons:
           lightningColor: 8FBB58
           lightningLengthRand: 2
           lightningLength: 3
-          damage: 5
+          damage: 3
           lifetime: 34
         }
       }

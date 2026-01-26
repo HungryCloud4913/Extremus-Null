@@ -48,13 +48,13 @@ weapons:
 			frontColor: C1FFED
       trailColor: 509FAD
       hitColor: C1FFED
-      damage: 60
+      damage: 62
       knockback: 0
       serrations: 0
       speed: 0
-      ifetime: 17
-      length: 8
-      width: 9
+      ifetime: 18
+      length: 7
+      width: 6
       buildingDamageMultiplier: 1
     }
   }
