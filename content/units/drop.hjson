@@ -54,9 +54,9 @@ weapons:
       knockback: 0
       speed: 0
       lifetime: 18
-      length: 47
+      length: 52
       width: 7
-      sideAngle: 135
+      sideAngle: 180
       buildingDamageMultiplier: 1
     }
   }
