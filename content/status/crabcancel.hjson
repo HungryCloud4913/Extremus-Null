@@ -1,5 +1,2 @@
 speedMultiplier: 1
-opposites:
-{
-wet
-}
+opposites: [wet]
