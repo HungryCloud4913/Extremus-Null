@@ -67,7 +67,7 @@ weapons:
             despawnEffect: none
 	        backColor: 3C4646
 	        frontColor: 99A49A
-            trailColor: B8263E
+            trailColor: D8332B
             hitColor: F17F5A
             sprite: extremus-null-landmine
             damage: 0
@@ -80,33 +80,33 @@ weapons:
             lifetime: 20
             buildingDamageMultiplier: 1
             fragBullets: 1
-            fragRandomSpread: 10
-            fragSpread: 30
+            fragRandomSpread: 360
+            fragSpread: 360
             fragBullet: 
             {
-            type: BasicBulletType
-            despawnEffect: blastExplosion
-            shootEffect: none
-            smokeEffect: none
-            despawnEffect: blastExplosion
-	        backColor: 802433
-	        frontColor: 67736D
-            trailColor: B8263E
-            hitColor: F17F5A
-            sprite: extremus-null-landmine
-            damage: 0
-            knockback: 0
-            height: 11
-            width: 8
-            trailLength: 0
-            trailWidth: 0
-            speed: 2
-            drag: 0.1
-            lifetime: 2600
-            splashDamageRadius: 20
-		    splashDamage: 63
-            hitSize: 20
-            buildingDamageMultiplier: 1
+                type: BasicBulletType
+                despawnEffect: blastExplosion
+                shootEffect: none
+                smokeEffect: none
+                despawnEffect: blastExplosion
+	            backColor: D8332B
+	            frontColor: 99A49A
+                trailColor: D8332B
+                hitColor: F17F5A
+                sprite: extremus-null-landmine
+                damage: 0
+                knockback: 0
+                height: 11
+                width: 8
+                trailLength: 0
+                trailWidth: 0
+                speed: 1.5
+                drag: 0.15
+                lifetime: 2600
+                splashDamageRadius: 20
+		        splashDamage: 63
+                hitSize: 20
+                buildingDamageMultiplier: 1
             }
         }
     }
