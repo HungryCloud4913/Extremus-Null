@@ -3,6 +3,9 @@ canDrown: false
 targetAir: true
 faceTarget: true
 hoverable: true
+canBoost: true
+flying: false
+hovering: false
 mechSideSway: 0
 health: 300
 hitSize: 9
