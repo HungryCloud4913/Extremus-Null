@@ -3,9 +3,6 @@ canDrown: false
 targetAir: true
 faceTarget: true
 hoverable: true
-canBoost: true
-flying: false
-hovering: false
 mechSideSway: 0
 health: 730
 hitSize: 11
@@ -17,6 +14,26 @@ accel: 0.5
 drag: 0.4
 rotateSpeed: 3.5
 armor: 5
+abilities:
+[
+StatusFieldAbility:
+  {
+  activeEffect: true
+  effect: crabspeed
+  duration: 2
+  range: 1
+  reload: 1
+  timer: 1
+  }
+  {
+  activeEffect: true
+  effect: crabcancel
+  duration: 2
+  range: 1
+  reload: 1
+  timer: 1
+  }
+]
 weapons:
 [
   {
