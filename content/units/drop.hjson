@@ -40,21 +40,21 @@ weapons:
       laserAbsorb: true
       pierce: true
       pierceBuilding: false
-      hitEffect: hitBulletColor
+      hitEffect: none
       shootEffect: shootBigColor
       smokeEffect: none
-      despawnEffect: hitBulletColor
+      despawnEffect: none
 			backColor: 509FAD
 			frontColor: C1FFED
       trailColor: 509FAD
       hitColor: C1FFED
-      damage: 30
+      damage: 54
       knockback: 0
       serrations: 0
       speed: 0
       ifetime: 17
-      length: 13
-      width: 6
+      length: 8
+      width: 9
       buildingDamageMultiplier: 1
     }
   }

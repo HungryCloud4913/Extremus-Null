@@ -15,7 +15,8 @@ faceTarget: false
 groundLayer: 60
 canDrown: true
 treadFrames: 12
-treadRects: [
+treadRects: 
+[
     {
         x: 11,
         y: -20,
@@ -29,39 +30,47 @@ treadRects: [
         height: 12
     }
 ]
-weapons: [
-{
-                name: contain-mount
-                mirror: false
-                top: true
-                rotate: true
-                layerOffset: +0.00001
-		        rotateSpeed: 3.9
-                x: 0
-                y: -2
-                reload: 70
-                shoot: {
-                  type: ShootBarrel
-                    barrels:[
-                    +1.3, 1.6, 0,
-                    -1.3, 1.6, 0,
-                    ]
-                    shots: 1
-                    shotDelay: 0
-            }
-            inaccuracy: 0.75
-            recoil: 2
-            shootSound: missileSmall
-            soundPitchMin: 0.8
-            soundPitchMax: 1
-            bullet: {
-             type: BasicBulletType
-	        backColor: 8E0E22
-	        frontColor: F17F5A
+weapons: 
+[
+    {
+        name: contain-mount
+        mirror: false
+        top: true
+        rotate: true
+        shootSound: missileSmall
+        layerOffset: +0.00001
+		rotateSpeed: 3.9
+        x: 0
+        y: -2
+        reload: 97
+        inaccuracy: 0.75
+        recoil: 2
+        soundPitchMin: 0.8
+        soundPitchMax: 1
+        shoot: 
+        {
+            type: ShootBarrel
+            barrels:
+            [
+                +1.3, 1.6, 0,
+                -1.3, 1.6, 0,
+            ]
+            shots: 1
+            shotDelay: 0
+        }
+        bullet: 
+        {
+            type: BasicBulletType
+            hitEffect: none
+            shootEffect: shootBigColor
+            smokeEffect: none
+            despawnEffect: none
+	        backColor: 3C4646
+	        frontColor: 99A49A
             trailColor: 8E0E22
             hitColor: F17F5A
-            sprite: extremus-null-sharp
-            damage: 45
+            sprite: extremus-null-landmine
+            damage: 0
             knockback: 0
             height: 11
             width: 8
@@ -70,7 +79,36 @@ weapons: [
             speed: 6.5
             lifetime: 26
             buildingDamageMultiplier: 1
-               }
-}
+            fragBullets: 1
+            fragRandomSpread: 30
+            fragSpread: 180
+            fragBullet: 
+            {
+            type: BasicBulletType
+            despawnEffect: blastExplosion
+            shootEffect: none
+            smokeEffect: none
+            despawnEffect: blastExplosion
+	        backColor: 3C4646
+	        frontColor: F17F5A
+            trailColor: 8E0E22
+            hitColor: F17F5A
+            sprite: extremus-null-landmine
+            damage: 0
+            knockback: 0
+            height: 11
+            width: 8
+            trailLength: 0
+            trailWidth: 0
+            speed: 2
+            drag: 0.1
+            lifetime: 2600
+            splashDamageRadius: 20
+		    splashDamage: 63
+            hitSize: 5
+            buildingDamageMultiplier: 1
+            }
+        }
+    }
 ]
 alwaysUnlocked: true

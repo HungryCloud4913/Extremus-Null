@@ -15,7 +15,8 @@ faceTarget: false
 groundLayer: 60
 canDrown: true
 treadFrames: 8
-treadRects: [
+treadRects: 
+[
     {
         x: 9,
         y: -15,
@@ -32,33 +33,35 @@ treadRects: [
         x: 9,
         y: 10,
         width: 6,
-        height: 8
+       height: 8
     }
 ]
-weapons: [
-{
-                name: intrude-mount
-                mirror: false
-                top: true
-                rotate: true
-                layerOffset: +0.00001
-		        rotateSpeed: 4.1
-                x: 0
-                y: -2
-                reload: 65
-                shoot: {
-                shots: 1
-                shotDelay: 0
-     			      }
-            inaccuracy: 0.75
-            recoil: 1
-            shootSound: lasershoot
-            soundPitchMin: 0.8
-            soundPitchMax: 1
-            bullet: {
-             type: BasicBulletType
-	        backColor: 8E0E22
-	        frontColor: F17F5A
+weapons: 
+[
+    {
+        name: intrude-mount
+        mirror: false
+        top: true
+        rotate: true
+        shootSound: lasershoot
+        x: 0
+        y: -2
+        reload: 65
+        layerOffset: +0.00001
+        rotateSpeed: 4.1
+        inaccuracy: 0.75
+        recoil: 1
+        soundPitchMin: 0.8
+        soundPitchMax: 1
+        shoot: {
+        shots: 1
+        shotDelay: 0
+        }
+        bullet: 
+        {
+            type: BasicBulletType
+            backColor: 8E0E22
+            frontColor: F17F5A
             trailColor: 8E0E22
             hitColor: F17F5A
             sprite: shell
@@ -71,7 +74,7 @@ weapons: [
             speed: 6.5
             lifetime: 24
             buildingDamageMultiplier: 1
-               }
-}
+        }
+    }
 ]
 alwaysUnlocked: true

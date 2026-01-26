@@ -100,8 +100,9 @@ weapons:
       fragBullet: 
       {
         type: LightningBulletType
-        hitEffect: hitLancer
-        shootEffect: hitLancer
+        hitEffect: none
+        shootEffect: none
+        despawnEffect: none
         lightningColor: 8FBB58
         lightningLength: 3
         damage: 5
@@ -110,7 +111,8 @@ weapons:
         {
           type: LightningBulletType
           hittable: false
-          hitEffect: hitLancer
+          hitEffect: none
+          shootEffect: none
           despawnEffect: none
           lightningColor: 8FBB58
           lightningLengthRand: 2

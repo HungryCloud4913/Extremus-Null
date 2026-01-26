@@ -48,11 +48,11 @@ weapons:
             offsetX: 0
             offsetY: 0
             sizeFrom: 0
-            sizeTo: 16
+            sizeTo: 21
             followParent: true
             rotWithParent: true
-            colorFrom: 8FBB58
-            colorTo: F8FFD200
+            colorFrom: 509FAD
+            colorTo: C1FFED
           }
         ]
       }
@@ -69,11 +69,11 @@ weapons:
             offsetX: 0
             offsetY: 0
             sizeFrom: 0
-            sizeTo: 16
+            sizeTo: 21
             followParent: true
             rotWithParent: true
-            colorFrom: 8FBB58
-            colorTo: F8FFD200
+            colorFrom: 509FAD
+            colorTo: C1FFED
           }
         ]
       }
