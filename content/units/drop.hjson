@@ -34,11 +34,11 @@ weapons:
       shots: 1
       shotDelay: 0
     }
-    bullet: 
+    bullet:
     {
-      type: ShrapnelBulletType
+      type: LaserBulletType
       laserAbsorb: true
-      pierce: false
+      pierce: true
       pierceBuilding: false
       hitLarge: true
       hitEffect: none
@@ -49,14 +49,14 @@ weapons:
 			frontColor: C1FFED
       trailColor: 509FAD
       hitColor: C1FFED
+      colors: [509FADE, 509FAD, C1FFED]
       damage: 62
       knockback: 0
-      serrations: 3
-      serrationWidth: 1
       speed: 0
       lifetime: 18
       length: 10
       width: 6
+      sideAngle: -50
       buildingDamageMultiplier: 1
     }
   }
