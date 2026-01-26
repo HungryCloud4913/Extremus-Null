@@ -16,8 +16,8 @@ rotateSpeed: 3.5
 armor: 5
 abilities:
 [
-StatusFieldAbility:
   {
+  type: StatusFieldAbility
   activeEffect: true
   effect: crabspeed
   duration: 2
@@ -26,6 +26,7 @@ StatusFieldAbility:
   timer: 1
   }
   {
+  type: StatusFieldAbility
   activeEffect: true
   effect: crabcancel
   duration: 2
