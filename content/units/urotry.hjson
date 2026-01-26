@@ -83,7 +83,7 @@ weapons:
       trailColor: 8FBB58
       hitColor: F8FFD2
       sprite: extremus-null-stingray
-      reccoil: 1.2
+      recoil: 1.2
       homingPower: 0.1
       damage: 57
       knockback: 0
@@ -96,7 +96,7 @@ weapons:
       buildingDamageMultiplier: 1
       fragBullets: 4
       fragRandomSpread: 30
-      fragSpread: 0.5
+      fragSpread: 180
       fragBullet: 
       {
         type: LightningBulletType

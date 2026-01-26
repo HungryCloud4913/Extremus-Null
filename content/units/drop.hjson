@@ -50,10 +50,11 @@ weapons:
       hitColor: C1FFED
       damage: 30
       knockback: 0
-      speed: 6
-      ifetime: 14
-      length: 25
-      width: 4
+      serrations: 0
+      speed: 0
+      ifetime: 17
+      length: 13
+      width: 6
       buildingDamageMultiplier: 1
     }
   }

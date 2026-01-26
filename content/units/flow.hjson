@@ -44,11 +44,11 @@ weapons:
         [
           {
             type: WaveEffect
-            lifetime: 10
+            lifetime: 15
             offsetX: 0
             offsetY: 0
             sizeFrom: 0
-            sizeTo: 12
+            sizeTo: 16
             followParent: true
             rotWithParent: true
             colorFrom: 8FBB58
@@ -65,11 +65,11 @@ weapons:
         [
           {
             type: WaveEffect
-            lifetime: 10
+            lifetime: 15
             offsetX: 0
             offsetY: 0
             sizeFrom: 0
-            sizeTo: 12
+            sizeTo: 16
             followParent: true
             rotWithParent: true
             colorFrom: 8FBB58
@@ -84,12 +84,12 @@ weapons:
       sprite: extremus-null-bubble
       damage: 0
       knockback: 0
-      height: 14.5
-      width: 14.5
+      height: 13
+      width: 11
       trailLength: 4
       trailWidth: 1.5
       speed: 6
-      lifetime: 38
+      lifetime: 32
       splashDamageRadius: 12
 		  splashDamage: 63
       buildingDamageMultiplier: 1
