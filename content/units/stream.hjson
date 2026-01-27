@@ -67,9 +67,9 @@ weapons:
       buildingDamageMultiplier: 1.5
       intervalBullets: 12
       bulletInterval: 29
-      intervalelocityMin: 1
+      intervalvelocityMin: 1
       intervalVelocityMax: 1
-      intervalrandomSpread: 60
+      intervalRandomSpread: 60
 		  intervalBullet:
       {
 			  backColor: 509FAD
