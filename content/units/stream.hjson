@@ -69,7 +69,7 @@ weapons:
       bulletInterval: 29
       intervalelocityMin: 1
       intervalVelocityMax: 1
-      intervalandomSpread: 0
+      intervalrandomSpread: 60
       intervalSpread: 7.5
       intervalAngle: 0
 		  intervalBullet:
