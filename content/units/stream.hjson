@@ -1,0 +1,98 @@
+type: mech
+canDrown: false
+targetAir: true
+faceTarget: true
+hoverable: true
+mechSideSway: 0
+health: 1900
+hitSize: 16
+outlineColor: 242628
+shadowElevation: 0.1
+groundLayer: 61
+speed: 0.46
+accel: 0.5
+drag: 0.4
+rotateSpeed: 3
+armor: 11
+weapons:
+[
+  {
+    name: stream-arm
+    mirror: true
+    top: false
+    alternate: true
+    rotate: false
+    shootSound: pulseBlast
+    x: +6
+    y: 0
+    reload: 195
+    layerOffset: -0.00001
+    rotateSpeed: 0
+    inaccuracy: 0
+    recoil: 0.7
+    shoot: 
+    {
+      shots: 1
+      shotDelay: 0
+    }
+    bullet: 
+    {
+      type: LaserBulletType
+      laserAbsorb: true
+      pierce: true
+      pierceBuilding: false
+      hitLarge: true
+      hitEffect: none
+      shootEffect: shootBigColor
+      smokeEffect: none
+      despawnEffect: none
+			backColor: 509FAD
+			frontColor: C1FFED
+      trailColor: 509FAD
+      hitColor: C1FFED
+      colors: [509FADE, 509FAD, C1FFED]
+      damage: 210
+      knockback: 0
+      speed: 0
+      lifetime: 18
+      length: 75
+      width: 18
+      sideAngle: 0
+      buildingDamageMultiplier: 1.5
+    }
+    parts:
+    [
+      {
+        type: RegionPart
+        under: true
+        mirror: true
+        suffix: -claw
+        heatColor: C1FFED
+        x: -4
+        y: 4
+        moveY: 0
+        moveX: 0
+        moveRot: 10
+        layer: 120
+        progress: 
+        {
+          type: warmup
+          op: delay
+          amount: 0.6
+        }
+        moves: 
+        [
+          {
+            type: PartMove
+            progress: recoil
+            x: 0
+            y: 0
+            rot: 23
+          }
+        ]
+}
+    ]
+  }
+]
+
+alwaysUnlocked: true
