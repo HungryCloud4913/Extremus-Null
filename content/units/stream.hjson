@@ -57,25 +57,25 @@ weapons:
           {
             type: WaveEffect
             interp: swingIn
-            sizeFrom: 60
-            sizeTo: 0
+            sizeFrom: 0
+            sizeTo: 60
             colorFrom: 509FAD
             colorTo: ffffff
             lightColor: C1FFED
-            strokeFrom: 0
-            strokeTo: 8
+            strokeFrom: 8
+            strokeTo: 0
             lifetime: 24
           }
           {
             type: WaveEffect
             interp: swingIn
-            sizeFrom: 20
+            sizeFrom: 60
             sizeTo: 0
             colorFrom: 509FAD
             colorTo: ffffff
             lightColor: C1FFED
-            strokeFrom: 0
-            strokeTo: 8
+            strokeFrom: 4
+            strokeTo: 0
             lifetime: 14
             startDelay: 10
           }
