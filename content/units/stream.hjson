@@ -9,7 +9,7 @@ hitSize: 16
 outlineColor: 242628
 shadowElevation: 0.1
 groundLayer: 61
-speed: 0.46
+speed: 0.42
 accel: 0.5
 drag: 0.4
 rotateSpeed: 2.9
@@ -29,7 +29,7 @@ weapons:
     layerOffset: -0.00001
     rotateSpeed: 0
     inaccuracy: 0
-    recoil: 1.1
+    recoil: 1.9
     shoot: 
     {
       shots: 1
@@ -49,7 +49,38 @@ weapons:
       hitLarge: true
       fragOnHit: true
       hitEffect: none
-      shootEffect: shootBigColor
+      shootEffect:
+      {
+        type: MultiEffect
+        effects:
+        [
+          {
+            type: WaveEffect
+            interp: swingIn
+            sizeFrom: 60
+            sizeTo: 0
+            colorFrom: 509FAD
+            colorTo: ffffff
+            lightColor: C1FFED
+            strokeFrom: 0
+            strokeTo: 8
+            lifetime: 24
+          }
+          {
+            type: WaveEffect
+            interp: swingIn
+            sizeFrom: 20
+            sizeTo: 0
+            colorFrom: 509FAD
+            colorTo: ffffff
+            lightColor: C1FFED
+            strokeFrom: 0
+            strokeTo: 8
+            lifetime: 14
+            startDelay: 10
+          }
+        ]
+      }
       smokeEffect: none
       despawnEffect: none
 			backColor: 509FAD
@@ -61,10 +92,10 @@ weapons:
       knockback: 0
       speed: 0
       lifetime: 29
-      length: 80
-      width: 18
+      length: 87
+      width: 19
       sideAngle: 0
-      buildingDamageMultiplier: 1.75
+      buildingDamageMultiplier: 1.5
       intervalBullets: 24
       bulletInterval: 40
       intervalVelocityMin: 1
@@ -86,9 +117,9 @@ weapons:
         width: 11
         trailLength: 4
         trailWidth: 1.5
-        speed: 6
-        lifetime: 12
-        buildingDamageMultiplier: 1.75
+        speed: 3
+        lifetime: 24
+        buildingDamageMultiplier: 1.4
 			}
     }
     parts:
