@@ -89,10 +89,10 @@ weapons:
         knockback: 0
         height: 13
         width: 11
-        trailLength: 4
-        trailWidth: 5
-        speed: 3
-        lifetime: 24
+        trailLength: 0
+        trailWidth: 0
+        speed: 1.75
+        lifetime: 55
         buildingDamageMultiplier: 1.4
 			}
     }
