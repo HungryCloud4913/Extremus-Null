@@ -57,20 +57,20 @@ weapons:
       trailColor: 509FAD
       hitColor: C1FFED
       colors: [509FADE, 509FAD, C1FFED]
-      damage: 210
+      damage: 230
       knockback: 0
       speed: 0
       lifetime: 29
       length: 80
       width: 18
       sideAngle: 0
-      buildingDamageMultiplier: 1.5
-      intervalBullets: 12
-      bulletInterval: 29
+      buildingDamageMultiplier: 1.75
+      intervalBullets: 24
+      bulletInterval: 40
       intervalVelocityMin: 1
       intervalVelocityMax: 1
       intervalRandomSpread: 0
-      intervalSpread: 11
+      intervalSpread: 5
       intervalOnHit: true
       intervalAngle: 0
 		  intervalBullet:
@@ -80,7 +80,7 @@ weapons:
         trailColor: 509FAD
         hitColor: C1FFED
         sprite: extremus-null-bubble
-        damage: 30
+        damage: 40
         knockback: 0
         height: 13
         width: 11
@@ -88,7 +88,7 @@ weapons:
         trailWidth: 1.5
         speed: 6
         lifetime: 12
-        buildingDamageMultiplier: 1
+        buildingDamageMultiplier: 1.75
 			}
     }
     parts:
