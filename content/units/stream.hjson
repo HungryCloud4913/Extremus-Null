@@ -70,9 +70,9 @@ weapons:
       intervalVelocityMin: 1
       intervalVelocityMax: 1
       intervalRandomSpread: 0
-      intervalSpread: 20
+      intervalSpread: 11
       intervalOnHit: true
-      intervalAngle: 10
+      intervalAngle: 0
 		  intervalBullet:
       {
 			  backColor: 509FAD
