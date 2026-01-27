@@ -23,8 +23,8 @@ weapons:
     alternate: true
     rotate: false
     shootSound: pulseBlast
-    x: +6
-    y: 0
+    x: +7
+    y: +2
     reload: 195
     layerOffset: -0.00001
     rotateSpeed: 0
@@ -68,8 +68,8 @@ weapons:
         mirror: true
         suffix: -claw
         heatColor: C1FFED
-        x: -4
-        y: 4
+        x: -3
+        y: 5
         moveY: 0
         moveX: 0
         moveRot: 10
@@ -78,7 +78,7 @@ weapons:
         {
           type: warmup
           op: delay
-          amount: 0.6
+          amount: 0
         }
         moves: 
         [
@@ -87,10 +87,20 @@ weapons:
             progress: recoil
             x: 0
             y: 0
-            rot: 23
+            rot: -23
           }
         ]
-}
+      }
+      {
+        type: RegionPart
+        suffix: -main
+        mirror: false
+        moveY: 0
+        moveX: 0
+        layer: 120
+        progress: recoil
+        under: true
+      }
     ]
   }
 ]
