@@ -23,7 +23,7 @@ weapons:
     alternate: true
     rotate: false
     shootSound: pulseBlast
-    x: +8
+    x: +7.75
     y: +2
     reload: 195
     layerOffset: -0.00001
@@ -74,7 +74,7 @@ weapons:
         suffix: -claw
         heatColor: C1FFED
         x: -2.8
-        y: 5.1
+        y: 4.95
         moveY: 0
         moveX: 0
         moveRot: 45
