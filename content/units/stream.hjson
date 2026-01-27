@@ -34,6 +34,11 @@ weapons:
     {
       shots: 1
       shotDelay: 0
+      type: ShootBarrel
+      barrels: 
+      [
+        0, +5, 0
+      ]
     }
     bullet: 
     {
@@ -68,12 +73,12 @@ weapons:
         mirror: true
         suffix: -claw
         heatColor: C1FFED
-        x: -3
+        layerOffset: -0.00001
+        x: -2.5
         y: 5
         moveY: 0
         moveX: 0
-        moveRot: 10
-        layer: 120
+        moveRot: 20
         progress: 
         {
           type: warmup
@@ -94,6 +99,7 @@ weapons:
       {
         type: RegionPart
         suffix: -main
+        layerOffset: -0.00001
         mirror: false
         moveY: 0
         moveX: 0
