@@ -29,7 +29,7 @@ weapons:
     layerOffset: -0.00001
     rotateSpeed: 0
     inaccuracy: 0
-    recoil: 0.7
+    recoil: 1.1
     shoot: 
     {
       shots: 1
@@ -73,12 +73,12 @@ weapons:
         mirror: true
         suffix: -claw
         heatColor: C1FFED
-        layerOffset: -0.00001
+        layer: 60
         x: -2.7
         y: 5
         moveY: 0
         moveX: 0
-        moveRot: 20
+        moveRot: 45
         progress: 
         {
           type: warmup
@@ -92,14 +92,14 @@ weapons:
             progress: recoil
             x: 0
             y: 0
-            rot: -25
+            rot: -50
           }
         ]
       }
       {
         type: RegionPart
         suffix: -main
-        layerOffset: -0.00001
+        layer: 60
         mirror: false
         moveY: 0
         moveX: 0
