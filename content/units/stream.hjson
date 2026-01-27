@@ -59,7 +59,7 @@ weapons:
       damage: 210
       knockback: 0
       speed: 0
-      lifetime: 18
+      lifetime: 29
       length: 75
       width: 18
       sideAngle: 0
@@ -73,7 +73,6 @@ weapons:
         mirror: true
         suffix: -claw
         heatColor: C1FFED
-        layer: 100
         x: -2.7
         y: 5
         moveY: 0
@@ -92,14 +91,13 @@ weapons:
             progress: recoil
             x: 0
             y: 0
-            rot: -50
+            rot: -55
           }
         ]
       }
       {
         type: RegionPart
         suffix: -main
-        layer: 100
         mirror: false
         moveY: 0
         moveX: 0
