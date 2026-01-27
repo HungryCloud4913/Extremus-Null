@@ -49,38 +49,7 @@ weapons:
       hitLarge: true
       fragOnHit: true
       hitEffect: none
-      shootEffect:
-      {
-        type: MultiEffect
-        effects:
-        [
-          {
-            type: WaveEffect
-            interp: swingIn
-            sizeFrom: 0
-            sizeTo: 60
-            colorFrom: 509FAD
-            colorTo: ffffff
-            lightColor: C1FFED
-            strokeFrom: 8
-            strokeTo: 0
-            lifetime: 24
-          }
-          {
-            type: WaveEffect
-            interp: swingIn
-            sizeFrom: 60
-            sizeTo: 0
-            colorFrom: 509FAD
-            colorTo: ffffff
-            lightColor: C1FFED
-            strokeFrom: 4
-            strokeTo: 0
-            lifetime: 14
-            startDelay: 10
-          }
-        ]
-      }
+      shootEffect: none
       smokeEffect: none
       despawnEffect: none
 			backColor: 509FAD
@@ -106,6 +75,11 @@ weapons:
       intervalAngle: 0
 		  intervalBullet:
       {
+        type: BasicBulletType
+        hitEffect: none
+        shootEffect: none
+        smokeEffect: none
+        despawnEffect: none
 			  backColor: 509FAD
 			  frontColor: C1FFED
         trailColor: 509FAD
