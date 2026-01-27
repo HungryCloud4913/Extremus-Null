@@ -66,10 +66,12 @@ weapons:
       sideAngle: 0
       buildingDamageMultiplier: 1.5
       intervalBullets: 12
-      bulletInterval: 29
-      intervalvelocityMin: 1
+      intervalVelocityMin: 1
       intervalVelocityMax: 1
-      intervalRandomSpread: 60
+      intervalRandomSpread: 0
+      intervalSpread: 20
+      intervalOnHit: true
+      intervalAngle: 10
 		  intervalBullet:
       {
 			  backColor: 509FAD
