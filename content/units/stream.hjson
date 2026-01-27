@@ -73,7 +73,7 @@ weapons:
         mirror: true
         suffix: -claw
         heatColor: C1FFED
-        layer: 60
+        layer: 100
         x: -2.7
         y: 5
         moveY: 0
@@ -99,7 +99,7 @@ weapons:
       {
         type: RegionPart
         suffix: -main
-        layer: 60
+        layer: 100
         mirror: false
         moveY: 0
         moveX: 0
