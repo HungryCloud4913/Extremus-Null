@@ -65,12 +65,12 @@ weapons:
       width: 19
       sideAngle: 0
       buildingDamageMultiplier: 1.5
-      intervalBullets: 24
+      intervalBullets: 60
       bulletInterval: 40
       intervalVelocityMin: 1
       intervalVelocityMax: 1
       intervalRandomSpread: 0
-      intervalSpread: 5
+      intervalSpread: 2
       intervalOnHit: true
       intervalAngle: 0
 		  intervalBullet:
@@ -84,13 +84,13 @@ weapons:
 			  frontColor: C1FFED
         trailColor: 509FAD
         hitColor: C1FFED
-        sprite: extremus-null-bubble
+        sprite: extremus-null-slash
         damage: 40
         knockback: 0
         height: 13
         width: 11
         trailLength: 4
-        trailWidth: 1.5
+        trailWidth: 5
         speed: 3
         lifetime: 24
         buildingDamageMultiplier: 1.4
