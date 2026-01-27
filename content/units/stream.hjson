@@ -74,7 +74,7 @@ weapons:
         suffix: -claw
         heatColor: C1FFED
         layerOffset: -0.00001
-        x: -2.5
+        x: -2.7
         y: 5
         moveY: 0
         moveX: 0
@@ -92,7 +92,7 @@ weapons:
             progress: recoil
             x: 0
             y: 0
-            rot: -23
+            rot: -25
           }
         ]
       }
@@ -103,7 +103,6 @@ weapons:
         mirror: false
         moveY: 0
         moveX: 0
-        layer: 120
         progress: recoil
         under: true
       }
