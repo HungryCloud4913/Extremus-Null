@@ -12,7 +12,7 @@ groundLayer: 61
 speed: 0.46
 accel: 0.5
 drag: 0.4
-rotateSpeed: 3
+rotateSpeed: 2.9
 armor: 11
 weapons:
 [
@@ -47,6 +47,7 @@ weapons:
       pierce: true
       pierceBuilding: false
       hitLarge: true
+      fragOnHit: true
       hitEffect: none
       shootEffect: shootBigColor
       smokeEffect: none
@@ -64,6 +65,29 @@ weapons:
       width: 18
       sideAngle: 0
       buildingDamageMultiplier: 1.5
+      fragBullets: 12
+      fragVelocityMin: 1
+      fragVelocityMax: 1
+      fragRandomSpread: 0
+      fragSpread: 10
+      fragAngle: 20
+		  fragBullet:
+      {
+			  backColor: 509FAD
+			  frontColor: C1FFED
+        trailColor: 509FAD
+        hitColor: C1FFED
+        sprite: extremus-null-bubble
+        damage: 30
+        knockback: 0
+        height: 13
+        width: 11
+        trailLength: 4
+        trailWidth: 1.5
+        speed: 6
+        lifetime: 9
+        buildingDamageMultiplier: 1
+			}
     }
     parts:
     [
@@ -73,7 +97,7 @@ weapons:
         mirror: true
         suffix: -claw
         heatColor: C1FFED
-        x: -2.8
+        x: -2.75
         y: 4.95
         moveY: 0
         moveX: 0
@@ -91,7 +115,7 @@ weapons:
             progress: recoil
             x: 0
             y: 0
-            rot: -55
+            rot: -56
           }
         ]
       }
