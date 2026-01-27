@@ -70,8 +70,6 @@ weapons:
       intervalelocityMin: 1
       intervalVelocityMax: 1
       intervalrandomSpread: 60
-      intervalSpread: 7.5
-      intervalAngle: 0
 		  intervalBullet:
       {
 			  backColor: 509FAD
