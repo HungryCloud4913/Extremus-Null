@@ -66,6 +66,7 @@ weapons:
       sideAngle: 0
       buildingDamageMultiplier: 1.5
       intervalBullets: 12
+      bulletInterval: 29
       intervalVelocityMin: 1
       intervalVelocityMax: 1
       intervalRandomSpread: 0
