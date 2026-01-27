@@ -23,7 +23,7 @@ weapons:
     alternate: true
     rotate: false
     shootSound: pulseBlast
-    x: +7
+    x: +8
     y: +2
     reload: 195
     layerOffset: -0.00001
@@ -73,8 +73,8 @@ weapons:
         mirror: true
         suffix: -claw
         heatColor: C1FFED
-        x: -2.7
-        y: 5
+        x: -2.8
+        y: 5.1
         moveY: 0
         moveX: 0
         moveRot: 45
