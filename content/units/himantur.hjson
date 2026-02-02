@@ -6,11 +6,11 @@ lowAltitude: true
 flying: true
 health: 1150
 hitSize: 17.2
-speed: 0.91
+speed: 0.82
 accel: 0.05
 drag: 0.01
 armor: 5
-rotateSpeed: 3.2
+rotateSpeed: 2.9
 outlineColor: 242628
 engineOffset: 1
 engines:  
@@ -79,8 +79,8 @@ weapons:
       homingPower: 0.1
       damage: 114
       knockback: 0
-      height: 24
-      width: 21
+      height: 29
+      width: 23
       trailLength: 3
       trailWidth: 2
       speed: 6
@@ -127,7 +127,7 @@ weapons:
     reload: 90
     layerOffset: +0.00001
 		rotateSpeed: 3.2
-    inaccuracy: 0.5
+    inaccuracy: 3
     recoil: 1.5
     shoot: 
     {
@@ -146,14 +146,14 @@ weapons:
       trailColor: 8FBB58
       hitColor: F8FFD2
       sprite: extremus-null-sharp
-      damage: 13
+      damage: 12
       knockback: 0
       height: 11
       width: 8
       trailLength: 3
       trailWidth: 1
       speed: 5
-      lifetime: 15
+      lifetime: 24
       buildingDamageMultiplier: 1
     }
   }
