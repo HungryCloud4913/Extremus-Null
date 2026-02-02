@@ -37,7 +37,7 @@ abilities:
         drawArc: true
         pushUnits: true
         x: 0
-        y: -7
+        y: -8
     }
 ]
 weapons: 
@@ -79,8 +79,8 @@ weapons:
       homingPower: 0.1
       damage: 114
       knockback: 0
-      height: 22
-      width: 19
+      height: 24
+      width: 21
       trailLength: 3
       trailWidth: 2
       speed: 6
@@ -131,8 +131,8 @@ weapons:
     recoil: 1.5
     shoot: 
     {
-      shots: 3
-      shotDelay: 1
+      shots: 4
+      shotDelay: 2
     }
     bullet: 
     {
