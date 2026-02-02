@@ -2,6 +2,7 @@ template: TankUnitType
 type: tank
 flying: false
 outlines: false
+drawWeaponOutlines: false
 targetAir: true
 faceTarget: false
 canDrown: true
@@ -135,7 +136,6 @@ weapons:
         progress: recoil
         mirror: false
         under: true
-        drawOutline: false
       }
     ]
   }
