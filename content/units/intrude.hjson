@@ -11,7 +11,7 @@ speed: 0.69
 accel: 0.5
 drag: 0.4
 armor: 5
-rotateSpeed: 2.5
+rotateSpeed: 2.3
 outlineColor: 242628
 groundLayer: 60
 treadFrames: 8
@@ -58,14 +58,14 @@ weapons:
       shots: 1
       shotDelay: 0
     }
-      bullet: 
+    bullet: 
       {
         type: BasicBulletType
         backColor: 802433
         frontColor: F17F5A
         trailColor: 802433
         hitColor: F17F5A
-        sprite: shell
+        sprite: extremus-null-sharp
         damage: 52
         knockback: 0
         height: 9

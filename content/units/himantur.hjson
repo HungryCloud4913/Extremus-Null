@@ -1,0 +1,161 @@
+type: flying
+targetair: true
+faceTarget: true
+drawEngines: true
+lowAltitude: true
+flying: true
+health: 1150
+hitSize: 17.2
+speed: 0.91
+accel: 0.05
+drag: 0.01
+armor: 5
+rotateSpeed: 3.2
+outlineColor: 242628
+engineOffset: 1
+engines:  
+[
+	{
+		x: +4
+		y: 0
+		radius: 2
+		rotation: -90
+    mirror: true
+		trailLength: 1
+	}
+]
+abilities: 
+[
+    {
+        type: ShieldArcAbility
+        regen: 0.4
+        max: 430
+        cooldown: 420
+        angleOffset: 0
+        whenShooting: false
+        radius: 24
+        drawArc: true
+        pushUnits: true
+        x: 0
+        y: -5
+    }
+]
+weapons: 
+[
+  {
+    name: himanturbody
+    mirror: false
+    alternate: false
+    top: true
+    rotate: false
+    heatColor: 8FBB58
+    shootSound:  release
+    x: 0
+    y: 0
+    reload: 150
+    layerOffset: +0.0001
+    inaccuracy: 0.5
+    recoil: 0
+    rotateSpeed: 0
+    shoot: 
+    {
+      shots: 1
+      shotDelay: 0
+    }
+    bullet: 
+    {
+      type: BasicBulletType
+      homing: true
+      hitEffect: hitBulletColor
+      shootEffect: none
+      smokeEffect: none
+      despawnEffect: hitBulletColor
+	    backColor: 8FBB58
+	    frontColor: F8FFD2
+      trailColor: 8FBB58
+      hitColor: F8FFD2
+      sprite: extremus-null-stingray
+      recoil: 1.2
+      homingPower: 0.1
+      damage: 114
+      knockback: 0
+      height: 16
+      width: 11
+      trailLength: 3
+      trailWidth: 2
+      speed: 6
+      lifetime: 34
+      buildingDamageMultiplier: 1
+      fragBullets: 4
+      fragRandomSpread: 30
+      fragSpread: 180
+      fragBullet: 
+      {
+        type: LightningBulletType
+        hitEffect: none
+        shootEffect: none
+        despawnEffect: none
+        lightningColor: 8FBB58
+        lightningLength: 3
+        damage: 3
+        lightning: 1
+        lightningType: 
+        {
+          type: LightningBulletType
+          hittable: false
+          hitEffect: none
+          shootEffect: none
+          despawnEffect: none
+          lightningColor: 8FBB58
+          lightningLengthRand: 2
+          lightningLength: 3
+          damage: 3
+          lifetime: 34
+        }
+      }
+    }
+  }
+  {
+    name: urotry-mount
+    mirror: false
+    top: false
+    alternate: false
+    rotate: true
+    shootSound: missile
+    x: 0
+    y: -2
+    reload: 80
+    layerOffset: +0.00001
+		rotateSpeed: 3.2
+    inaccuracy: 0
+    recoil: 1.5
+    shoot: 
+    {
+      shots: 1
+      shotDelay: 0
+    }
+    bullet: 
+    {
+      type: BasicBulletType
+      hitEffect: hitBulletColor
+      shootEffect: none
+      smokeEffect: none
+      despawnEffect: hitBulletColor
+	    backColor: 8FBB58
+	    frontColor: F8FFD2
+      trailColor: 8FBB58
+      hitColor: F8FFD2
+      sprite: extremus-null-sharp
+      damage: 13
+      knockback: 0
+      height: 11
+      width: 8
+      trailLength: 3
+      trailWidth: 1
+      speed: 5
+      lifetime: 15
+      buildingDamageMultiplier: 1
+    }
+  }
+]
+alwaysUnlocked: true

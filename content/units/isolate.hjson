@@ -1,0 +1,142 @@
+template: TankUnitType
+type: tank
+flying: false
+outlines: false
+targetAir: true
+faceTarget: false
+canDrown: true
+health: 1560
+hitSize: 18
+speed: 0.73
+accel: 0.5
+drag: 0.4
+armor: 10
+rotateSpeed: 2
+outlineColor: 242628
+groundLayer: 60
+treadFrames: 16
+treadRects: 
+[
+  {
+    x: -31,
+    y: -36,
+    width: 12,
+    height: 15
+  }
+  {
+    x: -35,
+    y: -20,
+    width: 12,
+    height: 16
+  }
+  {
+    x: -36,
+    y: 10,
+    width: 12,
+    height: 15
+  }
+  {
+    x: -32,
+    y: 26,
+    width: 12,
+    height: 16
+  }
+]
+weapons: 
+[
+  {
+    name: isolate-smg
+    mirror: true
+    top: true
+    rotate: true
+    shootSound: lasershoot
+    alternate: true
+    x: +2.5
+    y: +1
+    reload: 57.5
+    layerOffset: +0.00001
+    rotateSpeed: 4
+    inaccuracy: 1
+    recoil: 1
+    soundPitchMin: 0.8
+    soundPitchMax: 1
+    shoot:
+    {
+      shots: 1
+      shotDelay: 0
+    }
+    bullet: 
+      {
+        type: BasicBulletType
+        backColor: 802433
+        frontColor: F17F5A
+        trailColor: 802433
+        hitColor: F17F5A
+        sprite: extremus-null-sharp
+        damage: 54
+        knockback: 0
+        height: 9
+        width: 6
+        trailLength: 3
+        trailWidth: 1.2
+        speed: 6.5
+        lifetime: 24
+        buildingDamageMultiplier: 1
+      }
+  }
+  {
+    name: isolate-piercce
+    mirror: false
+    top: true
+    rotate: true
+    shootSound: plasmaboom
+    alternate: false
+    x: 0
+    y: -3
+    reload: 130
+    layerOffset: 0.5
+    rotateSpeed: 4
+    inaccuracy: 1
+    recoil: 1
+    soundPitchMin: 0.8
+    soundPitchMax: 1
+    shoot:
+    {
+      shots: 1
+      shotDelay: 0
+    }
+    bullet: 
+      {
+        type: BasicBulletType
+        backColor: 802433
+        frontColor: F17F5A
+        trailColor: 802433
+        hitColor: F17F5A
+        sprite: extremus-null-sharp
+        damage: 54
+        knockback: 0
+        height: 16
+        width: 12
+        trailLength: 3
+        trailWidth: 1.2
+        speed: 8
+        lifetime: 24
+        buildingDamageMultiplier: 1
+      }
+   parts: 
+    [
+      {
+        type: RegionPart
+        suffix: -barrel
+        heatColor: F17F5A
+        recoilIndex: 0
+        moveY: -4
+        moveX: 0
+        progress: recoil
+        mirror: false
+        under: true
+      }
+    ]
+  }
+]
+alwaysUnlocked: true

@@ -61,7 +61,7 @@ weapons:
       knockback: 0
       speed: 0
       lifetime: 29
-      length: 87
+      length: 69
       width: 19
       sideAngle: 0
       buildingDamageMultiplier: 1.5
@@ -86,7 +86,7 @@ weapons:
         hitColor: C1FFED
         sprite: extremus-null-slash
         damage: 7
-        knockback: 0
+        knockback: 0.75
         height: 13
         width: 11
         trailLength: 0
