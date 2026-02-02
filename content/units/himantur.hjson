@@ -134,11 +134,11 @@ weapons:
       type: ShootBarrel
       barrels:
       [
-        +1.2, 1.5, 0,
+        +1.5, 1.5, 0,
         -1.5, 1.5, 0,
       ]
-      shots: 1
-      shotDelay: 0
+      shots: 4
+      shotDelay: 2
     }
     bullet: 
     {
