@@ -52,7 +52,7 @@ weapons:
     shootSound:  release
     x: 0
     y: 0
-    reload: 150
+    reload: 260
     layerOffset: +0.0001
     inaccuracy: 0.5
     recoil: 0
@@ -75,16 +75,16 @@ weapons:
       trailColor: 8FBB58
       hitColor: F8FFD2
       sprite: extremus-null-bigray
-      recoil: 1.2
+      recoil: 1.1
       homingPower: 0.1
-      damage: 114
+      damage: 310
       knockback: 0
-      height: 29
-      width: 23
+      height: 35
+      width: 26
       trailLength: 3
       trailWidth: 2
       speed: 6
-      lifetime: 34
+      lifetime: 45
       buildingDamageMultiplier: 1
       fragBullets: 4
       fragRandomSpread: 30
