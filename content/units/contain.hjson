@@ -11,7 +11,7 @@ speed: 0.72
 accel: 0.5
 drag: 0.4
 armor: 7
-rotateSpeed: 2.5
+rotateSpeed: 2.2
 outlineColor: 242628
 groundLayer: 60
 treadFrames: 12

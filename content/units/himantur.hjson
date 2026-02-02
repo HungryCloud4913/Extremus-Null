@@ -37,7 +37,7 @@ abilities:
         drawArc: true
         pushUnits: true
         x: 0
-        y: -5
+        y: -7
     }
 ]
 weapons: 
@@ -74,13 +74,13 @@ weapons:
 	    frontColor: F8FFD2
       trailColor: 8FBB58
       hitColor: F8FFD2
-      sprite: extremus-null-stingray
+      sprite: extremus-null-bigray
       recoil: 1.2
       homingPower: 0.1
       damage: 114
       knockback: 0
-      height: 16
-      width: 11
+      height: 22
+      width: 19
       trailLength: 3
       trailWidth: 2
       speed: 6
@@ -116,23 +116,23 @@ weapons:
     }
   }
   {
-    name: urotry-mount
+    name: himantur-mount
     mirror: false
     top: false
     alternate: false
     rotate: true
     shootSound: missile
     x: 0
-    y: -2
-    reload: 80
+    y: 0
+    reload: 90
     layerOffset: +0.00001
 		rotateSpeed: 3.2
-    inaccuracy: 0
+    inaccuracy: 0.5
     recoil: 1.5
     shoot: 
     {
-      shots: 1
-      shotDelay: 0
+      shots: 3
+      shotDelay: 1
     }
     bullet: 
     {

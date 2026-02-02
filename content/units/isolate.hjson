@@ -11,7 +11,7 @@ speed: 0.73
 accel: 0.5
 drag: 0.4
 armor: 10
-rotateSpeed: 2
+rotateSpeed: 1.8
 outlineColor: 242628
 groundLayer: 60
 treadFrames: 16
@@ -51,8 +51,8 @@ weapons:
     rotate: true
     shootSound: lasershoot
     alternate: true
-    x: +2.5
-    y: +1
+    x: +4
+    y: +2
     reload: 57.5
     layerOffset: +0.00001
     rotateSpeed: 4
@@ -85,7 +85,7 @@ weapons:
       }
   }
   {
-    name: isolate-piercce
+    name: isolate-pierce
     mirror: false
     top: true
     rotate: true
