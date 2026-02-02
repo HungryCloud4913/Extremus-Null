@@ -2,7 +2,6 @@ template: TankUnitType
 type: tank
 flying: false
 outlines: false
-drawWeaponOutlines: false
 targetAir: true
 faceTarget: false
 canDrown: true
@@ -52,8 +51,8 @@ weapons:
     rotate: true
     shootSound: lasershoot
     alternate: true
-    x: +4
-    y: +2
+    x: +5
+    y: +4
     reload: 57.5
     layerOffset: +0.00001
     rotateSpeed: 4
@@ -91,10 +90,9 @@ weapons:
     top: true
     rotate: true
     alternate: false
-    drawOutline: false
     shootSound: plasmaboom
     x: 0
-    y: -3
+    y: -4
     reload: 130
     layerOffset: 0.5
     rotateSpeed: 4
