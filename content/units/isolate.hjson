@@ -76,8 +76,8 @@ weapons:
         sprite: extremus-null-sharp
         damage: 54
         knockback: 0
-        height: 9
-        width: 6
+        height: 10
+        width: 7
         trailLength: 3
         trailWidth: 1.2
         speed: 6.5
@@ -90,8 +90,9 @@ weapons:
     mirror: false
     top: true
     rotate: true
-    shootSound: plasmaboom
     alternate: false
+    drawOutline: false
+    shootSound: plasmaboom
     x: 0
     y: -3
     reload: 130
@@ -116,8 +117,8 @@ weapons:
         sprite: extremus-null-sharp
         damage: 54
         knockback: 0
-        height: 16
-        width: 12
+        height: 11
+        width: 8
         trailLength: 3
         trailWidth: 1.2
         speed: 8
