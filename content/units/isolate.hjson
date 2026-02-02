@@ -135,6 +135,7 @@ weapons:
         progress: recoil
         mirror: false
         under: true
+        outlines: false
       }
     ]
   }
