@@ -131,7 +131,7 @@ weapons:
         {
           type: ParticleEffect
           region: mine-bullet
-          colorTo: F17F5A
+          colorTo: 802433
           length: 6
         }
       }
