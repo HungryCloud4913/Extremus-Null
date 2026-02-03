@@ -119,8 +119,8 @@ weapons:
         sprite: extremus-null-spike
         damage: 54
         knockback: 0
-        height: 17
-        width: 10
+        height: 13
+        width: 7
         trailLength: 3
         trailWidth: 1.2
         speed: 8
