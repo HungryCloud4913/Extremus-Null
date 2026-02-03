@@ -53,7 +53,7 @@ weapons:
     alternate: true
     x: +5
     y: +4
-    reload: 57.5
+    reload: 50
     layerOffset: +0.00001
     rotateSpeed: 4
     inaccuracy: 1
@@ -73,7 +73,7 @@ weapons:
         trailColor: 802433
         hitColor: F17F5A
         sprite: extremus-null-sharp
-        damage: 54
+        damage: 45
         knockback: 0
         height: 10
         width: 7
@@ -119,14 +119,14 @@ weapons:
         sprite: extremus-null-sharp
         damage: 54
         knockback: 0
-        height: 11
-        width: 8
+        height: 12.5
+        width: 9
         trailLength: 3
         trailWidth: 1.2
         speed: 8
         lifetime: 24
         buildingDamageMultiplier: 1
-          trailInterval: 3
+          trailInterval: 2
         trailEffect: 
         {
           type: ParticleEffect

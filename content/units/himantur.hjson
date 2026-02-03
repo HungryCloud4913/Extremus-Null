@@ -37,7 +37,7 @@ abilities:
         drawArc: true
         pushUnits: true
         x: 0
-        y: -8
+        y: -10
     }
 ]
 weapons: 
@@ -79,8 +79,8 @@ weapons:
       homingPower: 0.1
       damage: 310
       knockback: 0
-      height: 35
-      width: 26
+      height: 40
+      width: 30
       trailLength: 3
       trailWidth: 2
       speed: 6
@@ -111,6 +111,33 @@ weapons:
           lightningLength: 3
           damage: 3
           lifetime: 34
+          fragBullets: 4
+          fragRandomSpread: 30
+          fragSpread: 180
+          fragBullet: 
+          {
+            type: BasicBulletType
+            homing: true
+            hitEffect: hitColor
+            shootEffect: shootBigColor
+            smokeEffect: none
+            despawnEffect: hitColor
+	          backColor: 8FBB58
+	          frontColor: F8FFD2
+            trailColor: 8FBB58
+            hitColor: F8FFD2
+            sprite: extremus-null-bubble
+            homingPower: 0.1
+            damage: 14
+            knockback: 0
+            height: 13
+            width: 11
+            trailLength: 4
+            trailWidth: 1.5
+            speed: 6
+            lifetime: 26
+            buildingDamageMultiplier: 1
+          }
         }
       }
     }
@@ -127,7 +154,7 @@ weapons:
     reload: 90
     layerOffset: +0.00001
 		rotateSpeed: 3.2
-    inaccuracy: 3
+    inaccuracy: 5
     recoil: 1.5
     shoot: 
     {
@@ -159,7 +186,7 @@ weapons:
       trailLength: 3
       trailWidth: 1
       speed: 5
-      lifetime: 24
+      lifetime: 37
       buildingDamageMultiplier: 1
     }
   }
