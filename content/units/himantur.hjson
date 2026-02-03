@@ -79,14 +79,14 @@ weapons:
       sprite: extremus-null-bigray
       recoil: 1.1
       homingPower: 0.1
-      damage: 310
+      damage: 410
       knockback: 0
       height: 40
       width: 30
       trailLength: 3
       trailWidth: 2
       speed: 6
-      lifetime: 45
+      lifetime: 35
       buildingDamageMultiplier: 1
       fragBullets: 4
       fragRandomSpread: 30
@@ -99,7 +99,7 @@ weapons:
         despawnEffect: none
         lightningColor: 8FBB58
         lightningLength: 3
-        damage: 3
+        damage: 6
         lightning: 1
         lightningType: 
         {
@@ -136,7 +136,7 @@ weapons:
                   offsetX: 0
                   offsetY: 0
                   sizeFrom: 0
-                  sizeTo: 3
+                  sizeTo: 6.5
                   followParent: true
                   rotWithParent: true
                   colorFrom: 8FBB58
@@ -157,7 +157,7 @@ weapons:
                   offsetX: 0
                   offsetY: 0
                   sizeFrom: 0
-                  sizeTo: 3
+                  sizeTo: 6.5
                   followParent: true
                   rotWithParent: true
                   colorFrom: 8FBB58
@@ -171,10 +171,10 @@ weapons:
             hitColor: F8FFD2
             sprite: extremus-null-bubble
             homingPower: 0.1
-            damage: 4
+            damage: 10
             knockback: 0
-            height: 13
-            width: 11
+            height: 11
+            width: 9
             trailLength: 4
             trailWidth: 1.5
             speed: 6
