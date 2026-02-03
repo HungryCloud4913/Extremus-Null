@@ -116,17 +116,17 @@ weapons:
         frontColor: F17F5A
         trailColor: 802433
         hitColor: F17F5A
-        sprite: extremus-null-sharp
+        sprite: extremus-null-spike
         damage: 54
         knockback: 0
-        height: 12.5
-        width: 9
+        height: 13
+        width: 10
         trailLength: 3
         trailWidth: 1.2
         speed: 8
         lifetime: 24
         buildingDamageMultiplier: 1
-          trailInterval: 2
+          trailInterval: 1
         trailEffect: 
         {
           type: ParticleEffect
