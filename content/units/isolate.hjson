@@ -119,20 +119,20 @@ weapons:
         sprite: extremus-null-spike
         damage: 54
         knockback: 0
-        height: 13
+        height: 17
         width: 10
         trailLength: 3
         trailWidth: 1.2
         speed: 8
         lifetime: 24
         buildingDamageMultiplier: 1
-          trailInterval: 1
+        trailInterval: 0.5
         trailEffect: 
         {
           type: ParticleEffect
           region: mine-bullet
           colorTo: F17F5A
-          length: 12
+          length: 6
         }
       }
    parts: 
