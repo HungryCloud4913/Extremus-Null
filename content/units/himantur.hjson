@@ -16,10 +16,26 @@ engineOffset: 1
 engines:  
 [
   {
-		x: +4
-		y: 0
+		x: +5
+		y: +3
 		radius: 2
 		rotation: -90
+    mirror: true
+		trailLength: 1
+	}
+  {
+		x: +7
+		y: +4
+		radius: 2
+		rotation: -90
+    mirror: true
+		trailLength: 1
+	}
+  {
+		x: +2
+		y: -3
+		radius: 2
+		rotation: -180
     mirror: true
 		trailLength: 1
 	}
