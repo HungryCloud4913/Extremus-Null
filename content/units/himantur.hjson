@@ -111,17 +111,58 @@ weapons:
           lightningLength: 3
           damage: 3
           lifetime: 34
-          fragBullets: 4
-          fragRandomSpread: 30
-          fragSpread: 180
-          fragBullet: 
+          intervalBullets: 1
+          bulletInterval: 40
+          intervalVelocityMin: 1
+          intervalVelocityMax: 1
+          intervalRandomSpread: 0
+          intervalSpread: 0
+          intervalOnHit: true
+          intervalAngle: 0
+		      intervalBullet:
           {
             type: BasicBulletType
             homing: true
-            hitEffect: none
+            hitEffect:
+            {
+              type: MultiEffect
+              effects:
+              [
+                {
+                  type: WaveEffect
+                  lifetime: 15
+                  offsetX: 0
+                  offsetY: 0
+                  sizeFrom: 0
+                  sizeTo: 21
+                  followParent: true
+                  rotWithParent: true
+                  colorFrom: 509FAD
+                  colorTo: C1FFED
+                }
+              ]
+            }
             shootEffect: shootBigColor
             smokeEffect: none
-            despawnEffect: none
+            despawnEffect:
+            {
+              type: MultiEffect
+              effects:
+              [
+                {
+                  type: WaveEffect
+                  lifetime: 15
+                  offsetX: 0
+                  offsetY: 0
+                  sizeFrom: 0
+                  sizeTo: 21
+                  followParent: true
+                  rotWithParent: true
+                  colorFrom: 509FAD
+                  colorTo: C1FFED
+                }
+              ]
+            }
 	          backColor: 8FBB58
 	          frontColor: F8FFD2
             trailColor: 8FBB58
