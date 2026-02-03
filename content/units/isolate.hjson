@@ -55,7 +55,7 @@ weapons:
     y: +4
     reload: 50
     layerOffset: +0.00001
-    rotateSpeed: 4
+    rotateSpeed: 3.4
     inaccuracy: 1
     recoil: 1
     soundPitchMin: 0.8
@@ -95,7 +95,7 @@ weapons:
     y: -4
     reload: 130
     layerOffset: 0.5
-    rotateSpeed: 4
+    rotateSpeed: 2
     inaccuracy: 1
     recoil: 1
     soundPitchMin: 0.8
@@ -121,12 +121,12 @@ weapons:
         knockback: 0
         height: 13
         width: 7
-        trailLength: 3
-        trailWidth: 1.2
+        trailLength: 8
+        trailWidth: 1.6
         speed: 8
         lifetime: 24
         buildingDamageMultiplier: 1
-        trailInterval: 0.5
+        trailInterval: 0.25
         trailEffect: 
         {
           type: ParticleEffect
