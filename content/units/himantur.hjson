@@ -5,7 +5,7 @@ drawEngines: true
 lowAltitude: true
 flying: true
 health: 1150
-hitSize: 17.2
+hitSize: 18
 speed: 0.82
 accel: 0.05
 drag: 0.01
@@ -15,7 +15,7 @@ outlineColor: 242628
 engineOffset: 1
 engines:  
 [
-	{
+  {
 		x: +4
 		y: 0
 		radius: 2
@@ -26,19 +26,21 @@ engines:
 ]
 abilities: 
 [
-    {
-        type: ShieldArcAbility
-        regen: 0.4
-        max: 430
-        cooldown: 420
-        angleOffset: 0
-        whenShooting: false
-        radius: 24
-        drawArc: true
-        pushUnits: true
-        x: 0
-        y: -10
-    }
+  {
+    type: ShieldArcAbility
+    regen: 0.4
+    max: 430
+    cooldown: 420
+    angleOffset: 0
+    whenShooting: false
+    radius: 24
+    drawArc: true
+    pushUnits: true
+    drawArc: false
+    x: 0
+    y: -12
+    region: extremus-null-himanturshield
+  }
 ]
 weapons: 
 [
@@ -109,7 +111,7 @@ weapons:
           lightningColor: 8FBB58
           lightningLengthRand: 2
           lightningLength: 3
-          damage: 3
+          damage: 7
           lifetime: 34
           intervalBullets: 1
           bulletInterval: 40
@@ -169,7 +171,7 @@ weapons:
             hitColor: F8FFD2
             sprite: extremus-null-bubble
             homingPower: 0.1
-            damage: 14
+            damage: 4
             knockback: 0
             height: 13
             width: 11
