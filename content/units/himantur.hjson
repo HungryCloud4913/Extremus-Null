@@ -118,10 +118,10 @@ weapons:
           {
             type: BasicBulletType
             homing: true
-            hitEffect: hitColor
+            hitEffect: none
             shootEffect: shootBigColor
             smokeEffect: none
-            despawnEffect: hitColor
+            despawnEffect: none
 	          backColor: 8FBB58
 	          frontColor: F8FFD2
             trailColor: 8FBB58
