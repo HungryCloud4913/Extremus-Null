@@ -28,9 +28,9 @@ abilities:
 [
   {
     type: ShieldArcAbility
-    regen: 0.4
-    max: 430
-    cooldown: 420
+    regen: 0.3
+    max: 120
+    cooldown: 360
     angleOffset: 0
     whenShooting: false
     radius: 24

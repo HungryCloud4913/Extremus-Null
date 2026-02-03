@@ -7,7 +7,7 @@ faceTarget: false
 canDrown: true
 health: 1560
 hitSize: 18
-speed: 0.73
+speed: 0.69
 accel: 0.5
 drag: 0.4
 armor: 10
