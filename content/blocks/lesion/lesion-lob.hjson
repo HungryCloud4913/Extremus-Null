@@ -2,7 +2,7 @@ buildVisibility: editorOnly
 type: ItemTurret
 size: 2
 health: 610
-reload: 60
+reload: 80
 inaccuracy: 5
 hasLiquids: true
 liquidCapacity: 60
@@ -10,6 +10,8 @@ outlineColor: 0C0606
 recoil: 2
 category: turret
 shootSound: artillery
+lightOpacity: 0
+lightRadius: 0
 shoot: {
 shots: 1
 shotDelay: 0
@@ -44,11 +46,11 @@ coolant: {
                 mixColorFrom: 656071
                 mixColorTo: B8A6E0
                 trailLength: 2
-                trailColor: 656071
+                trailColor: B8A6E0
         despawnHit: true
         hitColor: D8C7FF
-        shootEffect: shootBigColor
-        smokeEffect: shootSmokeSquareSparse
+        shootEffect: none
+        smokeEffect: none
 }
   }
   drawer: {
@@ -69,11 +71,23 @@ moveRot: 0
 }
 {
 type: RegionPart
+suffix: -mid
+progress: recoil
+x: 0
+y: 0
+moveX: 0
+moveY: 0
+moveRot: 0
+  mirror: false
+  under: false
+}
+{
+type: RegionPart
 suffix: -left
 progress: recoil
 x: 0
 y: 0
-moveX: -1
+moveX: -7
 moveY: 0
 moveRot: 3
   mirror: false
@@ -85,21 +99,9 @@ suffix: -right
 progress: recoil
 x: 0
 y: 0
-moveX: 1
+moveX: 7
 moveY: 0
 moveRot: -3
-  mirror: false
-  under: false
-}
-{
-type: RegionPart
-suffix: -mid
-progress: recoil
-x: 0
-y: 0
-moveX: 0
-moveY: 0
-moveRot: 0
   mirror: false
   under: false
 }
