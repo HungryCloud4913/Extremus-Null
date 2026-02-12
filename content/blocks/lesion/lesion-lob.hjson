@@ -36,8 +36,8 @@ coolant: {
         lifetime: 15
         damage: 45
         trailWidth: 2
-        width: 7
-        height: 10
+        width: 10
+        height: 13
         hitEffect: none
                 backColor: 656071
                 frontColor: B8A6E0
@@ -53,7 +53,7 @@ coolant: {
   }
   drawer: {
   type: DrawTurret
-  basePrefix: extrull-
+  basePrefix: lesion-
 parts: [
 {
 type: RegionPart
@@ -69,7 +69,7 @@ moveRot: 0
 }
 {
 type: RegionPart
-suffix: -plate1
+suffix: -left
 progress: recoil
 x: 0
 y: 0
@@ -81,7 +81,7 @@ moveRot: 3
 }
 {
 type: RegionPart
-suffix: -plate2
+suffix: -right
 progress: recoil
 x: 0
 y: 0
@@ -93,7 +93,7 @@ moveRot: -3
 }
 {
 type: RegionPart
-suffix: -body
+suffix: -mid
 progress: recoil
 x: 0
 y: 0
