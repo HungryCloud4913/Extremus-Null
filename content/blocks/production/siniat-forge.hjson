@@ -181,13 +181,14 @@ craftEffect: {
   pyrite/200
   lead/100
   silicon/75
+  tantalide/25
 ]
 research: {
   parent: silicon-chamber
   objectives: [
 {
 type: SectorComplete
-preset: Origin
+preset: Cancerous  Outset
   }
 ]
 }
