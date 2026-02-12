@@ -1,6 +1,6 @@
 buildVisibility: editorOnly
-size: 2
-health: 420
+size: 1
+health: 560
   requirements: [
   ]
 type: Wall

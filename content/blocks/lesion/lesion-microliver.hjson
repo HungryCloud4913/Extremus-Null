@@ -1,13 +1,13 @@
 {
 buildVisibility: editorOnly
 type: GenericCrafter
-health: 540
+health: 890
 size: 3
 category: crafting
 research: []
-craftTime: 1
+craftTime: 50
 craftEffect: none
-outputLiquid: lesion-oil/20
+outputLiquid: lesion-oil/0.5
 
 consumes: {
 }
@@ -26,24 +26,6 @@ drawer: {
     }
     {
       type: DrawDefault
-    }
-    {  
-	  type: DrawRegion
-	  suffix: -tendril1
-	  rotateSpeed: 1
-	  spinSprite: true
-    }
-      {  
-	  type: DrawRegion
-	  suffix: -tendril2
-	  rotateSpeed: 1.2
-	  spinSprite: true
-    }
-    {  
-	  type: DrawRegion
-	  suffix: -tendril1
-	  rotateSpeed: -0.8
-	  spinSprite: true
     }
     {
       type: DrawRegion

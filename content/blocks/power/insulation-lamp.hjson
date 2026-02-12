@@ -4,7 +4,7 @@ size: 2
 category: power
 squareSprite: false
 brightness: 1
-radius: 80
+radius: 70
 
 consumes: {
 power: 0.025

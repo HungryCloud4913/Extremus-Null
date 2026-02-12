@@ -1,0 +1,107 @@
+buildVisibility: editorOnly
+type: ItemTurret
+size: 2
+health: 610
+reload: 60
+inaccuracy: 5
+hasLiquids: true
+liquidCapacity: 60
+outlineColor: 0C0606
+recoil: 2
+category: turret
+shootSound: artillery
+shoot: {
+shots: 1
+shotDelay: 0
+}
+range: 130
+requirements: [
+]
+shoot: {
+  shots: 1
+  shotDelay: 0
+    }
+coolant: {
+  type: ConsumeCoolant
+  allowGas: false
+  allowLiquid: true
+  amount: 0.2
+}
+  ammoTypes:{
+    lead: {
+        type: BasicBulletType
+        collidesGround: false
+        collidesTiles: false
+        speed: 7
+        lifetime: 15
+        damage: 45
+        trailWidth: 2
+        width: 7
+        height: 10
+        hitEffect: none
+                backColor: 656071
+                frontColor: B8A6E0
+                mixColorFrom: 656071
+                mixColorTo: B8A6E0
+                trailLength: 2
+                trailColor: 656071
+        despawnHit: true
+        hitColor: D8C7FF
+        shootEffect: shootBigColor
+        smokeEffect: shootSmokeSquareSparse
+}
+  }
+  drawer: {
+  type: DrawTurret
+  basePrefix: extrull-
+parts: [
+{
+type: RegionPart
+suffix: -barrel
+progress: recoil
+x: 0
+y: 0
+moveX: 0
+moveY: -3
+moveRot: 0
+  mirror: false
+  under: false
+}
+{
+type: RegionPart
+suffix: -plate1
+progress: recoil
+x: 0
+y: 0
+moveX: -1
+moveY: 0
+moveRot: 3
+  mirror: false
+  under: false
+}
+{
+type: RegionPart
+suffix: -plate2
+progress: recoil
+x: 0
+y: 0
+moveX: 1
+moveY: 0
+moveRot: -3
+  mirror: false
+  under: false
+}
+{
+type: RegionPart
+suffix: -body
+progress: recoil
+x: 0
+y: 0
+moveX: 0
+moveY: 0
+moveRot: 0
+  mirror: false
+  under: false
+}
+]
+}
