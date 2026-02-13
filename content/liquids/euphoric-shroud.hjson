@@ -7,4 +7,3 @@ type: liquid
   heatCapacity: 1
   viscosity: 0
   temperature: 1
-  frames: 8

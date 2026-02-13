@@ -99,7 +99,7 @@ name: lesion-a4
       type: LiquidBulletType
       liquid: lesion-oil
       orbSize: 2.5
-      damage: 30
+      damage: 63
       pierce: false
       pierceCap: 1
       knockback: 0

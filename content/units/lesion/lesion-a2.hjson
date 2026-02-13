@@ -33,7 +33,7 @@ lightRadius: 0
 
 accel: 0.3
 drag: 0.3
-speed: 0.65
+speed: 0.8
 rotateSpeed: 4.5
 armor: 0
 envDisabled: 0
@@ -59,7 +59,7 @@ weapons: [
       type: LiquidBulletType
       liquid: lesion-oil
       orbSize: 3
-      damage: 20
+      damage: 38
       pierce: false
       pierceCap: 1
       knockback: 0

@@ -10,6 +10,8 @@ outlineColor: 0C0606
 recoil: 1
 category: turret
 shootSound: plantBreak
+lightOpacity: 0
+lightRadius: 0
 shoot: {
 shots: 5
 shotDelay: 1

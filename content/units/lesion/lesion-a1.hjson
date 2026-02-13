@@ -3,7 +3,7 @@ type: crawl
 health: 190
 flying: false
 outlineColor: 0C0606
-speed: 0.5
+speed: 0.6
 armor: 0
 hitSize: 14
 omniMovement: false
@@ -12,7 +12,7 @@ drownTimeMultiplier: 1.2
 segments: 3
 drawBody: false
 drawCell: false
-crushDamage: 0.1
+crushDamage: 0.11
 controller: HugAI
 segmentScl:3
 segmentPhase: 3

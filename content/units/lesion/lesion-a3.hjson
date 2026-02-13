@@ -60,7 +60,7 @@ weapons: [
 		lightColor: FF92C0
                 type: BasicBulletType
                 speed: 4
-                damage: 50
+                damage: 105
                 lifetime: 35
                 backColor: 70658A
                 frontColor: D8C7FF
@@ -80,7 +80,7 @@ fragBullets: 5
 		lightColor: D8C7FF
                 type: BasicBulletType
                 lifetime: 25
-                damage: 15
+                damage: 20
                 speed: 3
                 drag: 0
                 backColor: 70658A

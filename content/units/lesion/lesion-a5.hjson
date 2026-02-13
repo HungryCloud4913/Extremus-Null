@@ -73,7 +73,7 @@ weapons: [{
             recoil: 0
             shootSound: none
             bullet: {
-	damage: 25
+	damage: 75
 	type: RailBulletType
 	shootEffect: none
 	smokeEffect: none
