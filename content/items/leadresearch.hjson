@@ -2,7 +2,10 @@ color: B8A6E0
 research: {
   planet: extrull
   parent: pyrite
-    objectives: [
-    lead
-  ]
+  objectives: [
+{
+type: Produce
+preset: lead
+  }
+]
 }
