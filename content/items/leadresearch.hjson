@@ -6,7 +6,10 @@ research: {
   {
     type: OnSector
     preset: First Contact
-    research: lead
+  }
+  {
+    type: research
+    content: lead
   }
 ]
 }
