@@ -1,6 +1,5 @@
 color: f7cba4
 research: {
-  planet: extrull
   parent: carbon
     objectives: [
     sand
