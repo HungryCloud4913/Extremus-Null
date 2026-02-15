@@ -3,10 +3,12 @@ research: {
   planet: extrull
   parent: pyrite
   objectives: [
-{
-type: OnSector
-content: lead
-preset: First Contact
+  {
+    type: OnSector
+    preset: First Contact
+  }
+  {
+    produce: lead
   }
 ]
 }
