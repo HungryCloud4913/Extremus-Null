@@ -6,7 +6,7 @@ research: {
 {
 type: UnlockableContent
 content: lead
-preset: none
+preset: First Contact
   }
 ]
 }
