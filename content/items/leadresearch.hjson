@@ -4,11 +4,8 @@ research: {
   parent: pyrite
   objectives: [
   {
-    type: OnSector
-    preset: First Contact
-  }
-  {
-    produce: lead
+    type: Research
+    content: lead
   }
 ]
 }
