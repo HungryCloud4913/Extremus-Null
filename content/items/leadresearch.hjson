@@ -4,7 +4,7 @@ research: {
   parent: pyrite
   objectives: [
 {
-type: UnlockableContent
+type: OnSector
 content: lead
 preset: First Contact
   }
