@@ -6,6 +6,7 @@ research: {
 {
 type: UnlockableContent
 content: lead
+preset: none
   }
 ]
 }
