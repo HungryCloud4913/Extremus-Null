@@ -3,7 +3,11 @@ research: {
   planet: extrull
   parent: carbon
     objectives: [
-    research: sand
+  {
+    type: OnSector
+    preset: First Contact
+    content: sand
+  }
   ]
 }
-hidden: true
+hideDatabase: true

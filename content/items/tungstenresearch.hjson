@@ -3,7 +3,11 @@ research: {
   planet: extrull
   parent: leadresearch
     objectives: [
-    tungsten
+  {
+    type: OnSector
+    preset: First Contact
+    content: tungsten
+  }
   ]
 }
-hidden: true
+hideDatabase: true

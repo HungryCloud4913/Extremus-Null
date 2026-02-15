@@ -3,7 +3,11 @@ research: {
   planet: extrull
   parent: sandresearch
     objectives: [
-    silicon
+  {
+    type: OnSector
+    preset: First Contact
+    content: silicon
+  }
   ]
 }
-hidden: true
+hideDatabase: true
