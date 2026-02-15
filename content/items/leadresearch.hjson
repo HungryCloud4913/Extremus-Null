@@ -4,8 +4,7 @@ research: {
   parent: pyrite
   objectives: [
 {
-type: Produce
-unlockableContent: lead
+type: UnlockableContent
 content: lead
   }
 ]
