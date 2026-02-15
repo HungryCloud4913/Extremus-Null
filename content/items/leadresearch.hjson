@@ -5,6 +5,7 @@ research: {
   objectives: [
 {
 type: Produce
+unlockableContent: lead
 content: lead
   }
 ]
