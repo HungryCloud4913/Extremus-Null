@@ -1,6 +1,9 @@
 
 color: 998252
-research: core-pointless
+research: {
+  planet: extrull
+  parent: core-pointless
+}
 explosiveness: 0
 flammability: 0
 radioactivity: 0

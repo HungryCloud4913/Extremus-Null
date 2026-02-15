@@ -87,7 +87,7 @@ suffix: -left
 progress: recoil
 x: 0
 y: 0
-moveX: 2
+moveX: 0.5
 moveY: 0
 moveRot: 3
   mirror: false
@@ -99,7 +99,7 @@ suffix: -right
 progress: recoil
 x: 0
 y: 0
-moveX: -2
+moveX: -0.5
 moveY: 0
 moveRot: -3
   mirror: false

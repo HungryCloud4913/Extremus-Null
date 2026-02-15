@@ -1,7 +1,7 @@
 color: 847E60
 research: {
   planet: extrull
-  parent: sand
+  parent: sandresearch
 }
 explosiveness: 0.05
 flammability: 0

@@ -1,0 +1,9 @@
+color: 768a9a
+research: {
+  planet: extrull
+  parent: leadresearch
+    objectives: [
+    tungsten
+  ]
+}
+hidden: true
