@@ -4,8 +4,10 @@ research: {
   parent: pyrite
   objectives: [
   {
-    type: Research
-    content: lead
+    type: OnSector
+    preset: First Contact
+    research: lead
   }
 ]
 }
+hideDatabase: true
