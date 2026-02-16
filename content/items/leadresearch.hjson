@@ -1,13 +1,11 @@
 color: B8A6E0
-research: {
+research: 
+{
   planet: extrull
   parent: pyrite
-  objectives: [
-  {
-    type: OnSector
-    preset: First Contact
-    content: lead
-  }
-]
+  objectives: 
+  [
+    lead
+  ]
 }
-hideDatabase: true
+hidden: true

@@ -1,13 +1,11 @@
 color: f7cba4
-research: {
+research: 
+{
   planet: extrull
   parent: carbon
-    objectives: [
-  {
-    type: OnSector
-    preset: First Contact
-    content: sand
-  }
+  objectives: 
+  [
+    sand
   ]
 }
-hideDatabase: true
+hidden: true

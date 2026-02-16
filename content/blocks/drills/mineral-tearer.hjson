@@ -7,7 +7,7 @@ category: production
 consumes: {
   liquids: {
     liquids: [
-        zisofluid/0.5
+        zisofluid/0.1
       ]
     booster: true
     optional: true

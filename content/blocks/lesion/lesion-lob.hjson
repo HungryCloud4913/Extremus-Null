@@ -32,8 +32,6 @@ coolant: {
   ammoTypes:{
     lead: {
         type: BasicBulletType
-        collidesGround: false
-        collidesTiles: false
         speed: 7
         lifetime: 15
         damage: 45
@@ -87,9 +85,9 @@ suffix: -left
 progress: recoil
 x: 0
 y: 0
-moveX: 0.5
+moveX: 0.7
 moveY: 0
-moveRot: 3
+moveRot: -3
   mirror: false
   under: false
 }
@@ -99,9 +97,9 @@ suffix: -right
 progress: recoil
 x: 0
 y: 0
-moveX: -0.5
+moveX: -1
 moveY: 0
-moveRot: -3
+moveRot: 5
   mirror: false
   under: false
 }

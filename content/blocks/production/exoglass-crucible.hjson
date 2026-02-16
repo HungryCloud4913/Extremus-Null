@@ -19,7 +19,7 @@ consumes:
     ]
   liquids: 
     [
-    nitrogen/0.1
+    nitrogen/0.03333333333
     ]
   }
 

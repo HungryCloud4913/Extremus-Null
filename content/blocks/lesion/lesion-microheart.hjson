@@ -3,7 +3,7 @@ type: CoreBlock
 health: 8000
 crushDamageMultiplier: 3
 size: 4
-itemCapacity: 0
+itemCapacity: 2000
 unitType: lesion-a1
 unitCapModifier: 1
 thrusterLength: 0

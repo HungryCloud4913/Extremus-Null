@@ -17,7 +17,7 @@ version: "Lost in archive"
 minGameVersion: "136"
 
 contentOrder:
-  [
+[
 
 #Items
 pyrite
@@ -93,6 +93,7 @@ item-tower
 #Turrets
 rapidal
 joint
+ballistar
 autogunn
 orbitoklastt
 

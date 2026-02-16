@@ -1,3 +1,13 @@
 type: liquid
 gas: true
 color: FFFFFF
+research: 
+{
+  planet: extrull
+  parent: tantalide
+  objectives: 
+  [
+    nitrogen
+  ]
+}
+hidden: true

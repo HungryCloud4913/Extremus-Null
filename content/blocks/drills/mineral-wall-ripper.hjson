@@ -7,7 +7,7 @@ optionalBoostIntensity: 2
 consumes: {
   liquids: {
     liquids: [
-        hydrogen/0.2
+        hydrogen/0.00416666666
       ]
     booster: true
     optional: true

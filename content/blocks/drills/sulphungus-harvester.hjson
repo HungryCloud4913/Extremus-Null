@@ -7,7 +7,7 @@ attribute: sulphur
 consumes: {
   liquids: {
     liquids: [
-        zisofluid/0.4
+        zisofluid/0.1
       ]
     booster: true
     optional: true
