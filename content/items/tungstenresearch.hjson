@@ -5,7 +5,7 @@ research:
   parent: leadresearch
   objectives: 
   [
-    tungsten
+    tungsten,
   ]
 }
 hidden: true

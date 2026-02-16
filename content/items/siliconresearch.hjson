@@ -5,7 +5,7 @@ research:
   parent: sandresearch
   objectives: 
   [
-    silicon
+    silicon,
   ]
 }
 hidden: true

@@ -5,7 +5,7 @@ research:
   parent: carbon
   objectives: 
   [
-    sand
+    sand,
   ]
 }
 hidden: true

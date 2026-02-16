@@ -5,7 +5,7 @@ research:
   parent: pyrite
   objectives: 
   [
-    lead
+    lead,
   ]
 }
 hidden: true
