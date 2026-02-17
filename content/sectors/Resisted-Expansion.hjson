@@ -1,14 +1,14 @@
 difficulty: 4
 planet: extrull
 sector: 7
-research: First Contect
+research: First-Contect
 alwaysUnlocked: true
 research:{
-  parent: First Contact
+  parent: First-Contact
   objectives: [
 {
 type: SectorComplete
-preset: First Contact
+preset: First-Contact
   }
     ]
     }

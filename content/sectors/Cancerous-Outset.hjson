@@ -1,14 +1,14 @@
 difficulty: 6
 planet: extrull
 sector: 67
-research: Resisted Expansion
+research: Resisted-Expansion
 alwaysUnlocked: true
 research:{
-  parent: Resisted Expansion
+  parent: Resisted-Expansion
   objectives: [
 {
 type: SectorComplete
-preset: Resisted Expansion
+preset: Resisted-Expansion
   }
     ]
     }
