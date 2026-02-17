@@ -50,7 +50,7 @@ research:
   parent: capture
   objectives: 
   [
-    tank-fulfiller,
+    tank-garage,
   ]
 }
 

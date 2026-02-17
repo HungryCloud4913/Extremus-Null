@@ -390,7 +390,7 @@ research:
   parent: ensnare
   objectives: 
   [
-    tank-manufacturer,
+    tank-garage,
   ]
 }
 
