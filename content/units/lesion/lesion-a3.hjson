@@ -1,6 +1,6 @@
-hidden: true
+buildVisibility: editorOnly
 type: legs
-health: 310
+health: 645
 hitSize: 15
 alwaysUnlocked: true
 outlineColor: 0C0606

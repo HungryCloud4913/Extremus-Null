@@ -1,6 +1,6 @@
-hidden: true
+buildVisibility: editorOnly
 type: flying
-health: 190
+health: 225
 hitSize: 15
 flying: true
 speed: 1.7

@@ -1,4 +1,4 @@
-hidden: true
+buildVisibility: editorOnly
 type: legs
 health: 270
 hitSize: 15

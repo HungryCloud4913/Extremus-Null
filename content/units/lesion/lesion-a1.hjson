@@ -1,9 +1,9 @@
-hidden: true
+buildVisibility: editorOnly
 type: crawl
-health: 190
+health: 270
 flying: false
 outlineColor: 0C0606
-speed: 0.6
+speed: 0.7
 armor: 0
 hitSize: 14
 omniMovement: false
@@ -15,7 +15,7 @@ drawCell: false
 crushDamage: 0.11
 controller: HugAI
 segmentScl:3
-segmentPhase: 3
+segmentPhase: 5
 segmentMag: 0.5
 lightOpacity: 0
 lightRadius: 0

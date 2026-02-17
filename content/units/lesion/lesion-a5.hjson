@@ -1,6 +1,6 @@
-hidden: true
+buildVisibility: editorOnly
 type: legs
-health: 220
+health: 190
 hitSize: 12
 lowAltitude: true
 groundLayer: 60
@@ -36,7 +36,7 @@ lightRadius: 0
 
 accel: 0.3
 drag: 0.3
-speed: 0.7
+speed: 1
 rotateSpeed: 2
 armor: 0
 envDisabled: 0
