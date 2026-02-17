@@ -183,6 +183,13 @@ parts: [{
 ]
 }
 ]
-research: orbitoklastt
-alwaysUnlocked: true
+research: 
+{
+  planet: extrull
+  parent: orbitoklastt
+  objectives: 
+  [
+    orbitoklastt,
+  ]
+}
 

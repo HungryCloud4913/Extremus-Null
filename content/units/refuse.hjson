@@ -106,8 +106,15 @@ weapons:[
 }
 }
 ]
-research: walker-producer
-alwaysUnlocked: true
+research: 
+{
+  planet: extrull
+  parent: walker-producer
+  objectives: 
+  [
+    walker-producer,
+  ]
+}
 
 
 

@@ -1,0 +1,10 @@
+buildVisibility: editorOnly
+type: Duct
+category: distribution
+alwaysUnlocked: false
+speed: 8
+health: 50
+bridgeReplacement: lesion-phloem-flex
+
+requirements: [
+]

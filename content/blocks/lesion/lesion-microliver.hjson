@@ -1,15 +1,18 @@
-{
 buildVisibility: editorOnly
 type: GenericCrafter
 health: 890
 size: 3
 category: crafting
 research: []
-craftTime: 50
+craftTime: 90
 craftEffect: none
 outputLiquid: lesion-oil/0.5
 
 consumes: {
+items: [
+pyrite/3
+carbon/2
+]
 }
 
 drawer: {
@@ -32,5 +35,4 @@ drawer: {
       suffix: -top
     }
   ]
-}
 }

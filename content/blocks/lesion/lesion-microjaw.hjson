@@ -1,0 +1,21 @@
+buildVisibility: editorOnly
+type: Drill
+squareSprite: false
+health: 190
+size: 2
+category: production
+hasLiquids: false
+drillTime: 525
+hasPower: false
+tier: 1
+itemCapacity: 20
+drillEffect: {
+}
+requirements: [
+]
+drillMultipliers: {
+  lead: 0.9
+  pyrite: 0.9
+  carbon: 1
+  mold-chunk: 0.25
+}

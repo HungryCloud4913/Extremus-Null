@@ -100,8 +100,15 @@ type: LaserBulletType
 ]
 }
 ]
-research: tank-producer
-alwaysUnlocked: true
+research: 
+{
+  planet: extrull
+  parent: tank-producer
+  objectives: 
+  [
+    tank-producer,
+  ]
+}
 
 
 

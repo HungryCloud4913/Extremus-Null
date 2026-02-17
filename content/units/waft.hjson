@@ -92,8 +92,15 @@ weapons:[
       }
 }
 ]
-research: hover-producer
-alwaysUnlocked: true
+research: 
+{
+  planet: extrull
+  parent: hover-producer
+  objectives: 
+  [
+    hover-producer,
+  ]
+}
 
 
 

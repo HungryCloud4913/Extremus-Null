@@ -198,5 +198,12 @@ parts: [
 ]
 }
 ]
-research: walker-producer
-alwaysUnlocked: true
+research: 
+{
+  planet: extrull
+  parent: refuse
+  objectives: 
+  [
+    walker-garage,
+  ]
+}

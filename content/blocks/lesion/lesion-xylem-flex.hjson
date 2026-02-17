@@ -1,0 +1,12 @@
+buildVisibility: editorOnly
+type: LiquidBridge
+fadeIn: false
+moveArrows: false
+squareSprite: false
+health: 50
+liquidCapacity: 15
+range: 5
+hasPower: false
+category: liquid
+requirements: [
+]

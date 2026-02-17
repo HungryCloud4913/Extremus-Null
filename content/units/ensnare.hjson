@@ -262,8 +262,13 @@ type: LaserBulletType
 ]
 }
 ]
-research: {
+research: 
+{
+  planet: extrull
   parent: daze
-  alwaysUnlocked: true
+  objectives: 
+  [
+    tank-manufacturer,
+  ]
 }
 

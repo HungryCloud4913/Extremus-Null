@@ -384,8 +384,13 @@ parts: [
 ]
 }
 ]
-research: {
+research: 
+{
+  planet: extrull
   parent: ensnare
-  alwaysUnlocked: true
+  objectives: 
+  [
+    tank-manufacturer,
+  ]
 }
 

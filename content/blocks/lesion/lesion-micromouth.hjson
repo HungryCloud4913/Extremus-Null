@@ -1,0 +1,13 @@
+buildVisibility: editorOnly
+type: BeamDrill
+squareSprite: false
+health: 210
+drillTime: 100
+range: 1
+size: 2
+
+requirements: [
+  ]
+
+fogRadius: 3
+category: production

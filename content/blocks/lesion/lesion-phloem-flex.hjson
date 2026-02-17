@@ -1,0 +1,11 @@
+buildVisibility: editorOnly
+type: DuctBridge
+category: distribution
+alwaysUnlocked: false
+size: 1
+speed: 8
+health: 50
+range: 4
+
+requirements: [
+]

@@ -81,4 +81,4 @@ weapons:
     }
   }
 ]
-alwaysUnlocked: true
+hidden: true

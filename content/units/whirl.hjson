@@ -118,5 +118,12 @@ maxVolume: 0.3
       }
 }
 ]
-research: waft
-alwaysUnlocked: true
+research: 
+{
+  planet: extrull
+  parent: waft
+  objectives: 
+  [
+    hover-garage,
+  ]
+}

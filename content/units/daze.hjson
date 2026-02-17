@@ -141,7 +141,12 @@ weapons: [{
 ]
 }
 ]
-research: {
+research: 
+{
+  planet: extrull
   parent: deceive
-  alwaysUnlocked: true
+  objectives: 
+  [
+    tank-garage,
+  ]
 }
