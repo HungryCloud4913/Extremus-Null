@@ -3,6 +3,7 @@ type: LiquidBridge
 fadeIn: false
 moveArrows: false
 squareSprite: false
+arrowSpacing: 6
 health: 50
 liquidCapacity: 15
 range: 5
