@@ -20,7 +20,7 @@ requirements: [
   objectives: [
 {
 type: SectorComplete
-preset: Cancerous Outset
+preset: Cancerous-Outset
   }
 ]
 }

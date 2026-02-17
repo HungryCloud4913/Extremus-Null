@@ -106,7 +106,7 @@ research:
   [
     {
       type: SectorComplete
-      preset: Cancerous Outset
+      preset: Cancerous-Outset
     }
   ]
 }

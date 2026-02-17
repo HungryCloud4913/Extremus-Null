@@ -3,7 +3,7 @@ research: {
   objectives: [
 {
 type: SectorLand
-preset: First Contact
+preset: First-Contact
   }
 ]
 }

@@ -161,7 +161,7 @@ research: {
   objectives: [
 {
 type: OnSector
-preset: Cancerous Outset
+preset: Cancerous-Outset
   }
 ]
 }

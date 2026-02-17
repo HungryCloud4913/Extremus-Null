@@ -3,7 +3,7 @@ research: {
   objectives: [
 {
 type: SectorLand
-preset: Resisted Expansion
+preset: Resisted-Expansion
   }
 ]
 }
