@@ -7,6 +7,8 @@ alwaysUnlocked: true
 controller: builderAI
 outlineColor: 252222
 isEnemy: false
+targetable : false
+hittable : false
 ///
 hovering: true
 hoverable: true
@@ -87,7 +89,7 @@ type: ShootBarrel
     trailLength: 20
     speed: 5
     lifetime: 23
-    buildingDamageMultiplier: 0.1
+    buildingDamageMultiplier: 0
       }
 }
 ]
