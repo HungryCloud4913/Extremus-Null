@@ -67,11 +67,11 @@ cloudMesh: [
    speed: 0.21
    radius: 0.15
    divisions: 5
-   color: EDCECE0
+   color: EDCECE
    octaves: 1
    persistence: 0.25
-   scl: 1.1
-   thresh: 0.6
+   scl: 0.9
+   thresh: 0.5
   }
  {
    type: HexSkyMesh
@@ -82,8 +82,8 @@ cloudMesh: [
    color:  BEA4A4
    octaves: 1
    persistence: 0.3
-   scl: 0.9
-   thresh: 0.6
+   scl: 0.7
+   thresh: 0.5
   }
 ]
 allowLaunchSchematics: false
