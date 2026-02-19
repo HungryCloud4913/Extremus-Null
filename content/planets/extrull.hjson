@@ -98,14 +98,14 @@ radius: 1
 minZoom: 0.5
 drawOrbit: true
 atmosphereRadIn: 0.2
-atmosphereRadOut: 0.35
+atmosphereRadOut: 0.5
 accessible: true
 updateLighting: False
 sectorSeed: 14513
 startSector: 3
 defaultEnv: 129
 defaultAttributes: 129
-bloom: false
+bloom: true
 visible: true
 atmosphereColor: 391D1D
 iconColor: 6C2929
