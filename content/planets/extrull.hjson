@@ -66,8 +66,8 @@ cloudMesh: [
    planet: extrull
    speed: 0.21
    radius: 0.15
-   divisions: 4
-   color: eafffd7e
+   divisions: 5
+   color: EDCECE
    octaves: 3
    persistence: 0.3
    scl: 1.1
@@ -78,8 +78,8 @@ cloudMesh: [
    planet: extrull
    speed: 0.18
    radius: 0.1
-   divisions: 4
-   color:  eafffd7e
+   divisions: 5
+   color:  BEA4A4
    octaves: 3
    persistence: 0.4
    scl: 0.9
