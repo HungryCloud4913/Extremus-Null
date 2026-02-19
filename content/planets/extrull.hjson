@@ -7,7 +7,7 @@ mesh: [
     seed: 30
     color1: 6C2929
     color2: 212121
-  radius: 1.15
+  radius: 1.229
   octaves: 3.7
   persistence: 1.1
   }
@@ -19,7 +19,7 @@ mesh: [
     seed: 35
     color1: 212121
     color2: 6C2929
-  radius: 1.12
+  radius: 1.220
   octaves: 3.7
   persistence: 1.1
   }
@@ -31,7 +31,7 @@ mesh: [
     seed: 76
     color1: 212121
     color2: 7EBAC8
-  radius: 1.13
+  radius: 1.160
   octaves: 3.7
   persistence: 1.1
   }
@@ -43,7 +43,7 @@ mesh: [
     seed: 69
     color1: 613A7F
     color2: 6C2929
-  radius: 1.13
+  radius: 1.160
   octaves: 3.7
   persistence: 1.1
   }
@@ -55,7 +55,7 @@ mesh: [
     divisions: 6
     color1: 8A8A8A
     color2: B1B1B1
-  radius: 1.12
+  radius: 1.155
   octaves: 3.7
   persistence: 1.1
   }
@@ -76,8 +76,8 @@ cloudMesh: [
  {
    type: HexSkyMesh
    planet: extrull
-   speed: 0.9
-   radius: 0.22
+   speed: 0.18
+   radius: 0.1
    divisions: 6
    color:  eafffd7e
    octaves: 3
