@@ -31,7 +31,7 @@ mesh: [
     seed: 76
     color1: 212121
     color2: 7EBAC8
-  radius: 1.229
+  radius: 1.227
   octaves: 3.7
   persistence: 1.1
   }
@@ -43,7 +43,7 @@ mesh: [
     seed: 69
     color1: 613A7F
     color2: 6C2929
-  radius: 1.229
+  radius: 1.226
   octaves: 3.7
   persistence: 1.1
   }
@@ -55,7 +55,7 @@ mesh: [
     divisions: 6
     color1: 8A8A8A
     color2: B1B1B1
-  radius: 1.229
+  radius: 1.225
   octaves: 3.7
   persistence: 1.1
   }
