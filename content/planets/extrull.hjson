@@ -65,7 +65,7 @@ cloudMesh: [
    type: HexSkyMesh
    planet: extrull
    speed: 0.21
-   radius: 0.2
+   radius: 0.12
    divisions: 6
    color: eafffd7e
    octaves: 3
@@ -77,9 +77,9 @@ cloudMesh: [
    type: HexSkyMesh
    planet: extrull
    speed: 0.18
-   radius: 0.1
+   radius: 0.08
    divisions: 6
-   color:  eafffd7e
+   color:  eafffd7e0
    octaves: 3
    persistence: 0.4
    scl: 0.9
