@@ -94,10 +94,10 @@ generator: {
 sectorSize: 2
 orbitSpacing: 16
 orbitRadius: 100
-radius: 1.15
+radius: 1.2
 minZoom: 0.5
 drawOrbit: true
-atmosphereRadIn: 0.1
+atmosphereRadIn: 0
 atmosphereRadOut: 0.3
 accessible: true
 updateLighting: False
