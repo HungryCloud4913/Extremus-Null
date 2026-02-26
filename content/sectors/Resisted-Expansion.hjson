@@ -8,7 +8,9 @@ research:
   parent: First-Contact
   objectives: 
   [
-    type: SectorComplete
-    preset: First-Contact
+    {
+      type: SectorComplete
+      preset: First-Contact
+    }
   ]
 }

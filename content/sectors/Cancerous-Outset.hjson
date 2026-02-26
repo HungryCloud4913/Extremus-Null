@@ -8,7 +8,9 @@ research:
   parent: Resisted-Expansion
   objectives: 
   [
-    type: SectorComplete
-    preset: Resisted-Expansion
+    {
+      type: SectorComplete
+      preset: Resisted-Expansion
+    }
   ]
 }
