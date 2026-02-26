@@ -3,3 +3,4 @@ planet: extrull
 sector: 3
 research: core-pointless
 alwaysUnlocked: true
+captureWave: 10
