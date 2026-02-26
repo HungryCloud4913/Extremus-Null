@@ -1,7 +1,6 @@
 type: flying
-targetair: true
+targetAir: true
 faceTarget: true
-drawEngines: true
 lowAltitude: true
 flying: true
 health: 120
@@ -57,7 +56,6 @@ weapons:
     bullet:
     {
       type: BasicBulletType
-      homing: true
       hitEffect: hitBulletColor
       shootEffect: none
       smokeEffect: none

@@ -1,7 +1,6 @@
 type: flying
-targetair: true
+targetAir: true
 faceTarget: true
-drawEngines: true
 lowAltitude: true
 flying: true
 health: 1150
@@ -107,7 +106,6 @@ weapons:
     bullet: 
     {
       type: BasicBulletType
-      homing: true
       hitEffect: hitBulletColor
       shootEffect: none
       smokeEffect: none
@@ -155,16 +153,12 @@ weapons:
           lifetime: 34
           intervalBullets: 1
           bulletInterval: 40
-          intervalVelocityMin: 1
-          intervalVelocityMax: 1
           intervalRandomSpread: 0
           intervalSpread: 0
-          intervalOnHit: true
           intervalAngle: 0
 		      intervalBullet:
           {
             type: BasicBulletType
-            homing: true
             hitEffect:
             {
               type: MultiEffect

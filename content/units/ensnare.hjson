@@ -2,7 +2,6 @@ template: TankUnitType
 type: tank
 health: 4270
 lightRadius: 28
-LightOpacity: 0.5
 hitSize: 23
 flying: false
 speed: 0.52
@@ -118,10 +117,7 @@ weapons: [{
           strokeTo: 0
           lenFrom: 2.1
           lenTo: 1
-          color: F39FC2
           colorTo: F39FC200
-          mixColor: F39FC2
-          mixColorTo: F39FC2
           interp: pow10Out
           sizeInterp: pow10In
           particles: 5

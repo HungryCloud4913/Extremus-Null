@@ -59,7 +59,7 @@ coolant: {
         homingPower: 0.05
 	homingRange: 50
 	weaveMag: 15
-	weaveScl: 10
+	weaveScale: 1
         reloadMultiplier: 0.75
         speed: 5
         lifetime: 24

@@ -2,7 +2,7 @@ research: {
   parent: core-pointless
   objectives: [
 {
-type: SectorLand
+type: SectorComplete
 preset: First-Contact
   }
 ]

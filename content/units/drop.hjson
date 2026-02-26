@@ -41,13 +41,10 @@ weapons:
       laserAbsorb: true
       pierce: true
       pierceBuilding: false
-      hitLarge: true
       hitEffect: none
       shootEffect: shootBigColor
       smokeEffect: none
       despawnEffect: none
-			backColor: 509FAD
-			frontColor: C1FFED
       trailColor: 509FAD
       hitColor: C1FFED
       colors: [509FADE, 509FAD, C1FFED]

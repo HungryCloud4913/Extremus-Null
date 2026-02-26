@@ -2,7 +2,7 @@ research: {
   parent: lesion-database-entry-2a
   objectives: [
 {
-type: SectorLand
+type: SectorComplete
 preset: Resisted-Expansion
   }
 ]

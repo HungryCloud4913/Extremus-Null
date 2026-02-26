@@ -111,7 +111,7 @@ weapons:
         pierce: true
         pierceArmor: false
         pierceBuilding: true
-        piercap: 3
+        pierCap: 3
         backColor: 802433
         frontColor: F17F5A
         trailColor: 802433

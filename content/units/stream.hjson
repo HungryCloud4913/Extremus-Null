@@ -46,14 +46,11 @@ weapons:
       laserAbsorb: true
       pierce: true
       pierceBuilding: false
-      hitLarge: true
       fragOnHit: true
       hitEffect: none
       shootEffect: none
       smokeEffect: none
       despawnEffect: none
-			backColor: 509FAD
-			frontColor: C1FFED
       trailColor: 509FAD
       hitColor: C1FFED
       colors: [509FADE, 509FAD, C1FFED]
@@ -67,11 +64,8 @@ weapons:
       buildingDamageMultiplier: 1.5
       intervalBullets: 60
       bulletInterval: 40
-      intervalVelocityMin: 1
-      intervalVelocityMax: 1
       intervalRandomSpread: 0
       intervalSpread: 2
-      intervalOnHit: true
       intervalAngle: 0
 		  intervalBullet:
       {

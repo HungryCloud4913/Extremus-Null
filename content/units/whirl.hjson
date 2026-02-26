@@ -1,7 +1,6 @@
 type: mech
 health: 1200
 lightRadius: 22
-LightOpacity: 0.5
 hitSize: 13
 outlineColor: 252222
 hovering: true
@@ -11,7 +10,6 @@ shadowElevation: 0.1
 mechFrontSway: 0
 mechSideSway: 0
 mechStride: 0
-drawLegs: false
 groundLayer: 61
 canDrown: false
 targetAir: true
@@ -71,8 +69,6 @@ weapons:[
     shotDelay: 0
       }
   shootSound: cannon
-minVolume: 0.1
-maxVolume: 0.3
   bullet: {
     type: MissileBulletType
 			backColor: 826C30

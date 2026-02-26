@@ -1,7 +1,6 @@
 type: mech
 health: 1570
 lightRadius: 22
-LightOpacity: 0.5
 hitSize: 14
 outlineColor: 252222
 shadowElevation: 0.1
@@ -149,14 +148,11 @@ effects: [
 {
     type: RadialEffect
     lifetime: 17
-    sizeFrom: 20
-    sizeTo: 0
     amount: 12
     rotationSpacing: 360
     followParent: true
     rotWithParent: true
-    colorFrom: E3F7FF000
-    colorTo: 49B8E6
+    color: 49B8E6
 }
 ]
 }
@@ -169,8 +165,7 @@ parts: [
         radius: 0
         radiusTo: 9
         stroke: 5
-        colorTo: 305882
-        colorTo: 305882
+        color: 305882
         rotation: 10
         rotMove: 85
         followRotation: false
@@ -185,8 +180,7 @@ parts: [
         radius: 0
         radiusTo: 9
         stroke: 5
-        colorTo: 305882
-        colorTo: 305882
+        color: 305882
         rotation: 10
         rotMove: -85
         followRotation: false

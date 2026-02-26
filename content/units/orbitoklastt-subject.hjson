@@ -1,7 +1,6 @@
 type: missile
 template: TankUnitType
 lightRadius: 19
-LightOpacity: 0.5
 omniMovement: false
 outlineColor: 252222
 drawCell: false
@@ -79,7 +78,7 @@ shoot: {
                     shotDelay: 0
             }
   shootSound: none
-  shootEffects: none
+  shootEffect: none
   bullet: {
     type: BasicBulletType
     recoil: 0.25
@@ -89,7 +88,6 @@ shoot: {
     hitColor: FFFFFF000
     hitEffect: none
     despawnEffect: none
-    homing: false
     damage: 0
     knockback: 0
     height: 0
@@ -130,7 +128,6 @@ shoot: {
     hitColor: 989EAF
     hitEffect: hitSquaresColor
     despawnEffect: hitSquaresColor
-    homing: false
     damage: 25
     knockback: -0.03
     height: 4

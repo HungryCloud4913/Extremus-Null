@@ -1,7 +1,6 @@
 type: mech
 health: 630
 lightRadius: 19
-LightOpacity: 0.5
 hitSize: 10
 outlineColor: 252222
 shadowElevation: 0.1

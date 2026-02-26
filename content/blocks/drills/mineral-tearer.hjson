@@ -17,7 +17,6 @@ optionalBoostIntensity: 2
 }
 
 drillTime: 550
-minerTier: 10
 tier: 10
 hardnessDrillMultiplier: 2
 itemCapacity: 45

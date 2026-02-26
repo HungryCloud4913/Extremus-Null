@@ -10,7 +10,6 @@ outlineColor: 0C0606
 recoil: 2
 category: turret
 shootSound: artillery
-lightOpacity: 0
 lightRadius: 0
 shoot: {
 shots: 1

@@ -15,8 +15,6 @@ shootWarmupSpeed: 0.03
 shootSound: shotgun
 soundPitchMin: 0.5
 soundPitchMax: 0.7
-minVolume: 0.6
-maxVolume: 0.6
 loopSound: false
 inaccuracy: 0
 range: 160

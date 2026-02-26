@@ -2,7 +2,6 @@ template: TankUnitType
 type: tank
 health: 1950
 lightRadius: 22
-LightOpacity: 0.5
 hitSize: 14
 flying: false
 speed: 0.60
@@ -65,7 +64,7 @@ weapons: [{
                 width: 8.5
                 height: 10
 		weaveMag: 10
-		weaveScl: 13
+		weaveScale: 3
 		splashDamageRadius: 30
 		splashDamage: 60
 		hitEffect: blastExplosion

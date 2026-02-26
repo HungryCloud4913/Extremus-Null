@@ -22,16 +22,13 @@ allowLaunchToNumbered: false
 clearSectorOnLose: true
 allowLaunchSchematics: true
 allowLaunchLoadout: false
-allowWaveSimulation: true
 allowWaves: true
-defaultCore: core-pointless
+defaultCore: extremus-null-core-pointless
 parent: sun
 solarSystem: sun
 alwaysUnlocked: true
 launchCandidates: []
-hiddenItems: [
-    scrap, copper, graphite, coal, titanium, thorium, plastanium, metaglass, beryllium, carbide
-]
+generator: PlanetGenerator
 
 mesh: [
  {

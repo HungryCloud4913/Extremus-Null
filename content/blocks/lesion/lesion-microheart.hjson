@@ -8,7 +8,6 @@ unitType: lesion-a1
 unitCapModifier: 1
 thrusterLength: 0
 isFirstTier: true
-lightOpacity: 0
 lightRadius: 0
 requirements: [
   ]

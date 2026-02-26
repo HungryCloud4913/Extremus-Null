@@ -43,8 +43,6 @@ drawer: {
     {
       type: DrawFlame
  flameColor: CDD9D1
-	midColor: ffffff
-	flameRad: 1
     }
       {
       type: DrawDefault
