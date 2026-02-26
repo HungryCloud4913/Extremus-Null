@@ -1,3 +1,36 @@
+sectorSize: 2
+orbitSpacing: 16
+orbitRadius: 100
+radius: 1.2
+minZoom: 0.5
+drawOrbit: true
+atmosphereRadIn: 0
+atmosphereRadOut: 0.3
+accessible: true
+updateLighting: False
+sectorSeed: 14513
+startSector: 3
+defaultEnv: 129
+defaultAttributes: 129
+bloom: true
+visible: true
+atmosphereColor: 391D1D
+iconColor: 6C2929
+hasAtmosphere: true
+allowSectorInvasion: false
+allowLaunchToNumbered: false
+allowWaveSimulation: true
+clearSectorOnLose: true
+allowLaunchSchematics: true
+allowWaves: true
+defaultCore: core-pointless
+parent: sun
+solarSystem: sun
+alwaysUnlocked: true
+hiddenItems: [
+    scrap, copper, graphite, coal, titanium, thorium, plastanium, metaglass, beryllium, carbide
+]
+
 mesh: [
  {
     //redblack
@@ -89,37 +122,4 @@ cloudMesh: [
 allowLaunchSchematics: false
 allowLaunchLoadout: false
 generator: {
-
 }
-sectorSize: 2
-orbitSpacing: 16
-orbitRadius: 100
-radius: 1.2
-minZoom: 0.5
-drawOrbit: true
-atmosphereRadIn: 0
-atmosphereRadOut: 0.3
-accessible: true
-updateLighting: False
-sectorSeed: 14513
-startSector: 3
-defaultEnv: 129
-defaultAttributes: 129
-bloom: true
-visible: true
-atmosphereColor: 391D1D
-iconColor: 6C2929
-hasAtmosphere: true
-allowSectorInvasion: false
-allowLaunchToNumbered: false
-allowWaveSimulation: true
-clearSectorOnLose: true
-allowLaunchSchematics: true
-allowWaves: true
-defaultCore: core-pointless
-parent: sun
-solarSystem: sun
-alwaysUnlocked: true
-hiddenItems: [
-    scrap, copper, graphite, coal, titanium, thorium, plastanium, metaglass, beryllium, carbide
-]

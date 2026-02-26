@@ -1,7 +1,6 @@
 difficulty: 6
 planet: extrull
 sector: 67
-alwaysUnlocked: true
 research:
 {
   planet: extrull
