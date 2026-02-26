@@ -14,7 +14,7 @@ defaultEnv: 129
 defaultAttributes: 129
 bloom: true
 visible: true
-atmosphereColor: 391D1D
+atmosphereColor: 391d1de6
 iconColor: 6C2929
 hasAtmosphere: true
 allowSectorInvasion: false
@@ -102,7 +102,7 @@ cloudMesh: [
    speed: 0.21
    radius: 0.15
    divisions: 5
-   color: EDCECE
+   color: EDCECEE6
    octaves: 1
    persistence: 0.25
    scl: 0.9
@@ -114,7 +114,7 @@ cloudMesh: [
    speed: 0.18
    radius: 0.1
    divisions: 5
-   color:  BEA4A4
+   color:  BEA4A4E6
    octaves: 1
    persistence: 0.3
    scl: 0.7
