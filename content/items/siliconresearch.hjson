@@ -3,9 +3,9 @@ research:
 {
   planet: extrull
   parent: sandresearch
-  objectives: 
-  [
-    silicon,
-  ]
 }
+researchCost: 
+[
+  silicon/1
+]
 hidden: true

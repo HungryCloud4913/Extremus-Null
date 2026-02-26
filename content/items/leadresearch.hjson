@@ -3,9 +3,9 @@ research:
 {
   planet: extrull
   parent: pyrite
-  objectives: 
-  [
-    lead,
-  ]
 }
+researchCost: 
+[
+  lead/1
+]
 hidden: true

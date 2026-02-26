@@ -15,7 +15,7 @@ drawCell: false
 crushDamage: 0.11
 controller: HugAI
 segmentScl:3
-segmentPhase: 5
+segmentPhase: 3
 segmentMag: 0.5
 lightOpacity: 0
 lightRadius: 0

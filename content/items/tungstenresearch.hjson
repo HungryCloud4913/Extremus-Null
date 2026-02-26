@@ -3,9 +3,9 @@ research:
 {
   planet: extrull
   parent: leadresearch
-  objectives: 
-  [
-    tungsten,
-  ]
 }
+researchCost: 
+[
+  tungtsen/1
+]
 hidden: true
