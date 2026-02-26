@@ -159,7 +159,6 @@ name: orbitoklastt-subject
       collides: false 
       speed: 0
       lifetime: 0
-      shootEffect: none
       smokeEffect: none
       despawnEffect: none
 }

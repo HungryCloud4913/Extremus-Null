@@ -51,21 +51,18 @@ drawer: {
       drawLiquid: hydrogen-sulphide
       suffix: -hydrosulph
       alpha: 1
-      padding: 1.5
     }
     {
       type: DrawLiquidRegion
       drawLiquid: nitrogen
       suffix: -nitro
       alpha: 1
-      padding: 1.5
     }
     {
       type: DrawLiquidRegion
       drawLiquid: carbon-dioxide
       suffix: -carbodiox
       alpha: 1
-      padding: 1.5
     }
     {
       type: DrawRegion

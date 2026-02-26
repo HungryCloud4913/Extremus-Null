@@ -152,7 +152,6 @@ effects: [
     rotationSpacing: 360
     followParent: true
     rotWithParent: true
-    color: 49B8E6
 }
 ]
 }
@@ -165,7 +164,6 @@ parts: [
         radius: 0
         radiusTo: 9
         stroke: 5
-        color: 305882
         rotation: 10
         rotMove: 85
         followRotation: false
@@ -180,7 +178,6 @@ parts: [
         radius: 0
         radiusTo: 9
         stroke: 5
-        color: 305882
         rotation: 10
         rotMove: -85
         followRotation: false

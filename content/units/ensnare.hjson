@@ -78,7 +78,7 @@ weapons: [{
           shots: 2
         type: ShootBarrel
         barrels: [
-          -8, -7, 67.5
+          -8, -7, 45
           8, -7, -67.5
           -3, -10, 67.5
           3, -10, -67.5
