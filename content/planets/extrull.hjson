@@ -22,6 +22,8 @@ allowLaunchToNumbered: false
 clearSectorOnLose: true
 allowLaunchSchematics: true
 allowLaunchLoadout: false
+allowWaveSimulation: true
+allowWaves: true
 defaultCore: core-pointless
 parent: sun
 solarSystem: sun
