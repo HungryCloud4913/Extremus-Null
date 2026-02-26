@@ -28,6 +28,7 @@ defaultCore: core-pointless
 parent: sun
 solarSystem: sun
 alwaysUnlocked: true
+launchCandidates: []
 hiddenItems: [
     scrap, copper, graphite, coal, titanium, thorium, plastanium, metaglass, beryllium, carbide
 ]
@@ -120,7 +121,3 @@ cloudMesh: [
    thresh: 0.5
   }
 ]
-allowLaunchSchematics: false
-allowLaunchLoadout: false
-generator: {
-}
