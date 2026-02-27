@@ -39,11 +39,20 @@ drawer: {
     }
     {
       type: DrawCrucibleFlame
-      flameColor: 9E9696
+      flameColor: 595959
+      midColor: ffffff
+	    alpha: 0.75
+	    flameRad: 0
+	    circleStroke: 0
+	    particles: 10
+	    particleRad: 5
+	    particleSize: 2
     }
     {
       type: DrawFlame
-      flameColor: 9E9696
+      flameColor: 595959
+      flameRadius: 2
+      lightRadius: 10
     }
     {
       type: DrawDefault

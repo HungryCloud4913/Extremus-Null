@@ -42,7 +42,7 @@ drawer: {
 }
     {
       type: DrawFlame
- flameColor: CDD9D1
+      flameColor: CDD9D1
     }
       {
       type: DrawDefault
