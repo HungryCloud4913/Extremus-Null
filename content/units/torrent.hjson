@@ -29,7 +29,7 @@ weapons:
     layerOffset: -0.00001
     rotateSpeed: 0
     inaccuracy: 0
-    recoil: 1.9
+    recoil: 0
     shoot: 
     {
       shots: 1
@@ -144,7 +144,7 @@ weapons:
     layerOffset: -0.00001
     rotateSpeed: 0
     inaccuracy: 0
-    recoil: 1.9
+    recoil: 0
     shoot: 
     {
       shots: 1
@@ -222,6 +222,7 @@ weapons:
         type: RegionPart
         suffix: -cannon
         mirror: true
+        alternate: true
         moveY: -3
         moveX: 0
         progress: recoil
