@@ -198,18 +198,18 @@ weapons:
         sprite: extremus-null-bubble
         damage: 0
         knockback: 0
-        height: 13
-        width: 11
+        height: 11
+        width: 9
         trailLength: 4
         trailWidth: 1.5
         speed: 3.5
         lifetime: 22
-        splashDamageRadius: 12
+        splashDamageRadius: 6
 		    splashDamage: 95
         buildingDamageMultiplier: 1
         buildingDamageMultiplier: 1.5
         intervalBullets: 1
-        bulletInterval: 5
+        bulletInterval: 2.5
         intervalRandomSpread: 60
         intervalSpread: 0
         intervalAngle: 0
@@ -227,7 +227,7 @@ weapons:
                     offsetX: 0
                     offsetY: 0
                     sizeFrom: 0
-                    sizeTo: 21
+                    sizeTo: 10.5
                     followParent: true
                     rotWithParent: true
                     colorFrom: 509FAD
@@ -248,7 +248,7 @@ weapons:
                 offsetX: 0
                 offsetY: 0
                 sizeFrom: 0
-                sizeTo: 21
+                sizeTo: 10.5
                 followParent: true
                 rotWithParent: true
                 colorFrom: 509FAD
