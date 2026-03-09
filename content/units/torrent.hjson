@@ -439,7 +439,7 @@ weapons:
   {
     name: torrent-b
     recoils: 3
-    mirror: false
+    mirror: true
     top: false
     alternate: true
     rotate: false
@@ -458,7 +458,7 @@ weapons:
       type: ShootBarrel
       barrels: 
       [
-        0, 0, 0
+        -5, -6, 45
       ]
     }
     bullet: 
@@ -473,7 +473,7 @@ weapons:
         type: RegionPart
         under: false
         alternate: true
-        mirror: true
+        mirror: false
         suffix: -barnacle1
         recoilIndex: 0
         x: 0
@@ -489,7 +489,7 @@ weapons:
         type: RegionPart
         under: false
         alternate: true
-        mirror: true
+        mirror: false
         suffix: -barnacle2
         recoilIndex: 1
         x: 0
@@ -505,7 +505,7 @@ weapons:
         type: RegionPart
         under: false
         alternate: true
-        mirror: true
+        mirror: false
         suffix: -barnacle3
         recoilIndex: 2
         x: 0
