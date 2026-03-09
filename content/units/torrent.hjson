@@ -446,7 +446,7 @@ weapons:
     shootSound: plantBreak
     x: +0
     y: +0
-    reload: 300
+    reload: 400
     layerOffset: +0.00001
     rotateSpeed: 0
     inaccuracy: 0
@@ -498,7 +498,7 @@ weapons:
         moveX: 0
         moveRot: 0
         color: FFFFFF
-        colorTo: 000000
+        colorTo: FFFFFF00
         progress: recoil
       }
       {
@@ -514,7 +514,7 @@ weapons:
         moveX: 0
         moveRot: 0
         color: FFFFFF
-        colorTo: 000000
+        colorTo: FFFFFF00
         progress: recoil
       }
     ]
