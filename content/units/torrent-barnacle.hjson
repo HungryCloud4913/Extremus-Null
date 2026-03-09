@@ -1,5 +1,6 @@
 type: missile
 drawCell: false
+outlineColor: 242628
 template: MissileUnitType
 speed: 4
 flying: true
@@ -21,7 +22,7 @@ engineOffset: 1
 engineSize: 0.25
 engineColor: FFFE81
 trailLength: 2
-trailScl: 0.3
+trailScl: 0.8
 trailColor: FFFE81
 loopSound: missileTrail
 missileAccelTime: 25
