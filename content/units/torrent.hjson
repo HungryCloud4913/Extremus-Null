@@ -357,7 +357,6 @@ weapons:
         buildingDamageMultiplier: 1.5
       }
     }
-    }
     parts:
     [
       {
