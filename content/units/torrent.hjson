@@ -444,7 +444,7 @@ weapons:
     alternate: true
     rotate: false
     shootSound: plantBreak
-    x: +0
+    x: +30
     y: +0
     reload: 400
     layerOffset: +3
@@ -476,8 +476,6 @@ weapons:
           type: RegionPart
           suffix: -barnacle1
           recoilIndex: 0
-          color: FFFFFF
-          colorTo: 000000
           mirror: false
           progress: recoil
           under: false
