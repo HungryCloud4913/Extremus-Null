@@ -478,7 +478,7 @@ weapons:
           mixColor: 00000000
           outline: false
           under: false
-          layerOffset: -0.01
+          layerOffset: +0.00001
           mixColorTo: ffff00
         }
       ]
