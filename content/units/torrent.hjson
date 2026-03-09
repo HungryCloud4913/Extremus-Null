@@ -439,7 +439,7 @@ weapons:
   {
     name: torrent-b
     recoils: 3
-    mirror: true
+    mirror: false
     top: false
     alternate: true
     rotate: false
@@ -482,7 +482,39 @@ weapons:
         moveX: 0
         moveRot: 0
         color: FFFFFF
-        colorTo: 000000ff
+        colorTo: 000000
+        progress: recoil
+      }
+      {
+        type: RegionPart
+        under: false
+        alternate: true
+        mirror: true
+        suffix: -barnacle2
+        recoilIndex: 1
+        x: 0
+        y: 0
+        moveY: 0
+        moveX: 0
+        moveRot: 0
+        color: FFFFFF
+        colorTo: 000000
+        progress: recoil
+      }
+      {
+        type: RegionPart
+        under: false
+        alternate: true
+        mirror: true
+        suffix: -barnacle3
+        recoilIndex: 2
+        x: 0
+        y: 0
+        moveY: 0
+        moveX: 0
+        moveRot: 0
+        color: FFFFFF
+        colorTo: 000000
         progress: recoil
       }
     ]
