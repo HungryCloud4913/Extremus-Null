@@ -174,7 +174,7 @@ weapons:
       damage: 230
       knockback: 0
       speed: 0
-      lifetime: 29
+      lifetime: 35
       length: 69
       width: 19
       sideAngle: 0
@@ -203,13 +203,13 @@ weapons:
         trailLength: 4
         trailWidth: 1.5
         speed: 3.5
-        lifetime: 24
+        lifetime: 22
         splashDamageRadius: 12
 		    splashDamage: 95
         buildingDamageMultiplier: 1
         buildingDamageMultiplier: 1.5
         intervalBullets: 1
-        bulletInterval: 1
+        bulletInterval: 5
         intervalRandomSpread: 120
         intervalSpread: 0
         intervalAngle: 0
