@@ -437,14 +437,14 @@ weapons:
     ]
   }
   {
-    name: torrent
+    name: torrent-b
     recoils: 3
     mirror: true
     top: true
     alternate: true
     rotate: false
     shootSound: plantBreak
-    x: +20
+    x: +0
     y: +0
     reload: 400
     layerOffset: +3
@@ -476,6 +476,8 @@ weapons:
           type: RegionPart
           suffix: -barnacle1
           recoilIndex: 0
+          color: FFFFFF
+          colorT0: 000000
           mirror: false
           progress: recoil
           under: false
