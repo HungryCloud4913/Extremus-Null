@@ -5,7 +5,7 @@ faceTarget: true
 hoverable: true
 mechSideSway: 0
 health: 2560
-hitSize: 16
+hitSize: 19
 outlineColor: 242628
 shadowElevation: 0.1
 groundLayer: 61
@@ -324,10 +324,10 @@ weapons:
     top: false
     alternate: true
     rotate: false
-    shootSound: shotgun
+    shootSound: shootAltLong
     x: +12
     y: +0
-    reload: 25
+    reload: 30
     layerOffset: -0.00001
     rotateSpeed: 0
     inaccuracy: 0

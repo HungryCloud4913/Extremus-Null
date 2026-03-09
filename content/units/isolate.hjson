@@ -6,7 +6,7 @@ targetAir: true
 faceTarget: false
 canDrown: true
 health: 1560
-hitSize: 18
+hitSize: 12
 speed: 0.69
 accel: 0.5
 drag: 0.4

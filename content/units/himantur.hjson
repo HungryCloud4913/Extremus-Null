@@ -4,7 +4,7 @@ faceTarget: true
 lowAltitude: true
 flying: true
 health: 1150
-hitSize: 18
+hitSize: 16
 speed: 0.82
 accel: 0.05
 drag: 0.01
