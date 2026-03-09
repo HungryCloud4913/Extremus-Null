@@ -4,36 +4,41 @@ targetAir: true
 faceTarget: true
 hoverable: true
 mechSideSway: 0
-health: 730
-hitSize: 11
+health: 1900
+hitSize: 16
 outlineColor: 242628
 shadowElevation: 0.1
 groundLayer: 61
-speed: 0.475
+speed: 0.42
 accel: 0.5
 drag: 0.4
-rotateSpeed: 3.5
-armor: 5
+rotateSpeed: 2.9
+armor: 11
 weapons:
 [
   {
-    name: flow-arm
+    name: stream-arm
     mirror: true
     top: false
     alternate: true
     rotate: false
-    shootSound: dullExplosion
-    x: +5.5
-    y: 0
-    reload: 130
+    shootSound: pulseBlast
+    x: +10
+    y: +2
+    reload: 230
     layerOffset: -0.00001
     rotateSpeed: 0
     inaccuracy: 0
-    recoil: 1.5
+    recoil: 1.9
     shoot: 
     {
       shots: 1
       shotDelay: 0
+      type: ShootBarrel
+      barrels: 
+      [
+        0, +5, 0
+      ]
     }
     bullet: 
     {
@@ -95,6 +100,46 @@ weapons:
 		  splashDamage: 95
       buildingDamageMultiplier: 1
     }
+    parts:
+    [
+      {
+        type: RegionPart
+        under: true
+        mirror: true
+        suffix: -claw
+        heatColor: C1FFED
+        x: -2.75
+        y: 4.95
+        moveY: 0
+        moveX: 0
+        moveRot: 45
+        progress: 
+        {
+          type: warmup
+          op: delay
+          amount: 0
+        }
+        moves: 
+        [
+          {
+            type: PartMove
+            progress: recoil
+            x: 0
+            y: 0
+            rot: -58
+          }
+        ]
+      }
+      {
+        type: RegionPart
+        suffix: -main
+        mirror: false
+        moveY: 0
+        moveX: 0
+        progress: recoil
+        under: true
+      }
+    ]
   }
 ]
 hidden: false

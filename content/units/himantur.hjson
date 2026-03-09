@@ -268,4 +268,5 @@ weapons:
     }
   }
 ]
-hidden: true
+hidden: false
+unlocked: false
