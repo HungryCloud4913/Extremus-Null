@@ -438,6 +438,7 @@ weapons:
   }
   {
     name: torrent-b
+    recoils: 3
     mirror: true
     top: false
     alternate: true
@@ -452,12 +453,12 @@ weapons:
     recoil: 0
     shoot: 
     {
-      shots: 1
-      shotDelay: 0
+      shots: 3
+      shotDelay: 7.5
       type: ShootBarrel
       barrels: 
       [
-        0, +5, 0
+        0, 0, 0
       ]
     }
     bullet: 
@@ -471,14 +472,15 @@ weapons:
       {
         type: RegionPart
         under: false
+        alternate: true
         mirror: true
         suffix: -barnacle1
-        heatColor: C1FFED
-        x: -2.75
-        y: 6
+        recoilIndex: 0
+        x: 0
+        y: 0
         moveY: 0
         moveX: 0
-        moveRot: 45
+        moveRot: 0
         progress: recoil
       }
     ]
