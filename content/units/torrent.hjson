@@ -476,40 +476,9 @@ weapons:
           type: RegionPart
           suffix: -barnacle1
           recoilIndex: 0
-          progress: reload
-          colorTo: 00000000
-          color: ffffff
-          mixColor: 00000000
-          outline: true
+          mirror: false
+          progress: recoil
           under: false
-          layerOffset: +0.00001
-          mixColorTo: ffff00
-        }
-        {
-          type: RegionPart
-          suffix: -barnacle2
-          recoilIndex: 1
-          progress: reload
-          colorTo: 00000000
-          color: ffffff
-          mixColor: 00000000
-          outline: false
-          under: false
-          layerOffset: +0.00001
-          mixColorTo: ffff00
-        }
-        {
-          type: RegionPart
-          suffix: -barnacle3
-          recoilIndex: 2
-          progress: reload
-          colorTo: 00000000
-          color: ffffff
-          mixColor: 00000000
-          outline: false
-          under: false
-          layerOffset: +0.00001
-          mixColorTo: ffff00
         }
       ]
     }

@@ -20,10 +20,10 @@ createScorch: false
 hidden: true
 engineOffset: 1
 engineSize: 0.25
-engineColor: FFFE81
+engineColor: C0BF2F
 trailLength: 2
-trailScl: 0.8
-trailColor: FFFE81
+trailScl: 2
+trailColor: C0BF2F
 loopSound: missileTrail
 missileAccelTime: 25
 weapons: 
