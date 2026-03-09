@@ -42,30 +42,28 @@ weapons:
     }
     bullet: 
     {
-      type: BasicBulletType
+      type: LaserBulletType
+      laserAbsorb: true
+      pierce: true
+      pierceBuilding: false
+      fragOnHit: true
       hitEffect: none
       shootEffect: none
       smokeEffect: none
       despawnEffect: none
-			backColor: 509FAD
-			frontColor: C1FFED
       trailColor: 509FAD
       hitColor: C1FFED
-      sprite: extremus-null-bubble
-      damage: 0
+      colors: [509FADE, 509FAD, C1FFED]
+      damage: 230
       knockback: 0
-      height: 13
-      width: 11
-      trailLength: 4
-      trailWidth: 1.5
       speed: 0
-      lifetime: 1
-      splashDamageRadius: 12
-		  splashDamage: 95
-      buildingDamageMultiplier: 1
+      lifetime: 35
+      length: 69
+      width: 19
+      sideAngle: 0
       buildingDamageMultiplier: 1.5
       intervalBullets: 90
-      bulletInterval: 20
+      bulletInterval: 60
       intervalRandomSpread: 0
       intervalSpread: 2
       intervalAngle: 0
@@ -91,190 +89,6 @@ weapons:
         lifetime: 70
         buildingDamageMultiplier: 1.4
 			}
-    }
-    parts:
-    [
-      {
-        type: RegionPart
-        under: true
-        mirror: true
-        suffix: -claw
-        heatColor: C1FFED
-        x: -2.75
-        y: 6
-        moveY: 0
-        moveX: 0
-        moveRot: 45
-        progress: 
-        {
-          type: warmup
-          op: delay
-          amount: 0
-        }
-        moves: 
-        [
-          {
-            type: PartMove
-            progress: recoil
-            x: 0
-            y: 0
-            rot: -58
-          }
-        ]
-      }
-      {
-        type: RegionPart
-        suffix: -main
-        mirror: false
-        moveY: 0
-        moveX: 0
-        progress: recoil
-        under: true
-      }
-    ]
-  }
-  {
-    name: torrent-arm
-    mirror: true
-    top: false
-    alternate: true
-    rotate: false
-    shootSound: malignShoot
-    x: +12
-    y: +0
-    reload: 230
-    layerOffset: -0.00001
-    rotateSpeed: 0
-    inaccuracy: 0
-    recoil: 0
-    shoot: 
-    {
-      shots: 1
-      shotDelay: 0
-      type: ShootBarrel
-      barrels: 
-      [
-        0, +5, 0
-      ]
-    }
-    bullet: 
-    {
-      type: LaserBulletType
-      laserAbsorb: true
-      pierce: true
-      pierceBuilding: false
-      fragOnHit: true
-      hitEffect: none
-      shootEffect: none
-      smokeEffect: none
-      despawnEffect: none
-      trailColor: 509FAD
-      hitColor: C1FFED
-      colors: [509FADE, 509FAD, C1FFED]
-      damage: 230
-      knockback: 0
-      speed: 0
-      lifetime: 35
-      length: 69
-      width: 19
-      sideAngle: 0
-      buildingDamageMultiplier: 1.5
-      intervalBullets: 1
-      bulletInterval: 40
-      intervalRandomSpread: 0
-      intervalSpread: 0
-      intervalAngle: 0
-		  intervalBullet:
-      {
-        type: BasicBulletType
-        hitEffect: none
-        shootEffect: none
-        smokeEffect: none
-        despawnEffect: none
-			  backColor: 509FAD
-			  frontColor: C1FFED
-        trailColor: 509FAD
-        hitColor: C1FFED
-        sprite: extremus-null-bubble
-        damage: 0
-        knockback: 0
-        height: 11
-        width: 9
-        trailLength: 4
-        trailWidth: 1.5
-        speed: 3.5
-        lifetime: 22
-        splashDamageRadius: 3
-		    splashDamage: 95
-        buildingDamageMultiplier: 1
-        buildingDamageMultiplier: 1.5
-        intervalBullets: 1
-        bulletInterval: 2.5
-        intervalRandomSpread: 60
-        intervalSpread: 0
-        intervalAngle: 0
-		    intervalBullet:
-        {
-          type: BasicBulletType
-          hitEffect: 
-              {
-                type: MultiEffect
-                effects:
-                [
-                  {
-                    type: WaveEffect
-                    lifetime: 15
-                    offsetX: 0
-                    offsetY: 0
-                    sizeFrom: 0
-                    sizeTo: 5
-                    followParent: true
-                    rotWithParent: true
-                    colorFrom: 509FAD
-                    colorTo: C1FFED
-                  }
-                ]
-              }
-          shootEffect: shootSmallColor
-          smokeEffect: none
-          despawnEffect:
-          { 
-            type: MultiEffect
-            effects:
-            [
-              {
-                type: WaveEffect
-                lifetime: 15
-                offsetX: 0
-                offsetY: 0
-                sizeFrom: 0
-                sizeTo: 5
-                followParent: true
-                rotWithParent: true
-                colorFrom: 509FAD
-                colorTo: C1FFED
-              }
-            ]
-          }
-			    backColor: 509FAD
-			    frontColor: C1FFED
-          trailColor: 509FAD
-          hitColor: C1FFED
-          sprite: extremus-null-bubble
-          damage: 0
-          knockback: 0
-          height: 13
-          width: 11
-          trailLength: 4
-          trailWidth: 1.5
-          speed: 3
-          lifetime: 15
-          splashDamageRadius: 12
-		      splashDamage: 95
-          buildingDamageMultiplier: 1
-          buildingDamageMultiplier: 1.5
-        }
-      }
     }
     parts:
     [
@@ -393,8 +207,8 @@ weapons:
       sprite: extremus-null-bubble
       damage: 0
       knockback: 0
-      height: 15
-      width: 13
+      height: 13
+      width: 11
       trailLength: 4
       trailWidth: 1.5
       speed: 6
@@ -402,6 +216,33 @@ weapons:
       splashDamageRadius: 15
 		  splashDamage: 95
       buildingDamageMultiplier: 1
+      intervalBullets: 1
+      bulletInterval: 1
+      intervalRandomSpread: 50
+      intervalSpread: 0
+      intervalAngle: 0
+		  intervalBullet:
+      {
+        type: BasicBulletType
+        hitEffect: none
+        shootEffect: none
+        smokeEffect: none
+        despawnEffect: none
+			  backColor: 509FAD
+			  frontColor: C1FFED
+        trailColor: 509FAD
+        hitColor: C1FFED
+        sprite: extremus-null-bubble
+        damage: 7
+        knockback: 0.75
+        height: 6
+        width: 4
+        trailLength: 0
+        trailWidth: 0
+        speed: 2
+        lifetime: 40
+        buildingDamageMultiplier: 1
+			}
     }
     parts:
     [
