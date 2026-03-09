@@ -42,27 +42,53 @@ weapons:
     }
     bullet: 
     {
-      type: BasicBulletType
+      type: LaserBulletType
+      laserAbsorb: true
+      pierce: true
+      pierceBuilding: false
+      fragOnHit: true
       hitEffect: none
-      shootEffect: shootBigColor
+      shootEffect: none
       smokeEffect: none
-      despawnEffect:  none
-	    backColor: 509FAD
-			frontColor: C1FFED
+      despawnEffect: none
       trailColor: 509FAD
       hitColor: C1FFED
-      sprite: extremus-null-bubble
-      damage: 0
+      colors: [509FADE, 509FAD, C1FFED]
+      damage: 230
       knockback: 0
-      height: 13
-      width: 11
-      trailLength: 4
-      trailWidth: 1.5
-      speed: 6
-      lifetime: 32
-      splashDamageRadius: 12
-		  splashDamage: 95
-      buildingDamageMultiplier: 1
+      speed: 0
+      lifetime: 29
+      length: 69
+      width: 19
+      sideAngle: 0
+      buildingDamageMultiplier: 1.5
+      intervalBullets: 60
+      bulletInterval: 40
+      intervalRandomSpread: 0
+      intervalSpread: 2
+      intervalAngle: 0
+		  intervalBullet:
+      {
+        type: BasicBulletType
+        hitEffect: none
+        shootEffect: none
+        smokeEffect: none
+        despawnEffect: none
+			  backColor: 509FAD
+			  frontColor: C1FFED
+        trailColor: 509FAD
+        hitColor: C1FFED
+        sprite: extremus-null-slash
+        damage: 7
+        knockback: 0.75
+        height: 13
+        width: 11
+        trailLength: 0
+        trailWidth: 0
+        speed: 1.75
+        lifetime: 55
+        buildingDamageMultiplier: 1.4
+			}
     }
     parts:
     [
@@ -192,34 +218,6 @@ weapons:
     }
     parts:
     [
-      {
-        type: RegionPart
-        under: true
-        mirror: true
-        suffix: -claw
-        heatColor: C1FFED
-        x: -2.75
-        y: 4.95
-        moveY: 0
-        moveX: 0
-        moveRot: 45
-        progress: 
-        {
-          type: warmup
-          op: delay
-          amount: 0
-        }
-        moves: 
-        [
-          {
-            type: PartMove
-            progress: recoil
-            x: 0
-            y: 0
-            rot: -58
-          }
-        ]
-      }
       {
         type: RegionPart
         suffix: -main
