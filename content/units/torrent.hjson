@@ -204,7 +204,7 @@ weapons:
         trailWidth: 1.5
         speed: 3.5
         lifetime: 22
-        splashDamageRadius: 6
+        splashDamageRadius: 3
 		    splashDamage: 95
         buildingDamageMultiplier: 1
         buildingDamageMultiplier: 1.5
@@ -227,7 +227,7 @@ weapons:
                     offsetX: 0
                     offsetY: 0
                     sizeFrom: 0
-                    sizeTo: 10.5
+                    sizeTo: 5
                     followParent: true
                     rotWithParent: true
                     colorFrom: 509FAD
@@ -248,7 +248,7 @@ weapons:
                 offsetX: 0
                 offsetY: 0
                 sizeFrom: 0
-                sizeTo: 10.5
+                sizeTo: 5
                 followParent: true
                 rotWithParent: true
                 colorFrom: 509FAD
@@ -327,7 +327,7 @@ weapons:
     shootSound: shotgun
     x: +12
     y: +0
-    reload: 50
+    reload: 25
     layerOffset: -0.00001
     rotateSpeed: 0
     inaccuracy: 0
@@ -357,7 +357,7 @@ weapons:
             offsetX: 0
             offsetY: 0
             sizeFrom: 0
-            sizeTo: 21
+            sizeTo: 25
             followParent: true
             rotWithParent: true
             colorFrom: 509FAD
@@ -378,7 +378,7 @@ weapons:
             offsetX: 0
             offsetY: 0
             sizeFrom: 0
-            sizeTo: 21
+            sizeTo: 25
             followParent: true
             rotWithParent: true
             colorFrom: 509FAD
@@ -393,13 +393,13 @@ weapons:
       sprite: extremus-null-bubble
       damage: 0
       knockback: 0
-      height: 13
-      width: 11
+      height: 15
+      width: 13
       trailLength: 4
       trailWidth: 1.5
       speed: 6
       lifetime: 32
-      splashDamageRadius: 12
+      splashDamageRadius: 15
 		  splashDamage: 95
       buildingDamageMultiplier: 1
     }
@@ -459,7 +459,7 @@ weapons:
       barrels: 
       [
         -6, -8, 90
-        -10, -9, 135
+        -10, -10, 135
         -7, -11, 155
       ]
     }

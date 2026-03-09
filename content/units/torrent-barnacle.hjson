@@ -25,7 +25,7 @@ trailLength: 2
 trailScl: 7
 trailColor: C0BF2F
 loopSound: missileTrail
-missileAccelTime: 25
+missileAccelTime: 10
 weapons: 
 [
   {
