@@ -134,6 +134,124 @@ weapons:
     ]
   }
   {
+    name: torrent-arm
+    mirror: true
+    top: false
+    alternate: true
+    rotate: false
+    shootSound: malignShoot
+    x: +12
+    y: +0
+    reload: 230
+    layerOffset: -0.00001
+    rotateSpeed: 0
+    inaccuracy: 0
+    recoil: 0
+    shoot: 
+    {
+      shots: 1
+      shotDelay: 0
+      type: ShootBarrel
+      barrels: 
+      [
+        0, +5, 0
+      ]
+    }
+    bullet: 
+    {
+      type: LaserBulletType
+      laserAbsorb: true
+      pierce: true
+      pierceBuilding: false
+      fragOnHit: true
+      hitEffect: none
+      shootEffect: none
+      smokeEffect: none
+      despawnEffect: none
+      trailColor: 509FAD
+      hitColor: C1FFED
+      colors: [509FADE, 509FAD, C1FFED]
+      damage: 230
+      knockback: 0
+      speed: 0
+      lifetime: 29
+      length: 69
+      width: 19
+      sideAngle: 0
+      buildingDamageMultiplier: 1.5
+      intervalBullets: 1
+      bulletInterval: 1
+      intervalRandomSpread: 120
+      intervalSpread: 0
+      intervalAngle: 0
+		  intervalBullet:
+      {
+        type: BasicBulletType
+        hitEffect: none
+        shootEffect: none
+        smokeEffect: none
+        despawnEffect: none
+			  backColor: 509FAD
+			  frontColor: C1FFED
+        trailColor: 509FAD
+        hitColor: C1FFED
+        sprite: extremus-null-bubble
+        damage: 0
+        knockback: 0
+        height: 13
+        width: 11
+        trailLength: 4
+        trailWidth: 1.5
+        speed: 7
+        lifetime: 10
+        splashDamageRadius: 12
+		    splashDamage: 95
+        buildingDamageMultiplier: 1
+        buildingDamageMultiplier: 1.5
+      }
+    }
+    parts:
+    [
+      {
+        type: RegionPart
+        under: true
+        mirror: true
+        suffix: -claw
+        heatColor: C1FFED
+        x: -2.75
+        y: 6
+        moveY: 0
+        moveX: 0
+        moveRot: 45
+        progress: 
+        {
+          type: warmup
+          op: delay
+          amount: 0
+        }
+        moves: 
+        [
+          {
+            type: PartMove
+            progress: recoil
+            x: 0
+            y: 0
+            rot: -58
+          }
+        ]
+      }
+      {
+        type: RegionPart
+        suffix: -main
+        mirror: false
+        moveY: 0
+        moveX: 0
+        progress: recoil
+        under: true
+      }
+    ]
+  }
+  {
     name: torrent-armweapon
     recoils: 2
     mirror: true
@@ -244,124 +362,6 @@ weapons:
       {
         type: RegionPart
         suffix: -roof
-        mirror: false
-        moveY: 0
-        moveX: 0
-        progress: recoil
-        under: true
-      }
-    ]
-  }
-{
-    name: torrent-arm
-    mirror: true
-    top: false
-    alternate: true
-    rotate: false
-    shootSound: malignShoot
-    x: +12
-    y: +0
-    reload: 230
-    layerOffset: -0.00001
-    rotateSpeed: 0
-    inaccuracy: 0
-    recoil: 0
-    shoot: 
-    {
-      shots: 1
-      shotDelay: 0
-      type: ShootBarrel
-      barrels: 
-      [
-        0, +5, 0
-      ]
-    }
-    bullet: 
-    {
-      type: LaserBulletType
-      laserAbsorb: true
-      pierce: true
-      pierceBuilding: false
-      fragOnHit: true
-      hitEffect: none
-      shootEffect: none
-      smokeEffect: none
-      despawnEffect: none
-      trailColor: 509FAD
-      hitColor: C1FFED
-      colors: [509FADE, 509FAD, C1FFED]
-      damage: 230
-      knockback: 0
-      speed: 0
-      lifetime: 29
-      length: 69
-      width: 19
-      sideAngle: 0
-      buildingDamageMultiplier: 1.5
-      intervalBullets: 60
-      bulletInterval: 40
-      intervalRandomSpread: 0
-      intervalSpread: 2
-      intervalAngle: 0
-		  intervalBullet:
-      {
-        type: BasicBulletType
-        hitEffect: none
-        shootEffect: none
-        smokeEffect: none
-        despawnEffect: none
-			  backColor: 509FAD
-			  frontColor: C1FFED
-        trailColor: 509FAD
-        hitColor: C1FFED
-        sprite: extremus-null-bubble
-        damage: 0
-        knockback: 0
-        height: 13
-        width: 11
-        trailLength: 4
-        trailWidth: 1.5
-        speed: 7
-        lifetime: 10
-        splashDamageRadius: 12
-		    splashDamage: 95
-        buildingDamageMultiplier: 1
-        buildingDamageMultiplier: 1.5
-      }
-    }
-    parts:
-    [
-      {
-        type: RegionPart
-        under: true
-        mirror: true
-        suffix: -claw
-        heatColor: C1FFED
-        x: -2.75
-        y: 6
-        moveY: 0
-        moveX: 0
-        moveRot: 45
-        progress: 
-        {
-          type: warmup
-          op: delay
-          amount: 0
-        }
-        moves: 
-        [
-          {
-            type: PartMove
-            progress: recoil
-            x: 0
-            y: 0
-            rot: -58
-          }
-        ]
-      }
-      {
-        type: RegionPart
-        suffix: -main
         mirror: false
         moveY: 0
         moveX: 0
