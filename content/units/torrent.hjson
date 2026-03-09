@@ -9,10 +9,10 @@ hitSize: 19
 outlineColor: 242628
 shadowElevation: 0.1
 groundLayer: 61
-speed: 0.42
+speed: 0.39
 accel: 0.5
 drag: 0.4
-rotateSpeed: 2.9
+rotateSpeed: 2.3
 armor: 11
 weapons:
 [
