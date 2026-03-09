@@ -8,7 +8,7 @@ hitSize: 4
 rotateSpeed: 6
 controller: MissileAI
 lowAltitude: true
-lifetime: 60
+lifetime: 90
 isEnemy: false
 allowedInPayloads: false
 playerControllable: false
@@ -24,7 +24,7 @@ trailLength: 2
 trailScl: 0.9
 trailColor: FFFE81
 loopSound: missileTrail
-missileAccelTime: 72
+missileAccelTime: 25
 weapons: 
 [
   {
