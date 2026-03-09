@@ -4,7 +4,7 @@ targetAir: true
 faceTarget: true
 hoverable: true
 mechSideSway: 0
-health: 1900
+health: 1340
 hitSize: 16
 outlineColor: 242628
 shadowElevation: 0.1
