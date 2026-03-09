@@ -444,7 +444,7 @@ weapons:
     alternate: true
     rotate: false
     shootSound: plantBreak
-    x: +0
+    x: +20
     y: +0
     reload: 400
     layerOffset: +3
