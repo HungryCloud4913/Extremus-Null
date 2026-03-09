@@ -481,6 +481,8 @@ weapons:
         moveY: 0
         moveX: 0
         moveRot: 0
+        color: FFFFFF
+        colorTo: 000000
         progress: recoil
       }
     ]
