@@ -23,8 +23,8 @@ weapons:
     alternate: true
     rotate: false
     shootSound: pulseBlast
-    x: +13
-    y: +2
+    x: +12
+    y: +0
     reload: 230
     layerOffset: -0.00001
     rotateSpeed: 0
@@ -133,14 +133,15 @@ weapons:
   }
   {
     name: torrent-armweapon
+    recoils: 2
     mirror: true
     top: false
     alternate: true
     rotate: false
     shootSound: shotgun
-    x: +13
-    y: +2
-    reload: 95
+    x: +12
+    y: +0
+    reload: 50
     layerOffset: -0.00001
     rotateSpeed: 0
     inaccuracy: 0
@@ -152,8 +153,8 @@ weapons:
       type: ShootBarrel
       barrels: 
       [
-        -3, 0, 0
-        +3, 0, 0
+        -1, 0, 0
+        +1, 0, 0
       ]
     }
     bullet: 
@@ -220,9 +221,19 @@ weapons:
     [
       {
         type: RegionPart
-        suffix: -cannon
-        mirror: true
-        alternate: true
+        suffix: -cannon1
+        recoilIndex: 0
+        mirror: false
+        moveY: -3
+        moveX: 0
+        progress: recoil
+        under: true
+      }
+      {
+        type: RegionPart
+        suffix: -cannon2
+        recoilIndex: 1
+        mirror: false
         moveY: -3
         moveX: 0
         progress: recoil
