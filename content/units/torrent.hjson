@@ -64,7 +64,7 @@ weapons:
 		  splashDamage: 95
       buildingDamageMultiplier: 1
       buildingDamageMultiplier: 1.5
-      intervalBullets: 80
+      intervalBullets: 90
       bulletInterval: 20
       intervalRandomSpread: 0
       intervalSpread: 2
@@ -87,8 +87,8 @@ weapons:
         width: 11
         trailLength: 0
         trailWidth: 0
-        speed: 1.75
-        lifetime: 55
+        speed: 2
+        lifetime: 70
         buildingDamageMultiplier: 1.4
 			}
     }
@@ -210,7 +210,7 @@ weapons:
         buildingDamageMultiplier: 1.5
         intervalBullets: 1
         bulletInterval: 5
-        intervalRandomSpread: 120
+        intervalRandomSpread: 60
         intervalSpread: 0
         intervalAngle: 0
 		    intervalBullet:
@@ -267,8 +267,8 @@ weapons:
           width: 11
           trailLength: 4
           trailWidth: 1.5
-          speed: 7
-          lifetime: 10
+          speed: 3
+          lifetime: 15
           splashDamageRadius: 12
 		      splashDamage: 95
           buildingDamageMultiplier: 1
