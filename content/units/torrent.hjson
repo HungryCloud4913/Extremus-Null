@@ -180,8 +180,8 @@ weapons:
       sideAngle: 0
       buildingDamageMultiplier: 1.5
       intervalBullets: 1
-      bulletInterval: 1
-      intervalRandomSpread: 120
+      bulletInterval: 40
+      intervalRandomSpread: 0
       intervalSpread: 0
       intervalAngle: 0
 		  intervalBullet:
@@ -202,12 +202,78 @@ weapons:
         width: 11
         trailLength: 4
         trailWidth: 1.5
-        speed: 7
-        lifetime: 10
+        speed: 3.5
+        lifetime: 24
         splashDamageRadius: 12
 		    splashDamage: 95
         buildingDamageMultiplier: 1
         buildingDamageMultiplier: 1.5
+        intervalBullets: 1
+        bulletInterval: 1
+        intervalRandomSpread: 120
+        intervalSpread: 0
+        intervalAngle: 0
+		    intervalBullet:
+        {
+          type: BasicBulletType
+          hitEffect: 
+              {
+                type: MultiEffect
+                effects:
+                [
+                  {
+                    type: WaveEffect
+                    lifetime: 15
+                    offsetX: 0
+                    offsetY: 0
+                    sizeFrom: 0
+                    sizeTo: 21
+                    followParent: true
+                    rotWithParent: true
+                    colorFrom: 509FAD
+                    colorTo: C1FFED
+                  }
+                ]
+              }
+          shootEffect: shootSmallColor
+          smokeEffect: none
+          despawnEffect:
+          { 
+            type: MultiEffect
+            effects:
+            [
+              {
+                type: WaveEffect
+                lifetime: 15
+                offsetX: 0
+                offsetY: 0
+                sizeFrom: 0
+                sizeTo: 21
+                followParent: true
+                rotWithParent: true
+                colorFrom: 509FAD
+                colorTo: C1FFED
+              }
+            ]
+          }
+			    backColor: 509FAD
+			    frontColor: C1FFED
+          trailColor: 509FAD
+          hitColor: C1FFED
+          sprite: extremus-null-bubble
+          damage: 0
+          knockback: 0
+          height: 13
+          width: 11
+          trailLength: 4
+          trailWidth: 1.5
+          speed: 7
+          lifetime: 10
+          splashDamageRadius: 12
+		      splashDamage: 95
+          buildingDamageMultiplier: 1
+          buildingDamageMultiplier: 1.5
+        }
       }
     }
     parts:
