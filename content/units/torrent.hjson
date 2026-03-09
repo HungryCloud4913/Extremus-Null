@@ -23,7 +23,7 @@ weapons:
     alternate: true
     rotate: false
     shootSound: pulseBlast
-    x: +10
+    x: +13
     y: +2
     reload: 230
     layerOffset: -0.00001
@@ -99,7 +99,7 @@ weapons:
         suffix: -claw
         heatColor: C1FFED
         x: -2.75
-        y: 4.95
+        y: 6
         moveY: 0
         moveX: 0
         moveRot: 45
@@ -138,9 +138,9 @@ weapons:
     alternate: true
     rotate: false
     shootSound: shotgun
-    x: +10
+    x: +13
     y: +2
-    reload: 230
+    reload: 95
     layerOffset: -0.00001
     rotateSpeed: 0
     inaccuracy: 0
@@ -152,8 +152,8 @@ weapons:
       type: ShootBarrel
       barrels: 
       [
-        0, +5, 0
-        0, -5, 0
+        -3, 0, 0
+        +3, 0, 0
       ]
     }
     bullet: 
@@ -220,7 +220,16 @@ weapons:
     [
       {
         type: RegionPart
-        suffix: -main
+        suffix: -cannon
+        mirror: true
+        moveY: -3
+        moveX: 0
+        progress: recoil
+        under: true
+      }
+      {
+        type: RegionPart
+        suffix: -roof
         mirror: false
         moveY: 0
         moveX: 0
