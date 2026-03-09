@@ -477,7 +477,7 @@ weapons:
           suffix: -barnacle1
           recoilIndex: 0
           color: FFFFFF
-          colorT0: 000000
+          colorTo: 000000
           mirror: false
           progress: recoil
           under: false
