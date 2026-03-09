@@ -436,6 +436,54 @@ weapons:
       }
     ]
   }
+  {
+    name: torrent
+    mirror: true
+    top: false
+    alternate: true
+    rotate: false
+    shootSound: plantBreak
+    x: +0
+    y: +0
+    reload: 400
+    layerOffset: -0.00001
+    rotateSpeed: 0
+    inaccuracy: 0
+    recoil: 0
+    shoot: 
+    {
+      shots: 1
+      shotDelay: 0
+      type: ShootBarrel
+      barrels: 
+      [
+        0, 0, 0
+      ]
+    }
+    bullet: 
+    {
+      spawnUnit: torrent-barnacle
+      hitEffect: none
+      shootEffect: none
+      smokeEffect: none
+      despawnEffect: none
+      parts:
+      [
+        {
+          type: RegionPart
+          suffix: -barnacle1
+          progress: reload
+          colorTo: 00000000
+          color: ffffff
+          mixColor: 00000000
+          outline: false
+          under: false
+          layerOffset: -0.01
+          mixColorTo: ffff00
+        }
+      ]
+    }
+  }
 ]
 hidden: false
 unlocked: false
