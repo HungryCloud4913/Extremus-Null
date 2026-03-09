@@ -438,6 +438,7 @@ weapons:
   }
   {
     name: torrent
+    recoils: 3
     mirror: true
     top: false
     alternate: true
@@ -446,14 +447,14 @@ weapons:
     x: +0
     y: +0
     reload: 400
-    layerOffset: -0.00001
+    layerOffset: +0.00001
     rotateSpeed: 0
     inaccuracy: 0
     recoil: 0
     shoot: 
     {
-      shots: 1
-      shotDelay: 0
+      shots: 3
+      shotDelay: 2
       type: ShootBarrel
       barrels: 
       [
@@ -472,6 +473,33 @@ weapons:
         {
           type: RegionPart
           suffix: -barnacle1
+          recoilIndex: 0
+          progress: reload
+          colorTo: 00000000
+          color: ffffff
+          mixColor: 00000000
+          outline: false
+          under: false
+          layerOffset: +0.00001
+          mixColorTo: ffff00
+        }
+        {
+          type: RegionPart
+          suffix: -barnacle2
+          recoilIndex: 1
+          progress: reload
+          colorTo: 00000000
+          color: ffffff
+          mixColor: 00000000
+          outline: false
+          under: false
+          layerOffset: +0.00001
+          mixColorTo: ffff00
+        }
+        {
+          type: RegionPart
+          suffix: -barnacle3
+          recoilIndex: 2
           progress: reload
           colorTo: 00000000
           color: ffffff
