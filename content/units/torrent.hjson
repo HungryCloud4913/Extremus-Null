@@ -482,7 +482,7 @@ weapons:
         moveX: 0
         moveRot: 0
         color: FFFFFF
-        colorTo: 000000
+        colorTo: 000000FF
         progress: recoil
       }
       {
