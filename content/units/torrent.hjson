@@ -217,7 +217,7 @@ weapons:
 		  splashDamage: 95
       buildingDamageMultiplier: 1
       intervalBullets: 1
-      bulletInterval: 1
+      bulletInterval: 2
       intervalRandomSpread: 35
       intervalSpread: 0
       intervalAngle: 0
@@ -237,8 +237,8 @@ weapons:
         knockback: 0.75
         height: 6
         width: 4
-        trailLength: 3
-        trailWidth: 3
+        trailLength: 4
+        trailWidth: 1
         speed: 2
         lifetime: 20
         buildingDamageMultiplier: 1
