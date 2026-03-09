@@ -438,50 +438,50 @@ weapons:
   }
   {
     name: torrent-b
-    recoils: 3
     mirror: true
-    top: true
+    top: false
     alternate: true
     rotate: false
     shootSound: plantBreak
-    x: +30
+    x: +0
     y: +0
-    reload: 400
-    layerOffset: +3
+    reload: 300
+    layerOffset: +0.00001
     rotateSpeed: 0
     inaccuracy: 0
     recoil: 0
     shoot: 
     {
-      shots: 3
-      shotDelay: 5
+      shots: 1
+      shotDelay: 0
       type: ShootBarrel
       barrels: 
       [
-        +5, -3, 0
-        +7, -4, 0
-        +5, -5, 0
+        0, +5, 0
       ]
     }
     bullet: 
     {
       spawnUnit: torrent-barnacle
-      hitEffect: none
       shootEffect: none
       smokeEffect: none
-      despawnEffect: none
-      parts:
-      [
-        {
-          type: RegionPart
-          suffix: -barnacle1
-          recoilIndex: 0
-          mirror: false
-          progress: recoil
-          under: false
-        }
-      ]
     }
+    parts:
+    [
+      {
+        type: RegionPart
+        under: false
+        mirror: true
+        suffix: -barnacle1
+        heatColor: C1FFED
+        x: -2.75
+        y: 6
+        moveY: 0
+        moveX: 0
+        moveRot: 45
+        progress: recoil
+      }
+    ]
   }
 ]
 hidden: false
