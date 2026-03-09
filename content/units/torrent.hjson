@@ -17,7 +17,7 @@ armor: 11
 weapons:
 [
   {
-    name: stream-arm
+    name: torrent-arm
     mirror: true
     top: false
     alternate: true
@@ -38,6 +38,96 @@ weapons:
       barrels: 
       [
         0, +5, 0
+      ]
+    }
+    bullet: 
+    {
+      type: BasicBulletType
+      hitEffect: none
+      shootEffect: shootBigColor
+      smokeEffect: none
+      despawnEffect:  none
+	    backColor: 509FAD
+			frontColor: C1FFED
+      trailColor: 509FAD
+      hitColor: C1FFED
+      sprite: extremus-null-bubble
+      damage: 0
+      knockback: 0
+      height: 13
+      width: 11
+      trailLength: 4
+      trailWidth: 1.5
+      speed: 6
+      lifetime: 32
+      splashDamageRadius: 12
+		  splashDamage: 95
+      buildingDamageMultiplier: 1
+    }
+    parts:
+    [
+      {
+        type: RegionPart
+        under: true
+        mirror: true
+        suffix: -claw
+        heatColor: C1FFED
+        x: -2.75
+        y: 4.95
+        moveY: 0
+        moveX: 0
+        moveRot: 45
+        progress: 
+        {
+          type: warmup
+          op: delay
+          amount: 0
+        }
+        moves: 
+        [
+          {
+            type: PartMove
+            progress: recoil
+            x: 0
+            y: 0
+            rot: -58
+          }
+        ]
+      }
+      {
+        type: RegionPart
+        suffix: -main
+        mirror: false
+        moveY: 0
+        moveX: 0
+        progress: recoil
+        under: true
+      }
+    ]
+  }
+  {
+    name: torrent-armweapon
+    mirror: true
+    top: false
+    alternate: true
+    rotate: false
+    shootSound: shotgun
+    x: +10
+    y: +2
+    reload: 230
+    layerOffset: -0.00001
+    rotateSpeed: 0
+    inaccuracy: 0
+    recoil: 1.9
+    shoot: 
+    {
+      shots: 1
+      shotDelay: 0
+      type: ShootBarrel
+      barrels: 
+      [
+        0, +5, 0
+        0, -5, 0
       ]
     }
     bullet: 
