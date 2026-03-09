@@ -458,7 +458,9 @@ weapons:
       type: ShootBarrel
       barrels: 
       [
-        -5, -6, 45
+        -5.2, -6.5, 90
+        -6.2, -8.5, 135
+        -7.2, -7, 180
       ]
     }
     bullet: 
