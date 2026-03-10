@@ -21,10 +21,10 @@ hidden: true
 engineOffset: 1
 engineSize: 0.25
 engineColor: C0BF2F
-trailLength: 2
-trailScl: 7
+trailLength: 3
+trailScl: 8
 trailColor: C0BF2F
-loopSound: missileTrail
+loopSound: hum
 missileAccelTime: 10
 weapons: 
 [
@@ -41,13 +41,9 @@ weapons:
       keepVelocity: false
       splashDamage: 5
       splashDamageRadius: 10
-      hitEffect: 
-      {
-        type: ExplosionEffect
-        waveColor: FFFE81
-        smokeColor: FFFE81
-        sparkColor: FFFE81
-      }
+			hitEffect: hitBulletColor
+      despawnEffect: hitBulletColor
+      hitColor: FFFE81
     }
   }
 ]

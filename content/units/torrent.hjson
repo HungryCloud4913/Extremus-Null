@@ -32,12 +32,13 @@ weapons:
     recoil: 0
     shoot: 
     {
-      shots: 1
+      shots: 2
       shotDelay: 0
       type: ShootBarrel
       barrels: 
       [
-        0, +5, 0
+        0, +7, 15
+        0, +7, -15
       ]
     }
     bullet: 
@@ -58,8 +59,8 @@ weapons:
       knockback: 0
       speed: 0
       lifetime: 35
-      length: 69
-      width: 19
+      length: 60
+      width: 21
       sideAngle: 0
       buildingDamageMultiplier: 1.5
       intervalBullets: 90
@@ -79,7 +80,7 @@ weapons:
         trailColor: 509FAD
         hitColor: C1FFED
         sprite: extremus-null-slash
-        damage: 7
+        damage: 4
         knockback: 0.75
         height: 13
         width: 11
@@ -141,7 +142,7 @@ weapons:
     shootSound: shootAltLong
     x: +12
     y: +0
-    reload: 30
+    reload: 40
     layerOffset: -0.00001
     rotateSpeed: 0
     inaccuracy: 0
@@ -217,7 +218,7 @@ weapons:
 		  splashDamage: 95
       buildingDamageMultiplier: 1
       intervalBullets: 1
-      bulletInterval: 2
+      bulletInterval: 3
       intervalRandomSpread: 35
       intervalSpread: 0
       intervalAngle: 0
@@ -327,7 +328,7 @@ weapons:
     shootSound: plantBreak
     x: +0
     y: +0
-    reload: 400
+    reload: 450
     layerOffset: +0.00001
     rotateSpeed: 0
     inaccuracy: 0
@@ -335,7 +336,7 @@ weapons:
     shoot: 
     {
       shots: 3
-      shotDelay: 7.5
+      shotDelay: 10
       type: ShootBarrel
       barrels: 
       [
@@ -348,7 +349,26 @@ weapons:
     {
       spawnUnit: torrent-barnacle
       shootEffect: none
-      smokeEffect: none
+      smokeEffect: 
+      {
+        type: MultiEffect
+        effects: 
+        [
+          {
+            type: ParticleEffect
+            line: true
+            colorTo: 91816D00
+            interp: pow10Out
+            sizeInterp: pow10In
+            strokeFrom: 1
+            strokeTo: 0
+            lenFrom: 2.1
+            lenTo: 1
+            particles: 5
+            cone: 20
+          }
+        ]
+      }
     }
     parts:
     [
