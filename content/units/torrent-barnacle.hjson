@@ -1,6 +1,6 @@
 type: missile
 drawCell: false
-outlineColor: 242628
+outlineColor:  372D25
 template: MissileUnitType
 speed: 4
 flying: true
@@ -37,10 +37,10 @@ weapons:
     bullet: 
     {
       killShooter: true
-      type: ExplosionBulletType
+      type: BasicBulletType
       keepVelocity: false
       splashDamage: 5
-      splashDamageRadius: 10
+      splashDamageRadius: 5
 			hitEffect: hitBulletColor
       despawnEffect: hitBulletColor
       hitColor: FFFE81

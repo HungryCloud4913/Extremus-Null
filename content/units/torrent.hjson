@@ -37,8 +37,7 @@ weapons:
       type: ShootBarrel
       barrels: 
       [
-        0, +7, 15
-        0, +7, -15
+        0, +7, 0
       ]
     }
     bullet: 
@@ -64,7 +63,7 @@ weapons:
       sideAngle: 0
       buildingDamageMultiplier: 1.5
       intervalBullets: 90
-      bulletInterval: 60
+      bulletInterval: 90
       intervalRandomSpread: 0
       intervalSpread: 2
       intervalAngle: 0
@@ -80,7 +79,7 @@ weapons:
         trailColor: 509FAD
         hitColor: C1FFED
         sprite: extremus-null-slash
-        damage: 4
+        damage: 5
         knockback: 0.75
         height: 13
         width: 11
