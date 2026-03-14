@@ -29,7 +29,7 @@ category: production
   tungsten/200
 ]
 research: {
-  parent: fossil-ripper
+  parent: mineral-wall-ripper
   objectives: [
 {
 type: OnSector
