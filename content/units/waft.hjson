@@ -5,20 +5,21 @@ hitSize: 10
 outlineColor: 252222
 hovering: true
 hoverable: true
-lowAltitude: true
 shadowElevation: 0.1
 mechFrontSway: 0
 mechSideSway: 0
 mechStride: 0
-groundLayer: 61
+groundLayer: 60
 canDrown: false
 targetAir: true
 faceTarget: false
+omniMovement: false
+drawBase: false
 isEnemy: true
 accel: 0.5
 drag: 0.09
 speed: 2.1
-rotateSpeed: 4.5
+rotateSpeed: 3.85
 armor: 0
 parts: [
   {
@@ -55,7 +56,7 @@ abilities: [
 ]
 weapons:[
  {
-  name: yellow-missile
+  name: waft-weapon
   reload: 20
   x: 0
   y: 0
