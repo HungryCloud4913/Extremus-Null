@@ -75,7 +75,7 @@ weapons:
       width: 17
       length: 80
       sideAngle: 21
-      hitEffect:
+      hitEffect: none
       shootEffect: none
       smokeEffect:
       {
