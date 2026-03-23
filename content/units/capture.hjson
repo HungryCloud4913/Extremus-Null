@@ -119,48 +119,6 @@ type: LaserBulletType
 }
 parts: [
 {
-    type: HaloPart
-    shapes: 1
-    x: 0
-    y: -9
-    haloRotateSpeed: 0
-    haloRotation: 0
-    shapeRotation: 0
-    triLength: 0
-    triLengthTo: 7
-    haloRadius: 0
-    haloRadiusTo: 17.6
-    radius: 0
-    radiusTo: 3
-    layer: 110
-    tri: true
-    color: F39FC2F
-    colorTo: F39FC2
-    progress: warmup
-    under: true
-}
-{
-    type: HaloPart
-    shapes: 1
-    x: 0
-    y: -9
-    haloRotateSpeed: 0
-    haloRotation: 0
-    shapeRotation: 180
-    triLength: 0
-    triLengthTo: 9
-    haloRadius: 0
-    haloRadiusTo: 17.6
-    radius: 0
-    radiusTo: 3
-    layer: 110
-    tri: true
-    color: F39FC2F
-    colorTo: F39FC2
-    progress: warmup
-    under: true
-}
-{
         type: RegionPart
         suffix: -barrels
         mirror: false
@@ -183,33 +141,6 @@ parts: [
     op: delay
     amount: 0.6
     }
-      under: true
-}
-{
-    type: RegionPart
-    suffix: -sidesupport
-    mirror: true
-    heatColor: F39FC2
-    x: -11
-    y: 0.5
-    moveY: 0
-    moveX: 0
-    moveRot: -180
-    layer: 120
-    progress: {
-    type: warmup
-    op: delay
-    amount: 0.6
-    }
-    moves: [
-        {
-            type: PartMove
-            progress: recoil
-            x: 0
-            y: 0
-            rot: 20
-        }
-    ]
       under: true
 }
 {
@@ -264,108 +195,6 @@ parts: [
     ]
       under: true
       outline: false
-}
-{
-    type: ShapePart
-    x: 0
-    y: -9
-    rotateSpeed: 0
-    rotation: 0
-    radius: 3
-    radiusTo: 10
-    color: F39FC2F
-    colorTo: F39FC2
-    circle: true
-    hollow: true
-    layer: 110
-    progress: warmup
-    under: true
-}
-{
-    type: HaloPart
-    shapes: 8
-    x: 0
-    y: -9
-    haloRotateSpeed: 0
-    haloRotation: 45
-    shapeRotation: 0
-    triLength: 0
-    triLengthTo: 3
-    haloRadius: 3
-    haloRadiusTo: 10
-    radius: 0
-    radiusTo: 3
-    layer: 110
-    tri: true
-    color: F39FC2F
-    colorTo: F39FC2
-    progress: warmup
-    under: true
-}
-{
-    type: HaloPart
-    shapes: 8
-    x: 0
-    y: -9
-    haloRotateSpeed: 0
-    haloRotation: 45
-    shapeRotation: 180
-    triLength: 0
-    triLengthTo: 6
-    haloRadius: 3
-    haloRadiusTo: 10
-    radius: 0
-    radiusTo: 3
-    layer: 110
-    tri: true
-    color: F39FC2F
-    colorTo: F39FC2
-    progress: warmup
-    under: true
-}
-{
-    type: HaloPart
-    mirror: true
-    shapes: 1
-    x: 0
-    y: -4
-    haloRotateSpeed: 0
-    haloRotation: 90
-    shapeRotation: 90
-    triLength: 0
-    triLengthTo: 5
-    haloRadius: 0
-    haloRadiusTo: 13.5
-    radius: 0
-    radiusTo: 5
-    layer: 110
-    tri: true
-    color: F39FC2F
-    colorTo: F39FC2
-    progress: warmup
-    under: true
-}
-{
-    type: HaloPart
-    mirror: true
-    shapes: 1
-    x: 0
-    y: -4
-    haloRotateSpeed: 0
-    haloRotation: 90
-    shapeRotation: 270
-    triLength: 0
-    triLengthTo: 4
-    haloRadius: 0
-    haloRadiusTo: 11.5
-    radius: 0
-    radiusTo: 9
-    layer: 110
-    tri: true
-    color: F39FC2F
-    colorTo: F39FC2
-    progress: warmup
-    under: true
 }
 {
     type: RegionPart

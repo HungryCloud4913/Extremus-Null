@@ -3,8 +3,7 @@ health: 1570
 lightRadius: 22
 hitSize: 9
 outlineColor: 252222
-shadowElevation: 0.1
-groundLayer: 61
+groundLayer: 60
 canDrown: true
 targetAir: true
 faceTarget: true
@@ -14,180 +13,125 @@ accel: 0.5
 drag: 0.4
 rotateSpeed: 3
 armor: 5
-weapons:[
- {
-  name: control-point
- type: PointDefenseWeapon
-        mirror: false
-        top: true
-        alternate: false
-        rotate: true
-	rotateSpeed: 6
-        x: -5.2
-        y: -1
-        reload: 70
-      controllable: false
-      autoTarget: true
-      targetInterval: 5
-      targetSwitchInterval: 5
-      shootSound: sap
-      bullet: {
-        hitEffect: pointHit
-        smokeEffect: pointHit
-        maxRange: 70
-        damage: 15
-      }
-}
-{
-                name: control-mouth
-                mirror: true
-                top: false
-                alternate: true
-                layerOffset: -0.0001
-                rotate: true
-		rotateSpeed: 1.2
-                x: 0
-                y: +3
-                rotationLimit: 30
-                reload: 120
-                 shoot: {
-                 shots: 4
-                 shotDelay: 4
-                 firstShotDelay: 29
-            }
-            inaccuracy: 0
-            recoil: 0
-            chargeSound: wradCharge
-            shootSound: wradLaser
-            soundPitchMin: 1.3
-            soundPitchMax: 1.3
-            bullet: {
-                type: LaserBulletType
-                damage: 18
-                speed: 0
-                inaccuracy: 10
-                lifetime: 27
-                knockback: 0
-                pierce: true
-		colors: [305882, 49B8E6, F6F0FF]
-                width: 20
-                length: 80
-                sideAngle: 29
-   despawnEffect: none
-        despawnHit: false
-        smokeEffect: {
-          type: MultiEffect
-          effects: [
-          {
-          type: ParticleEffect
-          line: true
-          strokeFrom: 1
-          strokeTo: 0
-          lenFrom: 3
-          lenTo: 10
-          colorTo: 49B8E6
-          interp: pow10Out
-          sizeInterp: pow10In
-          particles: 4
-          cone: 30
-          }
-          {
-          type: ParticleEffect
-          length: 5
-          sizeFrom: 1
-          cone: 10
-          interp: pow10Out
-          sizeInterp: pow10In
-          colorTo: 49B8E6
-          lifetime: 0
-          particles: 1
-          }
-          {
-    type: WaveEffect
-    lifetime: 10
-    offsetX: 0
-    offsetY: 0
-    sizeFrom: 0
-    sizeTo: 10
-    followParent: true
-    rotWithParent: true
-    colorFrom: 49B8E6
-    colorTo: E3F7FF000
-          }
-          {
-    type: WaveEffect
-    lifetime: 3
-    offsetX: 0
-    offsetY: 0
-    sizeFrom: 10
-    sizeTo: 0
-    followParent: true
-    rotWithParent: true
-    colorFrom: 49B8E6
-    colorTo: E3F7FF000
-          }
-          ]
-          }
-
-chargeEffect: {
-    type: MultiEffect
-
-effects: [
-{
-    type: WaveEffect
-    lifetime: 17
-    offsetX: 0
-    offsetY: 0
-    sizeFrom: 15
-    sizeTo: 0
-    followParent: true
-    rotWithParent: true
-    colorFrom: E3F7FF000
-    colorTo: 49B8E6
-}
-{
-    type: RadialEffect
-    lifetime: 17
-    amount: 12
-    rotationSpacing: 360
-    followParent: true
-    rotWithParent: true
-}
-]
-}
-}
-
-parts: [
+weapons:
+[
+  {
+    name: control-point
+    type: PointDefenseWeapon
+    mirror: false
+    top: true
+    alternate: false
+    rotate: true
+	  rotateSpeed: 10
+    x: 0
+    y: +4
+    reload: 70
+    controllable: false
+    autoTarget: true
+    targetInterval: 5
+    targetSwitchInterval: 5
+    shootSound: sap
+    bullet: 
+    {
+      hitEffect: pointHit
+      smokeEffect: pointHit
+      maxRange: 70
+      damage: 15
+    }
+  }
+  {
+    name: control-arm
+    mirror: true
+    top: false
+    alternate: true
+    rotate: true
+    chargeSound: wradCharge
+    shootSound: wradLaser
+    soundPitchMin: 1.3
+    soundPitchMax: 1.3
+    x: +10
+    y: 0
+    reload: 120
+    layerOffset: -0.0001
+    rotateSpeed: 1
+    recoil: 4
+    inaccuracy: 0
+    rotationLimit: 30
+    shoot:
+    {
+      shots: 2
+      shotDelay: 4
+      firstShotDelay: 29
+    }
+    bullet:
+    {
+      type: LaserBulletType
+      damage: 36
+      speed: 0
+      lifetime: 27
+      knockback: 0
+      pierce: true
+		  colors: [305882, 49B8E6, F6F0FF]
+      width: 17
+      length: 80
+      sideAngle: 21
+      hitEffect:
+      shootEffect: none
+      smokeEffect:
       {
-        type: FlarePart
-        y: 2.5
-        radius: 0
-        radiusTo: 9
-        stroke: 5
-        rotation: 10
-        rotMove: 85
-        followRotation: false
-        progress: {
-          type: charge
-          interp: pow5In
-        }
-}
-      {
-        type: FlarePart
-        y: 2.5
-        radius: 0
-        radiusTo: 9
-        stroke: 5
-        rotation: 10
-        rotMove: -85
-        followRotation: false
-        progress: {
-          type: charge
-          interp: pow5In
-        }
+        type: MultiEffect
+        effects: 
+        [
+          {
+            type: ParticleEffect
+            particles: 4
+            cone: 30
+            lifetime: 2
+            offsetX: 0
+            offsetY: 0
+            strokeFrom: 1
+            strokeTo: 0
+            lenFrom: 3
+            lenTo: 10
+            line: true
+            colorTo: 49B8E6
+            interp: pow10Out
+            sizeInterp: pow10In
+            particles: 4
+          }
+        ]
       }
-]
-}
+      despawnEffect: none
+      chargeEffect:
+      {
+        type: MultiEffect
+        effects:
+        [
+          {
+            type: WaveEffect
+            lifetime: 17
+            offsetX: 0
+            offsetY: 0
+            sizeFrom: 15
+            sizeTo: 0
+            followParent: true
+            rotWithParent: true
+            colorFrom: E3F7FF000
+            colorTo: 49B8E6
+          }
+          {
+            type: RadialEffect
+            lifetime: 17
+            amount: 12
+            rotationSpacing: 360
+            followParent: true
+            rotWithParent: true
+          }
+        ]
+      }
+      despawnHit: false
+    }
+  }
 ]
 research: 
 {
@@ -197,4 +141,151 @@ research:
   [
     walker-garage,
   ]
+}
+
+
+
+{
+    type: HaloPart
+    shapes: 1
+    x: 0
+    y: -9
+    haloRotateSpeed: 0
+    haloRotation: 0
+    shapeRotation: 0
+    triLength: 0
+    triLengthTo: 7
+    haloRadius: 0
+    haloRadiusTo: 17.6
+    radius: 0
+    radiusTo: 3
+    layer: 110
+    tri: true
+    color: F39FC2F
+    colorTo: F39FC2
+    progress: warmup
+    under: true
+}
+{
+    type: HaloPart
+    shapes: 1
+    x: 0
+    y: -9
+    haloRotateSpeed: 0
+    haloRotation: 0
+    shapeRotation: 180
+    triLength: 0
+    triLengthTo: 9
+    haloRadius: 0
+    haloRadiusTo: 17.6
+    radius: 0
+    radiusTo: 3
+    layer: 110
+    tri: true
+    color: F39FC2F
+    colorTo: F39FC2
+    progress: warmup
+    under: true
+}
+{
+    type: ShapePart
+    x: 0
+    y: -9
+    rotateSpeed: 0
+    rotation: 0
+    radius: 3
+    radiusTo: 10
+    color: F39FC2F
+    colorTo: F39FC2
+    circle: true
+    hollow: true
+    layer: 110
+    progress: warmup
+    under: true
+}
+{
+    type: HaloPart
+    shapes: 8
+    x: 0
+    y: -9
+    haloRotateSpeed: 0
+    haloRotation: 45
+    shapeRotation: 0
+    triLength: 0
+    triLengthTo: 3
+    haloRadius: 3
+    haloRadiusTo: 10
+    radius: 0
+    radiusTo: 3
+    layer: 110
+    tri: true
+    color: F39FC2F
+    colorTo: F39FC2
+    progress: warmup
+    under: true
+}
+{
+    type: HaloPart
+    shapes: 8
+    x: 0
+    y: -9
+    haloRotateSpeed: 0
+    haloRotation: 45
+    shapeRotation: 180
+    triLength: 0
+    triLengthTo: 6
+    haloRadius: 3
+    haloRadiusTo: 10
+    radius: 0
+    radiusTo: 3
+    layer: 110
+    tri: true
+    color: F39FC2F
+    colorTo: F39FC2
+    progress: warmup
+    under: true
+}
+{
+    type: HaloPart
+    mirror: true
+    shapes: 1
+    x: 0
+    y: -4
+    haloRotateSpeed: 0
+    haloRotation: 90
+    shapeRotation: 90
+    triLength: 0
+    triLengthTo: 5
+    haloRadius: 0
+    haloRadiusTo: 13.5
+    radius: 0
+    radiusTo: 5
+    layer: 110
+    tri: true
+    color: F39FC2F
+    colorTo: F39FC2
+    progress: warmup
+    under: true
+}
+{
+    type: HaloPart
+    mirror: true
+    shapes: 1
+    x: 0
+    y: -4
+    haloRotateSpeed: 0
+    haloRotation: 90
+    shapeRotation: 270
+    triLength: 0
+    triLengthTo: 4
+    haloRadius: 0
+    haloRadiusTo: 11.5
+    radius: 0
+    radiusTo: 9
+    layer: 110
+    tri: true
+    color: F39FC2F
+    colorTo: F39FC2
+    progress: warmup
+    under: true
 }

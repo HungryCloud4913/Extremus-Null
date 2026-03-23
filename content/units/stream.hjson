@@ -7,8 +7,7 @@ mechSideSway: 0
 health: 1340
 hitSize: 13
 outlineColor: 242628
-shadowElevation: 0.1
-groundLayer: 61
+groundLayer: 60
 speed: 0.42
 accel: 0.5
 drag: 0.4

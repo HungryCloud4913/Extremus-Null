@@ -13,7 +13,6 @@ groundLayer: 60
 canDrown: false
 targetAir: true
 faceTarget: false
-omniMovement: false
 drawBase: false
 isEnemy: true
 accel: 0.5
@@ -59,7 +58,7 @@ weapons:[
   name: waft-weapon
   reload: 20
   x: 0
-  y: 0
+  y: -2
   mirror: false
   alternate: false
   inaccuracy: 0.5
