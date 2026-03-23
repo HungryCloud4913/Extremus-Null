@@ -5,7 +5,6 @@ hitSize: 13
 outlineColor: 252222
 hovering: true
 hoverable: true
-shadowElevation: 0.1
 mechFrontSway: 0
 mechSideSway: 0
 mechStride: 0
@@ -28,7 +27,7 @@ parts: [
     sides: 4
     layerOffset: -0.0001
     x: 0
-    y: 1
+    y: 3
     phase: 150
   }
   {

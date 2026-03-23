@@ -88,6 +88,8 @@ mineral-tearer
 
 #Storage
 core-pointless
+core-hopeless
+core-absolvement
 item-tower
 
 #Turrets
@@ -120,13 +122,15 @@ daze
 ensnare
 capture
 imprison
+empty
+orbitoklastt-subject
 drop
 flow
 stream
 torrent
 cascade
 taenura
-urotru
+urotry
 himantur
 rhynopt
 mobula

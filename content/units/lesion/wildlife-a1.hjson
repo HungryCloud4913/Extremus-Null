@@ -3,6 +3,7 @@ health: 200
 hitSize: 15
 alwaysUnlocked: true
 outlineColor: 5D533C
+groundLayer: 50
 drawCell: false
 hovering: true
 legStraightness: 0.7

@@ -24,8 +24,11 @@ weapons:
     rotate: true
 	  rotateSpeed: 10
     x: 0
-    y: +4
+    y: +6
     reload: 70
+    rotateSpeed: 100
+    shootX: 0
+    shootY: 0
     controllable: false
     autoTarget: true
     targetInterval: 5
@@ -36,7 +39,7 @@ weapons:
       hitEffect: pointHit
       smokeEffect: pointHit
       maxRange: 70
-      damage: 15
+      damage: 32
     }
   }
   {
@@ -49,9 +52,11 @@ weapons:
     shootSound: wradLaser
     soundPitchMin: 1.3
     soundPitchMax: 1.3
-    x: +10
+    x: +11
     y: 0
     reload: 120
+    shootX: 0
+    shootY: 2
     layerOffset: -0.0001
     rotateSpeed: 1
     recoil: 4

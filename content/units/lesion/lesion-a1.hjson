@@ -2,6 +2,7 @@ type: crawl
 health: 270
 flying: false
 outlineColor: 0C0606
+groundLayer: 60
 speed: 0.7
 armor: 0
 hitSize: 14

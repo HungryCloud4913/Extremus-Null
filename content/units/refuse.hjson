@@ -26,9 +26,11 @@ weapons:
     autoTarget: true
     shootSound: sap
     x: 0
-    y: +3
+    y: +5
     reload: 60
     rotateSpeed: 100
+    shootX: 0
+    shootY: 0
     targetInterval: 5
     targetSwitchInterval: 5
     bullet:

@@ -5,6 +5,7 @@ lowAltitude: true
 groundLayer: 60
 alwaysUnlocked: true
 outlineColor: 0C0606
+groundLayer: 75
 drawCell: false
 drawBody: false
 hovering: true

@@ -8,6 +8,7 @@ drag: 0.01
 armor: 0
 rotateSpeed: 3.25
 outlineColor: 0C0606
+groundLayer: 115
 targetAir: true
 faceTarget: false
 immunities: [

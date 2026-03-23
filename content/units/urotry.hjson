@@ -11,6 +11,7 @@ drag: 0.01
 armor: 2
 rotateSpeed: 3.2
 outlineColor: 242628
+groundLayer: 115
 engineOffset: 1
 engines:  
 [

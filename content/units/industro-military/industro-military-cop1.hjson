@@ -9,6 +9,7 @@ drag: 0.01
 armor: 0
 rotateSpeed: 3.25
 outlineColor: 14190C
+groundLayer: 115
 targetAir: false
 faceTarget: false
 engineSize: 1
