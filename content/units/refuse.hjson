@@ -49,7 +49,7 @@ weapons:
     soundPitchMin: 1.3
     soundPitchMax: 1.3
     x: +7
-    y: 
+    y: 0
     reload: 70
     layerOffset: -0.0001
     rotateSpeed: 1.1
