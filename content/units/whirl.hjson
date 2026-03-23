@@ -27,7 +27,7 @@ parts: [
     sides: 4
     layerOffset: -0.0001
     x: 0
-    y: 3
+    y: 4
     phase: 150
   }
   {
