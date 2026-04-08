@@ -5,12 +5,12 @@ sector: 7
 research:
 {
   planet: extrull
-  parent: First-Contact
+  parent: first-contact
   objectives: 
   [
     {
       type: SectorComplete
-      preset: First-Contact
+      preset: first-contact
     }
   ]
 }

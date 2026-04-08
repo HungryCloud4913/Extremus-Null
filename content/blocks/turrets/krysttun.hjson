@@ -206,7 +206,7 @@ research: {
   objectives: [
 {
 type: OnSector
-preset: Resisted-Expansion
+preset: resisted-expansion
   }
 ]
 }

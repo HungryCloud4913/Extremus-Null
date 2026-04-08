@@ -4,12 +4,12 @@ sector: 67
 research:
 {
   planet: extrull
-  parent: Resisted-Expansion
+  parent: resisted-expansion
   objectives: 
   [
     {
       type: SectorComplete
-      preset: Resisted-Expansion
+      preset: resisted-expansion
     }
   ]
 }
