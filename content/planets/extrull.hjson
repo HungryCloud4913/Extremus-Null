@@ -10,6 +10,7 @@ accessible: true
 updateLighting: False
 sectorSeed: 14513
 startSector: 3
+defaultAttribute: 129
 bloom: true
 visible: true
 atmosphereColor: 391d1de6
