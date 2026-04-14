@@ -4,12 +4,12 @@ sector: 67
 research:
 {
   planet: extrull
-  parent: ruinous-shores
+  parent: ravine
   objectives: 
   [
     {
       type: SectorComplete
-      preset: ruinous-shores
+      preset: ravine
     }
   ]
 }

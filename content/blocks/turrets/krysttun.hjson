@@ -206,7 +206,7 @@ research: {
   objectives: [
 {
 type: OnSector
-preset: ruinous-shores
+preset: ravine
   }
 ]
 }

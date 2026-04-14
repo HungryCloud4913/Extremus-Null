@@ -5,12 +5,12 @@ sector: 7
 research:
 {
   planet: extrull
-  parent: first-contact
+  parent: frozen-forest
   objectives: 
   [
     {
       type: SectorComplete
-      preset: first-contact
+      preset: frozen-forest
     }
   ]
 }
