@@ -5,12 +5,12 @@ sector: 7
 research:
 {
   planet: extrull
-  parent: frozen-forest
+  parent: peaks
   objectives: 
   [
     {
       type: SectorComplete
-      preset: frozen-forest
+      preset: peaks
     }
   ]
 }

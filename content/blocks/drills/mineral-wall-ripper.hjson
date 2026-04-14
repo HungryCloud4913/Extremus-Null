@@ -32,7 +32,7 @@ research: {
   objectives: [
 {
 type: OnSector
-preset: fungal-pass
+preset: peaks
   }
 ]
 }
