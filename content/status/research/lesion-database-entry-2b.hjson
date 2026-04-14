@@ -3,7 +3,7 @@ research: {
   objectives: [
 {
 type: SectorComplete
-preset: resisted-expansion
+preset: ruinous-shores
   }
 ]
 }

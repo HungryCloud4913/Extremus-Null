@@ -206,7 +206,7 @@ research: {
   objectives: [
 {
 type: OnSector
-preset: resisted-expansion
+preset: ruinous-shores
   }
 ]
 }

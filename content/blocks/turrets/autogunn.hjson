@@ -161,7 +161,7 @@ research: {
   objectives: [
 {
 type: OnSector
-preset: cancerous-outset
+preset: karst
   }
 ]
 }

@@ -106,7 +106,7 @@ research:
   [
     {
       type: SectorComplete
-      preset: cancerous-outset
+      preset: karst
     }
   ]
 }
