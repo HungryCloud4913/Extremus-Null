@@ -16,7 +16,7 @@ optionalBoostIntensity: 2
   power: 1.5
 }
 
-drillTime: 550
+drillTime: 575
 tier: 10
 hardnessDrillMultiplier: 2
 itemCapacity: 45
