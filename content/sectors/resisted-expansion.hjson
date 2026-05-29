@@ -1,0 +1,16 @@
+captureWave: 10
+difficulty: 4
+planet: extrull
+sector: 7
+research:
+{
+  planet: extrull
+  parent: peaks
+  objectives: 
+  [
+    {
+      type: SectorComplete
+      preset: peaks
+    }
+  ]
+}
