@@ -143,10 +143,10 @@ weapons:
     type: RegionPart
     suffix: -barrel1
     mirror: true
-    heatColor: F39FC2
+    heatColor: F17F5A
     moveY: -3
     moveX: -6
-    moveRot: -20
+    moveRot: -15
     under: true
     progress: {
     type: warmup
@@ -159,7 +159,7 @@ weapons:
             progress: recoil
             x: -1
             y: -2
-            rot: 0
+            rot: -2
         }
     ]
       under: true
@@ -178,7 +178,7 @@ hollow: false
 triLength: 0
 triLengthTo: 7
 color: 000000ff
-colorTo: D7BDFF
+colorTo: F17F5A
 haloRotation: 180
 haloRotateSpeed: 0
 shapes: 1
@@ -198,7 +198,7 @@ hollow: false
 triLength: 0
 triLengthTo: 13
 color: 000000ff
-colorTo: D7BDFF
+colorTo: F17F5A
 haloRotation: 0
 haloRotateSpeed: 0
 shapes: 1
