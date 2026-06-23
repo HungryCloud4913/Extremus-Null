@@ -94,6 +94,8 @@ weapons:
     x: 0
     y: -4
     reload: 130
+    shootWarmupSpeed: 0.01
+    minWarmup: 0.90
     layerOffset: 0.5
     rotateSpeed: 2
     inaccuracy: 1
@@ -145,7 +147,7 @@ weapons:
     moveY: -4
     moveX: -4
     moveRot: 20
-    layer: 120
+    under: true
     progress: {
     type: warmup
     op: delay
@@ -157,7 +159,7 @@ weapons:
             progress: recoil
             x: -3
             y: -2
-            rot: 2
+            rot: 0
         }
     ]
       under: true
