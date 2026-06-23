@@ -144,8 +144,8 @@ weapons:
     suffix: -barrel1
     mirror: true
     heatColor: F39FC2
-    moveY: -4
-    moveX: -4
+    moveY: -3
+    moveX: -6
     moveRot: -20
     under: true
     progress: {
@@ -173,8 +173,8 @@ haloRadTo: 0
 layer: 110
 tri: true
 hollow: false
-triLength: 5
-triLengthTo: 0
+triLength: 0
+triLengthTo: 7
 color: D7BDFF
 colorTo: 000000ff
 haloRotation: 180
@@ -191,14 +191,12 @@ haloRadTo: 0
 layer: 110
 tri: true
 hollow: false
-triLength: 10
-triLengthTo: 0
+triLength: 0
+triLengthTo: 13
 color: D7BDFF
 colorTo: 000000ff
 haloRotation: 0
 haloRotateSpeed: 0
-stroke: 2
-strokeTo: 5
 shapes: 1
 progress: warmup
 }
