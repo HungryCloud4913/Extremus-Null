@@ -146,7 +146,7 @@ weapons:
     heatColor: F39FC2
     moveY: -4
     moveX: -4
-    moveRot: 20
+    moveRot: -20
     under: true
     progress: {
     type: warmup
@@ -157,8 +157,8 @@ weapons:
         {
             type: PartMove
             progress: recoil
-            x: -3
-            y: -2
+            x: -1
+            y: 0
             rot: 0
         }
     ]
@@ -180,7 +180,7 @@ colorTo: 000000ff
 haloRotation: 180
 haloRotateSpeed: 0
 shapes: 1
-progress: recoil
+progress: warmup
 }
 {
 type: HaloPart
@@ -197,8 +197,10 @@ color: D7BDFF
 colorTo: 000000ff
 haloRotation: 0
 haloRotateSpeed: 0
+stroke: 2
+strokeTo: 5
 shapes: 1
-progress: recoil
+progress: warmup
 }
     ]
   }
