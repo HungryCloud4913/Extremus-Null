@@ -175,8 +175,8 @@ tri: true
 hollow: false
 triLength: 0
 triLengthTo: 7
-color: D7BDFF
-colorTo: 000000ff
+color: 000000ff
+colorTo: D7BDFF
 haloRotation: 180
 haloRotateSpeed: 0
 shapes: 1
@@ -193,8 +193,8 @@ tri: true
 hollow: false
 triLength: 0
 triLengthTo: 13
-color: D7BDFF
-colorTo: 000000ff
+color: 000000ff
+colorTo: D7BDFF
 haloRotation: 0
 haloRotateSpeed: 0
 shapes: 1
