@@ -151,14 +151,14 @@ weapons:
     progress: {
     type: warmup
     op: delay
-    amount: 0.6
+    amount: 0.0
     }
     moves: [
         {
             type: PartMove
             progress: recoil
             x: -1
-            y: 0
+            y: -2
             rot: 0
         }
     ]
@@ -170,6 +170,8 @@ type: HaloPart
   y: 0
 haloRadius: 0
 haloRadTo: 0
+radius: 0
+radiusTo: 3
 layer: 110
 tri: true
 hollow: false
@@ -188,6 +190,8 @@ type: HaloPart
   y: 0
 haloRadius: 0
 haloRadTo: 0
+radius: 0
+radiusTo: 3
 layer: 110
 tri: true
 hollow: false
