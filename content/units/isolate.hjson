@@ -171,7 +171,7 @@ type: HaloPart
 haloRadius: 0
 haloRadTo: 0
 radius: 0
-radiusTo: 3
+radiusTo: 7
 layer: 110
 tri: true
 hollow: false
@@ -191,7 +191,7 @@ type: HaloPart
 haloRadius: 0
 haloRadTo: 0
 radius: 0
-radiusTo: 3
+radiusTo: 7
 layer: 110
 tri: true
 hollow: false
