@@ -169,12 +169,12 @@ weapons: [
         colorTo: F17F5A088
         moveY: 0
         moveX: 0
-        growX: -10
-        growY: -10
+        xScl: 0.1
+        yScl: 0.1
         moveRot: 0
         growProgress:{
           type: recoil
-          scl: 0
+          scl: 3
           mag: 0.1
         }
         progress:{
