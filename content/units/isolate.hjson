@@ -136,11 +136,11 @@ weapons: [
         type: RegionPart
         suffix: -barrel1
         mirror: true
+        under: true
         heatColor: F17F5A
         moveY: -3
-        moveX: -4.5
+        moveX: -4.25
         moveRot: -15
-        under: true
         progress:{
           type: warmup
           op: delay
@@ -161,20 +161,20 @@ weapons: [
         suffix: -bolt
         layer: 90.4
         mirror: false
+        outline: false
+        under: true
+        blending: additive
         heatColor: F17F5A
         color: F17F5A000
         colorTo: F17F5A088
-        blending: additive
         moveY: 0
         moveX: 0
-        growX: 1
-        growY: 1
+        growX: -10
+        growY: -10
         moveRot: 0
-        under: true
         growProgress:{
           type: recoil
           op: sin
-          scl: 3
           mag: 0.1
         }
         progress:{
