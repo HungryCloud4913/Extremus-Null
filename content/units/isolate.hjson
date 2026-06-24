@@ -199,7 +199,7 @@ weapons: [
         moveRot: 0
         growProgress:{
           type: warmup
-          op: exp
+          op: sin
           scl: 3
           mag: 0.1
         }
