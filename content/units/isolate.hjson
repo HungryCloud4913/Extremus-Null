@@ -87,6 +87,7 @@ weapons: [
     top: true
     rotate: true
     alternate: false
+    drawOutline: true
     shootSound: plasmaboom
     x: 0
     y: -6
@@ -193,8 +194,10 @@ weapons: [
         colorTo: F17F5A088
         moveY: 0
         moveX: 0
-        xScl: 0.1
-        yScl: 0.1
+        xScl: 0
+        yScl: 0
+        growX: 2
+        growY: 2
         moveRot: 0
         growProgress:{
           type: recoil
