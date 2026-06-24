@@ -193,8 +193,6 @@ weapons: [
         colorTo: FFFFFF
         moveY: 0
         moveX: 0
-        growX: 1
-        growY: 1
         moveRot: 0
         growProgress:{
           type: recoil
