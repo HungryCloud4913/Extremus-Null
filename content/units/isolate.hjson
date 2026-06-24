@@ -158,6 +158,30 @@ weapons: [
       }
       {
         type: RegionPart
+        suffix: -inward
+        mirror: true
+        under: true
+        heatColor: F17F5A
+        moveY: -3
+        moveX: -2.75
+        moveRot: 0
+        progress:{
+          type: warmup
+          op: delay
+          amount: 0.0
+        }
+        moves:[
+          {
+            type: PartMove
+            progress: recoil
+            x: -1
+            y: -2
+            rot: -2
+          }
+        ]
+      }
+      {
+        type: RegionPart
         suffix: -bolt
         layer: 90.4
         mirror: false
