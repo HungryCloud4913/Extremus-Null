@@ -193,17 +193,29 @@ weapons: [
         colorTo: FFFFFF
         moveY: 0
         moveX: 0
-        growX: 2
-        growY: 2
         moveRot: 0
+        partgrogress:[
         growProgress:{
-          type: warmup
+          type: recoil
+          growX: 1
+          growY: 1
           op: curve
           offset: 0
           duration: 2
-          scl: 5
-          mag: 1
+          scl: -10
+          mag: -5
         }
+          growProgress:{
+          type: recoil
+          growX: -2
+          growY: -2
+          op: curve
+          offset: 0
+          duration: 2
+          scl: -10
+          mag: -5
+        }
+        ]
       }
     ]
   }
