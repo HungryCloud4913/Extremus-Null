@@ -174,7 +174,7 @@ weapons: [
         moveRot: 0
         growProgress:{
           type: recoil
-          op: sin
+          scl: 0
           mag: 0.1
         }
         progress:{
