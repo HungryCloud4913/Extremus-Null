@@ -190,18 +190,16 @@ weapons: [
         under: true
         blending: additive
         heatColor: F17F5A
-        color: F17F5A000
-        colorTo: F17F5A088
+        color: FFFFFF
+        colorTo: FFFFFF
         moveY: 0
         moveX: 0
         xScl: 0
         yScl: 0
-        growX: 2
-        growY: 2
         moveRot: 0
         growProgress:{
-          type: recoil
-          op: sin
+          type: warmup
+          op: cos
           scl: 3
           mag: 0.1
         }
