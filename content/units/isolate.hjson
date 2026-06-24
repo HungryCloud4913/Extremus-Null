@@ -201,7 +201,7 @@ weapons: [
           op: curve
           offset: 0
           duration: 2
-          scl: 1
+          scl: -1
           mag: -1
         }
       }
