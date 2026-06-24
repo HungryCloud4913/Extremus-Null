@@ -152,7 +152,7 @@ weapons: [
             progress: recoil
             x: -1
             y: -2
-            rot: -2
+            rot: 5
           }
         ]
       }
@@ -162,8 +162,8 @@ weapons: [
         mirror: true
         under: true
         heatColor: F17F5A
-        moveY: -3
-        moveX: -2.75
+        moveY: -3.15
+        moveX: -3
         moveRot: 0
         progress:{
           type: warmup
@@ -174,9 +174,9 @@ weapons: [
           {
             type: PartMove
             progress: recoil
-            x: -1
-            y: -2
-            rot: -2
+            x: 0
+            y: 0
+            rot: 0
           }
         ]
       }
@@ -198,6 +198,7 @@ weapons: [
         moveRot: 0
         growProgress:{
           type: recoil
+          op: sin
           scl: 3
           mag: 0.1
         }
@@ -206,15 +207,6 @@ weapons: [
           op: delay
           amount: 0.0
         }
-        moves:[
-          {
-            type: PartMove
-            progress: recoil
-            x: 0
-            y: 0
-            rot: 0
-          }
-        ]
       }
     ]
   }
