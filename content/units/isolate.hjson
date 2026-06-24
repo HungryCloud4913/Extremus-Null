@@ -199,6 +199,7 @@ weapons: [
         growProgress:{
           type: recoil
           op: curve
+          offset: 0
           scl: 1
           mag: -1
         }
