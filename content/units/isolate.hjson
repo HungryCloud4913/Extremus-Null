@@ -145,7 +145,7 @@ weapons:
     mirror: true
     heatColor: F17F5A
     moveY: -3
-    moveX: -6
+    moveX: -4
     moveRot: -15
     under: true
     progress: {
@@ -167,13 +167,13 @@ weapons:
 {
     type: RegionPart
     suffix: -bolt
-    mirror: true
+    mirror: false
     heatColor: F17F5A
     moveY: 0
     moveX: 0
-    growX: 5
-    growY: 5
-    moveRot: -15
+    growX: 1
+    growY: 1
+    moveRot: 0
     under: true
     growProgress: warmup
     progress: {
@@ -185,9 +185,9 @@ weapons:
         {
             type: PartMove
             progress: recoil
-            x: -1
-            y: -2
-            rot: -2
+            x: 0
+            y: 0
+            rot: 0
         }
     ]
       under: true
