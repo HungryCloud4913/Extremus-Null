@@ -145,7 +145,7 @@ weapons:
     mirror: true
     heatColor: F17F5A
     moveY: -3
-    moveX: -5
+    moveX: -4.5
     moveRot: -15
     under: true
     progress: {
@@ -167,17 +167,24 @@ weapons:
 {
     type: RegionPart
     suffix: -bolt
+    layer: 90.4
     mirror: false
     heatColor: F17F5A
-    color: 000000ff
-    colorTo: F17F5A
+    color: F17F5A000
+    colorTo: F17F5A088
+    blending: additive
     moveY: 0
     moveX: 0
     growX: 1
     growY: 1
     moveRot: 0
     under: true
-    growProgress: warmup
+    growProgress: {
+      type: heat
+      op: sin
+      scl: 3
+      mag: 0.1
+    }
     progress: {
     type: warmup
     op: delay
