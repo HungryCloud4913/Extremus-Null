@@ -196,12 +196,6 @@ weapons: [
         growX: 1
         growY: 1
         moveRot: 0
-        growProgress:{
-          type: warmup
-          op: sin
-          scl: 3
-          mag: 0.1
-        }
         progress:{
           type: warmup
           op: delay
