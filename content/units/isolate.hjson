@@ -87,7 +87,7 @@ weapons: [
     top: true
     rotate: true
     alternate: false
-    drawOutline: true
+    outline: true
     shootSound: plasmaboom
     x: 0
     y: -6

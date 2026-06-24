@@ -12,7 +12,6 @@ groundLayer: 60
 canDrown: false
 targetAir: true
 faceTarget: false
-drawBase: false
 isEnemy: true
 accel: 0.5
 drag: 0.09

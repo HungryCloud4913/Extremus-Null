@@ -373,7 +373,6 @@ weapons:
       {
         type: RegionPart
         under: false
-        alternate: true
         mirror: false
         suffix: -barnacle1
         recoilIndex: 0
@@ -389,7 +388,6 @@ weapons:
       {
         type: RegionPart
         under: false
-        alternate: true
         mirror: false
         suffix: -barnacle2
         recoilIndex: 1
@@ -405,7 +403,6 @@ weapons:
       {
         type: RegionPart
         under: false
-        alternate: true
         mirror: false
         suffix: -barnacle3
         recoilIndex: 2

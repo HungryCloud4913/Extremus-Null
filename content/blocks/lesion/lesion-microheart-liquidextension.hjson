@@ -12,13 +12,14 @@ category: turret
 shootSound: plantBreak
 lightRadius: 0
 shoot: {
-shots: 36
-shotDelay: 0.25
- barrels: [
-      -13, -1, 10,
-      0, +2, 0,
-      13, -1, -10,
-      ]
+  shots: 36
+  shotDelay: 0.25
+  type: ShootBarrel
+  barrels:[
+    -13, -1, 10,
+    0, +2, 0,
+    13, -1, -10,
+  ]
 }
 range: 120
 requirements: [
