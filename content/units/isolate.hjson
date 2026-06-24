@@ -164,45 +164,33 @@ weapons:
     ]
       under: true
 }
-      {
-type: HaloPart
-  x: 0
-  y: 0
-haloRadius: 0
-haloRadTo: 0
-radius: 0
-radiusTo: 7
-layer: 110
-tri: true
-hollow: false
-triLength: 0
-triLengthTo: 7
-color: 000000ff
-colorTo: F17F5A
-haloRotation: 180
-haloRotateSpeed: 0
-shapes: 1
-progress: warmup
-}
 {
-type: HaloPart
-  x: 0
-  y: 0
-haloRadius: 0
-haloRadTo: 0
-radius: 0
-radiusTo: 7
-layer: 110
-tri: true
-hollow: false
-triLength: 0
-triLengthTo: 13
-color: 000000ff
-colorTo: F17F5A
-haloRotation: 0
-haloRotateSpeed: 0
-shapes: 1
-progress: warmup
+    type: RegionPart
+    suffix: -bolt
+    mirror: true
+    heatColor: F17F5A
+    moveY: 0
+    moveX: 0
+    growX: 5
+    growY: 5
+    moveRot: -15
+    under: true
+    growProgress: warmup
+    progress: {
+    type: warmup
+    op: delay
+    amount: 0.0
+    }
+    moves: [
+        {
+            type: PartMove
+            progress: recoil
+            x: -1
+            y: -2
+            rot: -2
+        }
+    ]
+      under: true
 }
     ]
   }
