@@ -194,7 +194,6 @@ weapons: [
         moveY: 0
         moveX: 0
         moveRot: 0
-        partgrogress:[
         growProgress:{
           type: recoil
           growX: 1
@@ -205,17 +204,6 @@ weapons: [
           scl: -10
           mag: -5
         }
-          growProgress:{
-          type: recoil
-          growX: -2
-          growY: -2
-          op: curve
-          offset: 0
-          duration: 2
-          scl: -10
-          mag: -5
-        }
-        ]
       }
     ]
   }
