@@ -193,8 +193,8 @@ weapons: [
         colorTo: FFFFFF
         moveY: 0
         moveX: 0
-        growX: -2
-        growY: -2
+        growX: 2
+        growY: 2
         moveRot: 0
         growProgress:{
           type: warmup
