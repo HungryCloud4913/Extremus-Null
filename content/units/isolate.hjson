@@ -193,8 +193,8 @@ weapons: [
         colorTo: FFFFFF
         moveY: 0
         moveX: 0
-        xScl: 2
-        yScl: 2
+        growX: 1
+        growY: 1
         moveRot: 0
         growProgress:{
           type: warmup
@@ -206,6 +206,8 @@ weapons: [
           type: warmup
           op: delay
           amount: 0.0
+          growX: -1
+          growY: -1
         }
       }
     ]
