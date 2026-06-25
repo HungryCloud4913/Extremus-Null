@@ -144,12 +144,12 @@ weapons: [
             line: true
             colorFrom: F17F5A
             colorTo: FF734500
-            strokeFrom: 2
-            strokeTo: 1
-            lenFrom: 2.1
+            strokeFrom: 1
+            strokeTo: 0
+            lenFrom: 3
             lenTo: 1
             particles: 15
-            cone: 40
+            cone: 50
             baseRotation: 180
           }
         ]
@@ -209,7 +209,7 @@ weapons: [
         progress: warmup
         tri: true
         color: 000000ff
-        colorTo: F17F5A
+        colorTo: 802433
         shapes: 1
         x: 0
         y: 4
@@ -228,7 +228,7 @@ weapons: [
         progress: warmup
         tri: true
         color: 000000ff
-        colorTo: F17F5A
+        colorTo: 802433
         shapes: 1
         x: 0
         y: 4
@@ -237,6 +237,44 @@ weapons: [
         shapeRotation: 0
         triLength: 0
         triLengthTo: 3.5
+        radius: 0
+        radiusTo: 3
+        haloRadius: 0
+        layer: 110
+      }
+      {
+        type: HaloPart
+        progress: warmup
+        tri: true
+        color: 000000ff
+        colorTo: F17F5A
+        shapes: 1
+        x: 0
+        y: 4
+        haloRotateSpeed: 0
+        haloRotation: 0
+        shapeRotation: 0
+        triLength: 0
+        triLengthTo: 4.5
+        radius: 0
+        radiusTo: 3
+        haloRadius: 0
+        layer: 110
+      }
+      {
+        type: HaloPart
+        progress: warmup
+        tri: true
+        color: 000000ff
+        colorTo: F17F5A
+        shapes: 1
+        x: 0
+        y: 4
+        haloRotateSpeed: 0
+        haloRotation: 180
+        shapeRotation: 0
+        triLength: 0
+        triLengthTo: 2
         radius: 0
         radiusTo: 3
         haloRadius: 0
