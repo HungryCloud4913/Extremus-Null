@@ -119,33 +119,16 @@ weapons: [
       height: 18
       width: 13
       trailLength: 8
-      trailWidth: 0.5
+      trailWidth: 2
       speed: 16
       lifetime: 12
       buildingDamageMultiplier: 1
       trailInterval: 1
-      trailEffect: [
-        {
-        type: ParticleEffect
-        trailEffect: disperseTrail
-        color: F17F5A
-        }
-      ]
+      trailEffect: disperseTrail
+      trailEffect2: trailFade 
 	    smokeEffect: {
         type: MultiEffect
         effects: [
-          {
-            type: ParticleEffect
-            line: true
-            colorFrom: F17F5A
-            colorTo: FF734500
-            lifetime: 15
-            baseLength: 9
-            particles: 14
-            length: 20
-            lenFrom: 3
-            lenTo: 0
-          }
           {
             type: ParticleEffect
             interp: pow10Out
@@ -157,8 +140,9 @@ weapons: [
             strokeTo: 0
             lenFrom: 2.1
             lenTo: 1
-            particles: 100
-            cone: 360
+            particles: 10
+            cone: 30
+            offset: 180
           }
         ]
       }
