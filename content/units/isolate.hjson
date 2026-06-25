@@ -125,7 +125,7 @@ weapons: [
       buildingDamageMultiplier: 1
       trailInterval: 1
       trailEffect: disperseTrail
-      trailEffect2: trailFade 
+      trailEffect2: incendTrail
 	    smokeEffect: {
         type: MultiEffect
         effects: [
@@ -142,7 +142,7 @@ weapons: [
             lenTo: 1
             particles: 10
             cone: 30
-            offset: 180
+            offset: 0
           }
         ]
       }
