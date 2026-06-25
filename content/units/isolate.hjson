@@ -15,8 +15,7 @@ rotateSpeed: 1.8
 outlineColor: 242628
 groundLayer: 60
 treadFrames: 16
-treadRects: 
-[
+treadRects: [
   {
     x: -31,
     y: -36,
@@ -31,15 +30,9 @@ treadRects:
   }
   {
     x: -36,
-    y: 10,
+    y: 22,
     width: 12,
-    height: 15
-  }
-  {
-    x: -32,
-    y: 26,
-    width: 12,
-    height: 16
+    height: 24
   }
 ]
 weapons: [
@@ -59,11 +52,11 @@ weapons: [
     recoil: 1
     soundPitchMin: 0.8
     soundPitchMax: 1
-    shoot:{
+    shoot: {
       shots: 1
       shotDelay: 0
     }
-    bullet:{
+    bullet: {
       type: BasicBulletType
       backColor: 802433
       frontColor: F17F5A
@@ -99,11 +92,11 @@ weapons: [
     recoil: 1
     soundPitchMin: 0.8
     soundPitchMax: 1
-    shoot:{
+    shoot: {
       shots: 1
       shotDelay: 0
     }
-    bullet:{
+    bullet: {
       type: BasicBulletType
       trailInterp: slope
       pierce: true
