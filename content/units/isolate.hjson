@@ -129,34 +129,16 @@ weapons: [
           line: true
           cap: false
           particles: 1
-          baseRotation: 90
-          cone: 0
-          length: 0
-          baseLength: -10
-          randLength: false
-          lifetime: 30
-          lenFrom: 2
-          lenTo: 0
-          strokeFrom: 48
-          strokeTo: 24
-          colorFrom: 7382f0
-          colorTo: 7382f088
-          layer: 89
-        }
-        {
-          line: true
-          cap: false
-          particles: 0.25
           baseRotation: 45
           cone: 0
-          length: 6
-          baseLength: 12
+          length: 48
+          baseLength: 24
           randLength: false
           lifetime: 15
-          lenFrom: 1
-          lenTo: 1
+          lenFrom: 3
+          lenTo: 3
           strokeFrom: 0
-          strokeTo: 6
+          strokeTo: 64
           colorFrom: ffffff
           colorTo: 5a58c488
           interp: pow3In
