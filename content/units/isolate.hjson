@@ -148,7 +148,22 @@ weapons: [
             strokeTo: 0
             lenFrom: 3
             lenTo: 1
-            particles: 15
+            particles: 10
+            cone: 50
+            baseRotation: 180
+          }
+          {
+            type: ParticleEffect
+            interp: pow10Out
+            sizeInterp: pow10In
+            line: true
+            colorFrom: CA213C
+            colorTo: CA213C00
+            strokeFrom: 1
+            strokeTo: 0
+            lenFrom: 3
+            lenTo: 1
+            particles: 5
             cone: 50
             baseRotation: 180
           }
@@ -209,7 +224,7 @@ weapons: [
         progress: warmup
         tri: true
         color: 000000ff
-        colorTo: AD1C34
+        colorTo: CA213C
         shapes: 1
         x: 0
         y: 4
@@ -228,7 +243,7 @@ weapons: [
         progress: warmup
         tri: true
         color: 000000ff
-        colorTo: AD1C34
+        colorTo: CA213C
         shapes: 1
         x: 0
         y: 4
