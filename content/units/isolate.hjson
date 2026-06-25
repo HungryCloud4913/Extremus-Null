@@ -116,19 +116,126 @@ weapons: [
       sprite: extremus-null-pierce
       damage: 75
       knockback: 0
-      height: 13
-      width: 7
+      height: 16
+      width: 11
       trailLength: 8
       trailWidth: 1.6
       speed: 16
-      lifetime: 20
+      lifetime: 12
       buildingDamageMultiplier: 1
       trailInterval: 0.25
       trailEffect:{
-        type: ParticleEffect
-        region: mine-bullet
-        colorTo: 802433
-        length: 6
+          particles: 5
+          length: 0
+          baseLength: -30
+          cone: 0
+          lifetime: 45
+          sizeFrom: 3
+          sizeTo: 0
+          colorFrom: ffffff88
+          colorTo: 7382f088
+          layer: 90
+        }
+        {
+          particles: 5
+          length: 0
+          baseLength: -30
+          cone: 0
+          lifetime: 45
+          sizeFrom: 8
+          sizeTo: 0
+          colorFrom: 7382f088
+          colorTo: 7382f088
+          layer: 89
+        }
+        {
+          line: true
+          cap: false
+          particles: 1
+          baseRotation: 90
+          cone: 0
+          length: 0
+          baseLength: 10
+          randLength: false
+          lifetime: 30
+          lenFrom: 2
+          lenTo: 0
+          strokeFrom: 48
+          strokeTo: 24
+          colorFrom: 7382f0
+          colorTo: 7382f088
+          layer: 89
+        }
+        {
+          line: true
+          cap: false
+          particles: 1
+          baseRotation: 90
+          cone: 0
+          length: 0
+          baseLength: -10
+          randLength: false
+          lifetime: 30
+          lenFrom: 2
+          lenTo: 0
+          strokeFrom: 48
+          strokeTo: 24
+          colorFrom: 7382f0
+          colorTo: 7382f088
+          layer: 89
+        }
+        {
+          line: true
+          cap: false
+          particles: 1
+          baseRotation: 45
+          cone: 0
+          length: 48
+          baseLength: 24
+          randLength: false
+          lifetime: 15
+          lenFrom: 3
+          lenTo: 3
+          strokeFrom: 0
+          strokeTo: 64
+          colorFrom: ffffff
+          colorTo: 5a58c488
+          interp: pow3In
+          sizeInterp: slope
+        }
+        {
+          line: true
+          cap: false
+          particles: 1
+          baseRotation: -45
+          cone: 0
+          length: 48
+          baseLength: 24
+          randLength: false
+          lifetime: 15
+          lenFrom: 3
+          lenTo: 3
+          strokeFrom: 0
+          strokeTo: 64
+          colorFrom: ffffff
+          colorTo: 5a58c488
+          interp: pow3In
+          sizeInterp: slope
+        }
+
+        
+      shootEffect: {
+        rotWithParent: true
+        particles: 1
+        length: 0
+        lifetime: 80
+        region: circle-shadow
+        sizeFrom: 30
+        sizeTo: 0
+        layer: 60
+        colorFrom: ffffffbb
+        colorTo: F17F5A
+        interp: pow2In
       }
     }
    parts:[
@@ -216,7 +323,6 @@ weapons: [
         radius: 0
         radiusTo: 3
         haloRadius: 0
-        layer: 110
       }
       {
         type: RegionPart
