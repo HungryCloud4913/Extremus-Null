@@ -123,48 +123,16 @@ weapons: [
       speed: 16
       lifetime: 12
       buildingDamageMultiplier: 1
-      trailInterval: 0.25
-      trailEffect:[
-        {
-          line: true
-          cap: false
-          particles: 0.25
-          baseRotation: 45
-          cone: 0
-          length: 6
-          baseLength: 6
-          randLength: false
-          lifetime: 15
-          lenFrom: 1
-          lenTo: 1
-          strokeFrom: 0
-          strokeTo: 12
-          colorFrom: ffffff
-          colorTo: 5a58c488
-          interp: pow3In
-          sizeInterp: slope
-        }
-        {
-          line: true
-          cap: false
-          particles: 0.25
-          baseRotation: -45
-          cone: 0
-          length: 6
-          baseLength: 6
-          randLength: false
-          lifetime: 15
-          lenFrom: 1
-          lenTo: 1
-          strokeFrom: 0
-          strokeTo: 12
-          colorFrom: ffffff
-          colorTo: 5a58c488
-          interp: pow3In
-          sizeInterp: slope
-        }
-      ]
-
+      trailInterval: 2.5
+      trailEffect: disperseTrail
+      trailInterp: slope
+      trailRotation: true
+      trailChance: 0.25
+      trailWidth: 2.3
+      trailLength: 7.5
+      trailSinMag: 1
+      trailSinScl: 5
+      trailParam: 2.2
       shootEffect: {
       }
     }
@@ -253,6 +221,7 @@ weapons: [
         radius: 0
         radiusTo: 3
         haloRadius: 0
+        layer: 110
       }
       {
         type: RegionPart
