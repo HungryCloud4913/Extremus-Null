@@ -1,7 +1,7 @@
 type: flying
 targetAir: true
 faceTarget: true
-lowAltitude: true
+lowAltitude: false
 flying: true
 health: 120
 hitSize: 5
