@@ -142,7 +142,7 @@ weapons: [
             lenTo: 1
             particles: 10
             cone: 30
-            offset: 0
+            offset: 90
           }
         ]
       }
