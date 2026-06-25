@@ -132,24 +132,6 @@ weapons: [
           baseRotation: 90
           cone: 0
           length: 0
-          baseLength: 10
-          randLength: false
-          lifetime: 30
-          lenFrom: 1
-          lenTo: 0
-          strokeFrom: 12
-          strokeTo: 6
-          colorFrom: 7382f0
-          colorTo: 7382f088
-          layer: 89
-        }
-        {
-          line: true
-          cap: false
-          particles: 1
-          baseRotation: 90
-          cone: 0
-          length: 0
           baseLength: -10
           randLength: false
           lifetime: 30
@@ -164,17 +146,17 @@ weapons: [
         {
           line: true
           cap: false
-          particles: 1
+          particles: 0.25
           baseRotation: 45
           cone: 0
-          length: 48
-          baseLength: 24
+          length: 6
+          baseLength: 12
           randLength: false
           lifetime: 15
-          lenFrom: 3
-          lenTo: 3
+          lenFrom: 1
+          lenTo: 1
           strokeFrom: 0
-          strokeTo: 64
+          strokeTo: 6
           colorFrom: ffffff
           colorTo: 5a58c488
           interp: pow3In
