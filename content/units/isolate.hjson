@@ -124,7 +124,13 @@ weapons: [
       lifetime: 12
       buildingDamageMultiplier: 1
       trailInterval: 1
-      trailEffect: disperseTrail
+      trailEffect: [
+        {
+        type: ParticleEffect
+        trailEffect: disperseTrail
+        color: F17F5A
+        }
+      ]
 	    smokeEffect: {
         type: MultiEffect
         effects: [
@@ -132,7 +138,7 @@ weapons: [
             type: ParticleEffect
             line: true
             colorFrom: F17F5A
-            colorTo: F17F5A
+            colorTo: FF734500
             lifetime: 15
             baseLength: 9
             particles: 14
@@ -146,7 +152,7 @@ weapons: [
             sizeInterp: pow10In
             line: true
             colorFrom: F17F5A
-            colorTo: F17F5A
+            colorTo: FF734500
             strokeFrom: 1
             strokeTo: 0
             lenFrom: 2.1
