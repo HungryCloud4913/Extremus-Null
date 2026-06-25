@@ -126,30 +126,6 @@ weapons: [
       trailInterval: 0.25
       trailEffect:[
         {
-          particles: 5
-          length: 0
-          baseLength: -30
-          cone: 0
-          lifetime: 45
-          sizeFrom: 3
-          sizeTo: 0
-          colorFrom: ffffff88
-          colorTo: 7382f088
-          layer: 90
-        }
-        {
-          particles: 5
-          length: 0
-          baseLength: -30
-          cone: 0
-          lifetime: 45
-          sizeFrom: 8
-          sizeTo: 0
-          colorFrom: 7382f088
-          colorTo: 7382f088
-          layer: 89
-        }
-        {
           line: true
           cap: false
           particles: 1
@@ -159,10 +135,10 @@ weapons: [
           baseLength: 10
           randLength: false
           lifetime: 30
-          lenFrom: 2
+          lenFrom: 1
           lenTo: 0
-          strokeFrom: 48
-          strokeTo: 24
+          strokeFrom: 12
+          strokeTo: 6
           colorFrom: 7382f0
           colorTo: 7382f088
           layer: 89
@@ -226,17 +202,6 @@ weapons: [
       ]
 
       shootEffect: {
-        rotWithParent: true
-        particles: 1
-        length: 0
-        lifetime: 80
-        region: circle-shadow
-        sizeFrom: 30
-        sizeTo: 0
-        layer: 60
-        colorFrom: ffffffbb
-        colorTo: F17F5A
-        interp: pow2In
       }
     }
    parts:[
