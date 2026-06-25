@@ -132,7 +132,7 @@ weapons: [
             type: ParticleEffect
             line: true
             colorFrom: F17F5A
-            colorTo: F17F5A00
+            colorTo: F17F5A
             lifetime: 15
             baseLength: 9
             particles: 14
@@ -146,13 +146,13 @@ weapons: [
             sizeInterp: pow10In
             line: true
             colorFrom: F17F5A
-            colorTo: F17F5A00
+            colorTo: F17F5A
             strokeFrom: 1
             strokeTo: 0
             lenFrom: 2.1
             lenTo: 1
             particles: 100
-            cone: 180
+            cone: 360
           }
         ]
       }
