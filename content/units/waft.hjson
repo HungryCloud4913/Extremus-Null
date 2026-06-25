@@ -1,13 +1,10 @@
-type: mech
+type: legs
 health: 510
 lightRadius: 19
 hitSize: 10
 outlineColor: 252222
 hovering: true
-hoverable: true
-mechFrontSway: 0
-mechSideSway: 0
-mechStride: 0
+legCount: 0
 groundLayer: 60
 canDrown: false
 targetAir: true

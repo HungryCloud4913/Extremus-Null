@@ -134,7 +134,18 @@ weapons: [
    parts:[
       {
         type: RegionPart
-        suffix: -barrel1
+        suffix: -body
+        mirror: false
+        under: true
+        heatColor: F17F5A
+        moveY: 0
+        moveX: 0
+        moveRot: 0
+        progress: warmup
+      }
+      {
+        type: RegionPart
+        suffix: -barrel
         mirror: true
         under: true
         heatColor: F17F5A
@@ -181,29 +192,40 @@ weapons: [
         ]
       }
       {
-        type: RegionPart
-        suffix: -bolt
-        layer: 90.4
-        mirror: false
-        outline: false
-        under: true
-        blending: additive
-        heatColor: F17F5A
-        color: FFFFFF
-        colorTo: FFFFFF
-        moveY: 0
-        moveX: 0
-        moveRot: 0
-        growProgress:{
-          type: recoil
-          growX: 1
-          growY: 1
-          op: curve
-          offset: 0
-          duration: 2
-          scl: -10
-          mag: -5
-        }
+        type: HaloPart
+        progress: warmup
+        tri: true
+        color: 000000ff
+        colorTo: F17F5A
+        shapes: 1
+        x: 0
+        y: 0
+        haloRotateSpeed: 0
+        haloRotation: 0
+        shapeRotation: 0
+        triLength: 0
+        triLengthTo: 10
+        radius: 0
+        radiusTo: 2
+        layer: 110
+      }
+      {
+        type: HaloPart
+        progress: warmup
+        tri: true
+        color: 000000ff
+        colorTo: F17F5A
+        shapes: 1
+        x: 0
+        y: 0
+        haloRotateSpeed: 0
+        haloRotation: 180
+        shapeRotation: 0
+        triLength: 0
+        triLengthTo: 6
+        radius: 0
+        radiusTo: 2
+        layer: 110
       }
     ]
   }
