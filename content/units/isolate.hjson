@@ -134,17 +134,6 @@ weapons: [
    parts:[
       {
         type: RegionPart
-        suffix: -body
-        mirror: false
-        under: true
-        heatColor: F17F5A
-        moveY: 0
-        moveX: 0
-        moveRot: 0
-        progress: warmup
-      }
-      {
-        type: RegionPart
         suffix: -barrel
         mirror: true
         under: true
@@ -207,6 +196,7 @@ weapons: [
         triLengthTo: 10
         radius: 0
         radiusTo: 2
+        haloRadius: 0
         layer: 110
       }
       {
@@ -225,7 +215,19 @@ weapons: [
         triLengthTo: 6
         radius: 0
         radiusTo: 2
+        haloRadius: 0
         layer: 110
+      }
+      {
+        type: RegionPart
+        suffix: -body
+        mirror: false
+        under: true
+        heatColor: F17F5A
+        moveY: 0
+        moveX: 0
+        moveRot: 0
+        progress: warmup
       }
     ]
   }
