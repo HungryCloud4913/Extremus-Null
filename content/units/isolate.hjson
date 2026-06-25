@@ -124,7 +124,8 @@ weapons: [
       lifetime: 12
       buildingDamageMultiplier: 1
       trailInterval: 0.25
-      trailEffect:{
+      trailEffect:[
+        {
           particles: 5
           length: 0
           baseLength: -30
@@ -222,8 +223,8 @@ weapons: [
           interp: pow3In
           sizeInterp: slope
         }
+      ]
 
-        
       shootEffect: {
         rotWithParent: true
         particles: 1
