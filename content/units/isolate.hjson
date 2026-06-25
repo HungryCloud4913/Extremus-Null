@@ -209,7 +209,7 @@ weapons: [
         progress: warmup
         tri: true
         color: 000000ff
-        colorTo: 802433
+        colorTo: AD1C34
         shapes: 1
         x: 0
         y: 4
@@ -228,7 +228,7 @@ weapons: [
         progress: warmup
         tri: true
         color: 000000ff
-        colorTo: 802433
+        colorTo: AD1C34
         shapes: 1
         x: 0
         y: 4
