@@ -70,7 +70,7 @@ weapons: [
       trailColor: 802433
       hitColor: F17F5A
       sprite: extremus-null-sharp
-      damage: 45
+      damage: 23
       knockback: 0
       height: 10
       width: 7
@@ -90,7 +90,7 @@ weapons: [
     shootSound: plasmaboom
     x: 0
     y: -6
-    reload: 130
+    reload: 160
     shootWarmupSpeed: 0.01
     minWarmup: 0.90
     layerOffset: 0.5
@@ -108,20 +108,20 @@ weapons: [
       pierce: true
       pierceArmor: false
       pierceBuilding: true
-      pierceCap: 3
+      pierceCap: 8
       backColor: 802433
       frontColor: F17F5A
       trailColor: 802433
       hitColor: F17F5A
-      sprite: extremus-null-spike
-      damage: 54
+      sprite: extremus-null-pierce
+      damage: 75
       knockback: 0
-       height: 13
+      height: 13
       width: 7
       trailLength: 8
       trailWidth: 1.6
-      speed: 8
-      lifetime: 24
+      speed: 16
+      lifetime: 20
       buildingDamageMultiplier: 1
       trailInterval: 0.25
       trailEffect:{
@@ -212,7 +212,7 @@ weapons: [
         haloRotation: 180
         shapeRotation: 0
         triLength: 0
-        triLengthTo: 5
+        triLengthTo: 3.5
         radius: 0
         radiusTo: 3
         haloRadius: 0
