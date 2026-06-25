@@ -134,6 +134,7 @@ weapons: [
             interp: pow10Out
             sizeInterp: pow10In
             line: true
+            useRotation: true
             colorFrom: F17F5A
             colorTo: FF734500
             strokeFrom: 1
@@ -142,7 +143,7 @@ weapons: [
             lenTo: 1
             particles: 10
             cone: 30
-            offset: 90
+            offset: 45
           }
         ]
       }
