@@ -105,9 +105,11 @@ weapons: [
     }
     bullet:{
       type: BasicBulletType
+      trailInterp: slope
       pierce: true
       pierceArmor: false
       pierceBuilding: true
+      trailRotation: true
       pierceCap: 8
       backColor: 802433
       frontColor: F17F5A
@@ -124,8 +126,14 @@ weapons: [
       lifetime: 12
       buildingDamageMultiplier: 1
       trailInterval: 1
+      trailChance: 0.25
+      trailWidth: 2.3
+      trailLength: 7.5
+      trailSinMag: 1
+      trailSinScl: 5
+      trailParam: 2.2
       trailEffect: disperseTrail
-      trailEffect2: incendTrail
+      trailEffect2: railTrail 
 	    smokeEffect: {
         type: MultiEffect
         effects: [
@@ -136,12 +144,12 @@ weapons: [
             line: true
             colorFrom: F17F5A
             colorTo: FF734500
-            strokeFrom: 1
-            strokeTo: 0
+            strokeFrom: 2
+            strokeTo: 1
             lenFrom: 2.1
             lenTo: 1
-            particles: 10
-            cone: 30
+            particles: 15
+            cone: 40
             baseRotation: 180
           }
         ]
