@@ -188,14 +188,14 @@ weapons: [
         colorTo: F17F5A
         shapes: 1
         x: 0
-        y: 0
+        y: 4
         haloRotateSpeed: 0
         haloRotation: 0
         shapeRotation: 0
         triLength: 0
-        triLengthTo: 10
+        triLengthTo: 7
         radius: 0
-        radiusTo: 2
+        radiusTo: 3
         haloRadius: 0
         layer: 110
       }
@@ -207,14 +207,14 @@ weapons: [
         colorTo: F17F5A
         shapes: 1
         x: 0
-        y: 0
+        y: 4
         haloRotateSpeed: 0
         haloRotation: 180
         shapeRotation: 0
         triLength: 0
-        triLengthTo: 6
+        triLengthTo: 5
         radius: 0
-        radiusTo: 2
+        radiusTo: 3
         haloRadius: 0
         layer: 110
       }
