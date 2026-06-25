@@ -111,9 +111,9 @@ weapons: [
       pierceBuilding: true
       trailRotation: true
       pierceCap: 8
-      backColor: 9E001A
+      backColor: 802433
       frontColor: F17F5A
-      trailColor: 9E001A
+      trailColor: 802433
       hitColor: F17F5A
       sprite: extremus-null-pierce
       damage: 75
@@ -157,8 +157,8 @@ weapons: [
             interp: pow10Out
             sizeInterp: pow10In
             line: true
-            colorFrom: 9E001A
-            colorTo: 9E001A00
+            colorFrom: 802433
+            colorTo: 80243300
             strokeFrom: 1
             strokeTo: 0
             lenFrom: 3
@@ -224,7 +224,7 @@ weapons: [
         progress: warmup
         tri: true
         color: 000000ff
-        colorTo: CA213C
+        colorTo: 802433
         shapes: 1
         x: 0
         y: 4
@@ -243,7 +243,7 @@ weapons: [
         progress: warmup
         tri: true
         color: 000000ff
-        colorTo: CA213C
+        colorTo: 802433
         shapes: 1
         x: 0
         y: 4
