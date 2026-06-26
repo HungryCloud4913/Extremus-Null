@@ -122,9 +122,6 @@ weapons: [
       trailChance: 0.25
       trailWidth: 2.3
       trailLength: 7.5
-      trailSinMag: 1
-      trailSinScl: 5
-      trailParam: 2.2
       trailEffect: disperseTrail
       trailEffect2: railTrail 
 	    smokeEffect: {
