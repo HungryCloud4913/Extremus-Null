@@ -84,8 +84,8 @@ weapons: [
     x: 0
     y: -6
     reload: 160
-    shootWarmupSpeed: 0.01
-    minWarmup: 0.45
+    shootWarmupSpeed: 0.05
+    minWarmup: 0.90
     layerOffset: 0.5
     rotateSpeed: 2
     inaccuracy: 1
