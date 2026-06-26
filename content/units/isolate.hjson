@@ -85,7 +85,7 @@ weapons: [
     y: -6
     reload: 160
     shootWarmupSpeed: 0.01
-    minWarmup: 0.90
+    minWarmup: 0.45
     layerOffset: 0.5
     rotateSpeed: 2
     inaccuracy: 1
@@ -119,11 +119,9 @@ weapons: [
       lifetime: 12
       buildingDamageMultiplier: 1
       trailInterval: 1
-      trailChance: 0.25
-      trailWidth: 2.3
+      trailWidth: 2
       trailLength: 7.5
-      trailEffect: disperseTrail
-      trailEffect2: railTrail 
+      trailEffect: disperseTrail 
 	    smokeEffect: {
         type: MultiEffect
         effects: [
