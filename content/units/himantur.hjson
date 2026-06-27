@@ -39,6 +39,30 @@ engines:
     mirror: true
 		trailLength: 1
   }
+  {
+		x: -6
+		y: +5
+		radius: 2
+		rotation: -90
+    mirror: true
+		trailLength: 1
+	}
+  {
+		x: -10
+		y: +7
+		radius: 2
+		rotation: -90
+    mirror: true
+		trailLength: 1
+	}
+  {
+		x: -3
+		y: -10
+		radius: 2
+		rotation: 0
+    mirror: true
+		trailLength: 1
+  }
 ]
 abilities: 
 [
@@ -93,12 +117,51 @@ weapons:
       shots: 1
       type: ShootBarrel
       barrels: [
-        -2, 6, 45
+        -3, 6, 45
       ]
     }
     bullet: 
     {
       type: BasicBulletType
+      homing: true
+		  homingPower: 0.01
+		  homingRange: 40
+			backColor: 8FBB58
+			frontColor: F8FFD2
+      trailColor: 8FBB58
+      hitColor: F8FFD2
+      sprite: extremus-null-sharpbubble
+      damage: 0
+      knockback: 0
+      height: 17
+      width: 15
+      trailLength: 4
+      trailWidth: 1.5
+      speed: 6
+      lifetime: 28
+      splashDamageRadius: 15
+		  splashDamage: 102
+      buildingDamageMultiplier: 1
+      fragBullets: 4
+      fragVelocityMin: 1
+      fragVelocityMax: 1
+      fragSpread: 90
+      fragRandomSpread: 0
+      fragOnHit: true
+      fragBullet: {
+        type: LaserBulletType
+        damage: 3
+        speed: 0
+        lifetime: 10
+        knockback: 0
+        pierce: true
+		    colors: [8FBB58, BADE8D, F8FFD2]
+        width: 10
+        length: 13
+        sideAngle: 0
+        despawnEffect: none
+        despawnHit: false
+      }
       hitEffect: 
       {
         type: MultiEffect
@@ -138,42 +201,6 @@ weapons:
             colorTo: F8FFD2
           }
         ]
-      }
-			backColor: 8FBB58
-			frontColor: F8FFD2
-      trailColor: 8FBB58
-      hitColor: F8FFD2
-      sprite: extremus-null-sharpbubble
-      damage: 0
-      knockback: 0
-      height: 17
-      width: 15
-      trailLength: 4
-      trailWidth: 1.5
-      speed: 6
-      lifetime: 32
-      splashDamageRadius: 15
-		  splashDamage: 102
-      buildingDamageMultiplier: 1
-      fragBullets: 4
-      fragVelocityMin: 1
-      fragVelocityMax: 1
-      fragSpread: 90
-      fragRandomSpread: 0
-      fragOnHit: true
-      fragBullet: {
-        type: LaserBulletType
-        damage: 3
-        speed: 0
-        lifetime: 10
-        knockback: 0
-        pierce: true
-		    colors: [8FBB58, BADE8D, F8FFD2]
-        width: 10
-        length: 13
-        sideAngle: 0
-        despawnEffect: none
-        despawnHit: false
       }
     }
   }
