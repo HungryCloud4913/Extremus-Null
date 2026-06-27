@@ -82,18 +82,18 @@ abilities:
     region: extremus-null-himanturshield
   }
 	{
-			type: EnergyFieldAbility
-			healEffect: none
-			color: 8FBB58
-			maxTargets: 5
-			healPercent: 0
-			damage: 10
-			range: 100
-			sectors: 6
-			rotateSpeed: 3
-			hitBuildings: true
-			sectorRad: 0.08
-			reload: 60
+		type: EnergyFieldAbility
+		healEffect: none
+		color: 8FBB58
+		maxTargets: 5
+		healPercent: 0.05
+		damage: 10
+		range: 100
+		sectors: 6
+		rotateSpeed: 3
+		hitBuildings: true
+		sectorRad: 0.08
+		reload: 60
 	}
 ]
 weapons: 

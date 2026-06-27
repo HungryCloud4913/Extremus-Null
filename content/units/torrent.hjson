@@ -159,46 +159,6 @@ weapons:
     bullet: 
     {
       type: BasicBulletType
-      hitEffect: 
-      {
-        type: MultiEffect
-        effects:
-        [
-          {
-            type: WaveEffect
-            lifetime: 15
-            offsetX: 0
-            offsetY: 0
-            sizeFrom: 0
-            sizeTo: 25
-            followParent: true
-            rotWithParent: true
-            colorFrom: 509FAD
-            colorTo: C1FFED
-          }
-        ]
-      }
-      shootEffect: shootSmallColor
-      smokeEffect: none
-      despawnEffect:
-      {
-        type: MultiEffect
-        effects:
-        [
-          {
-            type: WaveEffect
-            lifetime: 15
-            offsetX: 0
-            offsetY: 0
-            sizeFrom: 0
-            sizeTo: 25
-            followParent: true
-            rotWithParent: true
-            colorFrom: 509FAD
-            colorTo: C1FFED
-          }
-        ]
-      }
 			backColor: 509FAD
 			frontColor: C1FFED
       trailColor: 509FAD
@@ -282,6 +242,46 @@ weapons:
           ]
         }
 			}
+      hitEffect: 
+      {
+        type: MultiEffect
+        effects:
+        [
+          {
+            type: WaveEffect
+            lifetime: 15
+            offsetX: 0
+            offsetY: 0
+            sizeFrom: 0
+            sizeTo: 25
+            followParent: true
+            rotWithParent: true
+            colorFrom: 509FAD
+            colorTo: C1FFED
+          }
+        ]
+      }
+      shootEffect: shootSmallColor
+      smokeEffect: none
+      despawnEffect:
+      {
+        type: MultiEffect
+        effects:
+        [
+          {
+            type: WaveEffect
+            lifetime: 15
+            offsetX: 0
+            offsetY: 0
+            sizeFrom: 0
+            sizeTo: 25
+            followParent: true
+            rotWithParent: true
+            colorFrom: 509FAD
+            colorTo: C1FFED
+          }
+        ]
+      }
     }
     parts:
     [

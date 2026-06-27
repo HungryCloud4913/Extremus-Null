@@ -37,6 +37,22 @@ weapons:
     bullet: 
     {
       type: BasicBulletType
+			backColor: 509FAD
+			frontColor: C1FFED
+      trailColor: 509FAD
+      hitColor: C1FFED
+      sprite: extremus-null-bubble
+      damage: 0
+      knockback: 0
+      height: 13
+      width: 11
+      trailLength: 4
+      trailWidth: 1.5
+      speed: 6
+      lifetime: 32
+      splashDamageRadius: 24
+		  splashDamage: 95
+      buildingDamageMultiplier: 1
       hitEffect: 
       {
         type: MultiEffect
@@ -77,22 +93,6 @@ weapons:
           }
         ]
       }
-			backColor: 509FAD
-			frontColor: C1FFED
-      trailColor: 509FAD
-      hitColor: C1FFED
-      sprite: extremus-null-bubble
-      damage: 0
-      knockback: 0
-      height: 13
-      width: 11
-      trailLength: 4
-      trailWidth: 1.5
-      speed: 6
-      lifetime: 32
-      splashDamageRadius: 12
-		  splashDamage: 95
-      buildingDamageMultiplier: 1
     }
   }
 ]
