@@ -6,7 +6,7 @@ targetAir: true
 faceTarget: false
 canDrown: true
 health: 1560
-hitSize: 20
+hitSize: 18
 speed: 0.69
 accel: 0.5
 drag: 0.4
@@ -87,7 +87,7 @@ weapons: [
     shootWarmupSpeed: 0.05
     minWarmup: 0.90
     layerOffset: 0.5
-    rotateSpeed: 2
+    rotateSpeed: 1.2
     inaccuracy: 1
     recoil: 1
     soundPitchMin: 0.8

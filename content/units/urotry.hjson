@@ -11,7 +11,7 @@ drag: 0.01
 armor: 2
 rotateSpeed: 3.2
 outlineColor: 242628
-groundLayer: 115
+groundLayer: 90
 engineOffset: 1
 engines:  
 [
@@ -51,87 +51,15 @@ engines:
 weapons: 
 [
   {
-    name: urotrybody
-    mirror: false
-    alternate: false
-    top: true
-    rotate: false
-    heatColor: 8FBB58
-    shootSound:  release
-    x: 0
-    y: 0
-    reload: 150
-    layerOffset: +0.0001
-    inaccuracy: 0.5
-    recoil: 0
-    rotateSpeed: 0
-    shoot: 
-    {
-      shots: 1
-      shotDelay: 0
-    }
-    bullet: 
-    {
-      type: BasicBulletType
-      hitEffect: hitBulletColor
-      shootEffect: none
-      smokeEffect: none
-      despawnEffect: hitBulletColor
-	    backColor: 8FBB58
-	    frontColor: F8FFD2
-      trailColor: 8FBB58
-      hitColor: F8FFD2
-      sprite: extremus-null-stingray
-      recoil: 1.2
-      homingPower: 0.1
-      damage: 114
-      knockback: 0
-      height: 16
-      width: 11
-      trailLength: 3
-      trailWidth: 2
-      speed: 6
-      lifetime: 34
-      buildingDamageMultiplier: 1
-      fragBullets: 4
-      fragRandomSpread: 30
-      fragSpread: 180
-      fragBullet: 
-      {
-        type: LightningBulletType
-        hitEffect: none
-        shootEffect: none
-        despawnEffect: none
-        lightningColor: 8FBB58
-        lightningLength: 3
-        damage: 3
-        lightning: 1
-        lightningType: 
-        {
-          type: LightningBulletType
-          hittable: false
-          hitEffect: none
-          shootEffect: none
-          despawnEffect: none
-          lightningColor: 8FBB58
-          lightningLengthRand: 2
-          lightningLength: 3
-          damage: 3
-          lifetime: 34
-        }
-      }
-    }
-  }
-  {
     name: urotry-mount
-    mirror: false
+    mirror: true
     top: false
-    alternate: false
+    alternate: true
     rotate: true
     shootSound: missile
-    x: 0
-    y: -2
-    reload: 80
+    x: 4
+    y: -1
+    reload: 45
     layerOffset: +0.00001
 		rotateSpeed: 3.2
     inaccuracy: 0
