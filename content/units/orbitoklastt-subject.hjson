@@ -77,7 +77,7 @@ shoot: {
                     shots: 1
                     shotDelay: 0
             }
-  shootSound: shoot
+  shootSound: none
   bullet: {
     type: BasicBulletType
     recoil: 0.25
@@ -118,7 +118,7 @@ shoot: {
     shots: 1
     shotDelay: 0
       }
-  shootSound: exShoot
+  shootSound: shoot
   bullet: {
     type: MissileBulletType
 			backColor: 989EAF

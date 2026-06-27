@@ -37,7 +37,7 @@ weapons:
     mirror: false
     top: true
     rotate: true
-    shootSound: missileSmall
+    shootSound: shootMissile
     layerOffset: +0.00001
 		rotateSpeed: 3.9
     x: 0

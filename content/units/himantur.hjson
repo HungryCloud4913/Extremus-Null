@@ -81,20 +81,34 @@ abilities:
     y: -12
     region: extremus-null-himanturshield
   }
+	{
+			type: EnergyFieldAbility
+			healEffect: none
+			color: 8FBB58
+			maxTargets: 5
+			healPercent: 0
+			damage: 10
+			range: 85
+			sectors: 6
+			rotateSpeed: 3
+			hitBuildings: true
+			sectorRad: 0.08
+			reload: 80
+	}
 ]
 weapons: 
 [
   {
-    name: himanturbody
-    mirror: false
-    alternate: false
+    name: himantur-eye
+    mirror: true
+    alternate: true
     top: true
     rotate: false
     heatColor: 8FBB58
     shootSound:  release
     x: 0
     y: 0
-    reload: 260
+    reload: 130
     layerOffset: +0.0001
     inaccuracy: 0.5
     recoil: 0
@@ -107,164 +121,61 @@ weapons:
     bullet: 
     {
       type: BasicBulletType
-      hitEffect: hitBulletColor
-      shootEffect: none
-      smokeEffect: none
-      despawnEffect: hitBulletColor
-	    backColor: 8FBB58
-	    frontColor: F8FFD2
-      trailColor: 8FBB58
-      hitColor: F8FFD2
-      sprite: extremus-null-bigray
-      recoil: 1.1
-      homingPower: 0.1
-      damage: 410
-      knockback: 0
-      height: 40
-      width: 30
-      trailLength: 3
-      trailWidth: 2
-      speed: 6
-      lifetime: 35
-      buildingDamageMultiplier: 1
-      fragBullets: 4
-      fragRandomSpread: 30
-      fragSpread: 180
-      fragBullet: 
+      hitEffect: 
       {
-        type: LightningBulletType
-        hitEffect: none
-        shootEffect: none
-        despawnEffect: none
-        lightningColor: 8FBB58
-        lightningLength: 3
-        damage: 6
-        lightning: 1
-        lightningType: 
-        {
-          type: LightningBulletType
-          hittable: false
-          hitEffect: none
-          shootEffect: none
-          despawnEffect: none
-          lightningColor: 8FBB58
-          lightningLengthRand: 2
-          lightningLength: 3
-          damage: 7
-          lifetime: 34
-          intervalBullets: 1
-          bulletInterval: 40
-          intervalRandomSpread: 0
-          intervalSpread: 0
-          intervalAngle: 0
-		      intervalBullet:
+        type: MultiEffect
+        effects:
+        [
           {
-            type: BasicBulletType
-            hitEffect:
-            {
-              type: MultiEffect
-              effects:
-              [
-                {
-                  type: WaveEffect
-                  lifetime: 10
-                  offsetX: 0
-                  offsetY: 0
-                  sizeFrom: 0
-                  sizeTo: 6.5
-                  followParent: true
-                  rotWithParent: true
-                  colorFrom: 8FBB58
-                  colorTo: F8FFD2
-                }
-              ]
-            }
-            shootEffect: shootBigColor
-            smokeEffect: none
-            despawnEffect:
-            {
-              type: MultiEffect
-              effects:
-              [
-                {
-                  type: WaveEffect
-                  lifetime: 10
-                  offsetX: 0
-                  offsetY: 0
-                  sizeFrom: 0
-                  sizeTo: 6.5
-                  followParent: true
-                  rotWithParent: true
-                  colorFrom: 8FBB58
-                  colorTo: F8FFD2
-                }
-              ]
-            }
-	          backColor: 8FBB58
-	          frontColor: F8FFD2
-            trailColor: 8FBB58
-            hitColor: F8FFD2
-            sprite: extremus-null-bubble
-            homingPower: 0.1
-            damage: 10
-            knockback: 0
-            height: 11
-            width: 9
-            trailLength: 4
-            trailWidth: 1.5
-            speed: 6
-            lifetime: 26
-            buildingDamageMultiplier: 1
+            type: WaveEffect
+            lifetime: 15
+            offsetX: 0
+            offsetY: 0
+            sizeFrom: 0
+            sizeTo: 25
+            followParent: true
+            rotWithParent: true
+            colorFrom: 8FBB58
+            colorTo: F8FFD2
           }
-        }
+        ]
       }
-    }
-  }
-  {
-    name: himantur-mount
-    mirror: false
-    top: false
-    alternate: false
-    rotate: true
-    shootSound: missile
-    x: 0
-    y: 0
-    reload: 90
-    layerOffset: +0.00001
-		rotateSpeed: 3.2
-    inaccuracy: 5
-    recoil: 1.5
-    shoot: 
-    {
-      type: ShootBarrel
-      barrels:
-      [
-        +1.5, 1.5, 0,
-        -1.5, 1.5, 0,
-      ]
-      shots: 4
-      shotDelay: 2
-    }
-    bullet: 
-    {
-      type: BasicBulletType
-      hitEffect: hitBulletColor
-      shootEffect: none
+      shootEffect: shootSmallColor
       smokeEffect: none
-      despawnEffect: hitBulletColor
-	    backColor: 8FBB58
-	    frontColor: F8FFD2
+      despawnEffect:
+      {
+        type: MultiEffect
+        effects:
+        [
+          {
+            type: WaveEffect
+            lifetime: 15
+            offsetX: 0
+            offsetY: 0
+            sizeFrom: 0
+            sizeTo: 25
+            followParent: true
+            rotWithParent: true
+            colorFrom: 8FBB58
+            colorTo: F8FFD2
+          }
+        ]
+      }
+			backColor: 8FBB58
+			frontColor: F8FFD2
       trailColor: 8FBB58
       hitColor: F8FFD2
-      sprite: extremus-null-sharp
-      damage: 12
+      sprite: extremus-null-sharpbubble
+      damage: 0
       knockback: 0
-      height: 11
-      width: 8
-      trailLength: 3
-      trailWidth: 1
-      speed: 5
-      lifetime: 37
+      height: 13
+      width: 11
+      trailLength: 4
+      trailWidth: 1.5
+      speed: 6
+      lifetime: 32
+      splashDamageRadius: 15
+		  splashDamage: 205
       buildingDamageMultiplier: 1
     }
   }

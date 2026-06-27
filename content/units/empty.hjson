@@ -68,7 +68,7 @@ type: ShootBarrel
     shots: 2
     shotDelay: 0
       }
-  shootSound: shootAlt
+  shootSound: shoot
   soundPitchMin: 3
   soundPitchMax: 7
   bullet: {
