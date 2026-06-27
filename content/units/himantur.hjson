@@ -35,7 +35,7 @@ engines:
 		x: +3
 		y: -10
 		radius: 2
-		rotation: 0
+		rotation: -90
     mirror: true
 		trailLength: 1
   }
@@ -43,7 +43,7 @@ engines:
 		x: -6
 		y: +5
 		radius: 2
-		rotation: -90
+		rotation: 90
     mirror: true
 		trailLength: 1
 	}
@@ -51,7 +51,7 @@ engines:
 		x: -10
 		y: +7
 		radius: 2
-		rotation: -90
+		rotation: 90
     mirror: true
 		trailLength: 1
 	}
@@ -59,7 +59,7 @@ engines:
 		x: -3
 		y: -10
 		radius: 2
-		rotation: 0
+		rotation: 90
     mirror: true
 		trailLength: 1
   }
@@ -92,6 +92,7 @@ abilities:
 			sectors: 6
 			rotateSpeed: 3
 			hitBuildings: true
+      hitUnits: false
 			sectorRad: 0.08
 			reload: 60
 	}
@@ -123,9 +124,7 @@ weapons:
     bullet: 
     {
       type: BasicBulletType
-      homing: true
-		  homingPower: 0.01
-		  homingRange: 40
+		  homingPower: 0.15
 			backColor: 8FBB58
 			frontColor: F8FFD2
       trailColor: 8FBB58
