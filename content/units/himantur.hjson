@@ -88,12 +88,12 @@ abilities:
 			maxTargets: 5
 			healPercent: 0
 			damage: 10
-			range: 85
+			range: 100
 			sectors: 6
 			rotateSpeed: 3
 			hitBuildings: true
 			sectorRad: 0.08
-			reload: 80
+			reload: 60
 	}
 ]
 weapons: 
@@ -108,15 +108,17 @@ weapons:
     shootSound:  release
     x: 0
     y: 0
-    reload: 130
+    reload: 65
     layerOffset: +0.0001
     inaccuracy: 0.5
     recoil: 0
     rotateSpeed: 0
-    shoot: 
-    {
+    shoot: {
       shots: 1
-      shotDelay: 0
+      type: ShootBarrel
+      barrels: [
+        -2, 6, -45
+      ]
     }
     bullet: 
     {
@@ -175,8 +177,28 @@ weapons:
       speed: 6
       lifetime: 32
       splashDamageRadius: 15
-		  splashDamage: 205
+		  splashDamage: 102
       buildingDamageMultiplier: 1
+      fragBullets: 4
+      fragVelocityMin: 1
+      fragVelocityMax: 1
+      fragSpread: 90
+      fragRandomSpread: 0
+      fragOnHit: true
+      fragBullet: {
+        type: LaserBulletType
+        damage: 3
+        speed: 0
+        lifetime: 10
+        knockback: 0
+        pierce: true
+		    colors: [8FBB58, BADE8D, F8FFD2]
+        width: 10
+        length: 13
+        sideAngle: 0
+        despawnEffect: none
+        despawnHit: false
+      }
     }
   }
 ]
