@@ -33,36 +33,12 @@ engines:
 	}
   {
 		x: +3
-		y: -5
+		y: -10
 		radius: 2
 		rotation: 0
     mirror: true
 		trailLength: 1
-	}
-  {
-		x: -6
-		y: +5
-		radius: 2
-		rotation: -90
-    mirror: true
-		trailLength: 1
-	}
-  {
-		x: -10
-		y: +7
-		radius: 2
-		rotation: -90
-    mirror: true
-		trailLength: 1
-	}
-  {
-		x: -3
-		y: -5
-		radius: 2
-		rotation: -180
-    mirror: true
-		trailLength: 1
-	}
+  }
 ]
 abilities: 
 [
@@ -105,7 +81,7 @@ weapons:
     top: true
     rotate: false
     heatColor: 8FBB58
-    shootSound:  release
+    shootSound:  shootAvert
     x: 0
     y: 0
     reload: 65
@@ -117,7 +93,7 @@ weapons:
       shots: 1
       type: ShootBarrel
       barrels: [
-        -2, 6, -45
+        -2, 6, 45
       ]
     }
     bullet: 
@@ -170,8 +146,8 @@ weapons:
       sprite: extremus-null-sharpbubble
       damage: 0
       knockback: 0
-      height: 13
-      width: 11
+      height: 17
+      width: 15
       trailLength: 4
       trailWidth: 1.5
       speed: 6
