@@ -41,7 +41,7 @@ weapons: [
     mirror: true
     top: true
     rotate: true
-    shootSound: lasershoot
+    shootSound: shootLaser
     alternate: true
     x: +5
     y: +4
@@ -80,7 +80,7 @@ weapons: [
     top: true
     rotate: true
     alternate: false
-    shootSound: plasmaboom
+    shootSound: explosionAfflict
     x: 0
     y: -6
     reload: 160

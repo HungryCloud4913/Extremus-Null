@@ -12,7 +12,7 @@ minWarmup: 0.96
 recoil: 2
 recoils: 2
 shootWarmupSpeed: 0.03
-shootSound: shotgun
+shootSound: shootSpectre
 soundPitchMin: 0.5
 soundPitchMax: 0.7
 loopSound: false

@@ -54,7 +54,7 @@ weapons: [
       shots: 5
       shotDelay: 2
     }
-    shootSound: sap
+    shootSound: plantBreak
     bullet: {
       type: LiquidBulletType
       liquid: lesion-oil

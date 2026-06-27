@@ -49,7 +49,7 @@ weapons: [{
      			      }
             inaccuracy: 0.5
             recoil: 2.5
-            shootSound: shootAltLong
+            shootSound: shootDiffuse
             soundPitchMin: 0.7
             soundPitchMax: 1.1
             bullet: {

@@ -10,7 +10,7 @@ rotateSpeed: 3
 reload: 6.5
 recoil: 0.75
 recoils: 0
-shootSound: shootAltLong
+shootSound: shootCyclone
 soundPitchMin: 1.2
 soundPitchMax: 1.5
 loopSound: false

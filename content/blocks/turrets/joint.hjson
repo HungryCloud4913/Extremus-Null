@@ -10,7 +10,7 @@ rotateSpeed: 2
 reload: 100
 recoil: 2
 recoils: 2
-shootSound: missileSmall
+shootSound: shootMissileShort
 loopSound: false
 inaccuracy: 3
 range: 90

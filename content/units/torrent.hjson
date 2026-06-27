@@ -21,7 +21,7 @@ weapons:
     top: false
     alternate: true
     rotate: false
-    shootSound: pulseBlast
+    shootSound: shootMissilePlasma
     x: +12
     y: +0
     reload: 230
@@ -137,7 +137,7 @@ weapons:
     top: false
     alternate: true
     rotate: false
-    shootSound: shootAltLong
+    shootSound: shootStell
     x: +12
     y: +0
     reload: 40

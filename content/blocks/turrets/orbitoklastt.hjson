@@ -11,7 +11,7 @@ rotateSpeed: 1.1
 reload: 250
 recoil: 0
 recoils: 0
-shootSound: place
+shootSound: blockPlace1
 soundPitchMin: 1.2
 soundPitchMax: 1.5
 inaccuracy: 0

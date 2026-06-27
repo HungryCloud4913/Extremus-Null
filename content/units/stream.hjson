@@ -21,7 +21,7 @@ weapons:
     top: false
     alternate: true
     rotate: false
-    shootSound: pulseBlast
+    shootSound: shootRipple
     x: +7.75
     y: +2
     reload: 195

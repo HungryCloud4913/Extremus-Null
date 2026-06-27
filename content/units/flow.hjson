@@ -21,7 +21,7 @@ weapons:
     top: false
     alternate: true
     rotate: false
-    shootSound: dullExplosion
+    shootSound: shootLaser
     x: +5.5
     y: 0
     reload: 130

@@ -21,7 +21,7 @@ weapons:
     top: false
     alternate: true
     rotate: false
-    shootSound: shootAlt
+    shootSound: shootSegment
     x: +3.5
     y: 0
     reload: 70

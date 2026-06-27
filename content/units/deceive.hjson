@@ -45,7 +45,7 @@ weapons: [{
      			      }
             inaccuracy: 2
             recoil: 0.5
-            shootSound: artillery
+            shootSound: shootMissile
             soundPitchMin: 1.2
             soundPitchMax: 1.5
             bullet: {

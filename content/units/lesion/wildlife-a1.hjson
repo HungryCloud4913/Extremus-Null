@@ -60,7 +60,7 @@ weapons: [
                     shots: 6
                     shotDelay: 1
             }
-    shootSound: flame2
+    shootSound: plantBreak
      bullet: {
                 type: BasicBulletType
                 speed: 4

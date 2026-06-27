@@ -1,7 +1,7 @@
 type: flying
 targetAir: true
 faceTarget: true
-lowAltitude: false
+lowAltitude: true
 flying: true
 health: 120
 hitSize: 5
@@ -11,7 +11,7 @@ drag: 0.01
 armor: 0
 rotateSpeed: 3.3
 outlineColor: 242628
-groundLayer: 90
+groundLayer: 115
 engineOffset: 1
 engines: 
 [
@@ -41,7 +41,7 @@ weapons:
     top: true
     rotate: false
     heatColor: 8FBB58
-    shootSound: spark
+    shootSound: shootArc
     x: 0
     y: 0
     reload: 95

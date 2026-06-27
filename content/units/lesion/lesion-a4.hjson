@@ -92,7 +92,7 @@ name: lesion-a4
       shots: 5
       shotDelay: 2
     }
-    shootSound: sap
+    shootSound: plantBreak
     bullet: {
       type: LiquidBulletType
       liquid: lesion-oil

@@ -46,7 +46,7 @@ weapons: [
     shots: 1
     shotDelay: 0
       }
-  shootSound: exShoot
+  shootSound: shootLaser
   bullet: {
     type: MissileBulletType
 			backColor: 442295

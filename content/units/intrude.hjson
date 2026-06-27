@@ -43,7 +43,7 @@ weapons:
     mirror: false
     top: true
     rotate: true
-    shootSound: lasershoot
+    shootSound: shootLaser
     x: 0
     y: -2
     reload: 65
