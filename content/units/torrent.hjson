@@ -41,123 +41,6 @@ weapons:
     }
     bullet: 
     {
-      type: LaserBulletType
-      laserAbsorb: true
-      pierce: true
-      pierceBuilding: false
-      fragOnHit: true
-      hitEffect: none
-      shootEffect: none
-      smokeEffect: none
-      despawnEffect: none
-      trailColor: 509FAD
-      hitColor: C1FFED
-      colors: [509FADE, 509FAD, C1FFED]
-      damage: 230
-      knockback: 0
-      speed: 0
-      lifetime: 35
-      length: 60
-      width: 21
-      sideAngle: 0
-      buildingDamageMultiplier: 1.5
-      intervalBullets: 90
-      bulletInterval: 90
-      intervalRandomSpread: 0
-      intervalSpread: 2
-      intervalAngle: 0
-		  intervalBullet:
-      {
-        type: BasicBulletType
-        hitEffect: none
-        shootEffect: none
-        smokeEffect: none
-        despawnEffect: none
-			  backColor: 509FAD
-			  frontColor: C1FFED
-        trailColor: 509FAD
-        hitColor: C1FFED
-        sprite: extremus-null-slash
-        damage: 5
-        knockback: 0.75
-        height: 13
-        width: 11
-        trailLength: 0
-        trailWidth: 0
-        speed: 2
-        lifetime: 70
-        buildingDamageMultiplier: 1.4
-			}
-    }
-    parts:
-    [
-      {
-        type: RegionPart
-        under: true
-        mirror: true
-        suffix: -claw
-        heatColor: C1FFED
-        x: -2.75
-        y: 6
-        moveY: 0
-        moveX: 0
-        moveRot: 45
-        progress: 
-        {
-          type: warmup
-          op: delay
-          amount: 0
-        }
-        moves: 
-        [
-          {
-            type: PartMove
-            progress: recoil
-            x: 0
-            y: 0
-            rot: -58
-          }
-        ]
-      }
-      {
-        type: RegionPart
-        suffix: -main
-        mirror: false
-        moveY: 0
-        moveX: 0
-        progress: recoil
-        under: true
-      }
-    ]
-  }
-  {
-    name: torrent-armweapon
-    recoils: 2
-    mirror: true
-    top: false
-    alternate: true
-    rotate: false
-    shootSound: shootStell
-    x: +12
-    y: +0
-    reload: 40
-    layerOffset: -0.00001
-    rotateSpeed: 0
-    inaccuracy: 0
-    recoil: 0
-    shoot: 
-    {
-      shots: 1
-      shotDelay: 0
-      type: ShootBarrel
-      barrels: 
-      [
-        -1, +3, 0
-        +1, +3, 0
-      ]
-    }
-    bullet: 
-    {
       type: BasicBulletType
 			backColor: 509FAD
 			frontColor: C1FFED
@@ -166,17 +49,17 @@ weapons:
       sprite: extremus-null-bubble
       damage: 0
       knockback: 0
-      height: 13
-      width: 11
+      height: 21
+      width: 19
       trailLength: 4
       trailWidth: 1.5
-      speed: 6
-      lifetime: 32
-      splashDamageRadius: 15
-		  splashDamage: 95
+      speed: 5
+      lifetime: 40
+      splashDamageRadius: 80
+		  splashDamage: 210
       buildingDamageMultiplier: 1
       intervalBullets: 1
-      bulletInterval: 3
+      bulletInterval: 2
       intervalRandomSpread: 35
       intervalSpread: 0
       intervalAngle: 0
@@ -194,8 +77,8 @@ weapons:
         sprite: extremus-null-bubble
         damage: 7
         knockback: 0.75
-        height: 6
-        width: 4
+        height: 10
+        width: 8
         trailLength: 4
         trailWidth: 1
         speed: 2
@@ -282,6 +165,95 @@ weapons:
           }
         ]
       }
+    }
+    parts:
+    [
+      {
+        type: RegionPart
+        under: true
+        mirror: true
+        suffix: -claw
+        heatColor: C1FFED
+        x: -2.75
+        y: 6
+        moveY: 0
+        moveX: 0
+        moveRot: 45
+        progress: 
+        {
+          type: warmup
+          op: delay
+          amount: 0
+        }
+        moves: 
+        [
+          {
+            type: PartMove
+            progress: recoil
+            x: 0
+            y: 0
+            rot: -58
+          }
+        ]
+      }
+      {
+        type: RegionPart
+        suffix: -main
+        mirror: false
+        moveY: 0
+        moveX: 0
+        progress: recoil
+        under: true
+      }
+    ]
+  }
+  {
+    name: torrent-armweapon
+    recoils: 2
+    mirror: true
+    top: false
+    alternate: true
+    rotate: false
+    shootSound: shootCleroi
+    x: +12
+    y: +0
+    reload: 40
+    layerOffset: -0.00001
+    rotateSpeed: 0
+    inaccuracy: 0
+    recoil: 0
+    shoot: 
+    {
+      shots: 1
+      shotDelay: 0
+      type: ShootBarrel
+      barrels: 
+      [
+        -1, +3, 0
+        +1, +3, 0
+      ]
+    }
+    bullet:
+    {
+      type: LaserBulletType
+      laserAbsorb: true
+      pierce: true
+      pierceBuilding: false
+      fragOnHit: true
+      hitEffect: none
+      shootEffect: none
+      smokeEffect: none
+      despawnEffect: none
+      trailColor: 509FAD
+      hitColor: C1FFED
+      colors: [509FADE, 509FAD, C1FFED]
+      damage: 60
+      knockback: 0
+      speed: 0
+      lifetime: 29
+      length: 60
+      width: 19
+      sideAngle: 0
     }
     parts:
     [

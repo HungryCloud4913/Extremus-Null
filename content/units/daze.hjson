@@ -65,7 +65,7 @@ weapons: [{
                 height: 10
 		weaveMag: 10
 		weaveScale: 3
-		splashDamageRadius: 30
+		splashDamageRadius: 42
 		splashDamage: 60
 		hitEffect: blastExplosion
         hitColor: FF92C0

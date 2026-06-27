@@ -103,7 +103,7 @@ weapons: [{
     homingPower: 0.31
 		splashDamageRadius: 20
 		splashDamage: 70
-		hitEffect: blastExplosion
+		hitEffect: hitBulletColor
         hitColor: FF92C0
         trailLength: 9
         trailColor: FF92C0

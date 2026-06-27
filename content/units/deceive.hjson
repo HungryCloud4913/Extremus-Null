@@ -59,7 +59,7 @@ weapons: [{
                 mixColorTo: FF92C0
                 width: 10
                 height: 10
-		splashDamageRadius: 25
+		splashDamageRadius: 32
 		splashDamage: 40
 		hitEffect: blastExplosion
         hitColor: FF92C0

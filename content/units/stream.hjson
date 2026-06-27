@@ -13,8 +13,7 @@ accel: 0.5
 drag: 0.4
 rotateSpeed: 2.9
 armor: 11
-weapons:
-[
+weapons: [
   {
     name: stream-arm
     mirror: true
@@ -29,45 +28,24 @@ weapons:
     rotateSpeed: 0
     inaccuracy: 0
     recoil: 1.9
-    shoot: 
-    {
+    shoot: {
       shots: 1
       shotDelay: 0
       type: ShootBarrel
-      barrels: 
-      [
+      barrels: [
         0, +5, 0
       ]
     }
-    bullet: 
-    {
-      type: LaserBulletType
-      laserAbsorb: true
-      pierce: true
-      pierceBuilding: false
-      fragOnHit: true
-      hitEffect: none
-      shootEffect: none
-      smokeEffect: none
-      despawnEffect: none
-      trailColor: 509FAD
-      hitColor: C1FFED
-      colors: [509FADE, 509FAD, C1FFED]
-      damage: 230
-      knockback: 0
-      speed: 0
-      lifetime: 29
-      length: 69
-      width: 19
-      sideAngle: 0
-      buildingDamageMultiplier: 1.5
-      intervalBullets: 60
-      bulletInterval: 40
-      intervalRandomSpread: 0
-      intervalSpread: 2
-      intervalAngle: 0
-		  intervalBullet:
-      {
+    bullet: {
+      type: BasicBulletType
+      damage: 0
+      lifetime: 0
+      Speed: 0
+      fragBullets: 60
+      fragRandomSpread: 0
+      fragSpread: 2
+      fragAngle: 0
+		  fragBullet: {
         type: BasicBulletType
         hitEffect: none
         shootEffect: none
@@ -86,11 +64,35 @@ weapons:
         trailWidth: 0
         speed: 1.75
         lifetime: 55
-        buildingDamageMultiplier: 1.4
+			}
+      intervalBullets: 1
+      bulletInterval: 10
+      intervalRandomSpread: 0
+      intervalSpread: 0
+      intervalAngle: 0
+		  intervalBullet: {
+      type: LaserBulletType
+      laserAbsorb: true
+      pierce: true
+      pierceBuilding: false
+      fragOnHit: true
+      hitEffect: none
+      shootEffect: none
+      smokeEffect: none
+      despawnEffect: none
+      trailColor: 509FAD
+      hitColor: C1FFED
+      colors: [509FADE, 509FAD, C1FFED]
+      damage: 200
+      knockback: 0
+      speed: 0
+      lifetime: 29
+      length: 69
+      width: 19
+      sideAngle: 0
 			}
     }
-    parts:
-    [
+    parts: [
       {
         type: RegionPart
         under: true
@@ -102,14 +104,12 @@ weapons:
         moveY: 0
         moveX: 0
         moveRot: 45
-        progress: 
-        {
+        progress: {
           type: warmup
           op: delay
           amount: 0
         }
-        moves: 
-        [
+        moves: [
           {
             type: PartMove
             progress: recoil

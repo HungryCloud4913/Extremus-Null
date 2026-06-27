@@ -103,7 +103,7 @@ weapons:
         speed: 1.5
         drag: 0.15
         lifetime: 5200
-        splashDamageRadius: 30
+        splashDamageRadius: 48
 		    splashDamage: 81
         hitSize: 30
         buildingDamageMultiplier: 1
