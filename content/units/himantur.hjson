@@ -13,7 +13,6 @@ rotateSpeed: 2.9
 outlineColor: 242628
 groundLayer: 115
 engineOffset: 1
-shootEnergyField
 engines:  
 [
   {
