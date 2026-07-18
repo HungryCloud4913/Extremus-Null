@@ -86,8 +86,8 @@ abilities:
 		healEffect: none
 		color: 8FBB58
 		maxTargets: 5
-		healPercent: 0.05
-		damage: 15
+		healPercent: 1
+		damage: 30
 		range: 100
 		sectors: 6
 		rotateSpeed: 3
@@ -138,7 +138,7 @@ weapons:
       speed: 6
       lifetime: 28
       splashDamageRadius: 48
-		  splashDamage: 102
+		  splashDamage: 172
       buildingDamageMultiplier: 1
       fragBullets: 4
       fragVelocityMin: 1
