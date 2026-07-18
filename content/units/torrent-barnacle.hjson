@@ -39,9 +39,10 @@ weapons:
     {
       killShooter: true
       type: BasicBulletType
+      lifetime: 0
       keepVelocity: false
       splashDamage: 5
-      splashDamageRadius: 5
+      splashDamageRadius: 48
 			hitEffect: hitBulletColor
       despawnEffect: hitBulletColor
       hitColor: FFFE81

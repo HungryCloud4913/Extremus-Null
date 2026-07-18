@@ -4,7 +4,7 @@ targetAir: true
 faceTarget: true
 hoverable: true
 mechSideSway: 0
-health: 2560
+health: 9560
 hitSize: 19
 outlineColor: 242628
 groundLayer: 60
@@ -50,16 +50,16 @@ weapons:
       damage: 0
       knockback: 0
       height: 21
-      width: 19
+      width: 17
       trailLength: 4
       trailWidth: 1.5
       speed: 5
       lifetime: 40
-      splashDamageRadius: 80
+      splashDamageRadius: 64
 		  splashDamage: 210
       buildingDamageMultiplier: 1
       intervalBullets: 1
-      bulletInterval: 2
+      bulletInterval: 3
       intervalRandomSpread: 35
       intervalSpread: 0
       intervalAngle: 0
@@ -136,7 +136,7 @@ weapons:
             offsetX: 0
             offsetY: 0
             sizeFrom: 0
-            sizeTo: 25
+            sizeTo: 35
             followParent: true
             rotWithParent: true
             colorFrom: 509FAD
@@ -157,7 +157,7 @@ weapons:
             offsetX: 0
             offsetY: 0
             sizeFrom: 0
-            sizeTo: 25
+            sizeTo: 35
             followParent: true
             rotWithParent: true
             colorFrom: 509FAD
@@ -251,8 +251,8 @@ weapons:
       knockback: 0
       speed: 0
       lifetime: 29
-      length: 60
-      width: 19
+      length: 65
+      width: 12
       sideAngle: 0
     }
     parts:

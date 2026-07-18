@@ -9,7 +9,7 @@ speed: 0.82
 accel: 0.05
 drag: 0.01
 armor: 5
-rotateSpeed: 2.9
+rotateSpeed: 2.4
 outlineColor: 242628
 groundLayer: 115
 engineOffset: 1
@@ -87,7 +87,7 @@ abilities:
 		color: 8FBB58
 		maxTargets: 5
 		healPercent: 0.05
-		damage: 10
+		damage: 15
 		range: 100
 		sectors: 6
 		rotateSpeed: 3
@@ -137,7 +137,7 @@ weapons:
       trailWidth: 1.5
       speed: 6
       lifetime: 28
-      splashDamageRadius: 16
+      splashDamageRadius: 48
 		  splashDamage: 102
       buildingDamageMultiplier: 1
       fragBullets: 4

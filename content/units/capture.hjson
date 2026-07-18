@@ -22,15 +22,15 @@ treadRects: [
         height: 54
     }
     {
-        x: 56,
-        y: 15,
-        width: 21,
+        x: -15,
+        y: -71,
+        width: 15,
         height: 54
     }
     {
-        x: -15,
-        y: -71,
-        width: 30,
+        x: -56,
+        y: 15,
+        width: 21,
         height: 54
     }
 ]
@@ -51,8 +51,8 @@ weapons: [{
           shots: 2
         type: ShootBarrel
         barrels: [
-          -5.5, +6, 0
-          5.5, +6, 0
+          -6, +6, 0
+          5, +6, 0
             ]
 }
             inaccuracy: 0.2
