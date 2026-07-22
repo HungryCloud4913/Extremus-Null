@@ -193,7 +193,7 @@ weapons:
         suffix: -claw
         heatColor: C1FFED
         x: -4
-        y: 4
+        y: 5.5
         moveY: 0
         moveX: 0
         moveRot: 45
@@ -330,8 +330,8 @@ weapons:
       barrels: 
       [
         -9, -11, 90
-        -7, -12, 135
-        -10, -13, 155
+        -7, -13, 135
+        -11, -13, 155
       ]
     }
     bullet: 
