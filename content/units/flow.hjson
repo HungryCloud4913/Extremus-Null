@@ -11,7 +11,7 @@ groundLayer: 60
 speed: 0.475
 accel: 0.5
 drag: 0.4
-rotateSpeed: 3.5
+rotateSpeed: 3
 armor: 5
 weapons:
 [

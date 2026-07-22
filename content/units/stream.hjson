@@ -11,7 +11,7 @@ groundLayer: 60
 speed: 0.42
 accel: 0.5
 drag: 0.4
-rotateSpeed: 2.9
+rotateSpeed: 2.1
 armor: 11
 weapons: [
   {
@@ -42,11 +42,11 @@ weapons: [
       lifetime: 0
       Speed: 0
       fragBullets: 60
-      fragVelocityMin: 0
-      fragVelocityMax: 0
+      fragVelocityMin: 1
+      fragVelocityMax: 1
       fragRandomSpread: 0
-      fragSpread: 2
-      fragAngle: 0
+      fragSpread: 0
+      fragAngle: 2
 		  fragBullet: {
         type: BasicBulletType
         hitEffect: none
