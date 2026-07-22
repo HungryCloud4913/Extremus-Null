@@ -40,7 +40,7 @@ weapons:
     alternate: true
     rotate: false
     shootSound: shootMissilePlasma
-    x: +16
+    x: +15
     y: +0
     reload: 230
     layerOffset: -0.00001
@@ -193,7 +193,7 @@ weapons:
         suffix: -claw
         heatColor: C1FFED
         x: -4
-        y: 5
+        y: 4.80
         moveY: 0
         moveX: 0
         moveRot: 45
@@ -233,7 +233,7 @@ weapons:
     alternate: true
     rotate: false
     shootSound: shootCleroi
-    x: +16
+    x: +15
     y: +0
     reload: 40
     layerOffset: -0.00001
