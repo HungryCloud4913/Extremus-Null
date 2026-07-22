@@ -193,7 +193,7 @@ weapons:
         suffix: -claw
         heatColor: C1FFED
         x: -4
-        y: 4.80
+        y: 4.7
         moveY: 0
         moveX: 0
         moveRot: 45
