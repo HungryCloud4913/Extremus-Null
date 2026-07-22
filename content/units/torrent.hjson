@@ -40,7 +40,7 @@ weapons:
     alternate: true
     rotate: false
     shootSound: shootMissilePlasma
-    x: +15
+    x: +16
     y: +0
     reload: 230
     layerOffset: -0.00001
@@ -234,7 +234,7 @@ weapons:
     rotate: false
     outline: false
     shootSound: shootCleroi
-    x: +15
+    x: +16
     y: +0
     reload: 40
     layerOffset: -0.00001
@@ -330,8 +330,8 @@ weapons:
       barrels: 
       [
         -9, -11, 90
-        2, -10, 135
-        -8, -11, 155
+        -7, -12, 135
+        -10, -13, 155
       ]
     }
     bullet: 
