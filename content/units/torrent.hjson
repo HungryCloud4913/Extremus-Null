@@ -15,20 +15,19 @@ drag: 0.4
 rotateSpeed: 2.3
 armor: 11
 legStraightness: 0.5
-legSpeed: 0.5
+legSpeed: 0.4
 legCount: 6
-legLength: 17
+legLength: 19
 legExtension: -3
-legBaseOffset: 4
-legMaxLength: 1.05
-legLengthScl: 0.96
+legBaseOffset: 6
+legMaxLength: 1.1
 legMinLength: 0.8
-legForwardScl: 1
+legLengthScl: 0.97
+legForwardScl: 1.1
 fogRadius: 2
 legSplashDamage: 0
 legSplashRange: 0
-drownTimeMultiplier: 0.7
-legGroupSize: 2
+legGroupSize: 3
 baseLegStraightness: 0.5
 rippleScale: 0.1
 rippleScale: 0
@@ -193,7 +192,7 @@ weapons:
         mirror: true
         suffix: -claw
         heatColor: C1FFED
-        x: -3.75
+        x: -4
         y: 6
         moveY: 0
         moveX: 0
@@ -234,7 +233,7 @@ weapons:
     alternate: true
     rotate: false
     shootSound: shootCleroi
-    x: +12
+    x: +16
     y: +0
     reload: 40
     layerOffset: -0.00001
@@ -329,9 +328,9 @@ weapons:
       type: ShootBarrel
       barrels: 
       [
-        -8, -11, 90
-        -11, -12, 135
-        -10, -12, 155
+        -9, -11, 90
+        -1, -14, 135
+        -9, -14, 155
       ]
     }
     bullet: 

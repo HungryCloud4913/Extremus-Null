@@ -61,10 +61,7 @@ weapons:
     bullet: 
     {
       type: BasicBulletType
-      hitEffect: none
       shootEffect: shootBigColor
-      smokeEffect: none
-      despawnEffect: none
       backColor: 802433
       frontColor: F17F5A
       trailColor: 802433
@@ -86,9 +83,8 @@ weapons:
       {
         type: BasicBulletType
         hitEffect: blastExplosion
-        shootEffect: none
-        smokeEffect: none
         despawnEffect: blastExplosion
+        smokeEffect: shootSmokeSquare
 	      backColor: 3C4646
 	      frontColor: 99A49A
         trailColor: 802433

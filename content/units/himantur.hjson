@@ -180,7 +180,7 @@ weapons:
         ]
       }
       shootEffect: shootSmallColor
-      smokeEffect: none
+      smokeEffect: shootSmokeSquare
       despawnEffect:
       {
         type: MultiEffect

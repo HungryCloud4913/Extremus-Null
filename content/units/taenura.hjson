@@ -58,9 +58,8 @@ weapons:
     {
       type: BasicBulletType
       hitEffect: hitBulletColor
-      shootEffect: none
-      smokeEffect: none
       despawnEffect: hitBulletColor
+      smokeEffect: shootSmokeSquare
 	    backColor: 8FBB58
 	    frontColor: F8FFD2
       trailColor: 8FBB58

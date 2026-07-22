@@ -42,8 +42,8 @@ weapons: [
       lifetime: 0
       Speed: 0
       fragBullets: 60
-      fragVelocityMin: 1
-      fragVelocityMax: 1
+      fragVelocityMin: 0
+      fragVelocityMax: 0
       fragRandomSpread: 0
       fragSpread: 2
       fragAngle: 0
