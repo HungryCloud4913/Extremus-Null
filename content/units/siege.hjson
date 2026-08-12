@@ -97,6 +97,7 @@ weapons: [
     rotateSpeed: 1.2
     inaccuracy: 1
     recoil: 1
+    recoilTime: 5
     soundPitchMin: 0.8
     soundPitchMax: 1
     shoot: {
@@ -136,18 +137,11 @@ weapons: [
         moveRot: 0
         progress: {
           type: recoil
+          recoilTime: 5
           ops: [
             {
               op: delay
               amount: 0.0
-            }
-            {
-              op: curve
-              interp: pow3In
-            }
-            {
-              op: curve
-              interp: pow3Out
             }
           ]
         }
@@ -167,14 +161,6 @@ weapons: [
             {
               op: delay
               amount: 0.0
-            }
-            {
-              op: curve
-              interp: pow3In
-            }
-            {
-              op: curve
-              interp: pow3Out
             }
           ]
         }
