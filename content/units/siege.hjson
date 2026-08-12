@@ -140,6 +140,7 @@ weapons: [
           ops: [
             {
               op: curve
+              interp: pow3out
             }
           ]
         }
@@ -158,6 +159,7 @@ weapons: [
           ops: [
             {
               op: curve
+              interp: pow3out
             }
           ]
         }
