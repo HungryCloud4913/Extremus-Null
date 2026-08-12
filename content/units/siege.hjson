@@ -49,8 +49,8 @@ weapons: [
     rotate: true
     shootSound: shootLaser
     alternate: true
-    x: +5
-    y: +7
+    x: +10
+    y: +12
     reload: 150
     layerOffset: +0.00001
     rotateSpeed: 2.1
@@ -88,8 +88,8 @@ weapons: [
     alternate: false
     shootSound: explosionAfflict
     x: 0
-    y: -9
-    reload: 300
+    y: -7
+    reload: 350
     shootWarmupSpeed: 0.05
     minWarmup: 0.30
     layerOffset: 0.5
@@ -100,7 +100,7 @@ weapons: [
     soundPitchMax: 1
     shoot: {
       shots: 3
-      shotDelay: 7
+      shotDelay: 28
     }
     bullet: {
       type: BasicBulletType
@@ -121,7 +121,7 @@ weapons: [
       lifetime: 20
       buildingDamageMultiplier: 1
       trailWidth: 2
-      trailLength:8
+      trailLength: 8
     }
    parts: [
       {
@@ -145,11 +145,11 @@ weapons: [
         mirror: true
         under: true
         heatColor: F17F5A
-        moveY: 0
-        moveX: -6
+        moveY: -6
+        moveX: 0
         moveRot: 0
         progress: {
-          type: warmup
+          type: recoil
           op: delay
           amount: 0.0
         }
