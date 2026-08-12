@@ -147,7 +147,7 @@ weapons: [
             }
             {
               op: curve
-              interp: pow1Out
+              interp: pow3Out
             }
           ]
         }
@@ -174,7 +174,7 @@ weapons: [
             }
             {
               op: curve
-              interp: pow1Out
+              interp: pow3Out
             }
           ]
         }
