@@ -48,7 +48,7 @@ weapons:
     y: -2
     reload: 65
     layerOffset: +0.00001
-    rotateSpeed: 4.1
+    rotateSpeed: 3.9
     inaccuracy: 0.75
     recoil: 1
     soundPitchMin: 0.8

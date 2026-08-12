@@ -1,0 +1,172 @@
+template: TankUnitType
+type: tank
+flying: false
+outlines: false
+targetAir: true
+faceTarget: false
+canDrown: true
+health: 1560
+hitSize: 18
+speed: 0.69
+accel: 0.5
+drag: 0.4
+armor: 10
+rotateSpeed: 1.8
+outlineColor: 242628
+groundLayer: 60
+treadFrames: 16
+treadRects: [
+    {
+        x: -66,
+        y: -73,
+        width: 17,
+        height: 26
+    }
+    {
+        x: -66,
+        y: -36,
+        width: 17,
+        height: 26
+    }
+    {
+        x: -66,
+        y: 20,
+        width: 17,
+        height: 26
+    }
+    {
+        x: -66,
+        y: 57,
+        width: 17,
+        height: 26
+    }
+]
+weapons: [
+  {
+    name: siege-rifle
+    mirror: true
+    top: true
+    rotate: true
+    shootSound: shootLaser
+    alternate: true
+    x: +5
+    y: +7
+    reload: 150
+    layerOffset: +0.00001
+    rotateSpeed: 2.1
+    inaccuracy: 1
+    recoil: 2
+    soundPitchMin: 0.8
+    soundPitchMax: 1
+    shoot: {
+      shots: 1
+      shotDelay: 0
+    }
+    bullet: {
+      type: BasicBulletType
+      backColor: 802433
+      frontColor: F17F5A
+      trailColor: 802433
+      hitColor: F17F5A
+      sprite: extremus-null-sharp
+      damage: 40
+      knockback: 0.1
+      height: 14
+      width: 9
+      trailLength: 5
+      trailWidth: 1.2
+      speed: 7
+      lifetime: 28
+      buildingDamageMultiplier: 1
+    }
+  }
+  {
+    name: siege-burst
+    mirror: false
+    top: true
+    rotate: true
+    alternate: false
+    shootSound: explosionAfflict
+    x: 0
+    y: -9
+    reload: 300
+    shootWarmupSpeed: 0.05
+    minWarmup: 0.30
+    layerOffset: 0.5
+    rotateSpeed: 1.2
+    inaccuracy: 1
+    recoil: 3
+    soundPitchMin: 0.8
+    soundPitchMax: 1
+    shoot: {
+      shots: 3
+      shotDelay: 7
+    }
+    bullet: {
+      type: BasicBulletType
+      trailInterp: slope
+      trailRotation: true
+      backColor: 802433
+      frontColor: F17F5A
+      trailColor: 802433
+      hitColor: F17F5A
+      sprite: extremus-null-pierce
+      damage: 65
+      knockback: 0
+      height: 20
+      width: 14
+      trailLength: 8
+      trailWidth: 2
+      speed: 9
+      lifetime: 20
+      buildingDamageMultiplier: 1
+      trailWidth: 2
+      trailLength:8
+    }
+   parts: [
+      {
+        type: RegionPart
+        suffix: -scabard
+        mirror: true
+        under: true
+        heatColor: F17F5A
+        moveY: -3
+        moveX: 0
+        moveRot: 0
+        progress: {
+          type: recoil
+          op: delay
+          amount: 0.0
+        }
+      }
+      {
+        type: RegionPart
+        suffix: -barrel
+        mirror: true
+        under: true
+        heatColor: F17F5A
+        moveY: 0
+        moveX: -6
+        moveRot: 0
+        progress: {
+          type: warmup
+          op: delay
+          amount: 0.0
+        }
+      }
+      {
+        type: RegionPart
+        suffix: -body
+        mirror: false
+        under: true
+        heatColor: F17F5A
+        moveY: 0
+        moveX: 0
+        moveRot: 0
+        progress: warmup
+      }
+    ]
+  }
+]
+hidden: false
+unlocked: false

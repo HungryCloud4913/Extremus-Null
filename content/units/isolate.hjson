@@ -16,24 +16,25 @@ outlineColor: 242628
 groundLayer: 60
 treadFrames: 16
 treadRects: [
-  {
-    x: -31,
-    y: -36,
-    width: 12,
-    height: 15
-  }
-  {
-    x: -35,
-    y: -20,
-    width: 12,
-    height: 16
-  }
-  {
-    x: -36,
-    y: 22,
-    width: 12,
-    height: 24
-  }
+    {
+        x: -31,
+        y: -39,
+        width: 12,
+        height: 15
+    }
+    {
+        x: -35,
+        y: -23,
+        width: 12,
+        height: 16
+    }
+
+    {
+        x: -36,
+        y: 22,
+        width: 12,
+        height: 24
+    }
 ]
 weapons: [
   {

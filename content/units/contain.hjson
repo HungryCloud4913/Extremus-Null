@@ -39,7 +39,7 @@ weapons:
     rotate: true
     shootSound: shootMissile
     layerOffset: +0.00001
-		rotateSpeed: 3.9
+		rotateSpeed: 3.2
     x: 0
     y: -2
     reload: 97

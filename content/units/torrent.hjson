@@ -6,14 +6,14 @@ hoverable: true
 lockLegBase: true
 legContinuousMove: true
 health: 9560
-hitSize: 19
+hitSize: 23
 outlineColor: 242628
-groundLayer: 60
+groundLayer: 75
 speed: 0.39
 accel: 0.5
 drag: 0.4
 rotateSpeed: 1.3
-armor: 11
+armor: 21
 legStraightness: 0.5
 legSpeed: 0.4
 legCount: 6
@@ -193,7 +193,7 @@ weapons:
         suffix: -claw
         heatColor: C1FFED
         x: -4
-        y: 5.5
+        y: 6
         moveY: 0
         moveX: 0
         moveRot: 45
