@@ -89,7 +89,7 @@ weapons: [
     shootSound: shootRipple
     x: 0
     y: -8
-    shootY: 25
+    shootY: 27
     reload: 350
     shootWarmupSpeed: 0.05
     minWarmup: 0.30
@@ -97,7 +97,7 @@ weapons: [
     rotateSpeed: 1.2
     inaccuracy: 1
     recoil: 1
-    recoilTime: 17
+    recoilTime: 19
     soundPitchMin: 0.8
     soundPitchMax: 1
     shoot: {
