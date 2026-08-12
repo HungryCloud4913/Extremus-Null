@@ -7,14 +7,14 @@ faceTarget: false
 canDrown: true
 health: 1560
 hitSize: 18
-speed: 0.69
+speed: 0.5
 accel: 0.5
 drag: 0.4
 armor: 10
-rotateSpeed: 1.8
+rotateSpeed: 0.9
 outlineColor: 242628
 groundLayer: 60
-treadFrames: 16
+treadFrames: 26
 treadRects: [
     {
         x: -66,
@@ -47,10 +47,10 @@ weapons: [
     mirror: true
     top: true
     rotate: true
-    shootSound: shootLaser
+    shootSound: shootCyclone
     alternate: true
-    x: +10
-    y: +12
+    x: +7
+    y: +10
     reload: 150
     layerOffset: +0.00001
     rotateSpeed: 2.1
@@ -86,21 +86,22 @@ weapons: [
     top: true
     rotate: true
     alternate: false
-    shootSound: explosionAfflict
+    shootSound: shootRipple
     x: 0
-    y: -7
+    y: -8
+    shootY: 10
     reload: 350
     shootWarmupSpeed: 0.05
     minWarmup: 0.30
     layerOffset: 0.5
     rotateSpeed: 1.2
     inaccuracy: 1
-    recoil: 3
+    recoil: 1
     soundPitchMin: 0.8
     soundPitchMax: 1
     shoot: {
       shots: 3
-      shotDelay: 28
+      shotDelay: 25
     }
     bullet: {
       type: BasicBulletType
@@ -130,13 +131,25 @@ weapons: [
         mirror: true
         under: true
         heatColor: F17F5A
-        moveY: -3
+        moveY: -1.5
         moveX: 0
         moveRot: 0
         progress: {
           type: recoil
-          op: delay
-          amount: 0.0
+          ops: [
+            {
+              op: delay
+              amount: 0.23
+            }
+            {
+              op: curve
+              interp: pow3In
+            }
+            {
+              op: curve
+              interp: pow3Out
+            }
+          ]
         }
       }
       {
@@ -145,13 +158,25 @@ weapons: [
         mirror: true
         under: true
         heatColor: F17F5A
-        moveY: -6
+        moveY: -8.5
         moveX: 0
         moveRot: 0
         progress: {
           type: recoil
-          op: delay
-          amount: 0.0
+          ops: [
+            {
+              op: delay
+              amount: 0.23
+            }
+            {
+              op: curve
+              interp: pow3In
+            }
+            {
+              op: curve
+              interp: pow3Out
+            }
+          ]
         }
       }
       {
