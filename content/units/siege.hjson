@@ -89,7 +89,7 @@ weapons: [
     shootSound: shootRipple
     x: 0
     y: -8
-    shootY: 10
+    shootY: 20
     reload: 350
     shootWarmupSpeed: 0.05
     minWarmup: 0.30
@@ -127,33 +127,6 @@ weapons: [
    parts: [
       {
         type: RegionPart
-        suffix: -scabard
-        mirror: true
-        under: true
-        heatColor: F17F5A
-        moveY: -1.5
-        moveX: 0
-        moveRot: 0
-        progress: {
-          type: recoil
-          ops: [
-            {
-              op: delay
-              amount: 0.0
-            }
-            {
-              op: curve
-              interp: pow3In
-            }
-            {
-              op: curve
-              interp: pow10Out
-            }
-          ]
-        }
-      }
-      {
-        type: RegionPart
         suffix: -barrel
         mirror: true
         under: true
@@ -174,7 +147,34 @@ weapons: [
             }
             {
               op: curve
-              interp: pow10Out
+              interp: pow1Out
+            }
+          ]
+        }
+      }
+      {
+        type: RegionPart
+        suffix: -scabard
+        mirror: true
+        under: true
+        heatColor: F17F5A
+        moveY: -1.5
+        moveX: 0
+        moveRot: 0
+        progress: {
+          type: recoil
+          ops: [
+            {
+              op: delay
+              amount: 0.0
+            }
+            {
+              op: curve
+              interp: pow3In
+            }
+            {
+              op: curve
+              interp: pow1Out
             }
           ]
         }
