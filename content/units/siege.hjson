@@ -89,7 +89,7 @@ weapons: [
     shootSound: shootRipple
     x: 0
     y: -8
-    shootY: 20
+    shootY: 25
     reload: 350
     shootWarmupSpeed: 0.05
     minWarmup: 0.30
@@ -97,7 +97,7 @@ weapons: [
     rotateSpeed: 1.2
     inaccuracy: 1
     recoil: 1
-    recoilTime: 16
+    recoilTime: 17
     soundPitchMin: 0.8
     soundPitchMax: 1
     shoot: {
@@ -139,8 +139,7 @@ weapons: [
           type: recoil
           ops: [
             {
-              op: delay
-              amount: 0.0
+              op: curve
             }
           ]
         }
@@ -158,8 +157,7 @@ weapons: [
           type: recoil
           ops: [
             {
-              op: delay
-              amount: 0.0
+              op: curve
             }
           ]
         }
