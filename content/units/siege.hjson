@@ -139,7 +139,7 @@ weapons: [
           ops: [
             {
               op: delay
-              amount: 0.23
+              amount: 0.0
             }
             {
               op: curve
@@ -147,7 +147,7 @@ weapons: [
             }
             {
               op: curve
-              interp: pow3Out
+              interp: pow10Out
             }
           ]
         }
@@ -166,7 +166,7 @@ weapons: [
           ops: [
             {
               op: delay
-              amount: 0.23
+              amount: 0.0
             }
             {
               op: curve
@@ -174,7 +174,7 @@ weapons: [
             }
             {
               op: curve
-              interp: pow3Out
+              interp: pow10Out
             }
           ]
         }
