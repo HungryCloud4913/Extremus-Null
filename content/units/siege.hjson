@@ -97,12 +97,12 @@ weapons: [
     rotateSpeed: 1.2
     inaccuracy: 1
     recoil: 1
-    recoilTime: 5
+    recoilTime: 16
     soundPitchMin: 0.8
     soundPitchMax: 1
     shoot: {
       shots: 3
-      shotDelay: 25
+      shotDelay: 16
     }
     bullet: {
       type: BasicBulletType
@@ -137,7 +137,6 @@ weapons: [
         moveRot: 0
         progress: {
           type: recoil
-          recoilTime: 5
           ops: [
             {
               op: delay
