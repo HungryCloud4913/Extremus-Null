@@ -49,7 +49,7 @@ weapons: [
     rotate: true
     shootSound: shootCleroi
     alternate: true
-    x: +13
+    x: +12
     y: +8
     reload: 150
     layerOffset: +0.00001
@@ -104,7 +104,7 @@ weapons: [
     minWarmup: 0.9
     layerOffset: 0.5
     rotateSpeed: 1.2
-    inaccuracy: 7
+    inaccuracy: 9
     recoil: 1
     soundPitchMin: 0.8
     soundPitchMax: 1
@@ -123,13 +123,13 @@ weapons: [
       sprite: extremus-null-tri
       damage: 65
       knockback: 0
-      height: 24
-      width: 21
+      height: 25
+      width: 20
       trailLength: 8
       trailWidth: 2
-      speed: 8
+      speed: 6
       drag: 0.01
-      lifetime: 12
+      lifetime: 34
       buildingDamageMultiplier: 1
       trailInterval: 1
       trailWidth: 2
@@ -179,10 +179,10 @@ weapons: [
         under: true
         heatColor: F17F5A
         x: 7
-        y: 1
-        moveY: -1
-        moveX: +4
-        moveRot: -30
+        y: 1.5
+        moveY: 1
+        moveX: -2
+        moveRot: -20
         progress: {
           type: warmup
           op: delay
@@ -206,13 +206,13 @@ weapons: [
         colorTo: 802433
         shapes: 1
         x: 0
-        y: 8
-        haloRotateSpeed: 0
+        y: 9
+        haloRotateSpeed: 5
         haloRotation: 0
         shapeRotation: 0
-        triLength: 0
+        triLength: 8
         triLengthTo: 8
-        radius: 0
+        radius: 4
         radiusTo: 4
         haloRadius: 0
         layer: 110
