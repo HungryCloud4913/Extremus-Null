@@ -49,7 +49,7 @@ weapons: [
     rotate: true
     shootSound: shootCleroi
     alternate: true
-    x: +12
+    x: +11
     y: +8
     reload: 150
     layerOffset: +0.00001
@@ -98,7 +98,7 @@ weapons: [
     alternate: false
     shootSound: shootRipple
     x: 0
-    y: -8
+    y: -10
     reload: 300
     shootWarmupSpeed: 0.01
     minWarmup: 0.9
@@ -180,8 +180,8 @@ weapons: [
         heatColor: F17F5A
         x: 7
         y: 1.5
-        moveY: 1
-        moveX: -2
+        moveY: 0
+        moveX: 0
         moveRot: -20
         progress: {
           type: warmup
@@ -192,8 +192,8 @@ weapons: [
           {
             type: PartMove
             progress: recoil
-            x: +2
-            y: -1
+            x: 0
+            y: 0
             rot: -10
           }
         ]
@@ -202,7 +202,7 @@ weapons: [
         type: HaloPart
         progress: warmup
         tri: true
-        color: 000000ff
+        color: 802433
         colorTo: 802433
         shapes: 1
         x: 0
@@ -210,7 +210,45 @@ weapons: [
         haloRotateSpeed: 5
         haloRotation: 0
         shapeRotation: 0
-        triLength: 8
+        triLength: 3
+        triLengthTo: 8
+        radius: 4
+        radiusTo: 4
+        haloRadius: 0
+        layer: 110
+      }
+      {
+        type: HaloPart
+        progress: warmup
+        tri: true
+        color: 802433
+        colorTo: 802433
+        shapes: 1
+        x: 0
+        y: 9
+        haloRotateSpeed: 5
+        haloRotation: 60
+        shapeRotation: 0
+        triLength: 3
+        triLengthTo: 8
+        radius: 4
+        radiusTo: 4
+        haloRadius: 0
+        layer: 110
+      }
+      {
+        type: HaloPart
+        progress: warmup
+        tri: true
+        color: 802433
+        colorTo: 802433
+        shapes: 1
+        x: 0
+        y: 9
+        haloRotateSpeed: 5
+        haloRotation: 120
+        shapeRotation: 0
+        triLength: 3
         triLengthTo: 8
         radius: 4
         radiusTo: 4
