@@ -49,8 +49,8 @@ weapons: [
     rotate: true
     shootSound: shootCleroi
     alternate: true
-    x: +9
-    y: +10
+    x: +13
+    y: +8
     reload: 150
     layerOffset: +0.00001
     rotateSpeed: 2.1
@@ -64,8 +64,8 @@ weapons: [
       type: ShootBarrel
       barrels: 
       [
-        0, 0, 5
-        0, 0, -5
+        0, 0, 2
+        0, 0, -2
       ]
     }
     bullet:     {
@@ -77,15 +77,15 @@ weapons: [
       shootEffect: shootBigColor
       smokeEffect: none
       despawnEffect: none
-      trailColor: 509FAD
-      hitColor: C1FFED
+      trailColor: 802433
+      hitColor: F17F5A
       colors: [802433, 802433, F17F5A]
       damage: 20
       knockback: 0
       speed: 0
       lifetime: 18
-      length: 52
-      width: 8
+      length: 55
+      width: 16
       sideAngle: 40
       buildingDamageMultiplier: 1
     }
@@ -100,7 +100,7 @@ weapons: [
     x: 0
     y: -8
     reload: 300
-    shootWarmupSpeed: 0.03
+    shootWarmupSpeed: 0.01
     minWarmup: 0.9
     layerOffset: 0.5
     rotateSpeed: 1.2
@@ -179,10 +179,10 @@ weapons: [
         under: true
         heatColor: F17F5A
         x: 7
-        y: 2
+        y: 1
         moveY: -1
-        moveX: -4
-        moveRot: -10
+        moveX: +4
+        moveRot: -30
         progress: {
           type: warmup
           op: delay
@@ -192,9 +192,9 @@ weapons: [
           {
             type: PartMove
             progress: recoil
-            x: +7
-            y: -2
-            rot: -30
+            x: +2
+            y: -1
+            rot: -10
           }
         ]
       }
@@ -206,33 +206,14 @@ weapons: [
         colorTo: 802433
         shapes: 1
         x: 0
-        y: 4
+        y: 8
         haloRotateSpeed: 0
         haloRotation: 0
         shapeRotation: 0
         triLength: 0
-        triLengthTo: 7
+        triLengthTo: 8
         radius: 0
-        radiusTo: 3
-        haloRadius: 0
-        layer: 110
-      }
-      {
-        type: HaloPart
-        progress: warmup
-        tri: true
-        color: 000000ff
-        colorTo: F17F5A
-        shapes: 1
-        x: 0
-        y: 4
-        haloRotateSpeed: 0
-        haloRotation: 0
-        shapeRotation: 0
-        triLength: 0
-        triLengthTo: 4.5
-        radius: 0
-        radiusTo: 3
+        radiusTo: 4
         haloRadius: 0
         layer: 110
       }
