@@ -265,7 +265,7 @@ weapons:
       despawnEffect: none
       trailColor: 509FAD
       hitColor: C1FFED
-      colors: [509FADE, 509FAD, C1FFED]
+      colors: [509FAD, 509FAD, C1FFED]
       damage: 60
       knockback: 0
       speed: 0

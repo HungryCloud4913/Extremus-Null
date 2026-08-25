@@ -6,7 +6,7 @@ targetAir: true
 faceTarget: false
 canDrown: true
 health: 1560
-hitSize: 18
+hitSize: 29
 speed: 0.5
 accel: 0.5
 drag: 0.4
@@ -43,14 +43,14 @@ treadRects: [
 ]
 weapons: [
   {
-    name: siege-rifle
+    name: siege-lance
     mirror: true
     top: true
     rotate: true
-    shootSound: shootCyclone
+    shootSound: shootCleroi
     alternate: true
-    x: +7
-    y: +10
+    x: +9
+    y: +15
     reload: 150
     layerOffset: +0.00001
     rotateSpeed: 2.1
@@ -59,24 +59,34 @@ weapons: [
     soundPitchMin: 0.8
     soundPitchMax: 1
     shoot: {
-      shots: 1
+      shots: 2
       shotDelay: 0
+      type: ShootBarrel
+      barrels: 
+      [
+        0, 0, 5
+        0, 0, -5
+      ]
     }
-    bullet: {
-      type: BasicBulletType
-      backColor: 802433
-      frontColor: F17F5A
-      trailColor: 802433
-      hitColor: F17F5A
-      sprite: extremus-null-sharp
-      damage: 40
-      knockback: 0.1
-      height: 14
-      width: 9
-      trailLength: 5
-      trailWidth: 1.2
-      speed: 7
-      lifetime: 28
+    bullet:     {
+      type: LaserBulletType
+      laserAbsorb: true
+      pierce: true
+      pierceBuilding: false
+      hitEffect: none
+      shootEffect: shootBigColor
+      smokeEffect: none
+      despawnEffect: none
+      trailColor: 509FAD
+      hitColor: C1FFED
+      colors: [802433, 802433, F17F5A]
+      damage: 20
+      knockback: 0
+      speed: 0
+      lifetime: 18
+      length: 52
+      width: 8
+      sideAngle: 40
       buildingDamageMultiplier: 1
     }
   }
@@ -88,21 +98,19 @@ weapons: [
     alternate: false
     shootSound: shootRipple
     x: 0
-    y: -8
-    shootY: 27
-    reload: 350
+    y: -12
+    reload: 300
     shootWarmupSpeed: 0.05
-    minWarmup: 0.30
+    minWarmup: 1.20
     layerOffset: 0.5
     rotateSpeed: 1.2
-    inaccuracy: 1
+    inaccuracy: 7
     recoil: 1
-    recoilTime: 19
     soundPitchMin: 0.8
     soundPitchMax: 1
     shoot: {
-      shots: 3
-      shotDelay: 16
+      shots: 1
+      shotDelay: 0
     }
     bullet: {
       type: BasicBulletType
@@ -112,73 +120,157 @@ weapons: [
       frontColor: F17F5A
       trailColor: 802433
       hitColor: F17F5A
-      sprite: extremus-null-pierce
+      sprite: extremus-null-tri
       damage: 65
       knockback: 0
-      height: 20
-      width: 14
+      height: 24
+      width: 21
       trailLength: 8
       trailWidth: 2
-      speed: 9
-      lifetime: 20
+      speed: 8
+      drag: 0.01
+      lifetime: 12
       buildingDamageMultiplier: 1
+      trailInterval: 1
       trailWidth: 2
-      trailLength: 8
+      trailLength: 7.5
+      trailEffect: disperseTrail 
+	    smokeEffect: {
+        type: MultiEffect
+        effects: [
+          {
+            type: ParticleEffect
+            interp: pow10Out
+            sizeInterp: pow10In
+            line: true
+            colorFrom: F17F5A
+            colorTo: FF734500
+            strokeFrom: 1
+            strokeTo: 0
+            lenFrom: 3
+            lenTo: 1
+            particles: 10
+            cone: 50
+            baseRotation: 180
+          }
+          {
+            type: ParticleEffect
+            interp: pow10Out
+            sizeInterp: pow10In
+            line: true
+            colorFrom: 802433
+            colorTo: 80243300
+            strokeFrom: 1
+            strokeTo: 0
+            lenFrom: 3
+            lenTo: 1
+            particles: 5
+            cone: 50
+            baseRotation: 180
+          }
+        ]
+      }
     }
    parts: [
       {
         type: RegionPart
-        suffix: -barrel
+        suffix: -guard
         mirror: true
         under: true
         heatColor: F17F5A
-        moveY: -8.5
-        moveX: 0
-        moveRot: 0
+        moveY: -1
+        moveX: -4
+        moveRot: 10
         progress: {
-          type: recoil
-          ops: [
-            {
-              op: delay
-              amount: 0.0
-            }
-            {
-              op: curve
-              interp: pow3In
-            }
-            {
-              op: curve
-              interp: pow3Out
-            }
-          ]
+          type: warmup
+          op: delay
+          amount: 0.0
         }
+        moves: [
+          {
+            type: PartMove
+            progress: recoil
+            x: +7
+            y: -2
+            rot: 30
+          }
+        ]
       }
       {
-        type: RegionPart
-        suffix: -scabard
-        mirror: true
-        under: true
-        heatColor: F17F5A
-        moveY: -1.5
-        moveX: 0
-        moveRot: 0
-        progress: {
-          type: recoil
-          ops: [
-            {
-              op: delay
-              amount: 0.0
-            }
-            {
-              op: curve
-              interp: pow3In
-            }
-            {
-              op: curve
-              interp: pow3Out
-            }
-          ]
-        }
+        type: HaloPart
+        progress: warmup
+        tri: true
+        color: 000000ff
+        colorTo: 802433
+        shapes: 1
+        x: 0
+        y: 4
+        haloRotateSpeed: 0
+        haloRotation: 0
+        shapeRotation: 0
+        triLength: 0
+        triLengthTo: 7
+        radius: 0
+        radiusTo: 3
+        haloRadius: 0
+        layer: 110
+      }
+      {
+        type: HaloPart
+        progress: warmup
+        tri: true
+        color: 000000ff
+        colorTo: 802433
+        shapes: 1
+        x: 0
+        y: 4
+        haloRotateSpeed: 0
+        haloRotation: 180
+        shapeRotation: 0
+        triLength: 0
+        triLengthTo: 3.5
+        radius: 0
+        radiusTo: 3
+        haloRadius: 0
+        layer: 110
+      }
+      {
+        type: HaloPart
+        progress: warmup
+        tri: true
+        color: 000000ff
+        colorTo: F17F5A
+        shapes: 1
+        x: 0
+        y: 4
+        haloRotateSpeed: 0
+        haloRotation: 0
+        shapeRotation: 0
+        triLength: 0
+        triLengthTo: 4.5
+        radius: 0
+        radiusTo: 3
+        haloRadius: 0
+        layer: 110
+      }
+      {
+        type: HaloPart
+        progress: warmup
+        tri: true
+        color: 000000ff
+        colorTo: F17F5A
+        shapes: 1
+        x: 0
+        y: 4
+        haloRotateSpeed: 0
+        haloRotation: 180
+        shapeRotation: 0
+        triLength: 0
+        triLengthTo: 2
+        radius: 0
+        radiusTo: 3
+        haloRadius: 0
+        layer: 110
       }
       {
         type: RegionPart
