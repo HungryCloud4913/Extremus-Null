@@ -180,7 +180,7 @@ weapons: [
         heatColor: F17F5A
         x: 7
         y: 1.5
-        moveY: 0
+        moveY: -0.2
         moveX: 0
         moveRot: -20
         progress: {
@@ -228,25 +228,6 @@ weapons: [
         y: 9
         haloRotateSpeed: 5
         haloRotation: 60
-        shapeRotation: 0
-        triLength: 3
-        triLengthTo: 8
-        radius: 4
-        radiusTo: 4
-        haloRadius: 0
-        layer: 110
-      }
-      {
-        type: HaloPart
-        progress: warmup
-        tri: true
-        color: 802433
-        colorTo: 802433
-        shapes: 1
-        x: 0
-        y: 9
-        haloRotateSpeed: 5
-        haloRotation: 120
         shapeRotation: 0
         triLength: 3
         triLengthTo: 8
