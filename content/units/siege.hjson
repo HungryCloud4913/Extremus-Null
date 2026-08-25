@@ -227,7 +227,7 @@ weapons: [
         x: 0
         y: 9
         haloRotateSpeed: 5
-        haloRotation: 60
+        haloRotation: 90
         shapeRotation: 0
         triLength: 3
         triLengthTo: 8
