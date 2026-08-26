@@ -275,12 +275,14 @@ weapons: [
         shapes: 1
         x: 0
         y: 9
+        moveX: 0
+        moveY: 2
         haloRotateSpeed: 5
         haloRotation: 0
         shapeRotation: 0
         triLength: 1.3
         triLengthTo: 5
-        radius: 3
+        radius: 6
         radiusTo: 6
         haloRadius: 0
         layer: 110
@@ -294,12 +296,14 @@ weapons: [
         shapes: 1
         x: 0
         y: 9
+        moveX: 0
+        moveY: 2
         haloRotateSpeed: 5
         haloRotation: 120
         shapeRotation: 0
         triLength: 1.3
         triLengthTo: 5
-        radius: 3
+        radius: 6
         radiusTo: 6
         haloRadius: 0
         layer: 110
@@ -313,12 +317,14 @@ weapons: [
         shapes: 1
         x: 0
         y: 9
+        moveX: 0
+        moveY: 2
         haloRotateSpeed: 5
         haloRotation: -120
         shapeRotation: 0
         triLength: 1.3
         triLengthTo: 5
-        radius: 3
+        radius: 6
         radiusTo: 6
         haloRadius: 0
         layer: 110
