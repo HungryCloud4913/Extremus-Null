@@ -332,7 +332,7 @@ weapons: [
         x: 0
         y: 9
         rotateSpeed: 5
-        rotation: 0
+        rotation: 30
         radius: 2
         radiusTo: 5
         layer: 110
