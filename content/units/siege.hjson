@@ -80,7 +80,7 @@ weapons: [
       trailColor: 802433
       hitColor: F17F5A
       colors: [802433, 802433, F17F5A]
-      damage: 20
+      damage: 35
       knockback: 0
       speed: 0
       lifetime: 18
@@ -130,7 +130,7 @@ weapons: [
       drag: -0.01
       lifetime: 30
       splashDamageRadius: 50
-      splashDamage: 20
+      splashDamage: 70
       spin: 5
       hitSize: 30
       hitEffect: blastExplosion
