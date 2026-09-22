@@ -75,7 +75,6 @@ weapons:
       trailWidth: 2
       speed: 6
       lifetime: 21
-      buildingDamageMultiplier: 1
       splashDamageRadius: 0
       splashDamage: 0
       fragBullets: 1
@@ -104,7 +103,6 @@ weapons:
         splashDamageRadius: 64
 		    splashDamage: 81
         hitSize: 30
-        buildingDamageMultiplier: 1
       }
     }
   }

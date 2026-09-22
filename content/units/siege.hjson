@@ -114,28 +114,25 @@ weapons: [
     }
     bullet: {
       type: ArtilleryBulletType
-      trailRotation: true
+      shootEffect: shootBigColor
       backColor: 802433
       frontColor: F17F5A
       trailColor: 802433
       hitColor: F17F5A
       sprite: extremus-null-tri
-      damage: 65
-      knockback: 0
-      height: 17
-      width: 13
-      speed: 6
-      drag: 0.01
-      lifetime: 34
-      buildingDamageMultiplier: 1
+      damage: 85
+      knockback: -1
+      height: 21
+      width: 17
       trailLength: 4
       trailWidth: 2
+      speed: 6
+      drag: -0.01
+      lifetime: 21
       splashDamageRadius: 50
       splashDamage: 20
-      spin: 4
-      hitEffect: blastExplosion
-      despawnEffect: blastExplosion
-	    smokeEffect: shootSmokeSquare
+      spin: 5
+      hitSize: 30
     }
    parts: [
       {
