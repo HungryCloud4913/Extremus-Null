@@ -140,7 +140,6 @@ weapons: [
       hitEffect: blastExplosion
       despawnEffect: blastExplosion
 	    smokeEffect: shootSmokeSquare
-      }
     }
    parts: [
       {
