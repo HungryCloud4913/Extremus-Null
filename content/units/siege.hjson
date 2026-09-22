@@ -125,14 +125,11 @@ weapons: [
       knockback: 0
       height: 17
       width: 13
-      trailLength: 8
-      trailWidth: 2
       speed: 6
       drag: 0.01
       lifetime: 34
       buildingDamageMultiplier: 1
       trailInterval: 1
-      trailWidth: 2
       trailLength: 7.5
       splashDamageRadius: 50
       splashDamage: 20
