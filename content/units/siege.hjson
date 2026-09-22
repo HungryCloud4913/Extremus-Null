@@ -113,7 +113,7 @@ weapons: [
       shotDelay: 9
     }
     bullet: {
-      type: BasicBulletType
+      type: ArtilleryBulletType
       trailInterp: slope
       trailRotation: true
       backColor: 802433
@@ -123,8 +123,8 @@ weapons: [
       sprite: extremus-null-tri
       damage: 65
       knockback: 0
-      height: 24
-      width: 17
+      height: 12
+      width: 9
       trailLength: 8
       trailWidth: 2
       speed: 6
@@ -134,7 +134,11 @@ weapons: [
       trailInterval: 1
       trailWidth: 2
       trailLength: 7.5
-      trailEffect: disperseTrail 
+      splashDamageRadius: 50
+      splashDamage: 20
+      spin: 4
+      hitEffect: blastExplosion
+      despawnEffect: blastExplosion
 	    smokeEffect: {
         type: MultiEffect
         effects: [
@@ -194,7 +198,7 @@ weapons: [
             progress: recoil
             x: 0
             y: 0
-            rot: -10
+            rot: -20
           }
         ]
       }

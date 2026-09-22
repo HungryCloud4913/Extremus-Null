@@ -60,14 +60,14 @@ weapons:
     }
     bullet: 
     {
-      type: BasicBulletType
+      type: ArtilleryBulletType
       shootEffect: shootBigColor
       backColor: 802433
       frontColor: F17F5A
       trailColor: 802433
       hitColor: F17F5A
       sprite: extremus-null-landmine
-      damage: 0
+      damage: 10
       knockback: 0
       height: 11
       width: 8
@@ -76,6 +76,8 @@ weapons:
       speed: 6
       lifetime: 21
       buildingDamageMultiplier: 1
+      splashDamageRadius: 0
+      splashDamage: 0
       fragBullets: 1
       fragRandomSpread: 90
       fragSpread: 90
