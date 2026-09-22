@@ -114,7 +114,6 @@ weapons: [
     }
     bullet: {
       type: ArtilleryBulletType
-      trailInterp: slope
       trailRotation: true
       backColor: 802433
       frontColor: F17F5A
