@@ -123,8 +123,8 @@ weapons: [
       sprite: extremus-null-tri
       damage: 65
       knockback: 0
-      height: 12
-      width: 9
+      height: 17
+      width: 13
       trailLength: 8
       trailWidth: 2
       speed: 6
@@ -139,40 +139,7 @@ weapons: [
       spin: 4
       hitEffect: blastExplosion
       despawnEffect: blastExplosion
-	    smokeEffect: {
-        type: MultiEffect
-        effects: [
-          {
-            type: ParticleEffect
-            interp: pow10Out
-            sizeInterp: pow10In
-            line: true
-            colorFrom: F17F5A
-            colorTo: FF734500
-            strokeFrom: 1
-            strokeTo: 0
-            lenFrom: 3
-            lenTo: 1
-            particles: 10
-            cone: 50
-            baseRotation: 180
-          }
-          {
-            type: ParticleEffect
-            interp: pow10Out
-            sizeInterp: pow10In
-            line: true
-            colorFrom: 802433
-            colorTo: 80243300
-            strokeFrom: 1
-            strokeTo: 0
-            lenFrom: 3
-            lenTo: 1
-            particles: 5
-            cone: 50
-            baseRotation: 180
-          }
-        ]
+	    smokeEffect: shootSmokeSquare
       }
     }
    parts: [
