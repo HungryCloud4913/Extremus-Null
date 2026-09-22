@@ -80,7 +80,7 @@ weapons: [
       trailColor: 802433
       hitColor: F17F5A
       colors: [802433, 802433, F17F5A]
-      damage: 35
+      damage: 70
       knockback: 0
       speed: 0
       lifetime: 18
@@ -121,7 +121,7 @@ weapons: [
       trailColor: 802433
       hitColor: F17F5A
       sprite: extremus-null-tri
-      damage: 85
+      damage: 184
       knockback: -1
       height: 24
       width: 18
@@ -130,8 +130,8 @@ weapons: [
       speed: 5.5
       drag: -0.01
       lifetime: 30
-      splashDamageRadius: 50
-      splashDamage: 70
+      splashDamageRadius: 60
+      splashDamage: 160
       spin: 5
       hitSize: 30
       hitEffect: blastExplosion
