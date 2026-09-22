@@ -110,7 +110,7 @@ weapons: [
     soundPitchMax: 1
     shoot: {
       shots: 3
-      shotDelay: 9
+      shotDelay: 10
     }
     bullet: {
       type: ArtilleryBulletType
@@ -122,17 +122,18 @@ weapons: [
       sprite: extremus-null-tri
       damage: 85
       knockback: -1
-      height: 21
-      width: 17
+      height: 24
+      width: 18
       trailLength: 4
       trailWidth: 2
-      speed: 6
+      speed: 5.5
       drag: -0.01
-      lifetime: 21
+      lifetime: 30
       splashDamageRadius: 50
       splashDamage: 20
       spin: 5
       hitSize: 30
+      hitEffect: blastExplosion
     }
    parts: [
       {
