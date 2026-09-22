@@ -128,8 +128,8 @@ weapons: [
       drag: 0.01
       lifetime: 34
       buildingDamageMultiplier: 1
-      trailInterval: 1
-      trailLength: 7.5
+      trailLength: 4
+      trailWidth: 2
       splashDamageRadius: 50
       splashDamage: 20
       spin: 4
