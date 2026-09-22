@@ -5,7 +5,7 @@ outlines: false
 targetAir: true
 faceTarget: false
 canDrown: true
-health: 1560
+health: 10900
 hitSize: 29
 speed: 0.5
 accel: 0.5
@@ -114,6 +114,7 @@ weapons: [
     }
     bullet: {
       type: ArtilleryBulletType
+      homingPower: 0.01
       shootEffect: shootBigColor
       backColor: 802433
       frontColor: F17F5A
