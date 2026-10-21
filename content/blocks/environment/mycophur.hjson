@@ -1,6 +1,7 @@
 type: TreeBlock
 variants: 3
-name: Mycopher Extend
+name: Mycophur
 attributes: {
   sulphur: 1
 }
+shadowOffset: -5
