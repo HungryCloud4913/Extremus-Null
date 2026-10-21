@@ -1,6 +1,7 @@
 type: TreeBlock
-variants: 1
-name: Sulphungus Invis
+variants: 3
+name: Mycopher
 attributes: {
   sulphur: 1
 }
+shadowOffset: -5
