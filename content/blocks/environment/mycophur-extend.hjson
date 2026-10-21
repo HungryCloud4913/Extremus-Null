@@ -1,4 +1,4 @@
-type: TreeBlock
+type: StaticWall
 variants: 3
 name: Mycophur Extend
 attributes: {
