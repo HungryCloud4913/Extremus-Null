@@ -139,4 +139,20 @@ contain
 isolate
 siege
 attrit
+
+#Terrain overlap
+
+crimsonic-stone
+crimsonic-layer
+ice-dark-layer
+ice-layer
+ic-purple-dark-layer
+ice-purple-layer
+ice-ziso-dark-layer
+ice-ziso-layer
+razstone-stone
+razstone-layer
+purepale-stone
+mold-floor
+lesion-floor
 ]
